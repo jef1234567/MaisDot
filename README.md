@@ -31,7 +31,7 @@ src/demo.js     exemple VIENNE – 33(AZ)BB (phase préalable, phase 1)
 src/p2.js       phase 2 : modules, quiz et exemple VIENNE (suite)
 src/i18n.js     changement de langue (Paramètres), traduction à l’affichage, arabe RTL
 src/i18n/       dictionnaires en, it, es, ar, de (texte français → traduction)
-docs/           spécification, format des cas, exemple de cas, rapports d’audit
+docs/           spécification, format des cas, exemple de cas
 tests/          tests automatisés (Playwright)
 src/logo.webp   insigne ESORSEM
 videos/         14 vidéos de cours (MP4 H.264 720p), associées aux étapes par la table VID de src/app.html
