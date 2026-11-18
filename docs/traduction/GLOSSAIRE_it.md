@@ -87,3 +87,86 @@ Sigles français de la méthode et sigles OTAN conservés tels quels ; genre ita
 10. **freinage → « frenaggio »**, **usure → « logoramento »**, **débouché → « sbocco »** : calques à confirmer par un officier italien.
 11. Fragments d'interface : « sar » + « anno considerate errate » / « à considerata errata » (accord avec le suffixe pluriel du code) ; « Il reste » → « Restano » (forme plurielle même pour 1 minute) ; locale de date « fr-FR » → « it-IT » et exemple « dim. » → « dom ».
 12. Clés de fichier de cas « titre » et « corrige » laissées en français dans le message d'erreur (ce sont des clés JSON réelles) ; idem rubrique « texte ».
+
+
+## Lot 5 (phase 3 et messagerie, 18/11/2026)
+
+# Glossaire FR → IT – lot 5 (rédaction des ordres, messagerie opérationnelle)
+
+Complète /home/claude/maisdot/docs/traduction/GLOSSAIRE_it.md (termes déjà retenus repris à l'identique : effetto decisivo, schema di manovra, piano semplificato, ordine di operazione, lucido di manovra, valutazione sul nemico, resoconto, tappa, schema…). Adresse en « tu » (Redigi, Rileggi). Apostrophe droite et guillemets «» sans espace, comme dans it.json.
+
+## Termes nouveaux retenus
+
+| Français | Italien |
+|---|---|
+| ordre préparatoire (WINGO) | ordine preparatorio |
+| ordre de conduite (FRAGO) | ordine frammentario |
+| ordre graphique (OVO) | ordine su lucido |
+| plan particulier (SUPLAN) / plan d'appui | piano particolare / piano di supporto (« Support plan – piano di supporto ») |
+| plan de circonstance (CONPLAN) | piano di contingenza |
+| plan d'opération (OPLAN) | piano di operazione |
+| impression sur l'ennemi | valutazione sul nemico (déjà dans it.json) |
+| menaces complémentaires | minacce complementari |
+| tableau des rôles | tabella dei ruoli |
+| temps (T1, T2) d'un ordre / 1er temps | tempo (T1, T2) / primo tempo |
+| en vue de… je veux… à cet effet | in vista di… voglio… a tal fine |
+| autorité qualifiée | autorità qualificata |
+| zone libre d'obstacles (ZLO) | zona libera da ostacoli |
+| zone réglementée d'obstacles (ZRO) | zona a ostacoli regolamentati |
+| obstacle préliminaire / de manœuvre | ostacolo preliminare / di manovra |
+| plan d'obstacles | piano degli ostacoli |
+| mettre à feu (un obstacle) | far brillare / brillamento |
+| franchissement ; point / zone / secteur de franchissement | attraversamento ; punto di passaggio / area / settore di attraversamento |
+| plan de franchissement | piano di attraversamento |
+| rive de départ / d'arrivée | sponda di partenza / di arrivo |
+| pénétrantes / rocades | rotabili di penetrazione / rotabili trasversali |
+| variantes, variantements | varianti |
+| site de décontamination ; zone sale / propre | sito di decontaminazione ; zona sporca / pulita |
+| unité pilote (GTIA pilote) | unità pilota (GTIA pilota) |
+| compte rendu | resoconto (noms de messages : « resoconto di situazione », etc.) |
+| urgence d'un message (precedence) | precedenza |
+| destinataires pour action / pour information | destinatari per azione / per conoscenza |
+| document assemblé | documento assemblato |
+| rubrique (d'un message) | voce |
+| message à temps / à l'événement | messaggio a orari fissi / a evento |
+| en-tête / fin de message | intestazione / chiusura del messaggio |
+| classification | classifica |
+| diffusion / diffuser | diramazione / diramare |
+| exécutoire | esecutivo |
+| inchangé / néant | invariato / nulla |
+| échelon supérieur ; échelon 1 / 2 | livello superiore ; scaglione 1 / 2 |
+| fuseau (de progression) / fuseau horaire | settore / fuso orario |
+| ligne de débouché (LD) | linea di partenza |
+| calque ; croisillons de référence ; cartouche | lucido ; crocette di riferimento ; riquadro |
+| trait plein / pointillés / traits-points | tratto continuo / tratteggio / tratto-punto |
+| appui feux ; sol-sol ; sol-air | supporto di fuoco ; superficie-superficie ; controaerei |
+| aérocombat | aerocombattimento |
+| chef interarmes | comandante interarma |
+| colonel adjoint | colonnello vicecomandante |
+| bascule de PC | trasferimento di PC |
+| barrette 2D | cellula 2D |
+| route (désignation) / chemin / voie ferrée | rotabile / strada / ferrovia |
+| contre-ingérence | controingerenza |
+| moyen nominal / de secours | mezzo nominale / di riserva |
+| capacité opérationnelle (11/22/33/44) | capacità operativa (pienamente / praticamente / appena / non operativo) |
+| délai d'impunité | tempo d'impunità |
+
+## Conservés tels quels
+{n}, FM/ TO/ INFO/ BT// TXT SIC/ EXER/ OPER/ MSGID/ REF/ EFDT/, rubriques A/… Z/, intitulés anglais, EXERCICE/EXERCICE/EXERCICE//, BRIGINF ONZE, DIV UN, GDH (AOU), MGRS, noms de lieux, attitudes (ARRÊTÉ, EN MVT VERS, EN POSITION, INDET), niveaux d'urgence (FLASH, IMMÉDIAT, URGENT, ROUTINE), abréviations d'unités ENI/AMI (DIVMECA, BATMECA…), « en » dans « Napierville en LB 6448 » (exemple fautif), classifications nationales françaises, « index.html », « videos », sigles (OPO, PS, PNVA, ZLO, ZRO, EMD, GDH, NRBC…).
+
+## Choix douteux à faire relire
+
+1. **ordre préparatoire → « ordine preparatorio »** ; la doctrine italienne emploie aussi « ordine di preavviso » / « ordine di avvertimento ».
+2. **FRAGO → « ordine frammentario »** : calque de l'OTAN anglais ; « ordine di condotta » serait plus proche du français.
+3. **OVO → « ordine su lucido »** ; s0520/s0522 (« ce n'est pas un ordre graphique ») rendus aussi par « ordine su lucido » pour rester cohérent ; « in forma grafica » conservé pour « sous forme graphique ».
+4. **compte rendu → « resoconto »** (cohérent avec it.json) ; dans les traductions de noms anglais (Situation Report, CIS Report…) « rapporto » serait plus usuel en italien.
+5. **ZRO → « zona a ostacoli regolamentati »** ; it.json a « Zona libera / regolamentata da ostacoli » (formulation plus ambiguë).
+6. **Route / chemin** : « route » → « rotabile », « chemin » → « strada » (s0218, s0546, s1207…) ; à vérifier.
+7. **BT// « impératif »** rendu par « obbligatorio » (sens : élément obligatoire), pas par « imperativo » au sens MEDOT.
+8. **sol-air → « controaerei »**, **sol-sol → « superficie-superficie »** (conforme au glossaire) ; l'italien courant dit « artiglieria terrestre ».
+9. **fuseau (zone d'action) → « settore »** comme dans it.json, ce qui recoupe « secteur de franchissement » (settore di attraversamento).
+10. **s0138 « Aperçu »** rendu « Panoramica » (sens incertain dans la liste « Aperçu, signature, annexes, diffusion, classification »).
+11. **délai d'impunité → « tempo d'impunità »** : calque.
+12. **« Les ordres à / les ordres de » la fonction** → « gli ordini alla / della » funzione ; la nuance française reste un peu artificielle en italien.
+13. Numéraux ordinaux : « 11e BRIGINF » et « 0614h30Z AOU 12 » laissés tels quels (exemples de format français) ; « 11e brigade » dans une question → « 11a brigata ».
+14. s1082/s1083 « en faisant face à l'amont / l'aval » → « guardando verso monte / valle ».

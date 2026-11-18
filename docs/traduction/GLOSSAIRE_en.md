@@ -113,3 +113,97 @@ Guillemets « » rendus par “ ”, apostrophe typographique ’ conservée. Si
 10. Paramètre de locale `fr-FR` (id 1150) remplacé par `en-GB` (format de date) ; « dim. » (id 2683) rendu par « Sun ». À vérifier côté code.
 11. Fragments découpés par la mise en page : ordre des mots inversé pour « Contexte / d'engagement » → « Engagement / context » et « Plan de / manœuvre » → « Manoeuvre / plan » (ids 2486-2487, 2492-2493) ; fragments « sans réponse ser… / …ont comptées fausses » (1318, 1320, 1321) rendus « unanswered will » / « be counted as wrong » : à contrôler à l'affichage.
 12. Clés techniques laissées en français dans le texte (« titre », « corrige », « texte » : champs du fichier de cas JSON) et libellé « Langue / Language » (id 2473) conservé bilingue.
+
+
+## Lot 5 (phase 3 et messagerie, 18/11/2026)
+
+# MaisDot – lot 5 (rédaction des ordres, messagerie OTAN) – Glossaire FR → EN
+
+Complète `/home/claude/maisdot/docs/traduction/GLOSSAIRE_en.md` (termes inchangés). Orthographe britannique, « » → “ ”.
+
+## Termes nouveaux retenus
+
+| Français | Anglais |
+|---|---|
+| plan simplifié (PS) / CONOPS | simplified plan (PS) / CONOPS |
+| ordre préparatoire (WINGO) | warning order (WINGO) |
+| ordre d'opération (OPO) | operation order (OPO) |
+| ordre de conduite (FRAGO) | fragmentary order (FRAGO) |
+| ordre graphique (OVO) | overlay order (OVO) |
+| calque de manœuvre | manoeuvre overlay |
+| plan particulier (SUPLAN) | support plan (SUPLAN) |
+| plan d'opération / plan de circonstance | operation plan / contingency plan |
+| tableau des rôles / tableau des missions | table of roles / table of missions |
+| temps (T1, T2), temps d'effort, temps suivant | time step, main-effort time step, next time step |
+| exécutoire / non exécutoire | executive / not executive |
+| au conditionnel / à l'indicatif | in the conditional / in the indicative |
+| impression sur l'ennemi | enemy assessment |
+| ennemi global / initial / ultérieur / futur | overall / initial / subsequent / future enemy |
+| menaces complémentaires | additional threats |
+| évaluation de la situation par le chef | commander's assessment of the situation |
+| rappel de la mission (in extenso) | restatement of the mission (in full) |
+| instructions de coordination | coordinating instructions |
+| plan général des appuis feux | general fire support plan |
+| commandement et transmissions | command and signals |
+| conservé aux ordres | retained under command |
+| mêlée (unités de) / fonction contact | manoeuvre units / close-combat units |
+| centre de gravité (d'un dispositif, position) | centre of mass (en / H/11) ; « centre of gravity » réservé au sens doctrinal |
+| potentiel / volume | strength / size |
+| PNVA | PNVA (conservé ; position, nature, size, attitude) |
+| autorité qualifiée | qualified authority |
+| zone libre / réglementée d'obstacles (ZLO / ZRO) | obstacle-free zone / obstacle restricted zone |
+| obstacle préliminaire / de manœuvre | preliminary / reserved obstacle |
+| unité de pose ; pose | emplacing unit ; emplacement |
+| mise en œuvre centralisée / décentralisée | centralised / decentralised execution |
+| point de passage ; variantement | crossing point ; alternative |
+| zone / secteur de franchissement | crossing area / crossing sector |
+| rive droite / gauche ; rive de départ / d'arrivée | right / left bank ; near / far bank |
+| franchissement autonome / discontinu / continu | autonomous / discontinuous / continuous crossing |
+| pénétrantes / rocades | axial routes / lateral routes |
+| réseau de manœuvre | manoeuvre network |
+| site de décontamination ; zone d'attente (sale) / de regroupement (propre) ; point de dislocation | decontamination site ; waiting area (dirty) / regrouping area (clean) ; dispersal point |
+| unité pilote | lead unit |
+| unité d'appui NRBC | CBRN support unit |
+| croisillons de référence | register marks |
+| cartouche | title block |
+| trait plein / pointillés / traits-points | solid line / dotted (dashed) / dash-dotted |
+| lignes de dizaines (carroyage) | ten-kilometre grid lines |
+| messagerie opérationnelle ; message à temps / à l'événement | operational messaging ; scheduled message / sent when an event occurs |
+| compte rendu ; compte rendu immédiat | report ; immediate report |
+| urgence ; double urgence | precedence ; dual precedence (Z FLASH, O IMMEDIATE, P PRIORITY, R ROUTINE) |
+| destinataires pour action / pour information | action / information addressees |
+| adresse télégraphique | telegraphic address |
+| rubrique (d'un message) | section |
+| document assemblé | assembled document |
+| GDH effectif (EFDT) | effective DTG (EFDT) |
+| code d'identification (SIC/) | subject identification code (SIC/) |
+| capacité opérationnelle 11/22/33/44 | fully / substantially / marginally / not operational |
+| barrette 2D / cellules 2D | 2D cell / 2D cells |
+| colonel adjoint | deputy colonel |
+| chef interarmes ; conseiller / commandant du génie | combined-arms commander ; engineer adviser / commander |
+| cellule conduite | current operations cell |
+| officier / chef de la circulation | movement officer / movement commander |
+| moyen nominal / de secours | nominal means / back-up |
+| antenne logistique | logistic detachment |
+| bascule de PC | CP switchover |
+| « les ordres à » / « les ordres de » la fonction | “orders to” / “orders from” the function |
+| Écrire juste | Writing it right |
+| Anticiper / Exécuter / Conduire / Rendre compte / Renseigner | Anticipate / Execute / Conduct / Report / Provide intelligence |
+
+## Conservés tels quels
+
+Éléments de format OTAN (FM/, TO/, INFO/, BT//, TXT, SIC/, EXER/, OPER/, MSGID/, REF/, EFDT/, rubriques, intitulés anglais), adresses télégraphiques (BRIGINF ONZE, DIV UN), GDH d'exemple (061430Z AOU 2012), noms de lieux en majuscules, sigles d'unités ENI / AMI (DIVMECA, BATMECA, GTA, SGAL…), mentions d'attitude (ARRÊTÉ, EN MVT VERS, EN POSITION, INDET), mentions nationales de classification (DIFFUSION RESTREINTE, TRÈS SECRET, NON PROTÉGÉ), NÉANT, MCA, sigles AMI / ENI dans les rubriques G/ et H/.
+
+## Choix douteux à faire relire
+
+1. **Libellés découpés (fragments)** : faute de contexte trouvé dans le code, j'ai suivi le précédent du glossaire principal (ordre des mots inversé) : s0239 « Contexte » → « Engagement » et s1077 « d’engagement » → « context » ; s0780 « Plan de » → « Manoeuvre » et s1167 « manœuvre » → « plan ». Si « Contexte » (s0239) est aussi employé seul ailleurs, il faudrait « Context ». s1222 « simplifié » → « simplified » (traduit littéralement : si c'est la 2e ligne de « Plan / simplifié », inverser en « Simplified / plan » avec s0776). À contrôler à l'affichage.
+2. **urgence** → « precedence » ; « P URGENT » rendu « P PRIORITY » et « O IMMÉDIAT » → « O IMMEDIATE » (équivalents OTAN des lettres de précédence).
+3. **obstacle de manœuvre** → « reserved obstacle » (imposé) ; s0300 « De manœuvre » (option de quiz) rendu « Reserved » pour cohérence.
+4. **pose (d'obstacles)** → « emplacement » ; **unité de pose** → « emplacing unit ».
+5. **centre de gravité** d'une unité (position) → « centre of mass », pour ne pas confondre avec le centre de gravité doctrinal.
+6. **rive de départ / d'arrivée** → « near / far bank ».
+7. **Renseigner** (libellé de fonction) → « Provide intelligence ».
+8. **AMI / ENI** gardés comme sigles dans les rubriques et listes de sigles d'unités ; glosés « (friendly) / (enemy) » dans s0403.
+9. **Ex.** → « E.g. » ; **H/2 possibilités** → « capabilities ».
+10. **SECRET EXERCICE** (s0287) laissé en français : c'est la mention fautive citée en exemple.
+11. Le dictionnaire existant emploie « roles table » ; ce lot utilise « table of roles » (pivot imposé) : harmoniser l'ensemble de l'outil.
