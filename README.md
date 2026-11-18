@@ -29,6 +29,7 @@ index.html      fichier livré (généré, ne pas éditer à la main)
 src/app.html    page source (HTML, CSS, JS, contenu doctrinal dans le tableau M)
 src/demo.js     exemple VIENNE – 33(AZ)BB (phase préalable, phase 1)
 src/p2.js       phase 2 : modules, quiz et exemple VIENNE (suite)
+src/normes.js   module « Normes et délais » : fiche par rubriques, calculateur de délais (report dans la frise), rapport de forces, quiz
 src/i18n.js     changement de langue (Paramètres), traduction à l’affichage, arabe RTL
 src/i18n/       dictionnaires en, it, es, ar, de (texte français → traduction)
 docs/           spécification, format des cas, exemple de cas
@@ -48,6 +49,7 @@ Pour reconstruire : `python3 build.py`
 - [x] v2.0 : phase 2 (ME, MA, manœuvres fonctionnelles, comparaison pondérée, confrontation MA-ME, finalisation), réunion de décision, plan de manœuvre ; matrices de synchronisation (Gantt), examen blanc, fiches réflexes, recherche, chargeur et créateur de cas (instructeur), export en ligne ; audits fond / pédagogie / forme-accessibilité ; tests automatisés (`python3 tests/test_app.py`)
 - [x] v2.1 : compléments (sections « Compléments », points de vigilance, 49 questions, 7 cartes de vocabulaire, 13 sigles, repères de délais, MRO)
 - [x] v2.2 : interface et contenu traduits en anglais, italien, espagnol, arabe et allemand (menu Paramètres)
+- [x] v2.3 : module « Normes et délais » (Outils) : normes d’engagement et délais par rubriques, calculateur de délais avec report dans la frise, contrôle du rapport de forces, 25 questions (3 dans l’examen blanc), liens depuis les étapes concernées
 - [ ] Relecture des traductions par des stagiaires étrangers ; vidéos traduites
 - [ ] Cas concret « thème Vienne » : à charger via « Charger un cas » (format : `docs/FORMAT_CAS.md`)
 - [ ] Charte EEM (en plus de la charte ESORSEM)

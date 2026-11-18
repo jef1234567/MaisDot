@@ -574,8 +574,11 @@ const LEX=[["CCIR","Critical commander’s information requirements – besoins 
 
 /* ============ ÉTAT ============ */
 /*__p2.js__*/
+/*__normes.js__*/
 /* Intégration de la phase 2 (src/p2.js) : remplace les modules « à venir » et complète l'exemple VIENNE */
 if(typeof P2!=="undefined"){const i=M.findIndex(m=>m.id==="p2");if(i>=0)M.splice(i,2,...P2);}
+/* Module « Normes et délais » (src/normes.js), placé en tête des outils */
+if(typeof NORM_MOD!=="undefined"){const i=M.findIndex(m=>m.id==="exam");M.splice(i<0?M.length:i,0,NORM_MOD);}
 /* Questions jumelles d'un module à l'autre : clé de groupe g, une seule par examen blanc (audit pédagogique P2-8) */
 [["dec",/^Qui participe/,"reu-participants"],["dec",/^Quels sont les produits/,"reu-produits"],["p2e4",/^Quand le chef donne-t-il ses critères/,"criteres-chef"]].forEach(([id,re,g])=>{const m=M.find(x=>x.id===id),q=m&&m.quiz&&m.quiz.find(x=>re.test(x.q));if(q&&!q.g)q.g=g;});
 /* Consigne en tête de l'onglet Appliquer de la réunion de décision (si p2.js n'en fournit pas) */
@@ -608,7 +611,8 @@ function renderNav(){let h="",g="";
 document.getElementById("nav").addEventListener("click",e=>{const a=e.target.closest("a[data-id]");if(!a)return;e.preventDefault();const m=M.find(x=>x.id===a.dataset.id);if(!unlocked(m)){flash(m);return;}FOCUS_NEXT="#main h2";go(m.id);
  const hl=el=>{if(!el)return;el.classList.add("hl");el.scrollIntoView({block:"center"});setTimeout(()=>el.classList.remove("hl"),2500);};
  if(a.dataset.card!=null){const c=document.querySelectorAll(".fcd")[+a.dataset.card];if(c){c.classList.add("flip");c.setAttribute("aria-expanded","true");hl(c);c.focus();}}
- if(a.dataset.lex!=null)hl(document.getElementById("lex_"+a.dataset.lex));});
+ if(a.dataset.lex!=null)hl(document.getElementById("lex_"+a.dataset.lex));
+ if(a.dataset.norme!=null){const d=document.getElementById("norme_"+a.dataset.norme);if(d){d.open=true;hl(d);}}});
 function flash(m){openModal(m&&m.soon?`<h3>${esc(m.title)}</h3><p>Ce module arrive dans une prochaine livraison.</p>`:`<h3>Module indisponible</h3><p>Ce module n’est pas encore disponible dans cette version.</p>`);}
 function go(id,tab){toggleNav(false);cur=id;curTab=tab||"c";try{history.replaceState(null,"","#"+id);}catch(e){}render();window.scrollTo(0,0);}
 
@@ -672,6 +676,8 @@ function comprendre(m){let h=vids(m.id);
  if(m.cards)h+=`<div class="fc">${m.cards.map(c=>`<button type="button" class="fcd" aria-expanded="false" onclick="this.classList.toggle('flip');this.setAttribute('aria-expanded',this.classList.contains('flip'))"><span class="tt">${esc(c[0])}</span><span class="df">${esc(c[1])}</span><span class="hint">Toucher pour la définition</span></button>`).join("")}</div>`;
  (m.sections||[]).forEach(s=>{h+=`<div class="card"><h3>${esc(s.h)}</h3>${s.p?`<p>${esc(s.p)}</p>`:""}${s.l?`<ul class="c">${s.l.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:""}</div>`;});
  if(m.canevas)h+=`<div class="card"><h3>Canevas de la réunion</h3><ol>${m.canevas.map(x=>`<li>${esc(x)}</li>`).join("")}</ol></div>`;
+ if(m.normes)h+=normesFiche();
+ if(typeof NORM_LINKS!=="undefined"&&NORM_LINKS.includes(m.id))h+=`<div class="rowb"><button class="btn s" onclick="go('normes')">Voir les normes et délais</button><button class="btn s" onclick="go('normes','a')">Calculateur de délais</button></div>`;
  if(m.vig)h+=`<div class="vig"><b>Points de vigilance</b><ul class="c">${m.vig.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></div>`;
  if(m.quiz&&!m.cards&&!m.reu&&m.id!=="prealable")h+=`<p class="ref">${/^Phase 2/.test(m.grp)
   ?"Chaque étape de la phase 2 se termine par la mise à jour des TCIDR (et de la frise, le cas échéant)."
@@ -683,7 +689,7 @@ let QZ={};
 function quiz(m){if(!QZ[m.id])QZ[m.id]={order:shuffle(m.quiz.map((_,i)=>i)),opt:{},ans:{}};const z=QZ[m.id];
  let h=`<p>Réponds à chaque question : la correction s’affiche aussitôt.${S.quiz[m.id]?` Meilleur score : <b>${Math.round(S.quiz[m.id].best*100)} %</b>.`:""}</p>`;
  z.order.forEach((qi,n)=>{const q=m.quiz[qi];if(!z.opt[qi])z.opt[qi]=shuffle(q.o.map((_,i)=>i));const a=z.ans[qi];
-  h+=`<div class="qz card"><div class="qq">${n+1}. ${esc(q.q)}</div>${z.opt[qi].map(oi=>{let c="";if(a!=null){if(oi===q.a)c="good";else if(oi===a)c="bad";}return `<button class="o ${c}" ${a!=null?"disabled":""} onclick="answer('${m.id}',${qi},${oi})">${esc(q.o[oi])}</button>`;}).join("")}${a!=null?`<div class="ex" id="qex_${qi}" role="status">${a===q.a?"✔ Exact.":"✘ Inexact."} ${esc(q.e)}</div>`:""}</div>`;});
+  h+=`<div class="qz card"><div class="qq">${n+1}. ${esc(q.q)}</div>${z.opt[qi].map(oi=>{let c="";if(a!=null){if(oi===q.a)c="good";else if(oi===a)c="bad";}return `<button class="o ${c}" ${a!=null?"disabled":""} onclick="answer('${m.id}',${qi},${oi})">${esc(q.o[oi])}</button>`;}).join("")}${a!=null?`<div class="ex" id="qex_${qi}" role="status"><b>${a===q.a?"✔ Exact.":"✘ Inexact."}</b> ${esc(q.e)}</div>`:""}</div>`;});
  const nb=Object.keys(z.ans).length;
  if(nb===m.quiz.length){const ok=m.quiz.filter((q,i)=>z.ans[i]===q.a).length,r=ok/m.quiz.length;
   h+=`<div class="score ${r>=PASS?"ok":"ko"}" role="status">${ok} / ${m.quiz.length} – ${r>=PASS?"Étape validée ✓":"Relis la synthèse et recommence"}</div><div class="rowb"><button class="btn s" onclick="QZ['${m.id}']=null;render()">Recommencer</button></div>`;}
@@ -696,6 +702,7 @@ function answer(id,qi,oi){const m=M.find(x=>x.id===id),z=QZ[id];z.ans[qi]=oi;
 function appliquer(m){let h="";(m.apply||[]).forEach(b=>{
  if(b.t==="note")h+=`<p>${esc(b.x)}</p>`;
  if(b.t==="tiers")h+=tiers();
+ if(b.t==="normcalc")h+=normCalc();
  if(b.t==="chart")h+=`<div class="card"><h3>${esc(b.l)}</h3><div data-chart="${b.k}">${CHARTS[b.k]()}</div></div>`;
  if(b.t==="fields")h+=`<div class="card">${b.f.map(f=>fld(b.id,f)).join("")}</div>`;
  if(b.t==="table")h+=`<div class="card">${tbl(b)}</div>`;
@@ -930,7 +937,7 @@ try{EXB=JSON.parse(localStorage.getItem(EX_KEY)||"null");}catch(e){EXB=null;}
 if(EXB&&typeof EXB.best==="number")EXB={tout:EXB};/* ancien format : un seul meilleur résultat */
 if(!EXB||typeof EXB!=="object")EXB={};
 /* Périmètres de l'examen : [groupe (regex sur m.grp), nombre de questions] */
-const EX_PLAN={tout:[[/^(Démarrer|Phase préalable)/,6],[/^Phase 1/,12],[/^Phase 2/,12]],
+const EX_PLAN={tout:[[/^(Démarrer|Phase préalable)/,6],[/^Phase 1/,11],[/^Phase 2/,10],[/^Outils/,3]],
                p1:[[/^(Démarrer|Phase préalable)/,10],[/^Phase 1/,20]],
                p2:[[/^Phase 2/,30]]};
 const EX_LBL={tout:"tout le parcours",p1:"phase préalable et phase 1",p2:"phase 2 et plan de manœuvre"};
@@ -971,7 +978,7 @@ function exam(){let h=`<div class="ref">Outils</div><h2>Examen blanc</h2>`;
  if(!EX){const plan=EX_PLAN[EXS]||EX_PLAN.tout,nb=plan.reduce((s,p)=>s+p[1],0);
   return h+`<div class="card"><div class="fld"><label for="exS">Périmètre de l’examen</label>
  <select id="exS" onchange="EXS=this.value;keep()">
- <option value="tout" ${EXS==="tout"?"selected":""}>Tout le parcours (6 préalable et vocabulaire, 12 phase 1, 12 phase 2)</option>
+ <option value="tout" ${EXS==="tout"?"selected":""}>Tout le parcours (6 préalable et vocabulaire, 11 phase 1, 10 phase 2, 3 normes et délais)</option>
  <option value="p1" ${EXS==="p1"?"selected":""}>Phase préalable et phase 1 (10 + 20)</option>
  <option value="p2" ${EXS==="p2"?"selected":""}>Phase 2 et plan de manœuvre (30)</option></select></div>
  <p><b>${nb} questions</b> sur ${EX_LBL[EXS]||EX_LBL.tout}, réparties entre les étapes au prorata de leur nombre de questions, en <b>${EX_T/60} minutes</b>.</p><ul class="c"><li>Aucune correction pendant l’épreuve : tu peux changer tes réponses jusqu’à la fin.</li><li>À expiration du chronomètre, la copie est corrigée automatiquement.</li><li>Correction finale : score global, résultat par étape et explication de chaque erreur.</li></ul>${exBestTxt()?`<p>${exBestTxt()}.</p>`:""}<div class="rowb"><button class="btn" onclick="exStart()">Commencer l’examen</button></div></div>`;}
@@ -1008,11 +1015,13 @@ function doSearch(v){const out=document.getElementById("sres"),q=norm(v.trim());
  const mods=M.filter(m=>has(m.title)||has(m.qtag)||has(m.but)).slice(0,8);
  const voc=(M.find(m=>m.id==="vocab")||{cards:[]}).cards.map((c,i)=>[c,i]).filter(([c])=>has(c[0])||has(c[1])).slice(0,8);
  const lex=LEX.map((l,i)=>[l,i]).filter(([l])=>has(l[0])||has(l[1])).slice(0,8);
- const n=mods.length+voc.length+lex.length;
+ const nrm=typeof NORMES==="undefined"?[]:NORMES.flatMap((s,i)=>s.rows.filter(r=>r.some(has)).map(r=>[r,i])).slice(0,8);
+ const n=mods.length+voc.length+lex.length+nrm.length;
  out.innerHTML=!n?`<p class="none">Aucun résultat.</p>`:`<span class="sr">${n} résultat${n>1?"s":""}</span>`
   +(mods.length?`<div class="sg">Étapes</div>${mods.map(m=>`<a href="#${m.id}" data-id="${m.id}">${esc(m.title)}${m.but?`<small>${esc(cut(m.but))}</small>`:""}</a>`).join("")}`:"")
   +(voc.length?`<div class="sg">Définitions</div>${voc.map(([c,i])=>`<a href="#vocab" data-id="vocab" data-card="${i}">${esc(c[0])}<small>${esc(cut(c[1]))}</small></a>`).join("")}`:"")
-  +(lex.length?`<div class="sg">Sigles</div>${lex.map(([l,i])=>`<a href="#lex" data-id="lex" data-lex="${i}"><b>${esc(l[0])}</b><small>${esc(l[1])}</small></a>`).join("")}`:"");}
+  +(lex.length?`<div class="sg">Sigles</div>${lex.map(([l,i])=>`<a href="#lex" data-id="lex" data-lex="${i}"><b>${esc(l[0])}</b><small>${esc(l[1])}</small></a>`).join("")}`:"")
+  +(nrm.length?`<div class="sg">Normes et délais</div>${nrm.map(([r,i])=>`<a href="#normes" data-id="normes" data-norme="${i}">${esc(r[0])}<small>${esc(cut(r.slice(1).filter(x=>x!=="–").join(" · ")))}</small></a>`).join("")}`:"");}
 
 /* ============ CRÉER UN CAS (instructeur) ============ */
 /* Fichier de cas au format docs/FORMAT_CAS.md, construit à partir des saisies affichées (les siennes ou l'exemple VIENNE) */

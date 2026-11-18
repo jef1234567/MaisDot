@@ -29,7 +29,7 @@ function trParts(c){
     const out=parts.map(x=>{const r=one(x)??trParts(x);if(r!=null&&r!==x)hit++;return r??x;});if(hit)return out.join(sp);}
   return null;
 }
-const TR_ATTRS=["placeholder","title","aria-label","alt"],TR_SET=new WeakMap();
+const TR_ATTRS=["placeholder","title","aria-label","alt","data-l"],TR_SET=new WeakMap();
 function trEl(el){for(const a of TR_ATTRS){const v=el.getAttribute&&el.getAttribute(a);if(v){const t=tr(v);if(t!==v)el.setAttribute(a,t);}}}
 function trNode(root){
   if(LANG==="fr"||!root)return;
@@ -37,7 +37,7 @@ function trNode(root){
   if(root.nodeType!==1&&root.nodeType!==9&&root.nodeType!==11)return;
   if(root.nodeType===1){if(/^(SCRIPT|STYLE|TEXTAREA)$/.test(root.nodeName))return;trEl(root);}
   const w=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);let n;const L=[];while((n=w.nextNode()))L.push(n);L.forEach(trNode);
-  if(root.querySelectorAll)root.querySelectorAll("[placeholder],[title],[aria-label],[alt]").forEach(trEl);
+  if(root.querySelectorAll)root.querySelectorAll("[placeholder],[title],[aria-label],[alt],[data-l]").forEach(trEl);
 }
 function trHTML(h){if(LANG==="fr")return h;const d=new DOMParser().parseFromString(h,"text/html");trNode(d.body);if(d.title)d.title=tr(d.title);return "<!DOCTYPE html>"+d.documentElement.outerHTML;}
 if(LANG!=="fr"){
