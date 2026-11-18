@@ -1,0 +1,212 @@
+{
+ "titre": "Cas d’entraînement VALDOR (fictif)",
+ "resume": "Le Kardestan (fictif) envahit le Valdor par le sud. La division, en défensive, monte une contre-attaque depuis le nord. La BIA ORION interdit le franchissement de la Sarve à Morlac. Le GTIA ALPHA, en 1er échelon de la BIA au sud de la rivière, doit freiner l’ennemi puis se recueillir au nord.",
+ "situation": "SITUATION GÉNÉRALE (fictive)\nLe Kardestan a envahi le Valdor par le sud. La division, en posture défensive, prépare une contre-attaque depuis le nord à J+2.\n\nMISSION DE LA BIA ORION\nLa BIA ORION interdit à l’ennemi le franchissement de la Sarve entre Morlac (inclus) et Saint-Ivre (exclu) jusqu’à J+2 12h00, afin de permettre la contre-attaque de la division.\n\nMISSION DU GTIA ALPHA\nEn 1er échelon de la BIA au sud de la Sarve, freiner l’ennemi entre le bois de Vernes et la Sarve jusqu’à J+1 06h00, puis se recueillir au nord de la rivière.\n\nTERRAIN ET MÉTÉO\nZone de 12 km de profondeur ; bocage au nord, bois de Vernes (impraticable aux chenillés) au centre, marais de Lune à l’est. Pluie faible, plafond bas à J. Coucher 19h10, lever 06h05, lune nouvelle.\n\nENNEMI\n2 BMECA du Kardestan (BMP, T-72 modernisés), un groupe d’artillerie et des drones de reconnaissance.\n\nRENFORTS\n1 section génie et 1 DLOC jusqu’à J+1 ; priorité des feux de la BIA au GTIA ALPHA jusqu’au recueil.",
+ "corrige": {
+  "p1e1": {
+   "texte": "Points d’attention : le but à atteindre est tourné vers la BIA et commence par « Afin de ». Les tâches couvrent toutes les fonctions opérationnelles (génie, renseignement, commandement, soutien), pas seulement le contact. La liberté d’action est contrainte par le délai et le recueil de nuit.",
+   "v": {
+    "mis": {
+     "msup": "La BIA ORION interdit à l’ennemi le franchissement de la Sarve entre Morlac (inclus) et Saint-Ivre (exclu) jusqu’à J+2 12h00.",
+     "isup": "But à atteindre : afin de permettre à la division de contre-attaquer depuis le nord. Effet majeur : fixer le 1er échelon ennemi sur la Sarve à hauteur de Morlac à J+1 pour permettre sa destruction par les feux de la division.",
+     "contrib": "Notre freinage use le 1er échelon ennemi avant la Sarve : il arrive affaibli et retardé sur la rivière, ce qui rend possible sa fixation à Morlac (effet majeur du supérieur).",
+     "renf": "Renfort : 1 section génie et 1 DLOC jusqu’à J+1. Effort de la BIA sur Morlac (GTIA BRAVO). Priorité des feux de la BIA au GTIA ALPHA jusqu’au recueil.",
+     "bat": "Afin de permettre à la BIA d’interdire à un 1er échelon ennemi usé et retardé le franchissement de la Sarve à Morlac."
+    },
+    "misla": {
+     "la": "Contrainte",
+     "vc": "Délai de freinage imposé (J+1 06h00) et recueil de nuit : valoriser la priorité des feux, compenser par une coordination précoce du recueil avec BRAVO.",
+     "pp": ""
+    }
+   },
+   "tab": {
+    "taches": [
+     {
+      "t": "Freiner l’ennemi entre le bois de Vernes et la Sarve jusqu’à J+1 06h00",
+      "n": "Spécifiée",
+      "fo": "Contact",
+      "m": "Pendant",
+      "s": "Ordre de la BIA, § mission"
+     },
+     {
+      "t": "Se recueillir sur la rive nord de la Sarve",
+      "n": "Spécifiée",
+      "fo": "Contact",
+      "m": "Après",
+      "s": "Ordre de la BIA, § mission"
+     },
+     {
+      "t": "Réaliser des obstacles sur la D17 dans la trouée de Vernes",
+      "n": "Induite",
+      "fo": "Appui (génie, feux, appui électronique)",
+      "m": "Avant",
+      "s": "Déduite du freinage d’un ennemi blindé"
+     },
+     {
+      "t": "Reconnaître les itinéraires de repli et le pont de Morlac",
+      "n": "Induite",
+      "fo": "Renseignement",
+      "m": "Avant",
+      "s": "Déduite du recueil de nuit"
+     },
+     {
+      "t": "Coordonner le recueil avec le GTIA BRAVO",
+      "n": "Induite",
+      "fo": "Commandement",
+      "m": "Avant",
+      "s": "Déduite de l’ordre de la BIA"
+     },
+     {
+      "t": "Évacuer les blessés et les véhicules endommagés avant le recueil",
+      "n": "Induite",
+      "fo": "Soutien",
+      "m": "Pendant",
+      "s": "Déduite de la durée du freinage"
+     }
+    ]
+   },
+   "tcidr": [
+    {
+     "y": "Tâche",
+     "fo": "Appui (génie, feux, appui électronique)",
+     "l": "Réaliser des obstacles sur la D17 avant J 06h00."
+    },
+    {
+     "y": "Demande",
+     "fo": "Commandement",
+     "l": "Confirmation du créneau de recueil par la BIA."
+    }
+   ],
+   "frise": [
+    {
+     "g": "J 00h00",
+     "e": "Début des travaux d’obstacles sur la D17"
+    },
+    {
+     "g": "J+1 06h00",
+     "e": "Fin du recueil au nord de la Sarve"
+    }
+   ]
+  },
+  "p1e2": {
+   "texte": "Le terrain est étudié par rapport à la mission : le bois de Vernes canalise l’ennemi, d’où l’intérêt de la trouée. La zone clé reste une ébauche à ce stade ; elle devient définitive à l’étape 5.",
+   "v": {
+    "terz": {
+     "zc": "Trouée de Vernes, entre le bois de Vernes et la cote 312 (ébauche).",
+     "la": "Non contrainte",
+     "vc": "Valoriser la canalisation offerte par le bois de Vernes et le marais de Lune pour concentrer les feux."
+    }
+   },
+   "tab": {
+    "ter": [
+     {
+      "e": "Bois de Vernes",
+      "f": "Forêt dense, impraticable aux chenillés.",
+      "d": "Canalise l’ennemi sur la D17.",
+      "c": "Zone favorable aux embuscades antichars en lisière."
+     },
+     {
+      "e": "Marais de Lune (est)",
+      "f": "Sol gorgé d’eau en mars.",
+      "d": "Débordement par l’est difficile mais possible pour l’infanterie à pied.",
+      "c": "Surveiller l’est (besoin en renseignement)."
+     },
+     {
+      "e": "Météo à J",
+      "f": "Plafond bas, pluie faible.",
+      "d": "Drones et hélicoptères gênés des deux côtés.",
+      "c": "Avantage relatif au défenseur qui connaît le terrain."
+     }
+    ],
+    "pc": [
+     {
+      "p": "Cote 312",
+      "loc": "Est de la trouée",
+      "j": "Vue sur toute la trouée et sur la Sarve : qui la tient observe les deux."
+     },
+     {
+      "p": "Carrefour des Quatre-Vents",
+      "loc": "Sortie nord de la trouée",
+      "j": "Bascule entre D17 et D4 : permet à l’ennemi de choisir son axe vers la Sarve."
+     },
+     {
+      "p": "Pont de Morlac",
+      "loc": "Sarve",
+      "j": "Seul point de recueil pour les véhicules lourds."
+     }
+    ]
+   },
+   "tcidr": [
+    {
+     "y": "Besoin en renseignement",
+     "fo": "Renseignement",
+     "l": "Praticabilité du marais de Lune à l’infanterie à pied."
+    }
+   ],
+   "frise": []
+  },
+  "p1e5": {
+   "texte": "La confrontation des séquences fait ressortir une opportunité (débouché canalisé dans la trouée entre J 14h00 et J 20h00) et un risque (débordement par l’est). L’effet majeur proposé est daté, localisé et orienté vers l’ennemi.",
+   "v": {
+    "confz": {
+     "zc": "Trouée de Vernes (définitive).",
+     "mc": "Entre J 14h00 et J 20h00, lors du débouché du BMECA de tête dans la trouée.",
+     "em": "User d’au moins 30 % le BMECA de tête dans la trouée de Vernes entre J 14h00 et J 20h00, afin qu’il arrive sur la Sarve sans capacité à forcer le passage."
+    }
+   },
+   "tab": {
+    "conf": [
+     {
+      "g": "J 06h00 – J 12h00",
+      "a": "Sûreté et premiers obstacles au sud de la trouée",
+      "e": "Reconnaissance ennemie au contact",
+      "r": "Risque",
+      "ad": "",
+      "rf": "Favorable (reconnaissance seule)"
+     },
+     {
+      "g": "J 14h00 – J 20h00",
+      "a": "Freinage dans la trouée de Vernes",
+      "e": "Débouché du BMECA de tête canalisé sur la D17",
+      "r": "Opportunité",
+      "ad": "Embuscade antichars et feux concentrés dans la trouée",
+      "rf": "1 contre 2 en blindés, compensé par le terrain"
+     },
+     {
+      "g": "J 20h00 – J+1 02h00",
+      "a": "Désengagement progressif",
+      "e": "Tentative de débordement par l’est (Saint-Ivre)",
+      "r": "Risque",
+      "ad": "",
+      "rf": "Défavorable si l’est n’est pas surveillé"
+     },
+     {
+      "g": "J+1 02h00 – 06h00",
+      "a": "Recueil au nord de la Sarve",
+      "e": "Approche de la Sarve",
+      "r": "Risque",
+      "ad": "",
+      "rf": "Dépend du délai gagné"
+     }
+    ]
+   },
+   "tcidr": [
+    {
+     "y": "Tâche",
+     "fo": "Renseignement",
+     "l": "Surveiller l’est (Saint-Ivre) à partir de J 18h00."
+    }
+   ],
+   "frise": [
+    {
+     "g": "J 14h00",
+     "e": "Début du moment clé dans la trouée de Vernes"
+    },
+    {
+     "g": "J 20h00",
+     "e": "Fin du moment clé – début du désengagement"
+    }
+   ]
+  }
+ }
+}
