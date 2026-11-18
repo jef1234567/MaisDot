@@ -754,7 +754,7 @@ def t_conduite(b, vp):
     """Rubrique « Appropriation et conduite » : à part du cycle MEDOT et de l'examen « tout », aide OPO / FRAGO."""
     a = App(b, vp).open("ac_as")
     ids = a.js("M.filter(m=>m.grp==='Appropriation et conduite').map(m=>m.id)")
-    check(ids == ["ac_mb", "ac_bb", "ac_rh", "ac_ps", "ac_as", "ac_co"], f"modules : {ids}")
+    check(ids == ["ac_mb", "ac_bb", "ac_rh", "ac_ps", "ac_as", "ac_mg", "ac_sr", "ac_ir", "ac_co"], f"modules : {ids}")
     check(a.js("M.findIndex(m=>m.id==='pm')<M.findIndex(m=>m.id==='ac_mb')&&M.findIndex(m=>m.id==='ac_co')<M.findIndex(m=>m.grp==='Outils')"), "ordre du menu")
     check(not a.js("cycleSvg().includes('ac_')") and "Mission brief" not in a.js("cycleSvg()"), "rubrique présente dans le schéma du cycle")
     for sc, want_ac in (("tout", False), ("ac", True)):
@@ -771,7 +771,41 @@ def t_conduite(b, vp):
     check(a.js("LEX.some(x=>x[0]==='MANFUT')"), "sigles de la rubrique absents")
     a.no_errors()
     a.close()
-    return "6 modules hors cycle, examen « tout » sans la rubrique, examen dédié, aide OPO / FRAGO"
+    return "9 modules hors cycle (dont messagerie), examen « tout » sans la rubrique, examen dédié, aide OPO / FRAGO"
+
+
+def t_ordres(b, vp):
+    """Phase 3 – Rédaction des ordres : dans le cycle et l'examen, gabarits assemblés (ordre et message)."""
+    a = App(b, vp).open("or_ps")
+    ids = a.js("M.filter(m=>m.grp==='Phase 3 – Rédaction des ordres').map(m=>m.id)")
+    check(ids == ["or_regles", "or_ps", "or_calque", "or_wingo", "or_opo", "or_frago", "or_ovo", "or_sup"], f"modules : {ids}")
+    check(a.js("M.findIndex(m=>m.id==='pm')+1===M.findIndex(m=>m.id==='or_regles')&&M.findIndex(m=>m.id==='or_sup')<M.findIndex(m=>m.id==='ac_mb')"), "ordre du menu")
+    check(a.js("cycleSvg().includes(\"tryGo('or_opo')\")"), "phase 3 absente du schéma du cycle")
+    a.js("EXS='tout'")
+    mids = a.js("exPick().map(q=>q.mid)")
+    check(len(mids) == 30 and sum(1 for m in mids if m.startswith("or_")) == 5, f"examen tout : {mids}")
+    a.js("EXS='p3'")
+    mids = a.js("exPick().map(q=>q.mid)")
+    check(len(mids) == 30 and all(m.startswith("or_") for m in mids), "examen phase 3")
+    a.js("go('or_ps','a')")
+    a.page.fill("#f_orps_m", "Saisir O1 pour H+12")
+    fill_cell(a, "orps_art", 0, "u", "511(AZ)BATMECA")
+    bi = a.js("M.find(m=>m.id==='or_ps').apply.findIndex(b=>b.t==='doc')")
+    h = a.js(f"docHTML('or_ps',{bi})")
+    check("Saisir O1 pour H+12" in h and "511(AZ)BATMECA" in h and "Plan simplifié" in h, "plan simplifié non assemblé")
+    a.js("go('ac_sr','a')")
+    a.page.fill("#f_msr_a", "de1680/de1975")
+    a.page.fill("#f_msr_h1", "14(FR)BC/120415Z/MECA/CIE/DE5321/EN MVT VERS LE NORD\n30(FR)BI/120345Z/CHAR/CIE/DE4523/-")
+    bi = a.js("M.find(m=>m.id==='ac_sr').apply.findIndex(b=>b.t==='doc')")
+    h = a.js(f"docHTML('ac_sr',{bi})")
+    for want in ("A/DE1680/DE1975//", "H/11/14(FR)BC/120415Z", "H/12/30(FR)BI", "BT//", "TXT", "EXERCICE/EXERCICE/EXERCICE//"):
+        check(want in h, f"message : {want} absent")
+    check("C/1/" not in h, "rubrique vide reprise")
+    check(a.page.locator("text=Exporter le document (Word)").count() >= 2, "boutons d'export")
+    check(a.js("LEX.some(x=>x[0]==='PNVA')&&LEX.some(x=>x[0]==='EFDT')"), "sigles phase 3 / messagerie")
+    a.no_errors()
+    a.close()
+    return "8 modules dans le cycle et l'examen, PS et SITREP assemblés"
 
 
 TESTS = [
@@ -795,6 +829,7 @@ TESTS = [
     ("localStorage indisponible (getter)", t_ls_getter),
     ("window.claude.use('downloads') → save()", t_downloads),
     ("Rubrique Appropriation et conduite", t_conduite),
+    ("Phase 3 – Rédaction des ordres et messagerie", t_ordres),
     ("Langues (Paramètres, RTL, saisies conservées)", t_langues),
 ]
 
