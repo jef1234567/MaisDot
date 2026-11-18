@@ -30,6 +30,7 @@ src/app.html    page source (HTML, CSS, JS, contenu doctrinal dans le tableau M)
 src/demo.js     exemple VIENNE – 33(AZ)BB (phase préalable, phase 1)
 src/p2.js       phase 2 : modules, quiz et exemple VIENNE (suite)
 src/normes.js   module « Normes et délais » : fiche par rubriques, calculateur de délais (report dans la frise), rapport de forces, quiz
+src/conduite.js rubrique « Appropriation et conduite » (hors cycle MEDOT) : mission brief, back brief, rehearsal, point de situation, APPSIT (aide nouvel OPO / FRAGO), rôles au sein du CO de GTIA ; examen blanc dédié
 src/i18n.js     changement de langue (Paramètres), traduction à l’affichage, arabe RTL
 src/i18n/       dictionnaires en, it, es, ar, de (texte français → traduction)
 docs/           spécification, format des cas, exemple de cas

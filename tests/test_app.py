@@ -750,6 +750,30 @@ def t_langues(b, vp):
     return "langues testées : " + ", ".join(out)
 
 
+def t_conduite(b, vp):
+    """Rubrique « Appropriation et conduite » : à part du cycle MEDOT et de l'examen « tout », aide OPO / FRAGO."""
+    a = App(b, vp).open("ac_as")
+    ids = a.js("M.filter(m=>m.grp==='Appropriation et conduite').map(m=>m.id)")
+    check(ids == ["ac_mb", "ac_bb", "ac_rh", "ac_ps", "ac_as", "ac_co"], f"modules : {ids}")
+    check(a.js("M.findIndex(m=>m.id==='pm')<M.findIndex(m=>m.id==='ac_mb')&&M.findIndex(m=>m.id==='ac_co')<M.findIndex(m=>m.grp==='Outils')"), "ordre du menu")
+    check(not a.js("cycleSvg().includes('ac_')") and "Mission brief" not in a.js("cycleSvg()"), "rubrique présente dans le schéma du cycle")
+    for sc, want_ac in (("tout", False), ("ac", True)):
+        a.js(f"EXS='{sc}'")
+        mids = set(a.js("exPick().map(q=>q.mid)"))
+        has_ac = any(m.startswith("ac_") for m in mids)
+        check(has_ac == want_ac and (not want_ac or all(m.startswith("ac_") for m in mids)), f"examen {sc} : {sorted(mids)}")
+    check(a.js("!M.find(m=>m.id==='pm').quiz.some(q=>/MA est à amender/.test(q.q))"), "règle OPO/FRAGO restée dans le plan de manœuvre")
+    a.js("go('ac_as','a')")
+    a.page.locator("text=Le MA est à amender partiellement").first.click()
+    check("FRAGO" in a.page.locator("#main .card.chk p[role=status]").last.inner_text(), "aide : FRAGO attendu")
+    a.page.locator("text=La mission change").first.click()
+    check("Nouvel OPO" in a.page.locator("#main .card.chk p[role=status]").last.inner_text(), "aide : OPO attendu")
+    check(a.js("LEX.some(x=>x[0]==='MANFUT')"), "sigles de la rubrique absents")
+    a.no_errors()
+    a.close()
+    return "6 modules hors cycle, examen « tout » sans la rubrique, examen dédié, aide OPO / FRAGO"
+
+
 TESTS = [
     ("Chargement sans erreur console", t_chargement),
     ("Navigation modules × 3 onglets", t_navigation),
@@ -770,6 +794,7 @@ TESTS = [
     ("localStorage indisponible (méthodes)", t_ls_storage),
     ("localStorage indisponible (getter)", t_ls_getter),
     ("window.claude.use('downloads') → save()", t_downloads),
+    ("Rubrique Appropriation et conduite", t_conduite),
     ("Langues (Paramètres, RTL, saisies conservées)", t_langues),
 ]
 

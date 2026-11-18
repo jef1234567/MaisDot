@@ -575,10 +575,13 @@ const LEX=[["CCIR","Critical commander’s information requirements – besoins 
 /* ============ ÉTAT ============ */
 /*__p2.js__*/
 /*__normes.js__*/
+/*__conduite.js__*/
 /* Intégration de la phase 2 (src/p2.js) : remplace les modules « à venir » et complète l'exemple VIENNE */
 if(typeof P2!=="undefined"){const i=M.findIndex(m=>m.id==="p2");if(i>=0)M.splice(i,2,...P2);}
 /* Module « Normes et délais » (src/normes.js), placé en tête des outils */
 if(typeof NORM_MOD!=="undefined"){const i=M.findIndex(m=>m.id==="exam");M.splice(i<0?M.length:i,0,NORM_MOD);}
+/* Rubrique « Appropriation et conduite » (src/conduite.js) : après la MEDOT, avant les outils ; hors cycle et hors examen « tout le parcours » */
+if(typeof AC_MODS!=="undefined"){const i=M.findIndex(m=>m.grp==="Outils");M.splice(i<0?M.length:i,0,...AC_MODS);AC_LEX.forEach(x=>{if(!LEX.some(y=>y[0]===x[0]))LEX.push(x);});LEX.sort((a,b)=>a[0].localeCompare(b[0],"fr"));}
 /* Questions jumelles d'un module à l'autre : clé de groupe g, une seule par examen blanc (audit pédagogique P2-8) */
 [["dec",/^Qui participe/,"reu-participants"],["dec",/^Quels sont les produits/,"reu-produits"],["p2e4",/^Quand le chef donne-t-il ses critères/,"criteres-chef"]].forEach(([id,re,g])=>{const m=M.find(x=>x.id===id),q=m&&m.quiz&&m.quiz.find(x=>re.test(x.q));if(q&&!q.g)q.g=g;});
 /* Consigne en tête de l'onglet Appliquer de la réunion de décision (si p2.js n'en fournit pas) */
@@ -639,6 +642,7 @@ function home(){const box=(t,items)=>`<div class="ph"><h4>${t}</h4>${items.map((
  <li><b>2 · S’entraîner</b> : un test corrigé ; l’étape est validée à partir de ${PASS*100} %.</li>
  <li><b>3 · Appliquer</b> : les gabarits de l’étape, à remplir sur un cas. Pour voir un exemple sur le thème VIENNE (33(AZ)BB, propositions à valider), active <b>« Exemple VIENNE »</b> en haut de l’écran : tes saisies ne sont pas touchées.</li></ul>
  <p><b>Outils</b> : un examen blanc (30 questions en 30 minutes, sur tout le parcours ou sur une phase), une recherche dans les sigles et les définitions, et la vue consolidée des TCIDR et de la frise. Tes saisies restent dans ce navigateur : <b>sauvegarde-les</b> (bas de page) avant de changer de poste.</p>
+ <p><b>Après la MEDOT</b> : la rubrique « Appropriation et conduite » traite à part les réunions qui suivent la décision (mission brief, back brief, rehearsal), celles de la conduite (point de situation, APPSIT) et les rôles au sein du CO de GTIA. Le groupe Outils propose aussi les normes et délais (fiche et calculateur).</p>
  <p class="ref">Outil pédagogique : il ne remplace pas la PFT 5.1. « La méthode ordonne la réflexion mais ne la bride pas. »</p></div>${vids("accueil")}
  <h3>Le cycle MEDOT (niveaux 3 et 4)</h3>
  <div class="cycle-svg">${cycleSvg()}</div>
@@ -647,6 +651,8 @@ function home(){const box=(t,items)=>`<div class="ph"><h4>${t}</h4>${items.map((
  ${box("Phase 1 – Analyse-synthèse",[["p1e1","1. Analyse de la mission"],["oi","Réunion d’orientation initiale (but à atteindre)",1],["p1e2","2. Analyse du terrain ami"],["p1e3","3. Analyse des forces ennemies"],["p1e4","4. Analyse des forces amies"],["p1e5","5. Confrontation des séquences"],["syn","Réunion de synthèse (effet majeur)",1]])}
  ${box("Phase 2 – Conception de la manœuvre",[["p2e1","1. Conception des ME"],["p2e2","2. Conception des MA"],["p2e3","3. Manœuvres fonctionnelles"],["p2e4","4. Comparaison des MA"],["p2e5","5. Confrontation MA-ME"],["p2e6","6. Finalisation des MA"],["dec","Réunion de décision (MA définitif)",1],["pm","Finalisation du plan de manœuvre"]])}
  </div>
+ <h3>Après la MEDOT : appropriation et conduite</h3>
+ <div class="cycle">${box("Hors cycle MEDOT",[["ac_mb","Mission brief",1],["ac_bb","Back brief",1],["ac_rh","Rehearsal",1],["ac_ps","Point de situation",1],["ac_as","Appréciation de situation (APPSIT)",1],["ac_co","Rôles au sein du CO de GTIA"]])}</div>
  <div class="card"><h3>Ma progression</h3>${CHARTS.scores()}<div class="rowb"><button class="btn dk" onclick="go('exam')">Passer l’examen blanc</button>${exBestTxt()?`<span class="ref" style="align-self:center">${exBestTxt()}</span>`:""}</div></div>
  <div class="card"><h3>Cas concret (instructeur)</h3><p>${CAS?`Cas chargé : <b>${esc(CAS.titre)}</b> – corrigé disponible pour ${Object.keys(CAS.corrige).filter(k=>M.some(m=>m.id===k)).length} étape(s).`:"L’instructeur charge un fichier de cas (.json) contenant la situation et le corrigé de chaque étape : le corrigé s’affiche alors dans l’onglet « Appliquer » de chaque étape. Il reste dans ce navigateur jusqu’à son retrait."}</p>
  <p class="ref">Pour créer un cas : remplis les gabarits avec ta solution (ou active l’exemple VIENNE), puis « Créer un cas à partir de mes saisies ». Complète ensuite la situation et les commentaires (« texte ») dans le fichier.</p>
@@ -679,7 +685,7 @@ function comprendre(m){let h=vids(m.id);
  if(m.normes)h+=normesFiche();
  if(typeof NORM_LINKS!=="undefined"&&NORM_LINKS.includes(m.id))h+=`<div class="rowb"><button class="btn s" onclick="go('normes')">Voir les normes et délais</button><button class="btn s" onclick="go('normes','a')">Calculateur de délais</button></div>`;
  if(m.vig)h+=`<div class="vig"><b>Points de vigilance</b><ul class="c">${m.vig.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></div>`;
- if(m.quiz&&!m.cards&&!m.reu&&m.id!=="prealable")h+=`<p class="ref">${/^Phase 2/.test(m.grp)
+ if(m.quiz&&!m.cards&&!m.reu&&m.id!=="prealable"&&/^Phase/.test(m.grp))h+=`<p class="ref">${/^Phase 2/.test(m.grp)
   ?"Chaque étape de la phase 2 se termine par la mise à jour des TCIDR (et de la frise, le cas échéant)."
   :"Chaque étape de la phase 1 se termine par la mise à jour des TCIDR et de la frise chronologique."}</p>`;
  return h;}
@@ -707,6 +713,7 @@ function appliquer(m){let h="";(m.apply||[]).forEach(b=>{
  if(b.t==="fields")h+=`<div class="card">${b.f.map(f=>fld(b.id,f)).join("")}</div>`;
  if(b.t==="table")h+=`<div class="card">${tbl(b)}</div>`;
  if(b.t==="canevas")h+=canevasChk(m);
+ if(b.t==="opofrago"&&typeof acOpoFrago==="function")h+=acOpoFrago();
  if(b.t==="tcidr")h+=`<div class="card"><h3>TCIDR de l’étape</h3>${tcidrTbl(m.id)}</div>`;
  if(b.t==="frise")h+=`<div class="card"><h3>Frise chronologique – ajouts de l’étape</h3>${friseTbl(m.id)}</div>`;
  if(b.t==="sync")h+=`<div class="card"><h3>${esc(b.l||"Matrice de synchronisation")}</h3>${tbl(blkTab(b))}<p class="ref">GDH au format « J 06h00 », « J+1 02h00 », « J-1 18h00 ». Le point de décision (PD1, PD2…) place une étoile ★ sur le Gantt.</p></div><details class="card" ${(S.tab["sync_"+b.id]||[]).some(r=>r.d||r.f)?"open":""}><summary><b>Gantt – ${esc(b.l||"synchronisation")}</b> <span class="ref">(afficher / masquer)</span></summary><div data-chart="sync:${esc(b.id)}">${CHARTS.sync(b.id)}</div></details>`;
@@ -939,8 +946,9 @@ if(!EXB||typeof EXB!=="object")EXB={};
 /* Périmètres de l'examen : [groupe (regex sur m.grp), nombre de questions] */
 const EX_PLAN={tout:[[/^(Démarrer|Phase préalable)/,6],[/^Phase 1/,11],[/^Phase 2/,10],[/^Outils/,3]],
                p1:[[/^(Démarrer|Phase préalable)/,10],[/^Phase 1/,20]],
-               p2:[[/^Phase 2/,30]]};
-const EX_LBL={tout:"tout le parcours",p1:"phase préalable et phase 1",p2:"phase 2 et plan de manœuvre"};
+               p2:[[/^Phase 2/,30]],
+               ac:[[/^Appropriation/,30]]};
+const EX_LBL={tout:"tout le parcours",p1:"phase préalable et phase 1",p2:"phase 2 et plan de manœuvre",ac:"appropriation et conduite"};
 let EXS="tout";
 function exBestTxt(){return Object.keys(EX_LBL).filter(k=>EXB[k]).map(k=>`Meilleur résultat : <b>${EXB[k].best} %</b> (${EX_LBL[k]}, ${esc(EXB[k].date)})`).join(" · ");}
 /* Répartition au prorata du nombre de questions de chaque étape du groupe */
@@ -980,7 +988,8 @@ function exam(){let h=`<div class="ref">Outils</div><h2>Examen blanc</h2>`;
  <select id="exS" onchange="EXS=this.value;keep()">
  <option value="tout" ${EXS==="tout"?"selected":""}>Tout le parcours (6 préalable et vocabulaire, 11 phase 1, 10 phase 2, 3 normes et délais)</option>
  <option value="p1" ${EXS==="p1"?"selected":""}>Phase préalable et phase 1 (10 + 20)</option>
- <option value="p2" ${EXS==="p2"?"selected":""}>Phase 2 et plan de manœuvre (30)</option></select></div>
+ <option value="p2" ${EXS==="p2"?"selected":""}>Phase 2 et plan de manœuvre (30)</option>
+ <option value="ac" ${EXS==="ac"?"selected":""}>Appropriation et conduite, hors MEDOT (30)</option></select></div>
  <p><b>${nb} questions</b> sur ${EX_LBL[EXS]||EX_LBL.tout}, réparties entre les étapes au prorata de leur nombre de questions, en <b>${EX_T/60} minutes</b>.</p><ul class="c"><li>Aucune correction pendant l’épreuve : tu peux changer tes réponses jusqu’à la fin.</li><li>À expiration du chronomètre, la copie est corrigée automatiquement.</li><li>Correction finale : score global, résultat par étape et explication de chaque erreur.</li></ul>${exBestTxt()?`<p>${exBestTxt()}.</p>`:""}<div class="rowb"><button class="btn" onclick="exStart()">Commencer l’examen</button></div></div>`;}
  if(EX.res){const R=EX.res,mm=Math.floor(R.dur/60);
   h+=`<div class="score ${R.pct>=PASS*100?"ok":"ko"}" role="status" tabindex="-1">${R.ok} / ${EX.qs.length} – ${R.pct} %${R.expired?" (temps écoulé)":` en ${mm} min`}${R.rec?" – nouveau meilleur résultat":""}</div><p class="ref">Périmètre : ${EX_LBL[EX.sc]||EX_LBL.tout}.</p>`;
