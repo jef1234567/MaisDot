@@ -812,14 +812,14 @@ def t_fonctions(b, vp):
     """Rubrique « Contributions des fonctions » : hors cycle, examen dédié, encarts dans le cycle, gabarits assemblés."""
     a = App(b, vp).open("fx_dec")
     ids = a.js("M.filter(m=>m.grp==='Contributions des fonctions').map(m=>m.id)")
-    check(ids == ["fx_ecim", "fx_dec", "fx_inf", "fx_psy", "fx_cim", "fx_utmc", "fx_ae", "f3_art", "f3_fscc", "f3_coord", "f3_cas", "f3_dsa", "f3_ci3d", "gn_emp", "gn_cmob", "gn_fb", "gn_cied"], f"modules : {ids}")
-    check(a.js("M.findIndex(m=>m.id==='ac_co')<M.findIndex(m=>m.id==='fx_ecim')&&M.findIndex(m=>m.id==='gn_cied')<M.findIndex(m=>m.grp==='Outils')"), "ordre du menu")
+    check(ids == ["fx_ecim", "fx_dec", "fx_inf", "fx_psy", "fx_cim", "fx_utmc", "fx_ae", "f3_art", "f3_fscc", "f3_coord", "f3_cas", "f3_dsa", "f3_ci3d", "gn_emp", "gn_cmob", "gn_fb", "gn_cied", "rn_b2", "rn_cap", "al_emp", "al_man", "ap_ac4d", "ap_mvt"], f"modules : {ids}")
+    check(a.js("M.findIndex(m=>m.id==='ac_co')<M.findIndex(m=>m.id==='fx_ecim')&&M.findIndex(m=>m.id==='ap_mvt')<M.findIndex(m=>m.grp==='Outils')"), "ordre du menu")
     check(not a.js("cycleSvg().includes('fx_')"), "rubrique présente dans le schéma du cycle")
     for sc, want in (("tout", False), ("fx", True)):
         a.js(f"EXS='{sc}'")
         mids = a.js("exPick().map(q=>q.mid)")
-        has = any(m.startswith(("fx_", "f3_", "gn_")) for m in mids)
-        check(len(mids) == 30 and has == want and (not want or all(m.startswith(("fx_", "f3_", "gn_")) for m in mids)), f"examen {sc} : {sorted(set(mids))}")
+        has = any(m.startswith(("fx_", "f3_", "gn_", "rn_", "al_", "ap_")) for m in mids)
+        check(len(mids) == 30 and has == want and (not want or all(m.startswith(("fx_", "f3_", "gn_", "rn_", "al_", "ap_")) for m in mids)), f"examen {sc} : {sorted(set(mids))}")
     a.js("EXS='f3'")
     mids = a.js("exPick().map(q=>q.mid)")
     check(len(mids) == 30 and all(m.startswith("f3_") for m in mids) and len(set(mids)) == 6, f"examen f3 : {sorted(set(mids))}")
@@ -867,9 +867,32 @@ def t_fonctions(b, vp):
     check("CHARENTE 20 m" in h and "332 BATCHAR" in h and "Assaut 1er échelon" in h, "plan de bréchage non assemblé")
     check(a.js("DEMO.tab.gnfb_b.length>=6&&DEMO.v.gnfb.ty.includes('(à valider)')"), "corrigé VIENNE génie")
     check(a.js("LEX.some(x=>x[0]==='SPRAT')&&LEX.some(x=>x[0]==='ZTR')"), "sigles génie")
+    for sc, n_mod in (("rn", 2), ("al", 2)):
+        a.js(f"EXS='{sc}'")
+        mids = a.js("exPick().map(q=>q.mid)")
+        check(len(mids) == 30 and all(m.startswith(sc + "_") for m in mids) and len(set(mids)) == n_mod, f"examen {sc} : {sorted(set(mids))}")
+    n = a.js("['p1e1','p1e3','p1e4','p2e1','p2e2','p2e3','p2e5','or_opo'].filter(id=>M.find(m=>m.id===id).sections.some(s=>s.go&&s.go.some(g=>/^(rn|al|ap)_/.test(g)))).length")
+    check(n == 8, f"encarts renseignement / aérocombat : {n}/8")
+    a.js("go('p2e5')")
+    a.page.locator("#main .card.enc button", has_text="Aérocombat dans la manœuvre").first.click()
+    check(a.js("cur") == "al_man", "lien de l'encart aérocombat")
+    a.js("go('al_man','a')")
+    fill_cell(a, "alman", 0, "z", "ZEA NORD")
+    select_cell(a, "alman", 0, "s", "TACON")
+    bi = a.js("M.find(m=>m.id==='al_man').apply.findIndex(b=>b.t==='doc')")
+    h = a.js(f"docHTML('al_man',{bi})")
+    check("ZEA NORD" in h and "TACON" in h, "emploi de l'aérocombat non assemblé")
+    a.js("go('rn_b2','a')")
+    a.page.fill("#f_rnz_zrr", "ZRR de la brigade")
+    fill_cell(a, "rnbpr", 0, "q", "Attitude du 233 BM")
+    bi = a.js("M.find(m=>m.id==='rn_b2').apply.findIndex(b=>b.t==='doc')")
+    h = a.js(f"docHTML('rn_b2',{bi})")
+    check("ZRR de la brigade" in h and "Attitude du 233 BM" in h, "besoins en renseignement non assemblés")
+    check(a.js("DEMO.tab.alman.length>=2&&DEMO.tab.rncap.every(r=>r.r.includes('(à valider)'))"), "corrigé VIENNE aérocombat / capteurs")
+    check(a.js("LEX.some(x=>x[0]==='SGRM')&&LEX.some(x=>x[0]==='ETB')&&LEX.some(x=>x[0]==='EEI')"), "sigles 6d-1")
     a.no_errors()
     a.close()
-    return "17 modules hors cycle (dont 6 Feux et 3D, 4 Génie), examens fx, f3 et gn, encarts liés, gabarits assemblés"
+    return "23 modules hors cycle (dont 6 Feux et 3D, 4 Génie, 2 Renseignement, 2 Aérocombat, 2 Appuis), examens fx, f3, gn, rn et al, encarts liés, gabarits assemblés"
 
 
 TESTS = [

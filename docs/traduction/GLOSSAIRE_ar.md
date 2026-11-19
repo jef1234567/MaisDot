@@ -403,3 +403,69 @@ Complète `docs/traduction/GLOSSAIRE_ar.md` (termes repris à l'identique : ال
 12. **escadron (blindé) → « سرية دبابات »** (glossaire) ; **escadron d'hélicoptères → « سرب مروحيات »**.
 13. **s0593** (fragment « sur génie, réparties… en ») est traduit tel quel en fragment ; l'assemblage est à vérifier à l'affichage.
 14. **Mise en page RTL** : à contrôler visuellement, en particulier les chaînes qui mêlent sigles latins, désignations d'unités (s0008), valeurs MLC (« 70C / 80R ») et dimensions (« 5 م على 100 م »).
+
+
+# Glossaire FR → AR – Lot 6d-1 (renseignement, appui au commandement, aérocombat/ALAT, appui aux mouvements)
+
+Conventions reprises de GLOSSAIRE_ar.md et de ar.json : sigles en caractères latins (souvent précédés de « الـ »), « ligne » → « السطر »,
+« Voir : » → « انظر: », « Étape suivante : … → » → « الخطوة التالية: … → », « (valeur à confirmer) » → « (القيمة بحاجة إلى تأكيد) »
+(variante majoritaire dans ar.json), h → س, min → د, km → كم, m → م, kg → كغ.
+
+## Lot 6d-1 – termes retenus
+
+| Français | Arabe |
+|---|---|
+| renseignement (fonction) | الاستخبار (pluriel « الاستخبارات » pour le produit) |
+| bureau renseignement (B2) | مكتب الاستخبارات |
+| besoin (prioritaire) en renseignement | الاحتياج الاستخباري (ذو الأولوية) |
+| recherche (cycle du renseignement) | الاستطلاع (cohérent avec « ordre de recherche » = أمر الاستطلاع) |
+| orientation / exploitation / diffusion | التوجيه / الاستغلال / النشر |
+| élaboration du renseignement | إعداد الاستخبار |
+| PREO (préparation renseignement de l’espace des opérations) | الإعداد الاستخباري لفضاء العمليات |
+| MRFT | منهجية الاستخبار للقوات البرية |
+| plan de renseignement et de recherche (PRR) | خطة الاستخبارات والاستطلاع (existant) |
+| capteur / manœuvre des capteurs | المستشعر / مناورة المستشعرات (existant) |
+| renseignement de contact | استخبار التماس |
+| recherche humaine | الاستطلاع البشري |
+| ZRR / ZIR / ZIP | منطقة المسؤولية الاستخبارية / منطقة الاهتمام الاستخباري / منطقة الاهتمام الخاص |
+| primo-analyse | التحليل الأولي |
+| déconfliction | فض التعارض (existant) |
+| appui au commandement (AC) | إسناد القيادة |
+| SIC | نظم المعلومات والاتصالات |
+| soutien de quartier général (SQG) | دعم مقر القيادة |
+| transmissions | الإشارة |
+| nominal / secours (moyen) | اسمية / احتياطية |
+| raccordement du bas par le haut | ربط الأدنى من قِبل الأعلى |
+| juste besoin | الاحتياج الدقيق |
+| cybersécurité / lutte informatique défensive | الأمن السيبراني / الدفاع المعلوماتي |
+| aérocombat | القتال الجوي البري (existant) |
+| ALAT (définition) | طيران القوات البرية |
+| zone d’engagement ALAT (ZEA) | منطقة اشتباك الـ ALAT (existant) |
+| hélicoptère de reconnaissance et d’attaque / de manœuvre et d’assaut | مروحية الاستطلاع والهجوم / مروحية المناورة والاقتحام |
+| patrouille / appareil | الدورية / الطائرة |
+| groupement / sous-groupement | التجمع / التجمع الفرعي |
+| superposition (avec les unités au sol) | التداخل |
+| préparation / réengagement / préavis | الإعداد / إعادة الزجّ / مهلة الإنذار |
+| appui aux mouvements | إسناد التحركات |
+| mobilité des blindés / transport de blindés | حركية المدرعات / نقل المدرعات |
+| action d’ensemble / appui direct / appui général | العمل الإجمالي / الإسناد المباشر / الإسناد العام |
+| circulation et escorte | حركة المرور والمرافقة |
+| porte-engins (surbaissé) | ناقلة آليات (منخفضة) |
+| plot d’appui à la mobilité (PAM) | نقطة إسناد الحركية |
+| bascule d’effort | نقل الجهد |
+| traversée de dispositif | اجتياز الانتشار |
+| éclairage et investigation (EEI, PEI) | الاستكشاف والتحري |
+| escadron / peloton / patrouille | السرية / الفصيل / الدورية (existant) |
+| Train (arme) | سلاح النقل (Train) |
+| IED | العبوة الناسفة المرتجلة (existant) |
+
+## Choix douteux à faire relire
+
+1. **« recherche » → « الاستطلاع »** (cycle du renseignement, GRM/SGRM, DETREHUM) : repris de « ordre de recherche → أمر الاستطلاع » dans ar.json, mais « الجمع » (collecte) serait plus exact pour le cycle ; même mot que pour « reconnaissance », d’où un risque de confusion (ex. « Reconnaître » et « recherche » donnent tous deux الاستطلاع).
+2. **« renseignement » → « الاستخبار » / « الاستخبارات »** : ar.json emploie les deux (« دورة الاستخبار », « مكتب الاستخبارات ») ; harmonisation globale à décider. « renseigner » (mission) rendu par « جمع الاستخبار / جمع المعلومات ».
+3. **« aérocombat » → « القتال الجوي البري »** : repris d’ar.json (une occurrence existante dit « القتال الجوي ») ; « détachement d’aérocombattants intégré » → « مفرزة مقاتلين جويين مدمجة », à valider.
+4. **« Appui au commandement » → « إسناد القيادة »** (forme de l’annexe Q) alors que « S6 – Appui au commandement » est rendu « الإسناد للقيادة » dans ar.json.
+5. **BRCE → « لواء الاستخبار والحرب الإلكترونية-السيبرانية »** : « cyber-électronique » n’a pas d’équivalent fixé.
+6. **escadron (cavalerie, Train) → « سرية »** comme compagnie (convention existante) : perte de la distinction escadron/compagnie (ex. « compagnie, escadron » dans 02_041 → « سرية، سرية خيالة »).
+7. **Fragments horaires** (05_104 à 05_108, 05_152 à 05_158) : « h » → « س », « min » → « د », « à » → « إلى » ; l’ordre RTL de la concaténation avec les nombres est à vérifier visuellement.
+8. **« nasses antichars » → « الأشراك المضادة للدبابات »** (« nasse » = « الشَّرَك » dans ar.json, contexte sol-air).

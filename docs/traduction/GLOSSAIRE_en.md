@@ -522,3 +522,81 @@ Sigles conservés tels quels : RGBIA, RGBGEN, BGEN, CCG, CCL, CA, DRG, DHIG, B3/
 11. **EFA** développé « forward crossing vehicle (value to be confirmed) » : développement donné comme incertain par la source.
 12. **groupe (de combat / du génie)** → « section » (usage britannique, section < platoon) ; **section** → « platoon ».
 13. **Nombres** : « 2,5 m/s » → « 2.5 m/s », « 10 % » → « 10% » (usage anglais) ; autres valeurs inchangées.
+
+
+## Lot 6d-1 – Renseignement, appui au commandement, aérocombat / ALAT, appui aux mouvements
+
+Sigles conservés tels quels (définition seule traduite) : B2, B3, B4, B6, G6, X6, ZRR, ZIR, ZIP, ZEA, BPR, PREO, PRR, PEMA, MRFT, SGRM, GRM, MoC, MuC, DETREHUM, DETAE, BRCE, CRT, ECOP, CMI, SGRC, EEI, PEI, PRD, MMP, VBL, AC, AC/4D, SIC → CIS (sigle anglais déjà en usage dans en.json), SQG, CCT, GTRS, DIRISI, ALAT, HRA, HMA, HMPC, GAM, SGAM, GTIA-A, SGTIA-A, DAI, DL, CO, ECE, PCE, GCE, GAMB, ETB, PTB, PAM, DRG, CI3D, FARP, PAss ; systèmes (TIGRE HAD, GAZELLE VIVIANE, NH90 CAÏMAN, COUGAR, PUMA, PR4G, MELCHIOR, SYRACUSE, VENUS, ASTRIDE, BLR IP, ATLAS, MARTHA, SICS, SAER, SICF, SIA-C2, SCORPION…) inchangés.
+
+| FR | EN |
+|---|---|
+| aérocombat | combat aviation (repris de en.json « Aérocombat » → « Combat aviation ») |
+| aérocombattants (DAI) | integrated combat aviation detachment |
+| Aviation légère de l’armée de Terre | French Army light aviation |
+| groupement / sous-groupement aéromobile (GAM / SGAM) | air mobile group / sub-group |
+| patrouille (d’hélicoptères) | patrol |
+| hélicoptère de reconnaissance et d’attaque (HRA) | reconnaissance and attack helicopter |
+| hélicoptère de manœuvre et d’assaut (HMA) | manoeuvre and assault helicopter |
+| HMPC | manoeuvre helicopter fitted as a command post |
+| zone d’engagement ALAT (ZEA) | ALAT engagement area |
+| cellule 3D | 3D cell |
+| superposition (avec les unités au sol) | overlap |
+| GTIA-A | combat aviation-heavy combined-arms battlegroup |
+| groupé / combiné / autonome / mixte | grouped / combined / autonomous / mixed |
+| préavis d’engagement ; réengagement | notice to engage ; re-engagement |
+| avitaillement en cours d’action | refuelling during the action |
+| bureau renseignement (B2) | intelligence branch |
+| préparation renseignement de l’espace des opérations (PREO) | intelligence preparation of the operating environment |
+| méthode renseignement des forces terrestres (MRFT) | land forces intelligence method |
+| élaboration du renseignement | intelligence development |
+| orientation / recherche / exploitation / diffusion | direction / collection / exploitation / dissemination |
+| traitement / production | processing / production |
+| orientation de la recherche | direction of collection |
+| manœuvre du renseignement | intelligence manoeuvre |
+| manœuvre des capteurs | sensors’ manoeuvre (repris de en.json) |
+| besoins prioritaires en renseignement (BPR) | priority intelligence requirements |
+| ZRR / ZIR / ZIP | intelligence area of responsibility / area of intelligence interest / named area of interest |
+| indices recherchés | indicators sought |
+| primo-analyse | first-level analysis |
+| carte de suivi des capteurs | sensor tracking map |
+| recherche humaine (DETREHUM) | human intelligence (detachment) |
+| renseignement de contact (SGRC) | combat intelligence (sub-group) |
+| sous-groupement / groupement de recherche multicapteurs (SGRM / GRM) | multi-sensor collection sub-group / group |
+| module monocapteur (MoC) / détachement multicapteur (MuC) | single-sensor module / multi-sensor detachment |
+| escadron / peloton d’éclairage et d’investigation (EEI / PEI) | reconnaissance and investigation squadron / platoon (repris de en.json) |
+| peloton de renseignement et de détection (PRD) | intelligence and detection platoon |
+| renseigner, surveiller, caractériser, reconnaître, évaluer après action | provide intelligence, watch, characterise, reconnoitre, assess after action |
+| leaders clés et relais d’influence ; relais d’influence seul | key leaders and key influencers ; key leaders |
+| BRCE / CRT / ECOP / CMI | intelligence and cyber-electronic brigade / Army intelligence centre / deployable operational augmentation team / information management cell |
+| appui au commandement (AC) | command support (repris de en.json) |
+| soutien de quartier général (SQG) | headquarters support |
+| compagnie de commandement et de transmissions (CCT) | command and signal company |
+| groupement de transmissions (GTRS) | signal group |
+| juste besoin ; raccordement du bas par le haut ; fiabilité ; sécurité | strict need ; connection of the lower echelon by the higher ; reliability ; security |
+| nominal 1 / 2, secours 1 / 2 | nominal 1 / 2, back-up 1 / 2 (repris de en.json) |
+| supports et services | bearers and services |
+| architecture des liaisons | communications architecture |
+| sécurité des SI, lutte informatique défensive | information systems security, defensive cyber operations |
+| appui aux mouvements | movement support |
+| action d’ensemble / appui direct | general support / direct support (repris du glossaire) |
+| escadron / peloton / groupement de circulation et d’escorte (ECE / PCE / GCE) | traffic control and escort squadron / platoon / group |
+| transport de blindés ; escadron / peloton (ETB / PTB) | armour transport ; armour transport squadron / platoon (repris de en.json) |
+| groupement d’appui à la mobilité des blindés (GAMB) | armour mobility support group |
+| plot d’appui à la mobilité (PAM) | mobility support point |
+| porte-engins ; porte-engins surbaissés | heavy equipment transporters ; low-loader transporters |
+| traversée de dispositif | passage of lines |
+| Train | Train (transport corps) |
+| subordination | command relationship |
+| adaptation (dans la durée / de circonstance) | (long-term / ad hoc) task organisation |
+| colonne « ligne {n} » | row {n} (forme majoritaire de en.json) |
+
+### Choix douteux à faire relire
+1. **aérocombat → « combat aviation »** (forme majoritaire de en.json) ; en.json contient aussi « Air-land combat » (rubrique 3.E de l’ordre) : à harmoniser globalement.
+2. **GAM / SGAM → « air mobile group / sub-group »** ; alternative « aviation battlegroup / aviation squadron group ». **GTIA-A → « combat aviation-heavy combined-arms battlegroup »** : formulation construite.
+3. **renseignement de contact → « combat intelligence »** (SGRC = combat intelligence sub-group) ; alternative « close-range / tactical intelligence ». **élaboration du renseignement → « intelligence development »** (pas d’équivalent OTAN exact). **orientation → « direction »** (cycle OTAN : direction, collection, processing, dissemination) ; mais **exploitation** gardé « exploitation » (et non « processing ») car ses deux étapes sont « traitement » (processing) et « production ».
+4. **« leaders clés et relais d’influence »** (01_054, 01_077) → « key leaders and key influencers » pour éviter le doublon « key leaders and key leaders » ; « relais d’influence » seul (02_060) → « key leaders » comme au glossaire général.
+5. **juste besoin → « strict need »**, **raccordement du bas par le haut → « connection of the lower echelon by the higher »** : traductions littérales.
+6. **Délai** (colonne des besoins en renseignement) → « Time limit » (= délai au-delà duquel l’info ne sert plus ; LTIOV en OTAN), et non « Timings » utilisé ailleurs.
+7. **défense ferme → « static defence »** (repris de en.json) ; **cellule conduite → « current operations cell »** (repris).
+8. **IMEX (« Immediate extraction – … »)** et **MANPADS / FARP** : glose française remplacée par l’expansion anglaise seule (comme aux lots précédents), IMEX garde un complément traduit.
+9. **PC** rendu « CP » dans les colonnes et consignes, « command post » dans les phrases explicatives.

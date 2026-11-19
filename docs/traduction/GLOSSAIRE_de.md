@@ -469,3 +469,91 @@ Sigles conservés : RGBIA, RGBGEN, BGEN, CCG, CCL, CA, DRG, DHIG, SPRAT, EFA, PF
 12. **s0142 « Découverte »** → „Aufklärung“ (échelon de découverte = Aufklärungsstaffel).
 13. **s0543 « colonel adjoint »** → „stellvertretender Kommandeur im Rang eines Obersts“ (long).
 14. **s0593** fragment repris sur le modèle existant de de.json (« …, verteilt auf die Schritte im Verhältnis zu ihrer Fragenanzahl, in »).
+
+
+## Lot 6d-1 – Renseignement, capteurs, aérocombat/ALAT, appui au commandement, appui aux mouvements
+
+Complète GLOSSAIRE_de.md (« du », „ “, Zeile {n}, „Siehe:“, „Nächster Schritt: … →“, „(Wert zu bestätigen)“, zusammengesetztes Dokument, Führer der verbundenen Waffen, Heeresfliegerkampf, Rotte (patrouille d'hélicoptères), Stabs- und Fernmeldekompanie, Panzertransportschwadron / Panzertransportzug, Aufklärungs- und Erkundungsschwadron, Aufklärungsauftrag / Informationsanforderung, Plan für Aufklärung und Informationsgewinnung, nachrichtendienstliche Vorbereitung des Einsatzraums (PREO), Einsatzraum ALAT, besonderer Interessenraum, Hauptmittel / Reservemittel, Targeting-Zyklus, Entflechtung, Spionageabwehr, USBV – tous repris de de.json ou des lots précédents).
+Sigles conservés (liste de la consigne + MELCHIOR, ATLAS, MARTHA, SAER, SICF, SIA-C2, SICS, VENUS, BLR IP, PAss). Expansions anglaises (FARP, IMEX, MANPADS) laissées en anglais, partie française traduite.
+Genres : der SGRM / SGRC / GRM / GAM / GAMB / GCE / GTRS / GTIA-A (Verband), die SGAM (comme de.json « einer SGAM »), die EEI / ECE / ETB (Schwadron), der PTB / PCE / PEI / PRD (Zug), das B2 / B3 / B6 / CO / DL / CRT / DAI / DETREHUM / ECOP, die CCT / BRCE / DIRISI / MRFT / PREO / CMI / SQG, der PRR / PEMA / PAM / FARP / HRA / HMA / HMPC / G6, der ZEA / ZRR / ZIR / ZIP (Raum).
+
+### Termes retenus
+
+| Français | Allemand |
+|---|---|
+| renseignement (fonction) / renseigner | Aufklärung / aufklären |
+| reconnaître (mission SGRM / HRA) | erkunden (aufklären quand seul) |
+| éclairer / jalonner (HRA) | vorausaufklären / Fühlung halten |
+| caractériser / évaluer après action | charakterisieren / nach der Handlung bewerten |
+| recherche (du renseignement) ; moyens de recherche | Informationsgewinnung ; Mittel der Informationsgewinnung |
+| orientation (cycle du renseignement) ; orientation de la recherche | Steuerung ; Steuerung der Informationsgewinnung |
+| exploitation / traitement / production / diffusion | Auswertung / Verarbeitung / Produktion / Verbreitung |
+| élaboration du renseignement | Erarbeitung der Aufklärung |
+| manœuvre du renseignement / manœuvre des capteurs | Manöver der Aufklärung / Einsatz der Sensoren |
+| capteur ; carte de suivi des capteurs | Sensor ; Sensorlagekarte |
+| primo-analyse | Erstanalyse |
+| besoins prioritaires en renseignement (BPR) | vorrangiger Aufklärungsbedarf |
+| indices recherchés | gesuchte Indikatoren |
+| ZRR / ZIR / ZIP | Aufklärungsverantwortungsraum / Aufklärungsinteressenraum / besonderer Interessenraum |
+| renseignement de contact ; SGRC | Nahaufklärung ; Teilverband für Nahaufklärung |
+| SGRM / GRM | Multisensor-Aufklärungsteilverband / Multisensor-Aufklärungsverband |
+| MoC / MuC | Einzelsensormodul (-kommando) / Multisensorkommando |
+| DETREHUM / DETAE | Kommando für menschliche Aufklärung / Kommando für elektronische Unterstützung |
+| MRFT | Aufklärungsmethode der Landstreitkräfte |
+| BRCE / CRT / ECOP | Brigade für Aufklärung und Cyber-Elektronik / Aufklärungszentrum des Heeres / verlegefähiges operatives Ergänzungsteam |
+| PEI / PRD ; patrouille (cavalerie) | Aufklärungs- und Erkundungszug / Aufklärungs- und Detektionszug ; Spähtrupp (patrouille de commandement → Führungstrupp) |
+| MMP (missile moyenne portée) ; poste de tir | Mittelstrecken-Lenkflugkörper ; MMP-Abschussgerät |
+| aérocombat ; ALAT (définition) | Heeresfliegerkampf ; Heeresfliegertruppe |
+| GAM / SGAM / GTIA-A | luftbeweglicher Verband / luftbeweglicher Teilverband / Kampfgruppe der verbundenen Waffen mit Schwerpunkt Heeresfliegerkampf |
+| HRA / HMA / HMPC | Aufklärungs- und Kampfhubschrauber / Transport- und Sturmhubschrauber / als Gefechtsstand ausgestatteter Transporthubschrauber |
+| fonction manœuvre et assaut | Funktion Transport und Luftsturm |
+| DAI | integriertes Heeresfliegerkampf-Kommando |
+| ZEA | Einsatzraum ALAT (comme de.json) |
+| appareil / aéronef | Luftfahrzeug |
+| HRA d'escorte | Geleitschutz-HRA |
+| FARP ; avitaillement | vorgeschobener Munitions- und Betankungspunkt ; Betankung und Aufmunitionierung |
+| préavis / réengagement | Vorwarnzeit / Wiedereinsatz |
+| superposition (avec les unités au sol) | Überlagerung |
+| menace sol-air ; rédhibitoire | Boden-Luft-Bedrohung ; Ausschlussgrund |
+| masques du terrain | Geländedeckungen |
+| appui au commandement (AC) | Führungsunterstützung (comme de.json « S6 ») |
+| soutien de quartier général (SQG) | Unterstützung des Hauptquartiers |
+| juste besoin / raccordement du bas par le haut / fiabilité / sécurité | genauer Bedarf / Anschluss von unten durch oben / Zuverlässigkeit / Sicherheit |
+| nominal 1-2 / secours 1-2 | Hauptmittel 1-2 / Reservemittel 1-2 |
+| élongation | große Entfernung(en) ; moyen d'élongation HF → HF-Weitverbindungsmittel |
+| chaîne fonctionnelle des X6 | Fachstrang der X6 |
+| cybersécurité ; lutte informatique défensive | Cybersicherheit ; defensive Cyberoperationen |
+| réseau de théâtre / réseau de zone | Einsatzgebietsnetz / Bereichsnetz |
+| GTRS / DIRISI | Fernmeldeverband / streitkräftegemeinsame Direktion für Infrastrukturnetze und Informationssysteme |
+| CMI | Zelle für Informationsmanagement |
+| appui aux mouvements | Bewegungsunterstützung |
+| appui à la mobilité des blindés (GAMB) | Unterstützung der Beweglichkeit gepanzerter Kräfte (Verband zur …) |
+| transport de blindés ; ETB / PTB | Panzertransport ; Panzertransportschwadron / Panzertransportzug |
+| escadron / peloton / groupement de circulation et d'escorte (ECE / PCE / GCE) | Verkehrs- und Geleitschwadron / -zug / -verband |
+| plot d'appui à la mobilité (PAM) | Beweglichkeitsunterstützungspunkt |
+| porte-engins / porte-engins surbaissés / semi-remorque | Schwerlasttransporter / Tieflader / Sattelauflieger |
+| traversée de dispositif | Durchschleusung |
+| ligne de débouché | Angriffslinie (comme de.json) |
+| jalonnement / fléchage / guidage | Streckenmarkierung / Ausschilderung / Einweisung |
+| appui direct / action d'ensemble / appui général | unmittelbare Unterstützung / allgemeine Unterstützung / allgemeine Unterstützung |
+| haute intensité | hochintensives Gefecht |
+| s'emparer de | in Besitz nehmen (comme de.json) |
+| Train (arme) | Train (conservé) |
+
+### Choix douteux à faire relire
+
+1. **Action d'ensemble et appui général → tous deux „allgemeine Unterstützung“** (repris de de.json) : collision possible si les deux figurent côte à côte (01_001 / 01_010). « appui direct » → „unmittelbare Unterstützung“ partout comme demandé.
+2. **ZRR → „Aufklärungsverantwortungsraum“, ZIR → „Aufklärungsinteressenraum“** : calqués sur l'OTAN (AIR / AII) avec « Raum » pour rester cohérent avec „besonderer Interessenraum“ ; la Bundeswehr dit plutôt « …bereich ».
+3. **renseignement de contact → „Nahaufklärung“** (SGRC → „Teilverband für Nahaufklärung“) : interprétation ; alternative « Gefechtsfeldaufklärung ».
+4. **cycle du renseignement : orientation → „Steuerung“, recherche → „Informationsgewinnung“, diffusion → „Verbreitung“** (terminologie OTAN-DE), alors que de.json rend « Diffusion » d'un ordre par „Verteilung“ et l'orientation MEDOT par „Weisung“.
+5. **élaboration du renseignement → „Erarbeitung der Aufklärung“** et **manœuvre des capteurs → „Einsatz der Sensoren“** : pas d'équivalent établi.
+6. **HMA → „Transport- und Sturmhubschrauber“**, fonction « manœuvre et assaut » → „Transport und Luftsturm“ ; de.json rend « hélicoptère de manœuvre » par „Transporthubschrauber“.
+7. **GAM / SGAM → „luftbeweglicher (Teil)verband“** ; genre **die SGAM** repris de de.json (« einer SGAM ») alors que „Teilverband“ est masculin ; der GAM.
+8. **PAM → „Beweglichkeitsunterstützungspunkt“** et **traversée de dispositif → „Durchschleusung“** : descriptifs.
+9. **« Train » conservé** (ECE du Train, régiments du Train) ; alternative « Transporttruppe ».
+10. **Escadron de cavalerie/Train → „Schwadron“** (comme « Aufklärungs- und Erkundungsschwadron » et „Panzertransportschwadron“ de de.json), alors que l'escadron de chars de l'exemple VIENNE est „Panzerkompanie“.
+11. **02_025** : définition double rendue „Aufklärungs- und Erkundungsschwadron; auch: unkonventionelle Spreng- und Brandvorrichtung (USBV, IED)“.
+12. **CO → „das CO“** (centre des opérations ; de.json emploie aussi « der CO » au sens du chef) ; **TOC** conservé.
+13. **Amorces de QCM** : 04_130 réagencé („Die begünstigte Einheit der verbundenen Waffen einer SGAM unter OPCON…“ + réponses verbe en tête « legt … fest », « führt sie organisch », « unterstützt sie nur ») ; 02_090 / 05_018 suivis de réponses à l'accusatif (« den rückwärtigen Raum… », « einen DRG ») ; 01_055 / 05_150 « gehört zum Auftrag… » + infinitif en minuscule.
+14. **Fragments horaires** (05_104-108, 05_152-158) : « à » → „bis“, « de jour / de nuit » → „bei Tag / bei Nacht“ ; 03_154 « PAss » conservé (sens inconnu).
+15. **MANPADS / FARP / IMEX** : expansion anglaise conservée, glose française traduite.

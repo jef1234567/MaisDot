@@ -461,3 +461,84 @@ Sigles français conservés : RGBIA, RGBGEN, BGEN, CCG, CCL, CA, DRG, DHIG, SPRA
 11. **zona de cruce bajo responsabilidad de ingenieros** (ZTR) et **rocada de cruce** (rocade de traversée) : traductions littérales.
 12. Points cardinaux de l'exemple (rive EST, par le NORD) traduits en majuscules : « orilla ESTE », « por el NORTE ».
 13. Fragment s0593 (« sobre ingenieros, repartidas entre las etapas… en ») : à vérifier à l'écran.
+
+
+# Glossaire FR → ES – MaisDot
+
+## Lot 6d-1 (renseignement, appui au commandement, aérocombat/ALAT, appui aux mouvements)
+
+Termes déjà fixés dans `GLOSSAIRE_es.md` / `es.json` repris à l'identique (renseignement = inteligencia, capteur = sensor,
+plan de renseignement et de recherche = plan de inteligencia y obtención, peloton = sección, escadron = escuadrón,
+coupure = curso de agua, ligne {n} = fila {n}, « Voir : » = « Ver: », « Étape suivante : » = « Etapa siguiente: »,
+(valeur à confirmer) = (valor por confirmar), ZEA = zona de empleo ALAT, recueil = recogida, ligne de débouché = línea de
+desembocadura, jalonner = jalonar, fléchage = señalización, ciblage = targeting, EEI/IED = artefacto explosivo improvisado).
+Sigles conservés ; genre des sigles calqué sur le français (el B2, el SGRM, el SGRC, el PTB, la PREO, la ZEA…).
+
+### Termes nouveaux retenus
+
+| Français | Español |
+|---|---|
+| recherche (du renseignement) / orientation de la recherche | obtención / orientación de la obtención |
+| exploitation / diffusion / élaboration du renseignement | explotación / difusión / elaboración de la inteligencia |
+| renseigner | obtener inteligencia (obtener información sur des itinéraires, le milieu) |
+| primo-analyse | primer análisis |
+| traitement / production | tratamiento / producción |
+| besoins prioritaires en renseignement (BPR) | necesidades prioritarias de inteligencia |
+| ZRR / ZIR / ZIP | zona de responsabilidad de inteligencia / zona de interés de inteligencia / zona de interés particular |
+| renseignement de contact | inteligencia de contacto |
+| recherche humaine (DETREHUM) | obtención humana (destacamento de obtención humana) |
+| module monocapteur / multicapteur | módulo monosensor / destacamento multisensor |
+| SGRM / GRM | subagrupación / agrupación de obtención multisensor |
+| SGRC | subagrupación de inteligencia de contacto |
+| escadron / peloton d'éclairage et d'investigation (EEI, PEI) | escuadrón / sección de exploración e investigación |
+| peloton de renseignement et de détection (PRD) | sección de inteligencia y detección |
+| BRCE | brigada de inteligencia y ciberelectrónica |
+| CRT / ECOP / CMI | Centro de Inteligencia del Ejército de Tierra / equipo de complemento operativo proyectable / célula de gestión de la información |
+| carte de suivi des capteurs ; se déconflicter | mapa de seguimiento de los sensores ; desconflictarse |
+| appui au commandement (AC) | apoyo al mando |
+| soutien de quartier général (SQG) | sostenimiento del cuartel general |
+| bureau SIC ; CCT ; GTRS | sección de sistemas de información y comunicaciones ; compañía de mando y transmisiones ; agrupación de transmisiones |
+| raccordement ; raccordement du bas par le haut | conexión ; conexión de abajo por arriba |
+| juste besoin | justa necesidad |
+| nominal 1 / 2 ; secours 1 / 2 | principal 1 / 2 ; reserva 1 / 2 |
+| élongation ; relais | elongación ; repetidor |
+| dégressive (fourniture des services) | de manera degradable |
+| aérocombat ; aérocombattants | aerocombate ; aerocombatientes |
+| ALAT | Aviación ligera del Ejército de Tierra |
+| GAM / SGAM / patrouille / escadrille | agrupación aeromóvil / subagrupación aeromóvil / patrulla / escuadrilla |
+| HRA / HMA / HMPC | helicóptero de reconocimiento y ataque / de maniobra y asalto / de maniobra equipado como puesto de mando |
+| GTIA-A | agrupación táctica interarmas de predominio aerocombate |
+| DAI | destacamento de aerocombatientes integrado |
+| cellule 3D | célula 3D |
+| point de poser | punto de toma |
+| avitaillement (hélicoptère) ; FARP | repostaje ; punto avanzado de rearme y repostaje |
+| extraction des équipages | extracción de las tripulaciones |
+| menace sol-air ; rédhibitoire | amenaza antiaérea ; prohibitiva |
+| masques du terrain ; découvert | máscaras del terreno ; terreno descubierto |
+| engager le combat (hélicoptères) ; réengagement | entablar el combate ; reempeño |
+| adaptation (d'une unité) ; adapté | agregación ; agregado |
+| insécable / sécable | indivisible / divisible |
+| appui aux mouvements | apoyo a los movimientos |
+| ECE / PCE / GCE | escuadrón / sección / agrupación de circulación y escolta |
+| ETB / PTB / GAMB | escuadrón / sección de transporte de blindados ; agrupación de apoyo a la movilidad de los blindados |
+| plot d'appui à la mobilité (PAM) | punto de apoyo a la movilidad |
+| porte-engins (surbaissés) | portavehículos (de plataforma rebajada) |
+| bascule d'effort / de moyens | cambio de esfuerzo / de medios |
+| traversée de dispositif | paso a través de un dispositivo |
+| zone lacunaire / cloisonnée | zona no asignada / compartimentada |
+| préacheminements | transportes previos |
+| en tout chemin (ne manœuvrent pas) | campo a través |
+| cybersécurité ; lutte informatique défensive | ciberseguridad ; lucha informática defensiva |
+
+### Choix douteux à faire relire
+
+1. **Train** (arme du Train) laissé tel quel (« del Train ») : pas d'équivalent espagnol direct ; « Tren » est déjà pris pour « train de combat ».
+2. **nominal / secours** → « principal / reserva » (fila « Principal {n} », « Reserva {n} ») : un relecteur peut préférer « alternativo » ou « de respaldo ».
+3. **recherche** → « obtención » et **orientation** → « orientación » (cycle FR orientation-recherche-exploitation-diffusion) ; la doctrine espagnole dit plutôt « dirección – obtención – elaboración – difusión », mais « élaboration du renseignement » a ici un sens FR différent (recherche + exploitation + diffusion).
+4. **renseigner** rendu selon le contexte par « obtener inteligencia » ou « obtener información » (itinéraires, milieu).
+5. **traversée de dispositif** → « paso a través de un dispositivo » (équivalent OTAN probable : *passage of lines* = « paso de escalón ») ; à valider.
+6. **dégressive** → « de manera degradable » (services fournis de façon dégressive) : sens à confirmer.
+7. **masques du terrain** → « máscaras del terreno » (calque) ; alternative : « ocultaciones / abrigos del terreno ».
+8. **point de poser** → « punto de toma » (cohérent avec « zonas de toma » existant).
+9. **EEI** : définition gardant les deux sens (« Escuadrón de exploración e investigación; también: artefacto explosivo improvisado (IED) ») ; « éclairage » = « exploración », repris de es.json.
+10. Fragments assemblés à l'affichage (« h », « h 30 de noche. », « a 12 (3 a 4 patrullas) », « a 900 km² para un GAM. ») : à vérifier à l'écran.

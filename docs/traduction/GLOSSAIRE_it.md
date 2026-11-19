@@ -437,3 +437,86 @@ Complète GLOSSAIRE_it.md (repris à l'identique : effetto decisivo, linea d'azi
 13. **chef génie → « capo genio »** distinct de **commandant du génie → « comandante del genio »** ; **chef de la section détachée → « comandante del plotone distaccato »**.
 14. **EEI** conservé en sigle (consigne), mais développé « ordigno esplosivo improvvisato » quand le français développe ; le lot 6a l'avait traduit en clair : harmoniser éventuellement.
 15. **EFA « Engin de franchissement de l'avant » → « Mezzo di attraversamento avanzato »** (calque, la définition est elle-même « à confirmer »).
+
+
+## Lot 6d-1 – Renseignement, appui au commandement, aérocombat / ALAT, appui aux mouvements
+
+Complète GLOSSAIRE_it.md (repris à l'identique : effetto decisivo, linea d'azione, elaborazione, briefing decisionale, briefing iniziale di orientamento, comandante interarma, livello superiore, scaglione, plotone, squadrone, intelligence, esigenza informativa, esigenze prioritarie di intelligence, piano di intelligence e ricerca, supporto diretto / generale, azione d'insieme, unità supportata, spostamento dello sforzo, deconflittualizzazione, zona di retrovia, difesa ad oltranza, settore, linea di partenza, raccolta, attraversamento, mezzo nominale / di riserva, documento assemblato, allegato, lucido di manovra, cellula condotta, controingerenza, targeting, «nassa», tappa, riga {n}, Vedi:, Tappa successiva:, (valore da confermare)). Adresse en « tu », apostrophe droite, guillemets «» sans espace. Sigles conservés (B2, B3, B6, G6, X6, ZRR, ZIR, ZIP, ZEA, BPR, PIR, PREO, PRR, PEMA, MRFT, SGRM, GRM, MoC, MuC, DETREHUM, DETAE, BRCE, CRT, ECOP, CMI, SGRC, EEI, PEI, PRD, DRG, MMP, VBL, AC, AC/4D, SIC, SQG, CCT, GTRS, DIRISI, ALAT, HRA, HMA, HMPC, GAM, SGAM, GTIA-A, SGTIA-A, DAI, DL, ECE, PCE, GCE, GAMB, ETB, PTB, PAM, FARP, CI3D, OPCON, TACON, TACOM, PAss, MoP/MoE…), noms de systèmes inchangés (TIGRE HAD, GAZELLE VIVIANE, NH90 CAÏMAN, COUGAR, PUMA, PR4G, MELCHIOR, SYRACUSE, VENUS, ASTRIDE, BLR IP, SICS, ATLAS, MARTHA, SAER, SICF, SIA-C2, SCORPION, GRIFFON, JAGUAR, SERVAL, LECLERC, TRM 700/100, SISU, HELLFIRE, HOT).
+
+### Termes retenus
+
+| Français | Italien |
+|---|---|
+| renseignement (fonction, produit) | intelligence |
+| renseigner (mission) | acquisire informazioni |
+| capteur ; manœuvre des capteurs ; carte de suivi des capteurs | sensore ; manovra dei sensori ; carta di monitoraggio dei sensori |
+| recherche / exploitation / diffusion (cycle) ; orientation | ricerca / sfruttamento / diffusione ; orientamento |
+| traitement / production ; primo-analyse | trattamento / produzione ; prima analisi |
+| élaboration du renseignement | elaborazione dell'intelligence |
+| préparation renseignement de l'espace des opérations (PREO) | preparazione d'intelligence dello spazio delle operazioni |
+| méthode renseignement des forces terrestres (MRFT) | metodo d'intelligence delle forze terrestri |
+| volet planification / conduite | componente di pianificazione / di condotta |
+| ZRR / ZIR / ZIP | zona di responsabilità dell'intelligence / zona di interesse dell'intelligence / zona di interesse particolare |
+| indices recherchés | indizi ricercati |
+| renseignement de contact ; renseignement d'objectifs | intelligence di contatto ; intelligence sugli obiettivi |
+| (sous-)groupement de recherche multicapteurs (SGRM, GRM) | (sotto)raggruppamento di ricerca multisensore |
+| module monocapteur / détachement multicapteur | modulo monosensore / distaccamento multisensore |
+| détachement de recherche humaine / d'appui électronique | distaccamento di ricerca umana / di supporto elettronico |
+| escadron / peloton d'éclairage et d'investigation (EEI, PEI) | squadrone / plotone esplorante e d'investigazione |
+| peloton de renseignement et de détection (PRD) | plotone intelligence e rilevamento |
+| sous-groupement de renseignement de contact (SGRC) | sottoraggruppamento di intelligence di contatto |
+| brigade de renseignement et cyber-électronique (BRCE) | brigata intelligence e cyber-elettronica |
+| centre de renseignement Terre (CRT) | centro di intelligence dell'Esercito |
+| équipe de complément opérationnel projetable (ECOP) | squadra di complemento operativo proiettabile |
+| relais d'influence / leaders clés | referenti d'influenza / leader chiave |
+| évaluer après action ; caractériser | valutare dopo l'azione ; caratterizzare |
+| appui au commandement (AC) ; soutien de quartier général (SQG) | supporto al comando ; sostegno del quartier generale |
+| systèmes d'information et de communication (SIC) | sistemi d'informazione e di comunicazione |
+| compagnie de commandement et de transmissions (CCT) ; groupement de transmissions (GTRS) | compagnia comando e trasmissioni ; raggruppamento trasmissioni |
+| raccordement ; raccordement du bas par le haut ; juste besoin | raccordo ; raccordo del basso da parte dell'alto ; stretto necessario |
+| nominal 1 / 2, secours 1 / 2 | nominale 1 / 2, riserva 1 / 2 |
+| élongation (liaisons) | distanza / collegamento a grande distanza |
+| cybersécurité ; lutte informatique défensive | cybersicurezza ; lotta informatica difensiva |
+| cellule de management de l'information (CMI) | cellula di gestione delle informazioni |
+| aérocombat ; aérocombattant | aerocombattimento ; aerocombattente |
+| Aviation légère de l'armée de Terre (ALAT) | Aviazione leggera dell'Esercito |
+| (sous-)groupement aéromobile (GAM, SGAM) | (sotto)raggruppamento aeromobile |
+| GTIA-A | raggruppamento tattico interarma a dominante aerocombattimento |
+| HRA / HMA / HMPC | elicottero da ricognizione e attacco / di manovra e d'assalto / di manovra attrezzato come posto comando |
+| patrouille (d'hélicoptères) ; appareil | pattuglia ; aeromobile |
+| zone d'engagement ALAT (ZEA) | zona d'impiego ALAT (comme it.json) |
+| détachement d'aérocombattants intégré (DAI) | distaccamento di aerocombattenti integrato |
+| engagement / réengagement / préavis | impiego / reimpiego / preavviso ; « engager le combat » = ingaggiare il combattimento |
+| superposition (avec les unités au sol) | sovrapposizione |
+| FARP ; avitaillement | punto di rifornimento avanzato ; rifornimento |
+| menace sol-air ; rédhibitoire | minaccia controaerei ; proibitiva |
+| masques du terrain | coperture del terreno |
+| sécable / insécable ; scinder | divisibile / indivisibile ; frazionare |
+| adaptation (dans la durée / de circonstance) | assegnazione (nel tempo / di circostanza) |
+| subordination | dipendenza |
+| appui aux mouvements ; appui à la mobilité des blindés | supporto ai movimenti ; supporto alla mobilità dei corazzati |
+| escadron / peloton de circulation et d'escorte (ECE, PCE) ; GCE | squadrone / plotone di circolazione e scorta ; raggruppamento di circolazione e scorta |
+| escadron / peloton de transport de blindés (ETB, PTB) ; GAMB | squadrone / plotone di trasporto corazzati ; raggruppamento di supporto alla mobilità dei corazzati |
+| plot d'appui à la mobilité (PAM) | punto di supporto alla mobilità |
+| porte-engins (surbaissés) ; semi-remorque ; char de dépannage | porta-carri (ribassati) ; semirimorchio ; carro soccorso |
+| traversée de dispositif | passaggio attraverso un dispositivo |
+| jalonnement (routier) / jalonner (hélicoptères) | picchettamento / seguire e segnalare (comme it.json) |
+| itinéraires de mise en place | itinerari di afflusso |
+| zone de regroupement | zona di raggruppamento |
+| sûreté | sicurezza |
+| Train (arme) | Train (conservé) |
+| engin explosif improvisé (IED) | ordigno esplosivo improvvisato (IED) |
+
+### Choix douteux à faire relire
+
+1. **Train (arme du Train) conservé en français** (« squadroni di circolazione e scorta del Train », « Dal Train della divisione ») : l'équivalent italien serait « Trasporti e Materiali » ; « Treno » (déjà dans it.json pour « train de combat ») est un autre sens.
+2. **renseigner → « acquisire informazioni »** (missions de l'EEI, du SGRM, des ECE, fragment 05_122) alors que it.json a « Renseigner » → « Informare » isolé ; à harmoniser.
+3. **exploitation (fonction du B2 / phase du cycle) → « sfruttamento »** ; « elaborazione » (terme italien usuel du cycle) est déjà pris pour « conception / élaboration » ; « élaboration du renseignement » rendue « elaborazione dell'intelligence », ce qui peut prêter à confusion avec la phase de traitement.
+4. **ZEA → « zona d'impiego ALAT »** (repris de it.json) alors que 6b a « zona d'ingaggio » pour d'autres zones d'engagement ; vérifier l'homogénéité.
+5. **ZRR / ZIR → « zona di responsabilità / di interesse dell'intelligence »** ; « area of intelligence responsibility / interest » (OTAN) se dirait aussi « area di responsabilità informativa ».
+6. **BPR → « esigenze prioritarie di intelligence »** (repris de it.json pour PIR) alors que « besoin en renseignement » = « esigenza informativa » : légère dissymétrie.
+7. **secours (moyen de liaison) → « riserva »** (glossaire lot 5 : mezzo di riserva) ; « soccorso / backup » possibles.
+8. **adaptation → « assegnazione »** (adapté = assegnato, glossaire 6b) ; « adattamento » plus littéral mais ambigu.
+9. **raccordement du bas par le haut → « raccordo del basso da parte dell'alto »** : calque ; sens = l'échelon supérieur connecte ses subordonnés.
+10. **porte-engins → « porta-carri »** et **jalonnement routier → « picchettamento »** : choix pratiques, à vérifier avec un spécialiste trasporti.
+11. **CRT → « centro di intelligence dell'Esercito »** (« Terre » non conservé).
