@@ -606,3 +606,8 @@ Conventions inchangées (sigles en latin, souvent précédés de « الـ » ; 
 10. **Commissariat → « الإدارة والتموين (Commissariat) »** : icône APP-6, sans équivalent exact.
 11. **Fragments 831 « Plan de » → « خطة », 1359 « simplifié » → « مبسطة », 1318 « d'engagement » → « الاشتباك », 1336 « manœuvre » → « المناورة »** : concaténation à vérifier à l'affichage RTL.
 12. Définitions anglaises de sigles (« Drop zone : … », « Line of departure – … ») : partie anglaise conservée, partie française traduite ; « To envelop. » et « To retire / to withdraw. » laissés tels quels.
+
+
+## Audit global (20/11/2026)
+
+Nouveaux distracteurs de 198 questions, 45 sigles, exemple VIENNE (situation et cellules affichées). Choix à relire : « (à valider) » → « (للمصادقة) » ; Rupture / Rompre → الكسر ; Rabattement / Rabattre → الانعطاف ; rive arrivée → ضفة الوصول ; C.ARR et EFFORT gardés en latin ; Débordement et Contourner tous deux الالتفاف (repris du dictionnaire) ; points cardinaux traduits.

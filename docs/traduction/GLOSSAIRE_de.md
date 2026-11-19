@@ -707,3 +707,8 @@ Repris de de.json / lots précédents : Binden, Verzögern, Decken, Sperren, St�
 10. **« Section, peloton » → „Zug, Panzerzug“** ; **« aérienne » (fragment) → „Luft-“** ; **« d'engagement » → „des Einsatzes“** (contexte inconnu).
 11. **ZDA / ZDAE / ZDI** : traductions descriptives sans équivalent Bundeswehr certain ; **ZEO → „Zielschwerpunktraum“** à valider.
 12. **FEBA → „vorderer Rand des Gefechtsraums“** (Bundeswehr : souvent « VRV, vorderer Rand der Verteidigung ») ; **LRCL → „Übergabelinie“** (handover line).
+
+
+## Audit global (20/11/2026)
+
+Nouveaux distracteurs de 198 questions, 45 sigles, exemple VIENNE (situation et cellules affichées). Choix à relire : « (à valider) » → « (zu bestätigen) » ; points cardinaux traduits (NORDEN, MITTE…) ; EFFORT → SCHWERPUNKT ; CONQUÉRIR → NEHMEN ; Fixation → Binden ; rupture → Durchbruch ; rabattement → Einschwenken ; défense ferme → « Verteidigung ohne Ausweichen » ; Patrouille → Rotte (aéronefs) ; rive arrivée → Zielufer ; réponses « D'un/D'une… » rendues par « Aus… ».

@@ -738,3 +738,8 @@ Sigles conservés tels quels (BSD, DAS, GTLOG, GSIAT, JLSG, TC{n}, R{n}F / R{n}B
 8. **Fragments** : « Plan de » → « Manoeuvre » et « manœuvre » → « plan » (convention des lots précédents) ; « simplifié » → « simplified », « d’engagement » → « of engagement » : à contrôler à l’affichage.
 9. **Groupe** (échelon) → « Section » ; **section, peloton** → « platoon, troop » (glossaire général), d’où « ●●● platoon or troop ».
 10. **Ligne de recueil** → « reception line » (cohérent avec recueil = reception) plutôt que « handover line » de l’OTAN, laissé en parenthèse.
+
+
+## Audit global (20/11/2026)
+
+Nouveaux distracteurs de 198 questions, 45 sigles, exemple VIENNE (situation et cellules affichées). Choix à relire : « (à valider) » → « (to be validated) » ; Rabattement / Rabattre → Wheeling envelopment / Wheel ; « à/c » → « from » ; Rupture (phase) → Breakthrough ; fuseau → sector ; défense ferme → « static defence » (le dictionnaire a aussi « firm defence ») ; relève de bordée → shift change ; NRBC → CBRN (repris du dictionnaire).

@@ -661,3 +661,8 @@ Repris à l'identique : effetto decisivo, linea d'azione (MAG féminin : « la M
 16. **mise sur pied de guerre → « approntamento per la guerra »** ; **main courante → « diario di servizio »**.
 17. **CEM conservé** (comme it.json) mais développé « capo di stato maggiore ».
 18. **Section, peloton → « Plotone »** (une seule forme ; le français distingue infanterie / cavalerie).
+
+
+## Audit global (20/11/2026)
+
+Nouveaux distracteurs de 198 questions, 45 sigles, exemple VIENNE (situation et cellules affichées). Choix à relire : « (à valider) » → « (da convalidare) » (le dictionnaire hésite avec « da validare ») ; Rabattement / Rabattre → Conversione / Convergere ; Freinage → Frenaggio (le mot isolé est « Ritardo ») ; « à/c » → « a partire dal » ; Rupture → Rottura ; Fixation → Fissaggio ; prévôté → polizia militare ; plafond (météo) → base delle nubi ; « régiment du Train » laissé en français.

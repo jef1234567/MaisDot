@@ -698,3 +698,8 @@ Missions tactiques (FR/OTAN), symbologie APP-6 et calques, relations de commande
 18. **NBQR** pour NRBC (couleurs du calque, détachement NRBC), comme les lots précédents.
 19. Zones en anglais (Drop zone, Pickup zone…) conservées ; seule la partie française est traduite (« zona de embarque en helicóptero » pour « zone d'enlèvement par hélicoptère »).
 20. Ordres de grandeur, GDH et numéros (QC1968, AA0001) conservés ; ordinaux « 3.ª brigada », « 12.º batallón ».
+
+
+## Audit global (20/11/2026)
+
+Nouveaux distracteurs de 198 questions, 45 sigles, exemple VIENNE (situation et cellules affichées). Choix à relire : « (à valider) » → « (por validar) » ; Rabattement / Rabattre → Envolvimiento / Envolver ; « à/c » → « a partir del » ; rive arrivée → orilla de llegada ; franchissement → paso ; freinage → frenado (le titre a « Retardo ») ; prévôté → policía militar ; ZOULOU → ZULÚ.

@@ -7,7 +7,7 @@ Outil pédagogique : il ne se substitue pas aux documents doctrinaux en vigueur.
 ## Utilisation
 
 - **Hors ligne / Intradef** : copier `index.html` **et le dossier `videos/`** côte à côte sur le poste, puis ouvrir `index.html` dans le navigateur. Sans le dossier `videos/`, l’outil fonctionne mais les vidéos de cours affichent « Vidéo indisponible ».
-- **En ligne** : https://jef1234567.github.io/MaisDot/ (GitHub Pages, branche `main`).
+- **En ligne** : https://jef1234567.github.io/maisdot/ (GitHub Pages, branche `main`).
 - **Appli sur téléphone ou PC** : depuis le site, menu du navigateur → « Installer l’application » (Chrome, Edge) ou « Sur l’écran d’accueil » (Safari). L’appli s’ouvre en plein écran et fonctionne hors ligne ; les vidéos restent lues en ligne (non stockées).
 
 Chaque étape se travaille en trois onglets :
@@ -16,7 +16,7 @@ Chaque étape se travaille en trois onglets :
 2. **S’entraîner** : un quiz corrigé. À partir de 70 %, l’étape est cochée comme validée. La navigation reste libre.
 3. **Appliquer** : les gabarits à remplir. Les TCIDR et la frise sont consolidés dans un onglet dédié, avec des graphiques.
 
-Le bouton **« Exemple VIENNE »** affiche le thème d’exercice VIENNE (version originale du dossier, brigade étudiée : 33(AZ)BB) dans tous les gabarits. Les faits viennent du dossier (OPORD n° 1 de la 3(AZ)DB et annexes) ; les analyses du chef de brigade sont des propositions marquées « (à valider) » ; « PM » signale une donnée absente du dossier. Il ne touche pas aux saisies du stagiaire. Le texte de l’exemple n’est pas encore traduit.
+Le bouton **« Exemple VIENNE »** affiche le thème d’exercice VIENNE (version originale du dossier, brigade étudiée : 33(AZ)BB) dans tous les gabarits. Les faits viennent du dossier (OPORD n° 1 de la 3(AZ)DB et annexes) ; les analyses du chef de brigade sont des propositions marquées « (à valider) » ; « PM » signale une donnée absente du dossier. Il ne touche pas aux saisies du stagiaire. Les textes affichés de l’exemple sont traduits ; les valeurs préremplies dans les champs restent en français.
 
 **Langues** : bouton ⚙ (Paramètres) en haut de page → français, anglais, italien, espagnol, arabe (de droite à gauche) ou allemand. Le français est la langue source ; les traductions (`src/i18n/<langue>.json`, texte français exact → traduction) sont appliquées à l’affichage, les travaux enregistrés ne changent pas. Les vidéos restent en français. Traduction en cours de relecture.
 
