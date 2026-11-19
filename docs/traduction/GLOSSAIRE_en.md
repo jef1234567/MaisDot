@@ -689,3 +689,52 @@ Sigles conservés tels quels (BSD, DAS, GTLOG, GSIAT, JLSG, TC{n}, R{n}F / R{n}B
 5. **Ordinaux avec {n}** : « {n}e régiment de dragons » → « {n}nd » (2e RD), « {n}e RT / RISLP » → « {n}th », « {n}er » → « {n}st » : corrects pour les valeurs actuelles uniquement.
 6. **Gloses françaises supprimées** dans les définitions de sigles commençant par l’expansion anglaise (06_014 JLSG, 13_059 SIBCRA), comme aux lots précédents : le tiret « – » disparaît.
 7. **Matériel** (régiments du) → « Materiel Corps regiments » ; **Train** gardé « Train » (cf. lot 6d-1) ; **groupe de combat** → « section » et **section** → « platoon » (usage britannique), d’où « section de décontamination médicale » → « medical decontamination platoon ».
+
+## Lot 7 – Missions tactiques, symbologie APP-6 et calques, relations de commandement, géométrie de l’espace de bataille, PC de brigade
+
+| Français | Anglais |
+|---|---|
+| attaque en force / en souplesse | attack in strength / infiltration attack |
+| attaque par le feu | attack by fire |
+| barrer / interdire / boucler | block / deny / cordon off |
+| freiner / fixer / canaliser / désorganiser | delay / fix / canalise / disrupt |
+| défendre ferme / défense d’usure / défense de zone | defend firmly (firm defence) / attrition defence / area defence |
+| donner un coup d’arrêt | conduct a stopping action |
+| conquête de zone ; s’emparer de ; occuper ; tenir ; conserver | seizure of an area ; seize ; occupy ; hold ; retain |
+| percer / percée ; combattre sur les arrières | break through / breakthrough ; fight in the enemy rear |
+| soutenir / suivre en mesure de relever | follow and support / follow and assume |
+| éclairer / reconnaître / surveiller / jalonner | scout / reconnoitre / monitor / screen |
+| ratisser / nettoyer ; replier / se replier ; rompre le contact | search / clear ; retire / withdraw ; disengage |
+| recueillir ; relever ; relève sur position | receive ; relieve ; relief in place |
+| prendre / préciser le contact | gain / identify contact |
+| manœuvre d’arrêt ; manœuvre retardatrice | stopping manoeuvre ; delaying action |
+| sécurisation (mode) ; sécurisation de zone ; contrôle de zone | security operations ; area security ; area control |
+| cadre ; icône de plein cadre / de secteur principal ; modificateur ; amplificateur | frame ; full-frame / main-sector icon ; modifier ; amplifier |
+| groupement de force ; potentiel (1 à 4) | task force ; capability (1 to 4) |
+| quadrilobe (inconnu) ; trait plein / pointillé | quatrefoil ; solid / dotted line |
+| détachement / renforcement / adaptation / prélèvement | detachment / reinforcement / adaptation / withdrawal of units (verbe : detach units) |
+| délégation / transfert d’autorité | delegation / transfer of authority |
+| ligne de coordination (PL) ; ligne de débouché ; limite de progression | coordination line (phase line) ; line of departure ; limit of advance |
+| ligne de recueil (LRCL) ; LIA | reception line (handover line) ; recognition and reception line |
+| ZEO ; zone d’effort des feux ; zone d’engagement ; zone d’action | target effort area (ZEO) ; fire effort area ; engagement area ; area of action |
+| ZDI / ZDA / ZDAE / ZDO | initial deployment area / deployment and assembly area / extended DAA / operational deployment area |
+| dispositif continu / lacunaire | contiguous / non-contiguous layout |
+| PC actif / principal / arrière / de combat / moyens réservés (PCMR) / Harpon / miroirs | active / main / rear / combat / reserved-assets CP (PCMR) / Harpoon CP / mirror CPs |
+| PC TAC | TAC CP |
+| bascule (programmée / inopinée) | (scheduled / unplanned) switchover |
+| chef CO ; colonel adjoint ; cellule synthèse / conduite | head of the CO ; deputy colonel (COLADJ) ; synthesis / control cell |
+| tirs d’appui direct / d’action d’ensemble | direct support / general support fires |
+| « Xxx, ligne {n} » | « Xxx, row {n} » |
+
+## Choix douteux à faire relire
+
+1. **PC TAC** → « TAC CP » (le dictionnaire rend PC par CP partout) alors que la consigne demandait de garder « PC TAC » ; CEM, CO, MANFUT, MANEC, CMI, PCMR, COLADJ conservés.
+2. **Boucler** → « Cordon off » (terme OTAN de la parenthèse) alors que la clé isolée existante « Boucler » vaut « Cordon » : à harmoniser.
+3. **Surveiller** → « Monitor » (dictionnaire) bien que l’OTAN de la chaîne soit « to screen », et **éclairer** → « Scout » (aussi « to screen ») ; **jalonner** → « Screen » : trois verbes autour de « screen », risque de confusion pour le lecteur OTAN.
+4. **Prélèvement** (substantif) → « withdrawal of units » pour le distinguer de **détachement** → « detachment » (le glossaire général donne « detachments » pour prélèvements).
+5. **Soutenir** (mission) → « Follow and support » (pas « Support », réservé à **appuyer**).
+6. **Défendre ferme** → « defend firmly / firm defence » (pas d’équivalent OTAN distinct de « defend ») ; **coup d’arrêt** → « stopping action » (dictionnaire) malgré l’OTAN « blocking action ».
+7. **Conquête de zone** → « seizure of an area » (même rendu que **s’emparer de** = seize) ; à distinguer éventuellement par « area conquest ».
+8. **Fragments** : « Plan de » → « Manoeuvre » et « manœuvre » → « plan » (convention des lots précédents) ; « simplifié » → « simplified », « d’engagement » → « of engagement » : à contrôler à l’affichage.
+9. **Groupe** (échelon) → « Section » ; **section, peloton** → « platoon, troop » (glossaire général), d’où « ●●● platoon or troop ».
+10. **Ligne de recueil** → « reception line » (cohérent avec recueil = reception) plutôt que « handover line » de l’OTAN, laissé en parenthèse.

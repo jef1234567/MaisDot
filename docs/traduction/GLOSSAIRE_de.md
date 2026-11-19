@@ -655,3 +655,55 @@ Genres : die BSD, das DAS, die GTLOG, der TC, die R{n}F/R{n}B/R{n}E (Role), der 
 8. **Plots logistiques → „Punkt“** (Logistikpunkt, Versorgungspunkt…) ; **DAS → „vorgeschobenes Unterstützungskommando“** (das DAS).
 9. Fragments : 16_016-031 (réponses de QCM en minuscules, verbes à l'infinitif « vernichten, verzögern… ») ; 16_054 « {n} seul, polyvalent » → „Nur {n}, vielseitig verwendbar“ (référent inconnu) ; 13_034 « Route » → „Straße“ (mode de transport, avec « Fer » → „Schiene“, « Air » → „Luft“).
 10. 13_053 « hôpitaux des armées » → „Militärkrankenhäuser“ (France) ; 17_033 « la France n'hospitalise pas longtemps » → „behandelt Verwundete nicht lange stationär“.
+
+
+## Lot 7 (missions tactiques, symbologie APP-6, relations de commandement, géométrie de l'espace de bataille, PC de brigade)
+
+Repris de de.json / lots précédents : Binden, Verzögern, Decken, Sperren, Stören, Vernichten, Niederhalten (neutraliser, verbe de mission), Halten, Aufnehmen, Ablösen, Überwachen, Geleiten, Gegenangreifen, Angriff mit Schwerpunkt / aus der Bewegung, Raum nehmen, Durchbruch, Ausnutzung, gewaltsame Aufklärung, Vormarsch zum Feind, Raumverteidigung, Abnutzungsverteidigung, Raumsicherung, Gegenstoß zum Halten, Fühlung aufnehmen / präzisieren / lösen, Angriffslinie, Leiter CO, Zelle Operationsführung, Einzelbefehl, Gefechtsstreifen, Einsatzraum ALAT, sperrfreier Raum / Raum mit Sperrbeschränkungen, „Siehe:“, „Nächster Schritt: … →“, „Zeile {n}“, „(Wert zu bestätigen)“.
+
+| Français | Allemand retenu |
+|---|---|
+| barrer / boucler / interdire | blockieren / abriegeln / sperren |
+| brécher / percer | Bresche schlagen / durchbrechen |
+| conserver / contenir / contourner / envelopper | behaupten / eindämmen / umgehen / umfassen |
+| défendre ferme ; défense ferme | verteidigen ohne Ausweichen ; Verteidigung ohne Ausweichen |
+| attaque par le feu | Feuerkampf aus der Distanz |
+| éclairer / reconnaître / jalonner | vorausaufklären / aufklären / Feindbewegung verfolgen |
+| ratisser / nettoyer | durchkämmen / säubern |
+| replier / se replier / rompre le contact | zurückverlegen / ausweichen / Fühlung lösen |
+| soutenir / suivre en mesure de relever | folgen und unterstützen / folgen und bereit sein abzulösen |
+| s'emparer de / occuper / capturer / extraire | in Besitz nehmen / besetzen / gefangen nehmen / herausholen |
+| effectuer un raid ; combattre sur les arrières ; manœuvre retardatrice | einen Raid durchführen ; im Rücken des Feindes kämpfen ; Verzögerungsgefecht |
+| manœuvre d'arrêt ; mode tactique sécurisation / assistance | Abwehrgefecht ; Sicherung / Hilfeleistung |
+| FULLCOM / OPCOM / OPCON / TACOM / TACON / ADCON | volle Befehlsgewalt / operative Führung / operative Kontrolle / taktische Führung / taktische Kontrolle / administrative Kontrolle |
+| contrôleur opérationnel ; délégation / transfert | Inhaber der operativen Kontrolle ; Delegation / Übertragung |
+| détachement / renforcement / adaptation / prélèvement | Abstellung / Verstärkung / Zuordnung / Abgabe |
+| bascule (programmée / inopinée) ; PC miroirs ; PC unique ; PC Harpon ; PCMR ; PC de combat | (geplante / unvorhergesehene) Umschaltung ; Spiegelgefechtsstände ; Einzelgefechtsstand ; Harpon-Gefechtsstand ; Reservegefechtsstand ; Kampfgefechtsstand |
+| colonel adjoint ; chef de site ; bordée | stellvertretender Kommandeur ; Standortleiter ; Schicht |
+| ZOP / ZOR / ZOAR / zone arrière | Raum der Operationen in der Tiefe / der Nahoperationen / der rückwärtigen Operationen / rückwärtiger Raum |
+| zone d'opérations / zone d'action / zone d'engagement / zone lacunaire | Einsatzraum / Gefechtsstreifen / Kampfraum / Lückenraum |
+| ZDI / ZDA / ZDAE / ZDO | Raum der ersten Entfaltung / Entfaltungs- und Warteraum / Erweiterung des … / Einsatzbereitstellungsraum |
+| ZEO ; zone d'intérêt | Zielschwerpunktraum ; Interessenraum |
+| LSM / BSM | Landraummanagement / BSM (anglais conservé) |
+| PL / FCL / LOA / FEBA / LC / LRCL / LIA | Koordinierungslinie / letzte Koordinierungslinie / Vormarschgrenze / vorderer Rand des Gefechtsraums / Gefechtsberührungslinie / Übergabelinie / Erkennungs- und Aufnahmelinie |
+| axe de progression / direction d'attaque | Vormarschachse / Angriffsrichtung |
+| drop / landing / pickup / extraction zone | Absetzzone / Landezone / Aufnahmezone für Hubschrauber / Abwurfzone im Tiefstflug |
+| cadre ; icône (plein cadre / secteur principal) ; modificateur ; amplificateur | Rahmen ; Icon (rahmenfüllend / im Hauptfeld) ; Modifikator ; Zusatzangabe |
+| échelon (symbole) ; groupement de force ; indicateur de PC ; potentiel | Ebenenkennung ; Kräftegruppierung ; Gefechtsstandskennzeichen ; Einsatzbereitschaft |
+| quadrilobe / losange ; chevron pointillé ; flèche noircie / double pointe | Vierpass / Raute ; gestrichelter Winkel ; geschwärzter Pfeil / Doppelspitze |
+| gabarit d'engagement ; traînée (logistique) | Einsatzrahmen ; Schleppe |
+
+### Choix discutables à faire relire
+
+1. **barrer → „blockieren“** pour éviter la collision avec boucler (de.json : « Boucler » → „Abriegeln“, mais aussi « Barrer un axe aérien » → „abriegeln“). À harmoniser.
+2. **éclairer → „vorausaufklären“** (lot 6d-1) car de.json rend « Éclairer » et « Reconnaître » tous deux par „Aufklären“ : collision à corriger dans de.json, les questions de ce lot opposent les deux verbes.
+3. **jalonner → „Feindbewegung verfolgen“** (repris de de.json) : lourd et proche de « poursuivre » → „verfolgen“ ; le lot 6d-1 avait „Fühlung halten“. Trancher.
+4. **défendre ferme → „verteidigen ohne Ausweichen“** ; de.json rend « défense ferme » par „Halten“ (collision avec tenir → halten).
+5. **neutraliser → „niederhalten“** comme verbe de mission (de.json), mais „neutralisieren“ dans les textes NRBC existants.
+6. **attaque par le feu → „Feuerkampf aus der Distanz“**, **brécher → „Bresche schlagen“**, **coup d'arrêt → „Gegenstoß zum Halten“** (de.json ; or le coup d'arrêt est une action par le feu, pas un contre-assaut).
+7. **icône → „Icon“** pour la distinguer du symbole complet, alors que de.json a déjà « icône » → „Symbol“ (« Cadre et icône en pointillés ») ; **amplificateur → „Zusatzangabe“** : terminologie APP-6 allemande à vérifier.
+8. **OPCOM / OPCON / TACOM / TACON** traduits en allemand (operative Führung / Kontrolle, taktische Führung / Kontrolle) alors que de.json a une entrée « Operational control / tactical control / tactical command » restée en anglais.
+9. **Pronoms des réponses de QCM** : « Elle est strictement définie… / Elle n'a pas de but » rendus par „Er“ (= der Auftrag) ; autres « Elle/Il » accordés au référent supposé (Gliederung, Kräftegruppierung, LSM…), à vérifier à l'affichage.
+10. **« Section, peloton » → „Zug, Panzerzug“** ; **« aérienne » (fragment) → „Luft-“** ; **« d'engagement » → „des Einsatzes“** (contexte inconnu).
+11. **ZDA / ZDAE / ZDI** : traductions descriptives sans équivalent Bundeswehr certain ; **ZEO → „Zielschwerpunktraum“** à valider.
+12. **FEBA → „vorderer Rand des Gefechtsraums“** (Bundeswehr : souvent « VRV, vorderer Rand der Verteidigung ») ; **LRCL → „Übergabelinie“** (handover line).

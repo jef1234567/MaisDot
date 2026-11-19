@@ -559,3 +559,50 @@ Conventions : sigles en latin, souvent précédés de « الـ » (BSD, TC{n}, 
 10. **déborder / débordement (maintenance) → « الإحالة إلى المستوى الأعلى »** : traduction du sens (transfert au niveau supérieur), pas du mot.
 11. **{n}D (impression 3D, cellule {n}D)** : « D » conservé tel quel ; pour l'impression, glose « الطباعة ثلاثية الأبعاد ({n}D) ».
 12. **Mise en page RTL** : chaînes mêlant sigles latins, nombres scindés (« {n} {n} ل ») et « TC{n} – BSD » à contrôler visuellement.
+
+
+## Lot 7 – Missions tactiques, symbologie APP-6 et calques, relations de commandement, géométrie de l'espace de bataille, PC de brigade
+
+Conventions inchangées (sigles en latin, souvent précédés de « الـ » ; « ligne {n} » → « السطر {n} » ; « Voir : » → « انظر: » ; « Étape suivante : … → » → « الخطوة التالية: … → » ; « OTAN » → « الناتو » ; « FR : » → « فرنسيًا: » ; « valeur à confirmer » → « القيمة بحاجة إلى تأكيد »). Verbes de mission rendus par le masdar, terme OTAN anglais conservé entre parenthèses.
+
+| Français | Arabe |
+|---|---|
+| OPCOM / OPCON / TACOM / TACON / FULLCOM / ADCON | القيادة العملياتية / السيطرة العملياتية / القيادة التكتيكية / السيطرة التكتيكية / القيادة الكاملة / السيطرة الإدارية |
+| délégation / transfert (d'autorité) ; contrôleur opérationnel | التفويض / النقل (نقل السلطة) ; المسيطر العملياتي |
+| détachement / renforcement / adaptation / prélèvement | الإفراز / التعزيز / الإلحاق / الاقتطاع |
+| mode tactique / MAG / mission / tâche | النمط التكتيكي / مسار العمل العام / المهمة / الواجب |
+| barrer / boucler / canaliser / brécher | السدّ / التطويق / التوجيه القسري / فتح الثغرة |
+| fixer / freiner / jalonner / harceler | التثبيت / التعويق / المراقبة المتراجعة للعدو / الإزعاج (repris de ar.json) |
+| s'emparer de / occuper / tenir / conserver | الاستيلاء على / الاحتلال / الإمساك / الاحتفاظ |
+| défendre ferme / défense de zone / défense d'usure | الدفاع الثابت / دفاع المنطقة / دفاع الإنهاك |
+| coup d'arrêt / manœuvre d'arrêt / manœuvre retardatrice | الإيقاف (تنفيذ إيقاف للعدو) / مناورة الإيقاف / المناورة التأخيرية |
+| marche à l'ennemi / percer / exploiter / conquête de zone | التقدم نحو العدو / الاختراق / الاستثمار / الاستيلاء على منطقة |
+| contourner / envelopper / infiltrer / exfiltrer / extraire | الالتفاف / الإحاطة / التسلل / الانسلال / الانتزاع |
+| replier / se replier / rompre le contact | التراجع / الانسحاب / قطع التماس |
+| ratisser / nettoyer / réduire une résistance | التمشيط / التطهير / تصفية مقاومة |
+| éclairer / reconnaître / surveiller | الاستكشاف / الاستطلاع / المراقبة |
+| soutenir / suivre en mesure de relever / relever / relève sur position | الدعم / المتابعة مع الاستعداد للتبديل / التبديل / التبديل في الموقع |
+| ZOP / ZOR / ZOAR / zone arrière | منطقة العمليات العميقة / القريبة / الخلفية ؛ المنطقة الخلفية |
+| zone lacunaire ; dispositif continu / lacunaire | منطقة فجوة ؛ التمركز المتصل / غير المتصل |
+| LD / LOA / PL / FCL / LRCL / LIA / LC / FEBA / FLOT | خط الانطلاق / حد التقدم / خط التنسيق / خط التنسيق النهائي / خط الاستقبال / خط التعرف والاستقبال / خط التماس / الحد الأمامي لمنطقة المعركة / الخط الأمامي للقوات الصديقة |
+| axe de progression / direction d'attaque | محور التقدم / اتجاه الهجوم |
+| cadre / icône / modificateur / amplificateur / échelon | الإطار / الأيقونة / المعدِّل / المضخِّم / المستوى |
+| groupement de force ; potentiel | تجميع القوة ; الجاهزية |
+| bascule (de PC) programmée / inopinée | النقل المبرمج / الطارئ (نقل مركز القيادة) |
+| PC Harpon / PC miroirs / PCMR / PC TAC | مركز القيادة «الحربة» / مراكز القيادة المتناظرة / مركز قيادة الوسائل الاحتياطية / الـ PC TAC (مركز القيادة التكتيكي) |
+| gabarit d'engagement ; empreinte au sol ; traînée | قالب الاستخدام ; البصمة على الأرض ; الأثر الممتد |
+
+### Choix à faire relire
+
+1. **Freiner → « التعويق »** (mission, comme la clé ar.json « Freiner ») alors que « freiner » minuscule et le lot 6 donnent « الإعاقة » ; à unifier.
+2. **Replier / se replier → « التراجع » / « الانسحاب »** : distinction artificielle (to retire / to withdraw) ; ar.json emploie « انسحاب » pour « repli ».
+3. **Barrer → « السدّ »** (aligné sur « détachement de barrage ») ; « الصدّ » ou « القطع » seraient plus idiomatiques pour *to block*.
+4. **Envelopper → « الإحاطة »** et **contourner → « الالتفاف »** : l'arabe militaire emploie souvent « الالتفاف » pour *envelopment*.
+5. **Exfiltrer → « الانسلال »**, **extraire → « الانتزاع »** (to recover) : choix descriptifs, sans équivalent normalisé.
+6. **Réduire une résistance → « تصفية مقاومة »** (cohérent avec réduction = التصفية) alors que ar.json a « تقليص مقاومة » dans une clé composée.
+7. **Bascule de PC → « النقل »** (ar.json) : risque de confusion avec **transfert d'autorité → « النقل »** dans la même page relations de commandement.
+8. **Zone lacunaire → « منطقة فجوة »** : calque ; « منطقة غير مشغولة » possible.
+9. **Potentiel (échelle 1-4) → « الجاهزية »** ; **amplificateur → « المضخِّم »** (calque d'*amplifier* APP-6).
+10. **Commissariat → « الإدارة والتموين (Commissariat) »** : icône APP-6, sans équivalent exact.
+11. **Fragments 831 « Plan de » → « خطة », 1359 « simplifié » → « مبسطة », 1318 « d'engagement » → « الاشتباك », 1336 « manœuvre » → « المناورة »** : concaténation à vérifier à l'affichage RTL.
+12. Définitions anglaises de sigles (« Drop zone : … », « Line of departure – … ») : partie anglaise conservée, partie française traduite ; « To envelop. » et « To retire / to withdraw. » laissés tels quels.

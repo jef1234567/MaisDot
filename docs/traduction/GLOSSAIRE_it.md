@@ -605,3 +605,59 @@ Adresse en « tu » (Analizza, Prepara, Redigi, Censisci, Prevedi, Colloca). Apo
 10. **section (génie, maintenance, décontamination médicale, défense rapprochée) → « plotone »** comme dans le glossaire général ; collision avec « peloton » (plotone) dans 15_012 (« un plotone NRBC decontamina {n} plotone »).
 11. **équipements d'environnement → « equipaggiamenti di dotazione »** (armement, optique, transmissions montés sur le matériel) : sens à confirmer.
 12. **tirs fusants / percutants → « tiri a scoppio in aria / a percussione »** ; **retombées → « ricaduta »**.
+
+
+## Lot 7 – Missions tactiques, symbologie APP-6 et calques, relations de commandement, géométrie de l'espace de bataille, PC de brigade
+
+Repris à l'identique : effetto decisivo, linea d'azione (MAG féminin : « la MAG », « le MAG »), modalità tattica, lucido, tappa, «Tappa successiva:», «Vedi:», riga {n}, valore da confermare, briefing decisionale, articolazione / rinforzo / prelievo / assegnazione (adapté), distacco, scaglione, livello superiore, sforzo, raccolta, frenaggio, aggiramento (débordement), sfondamento, zona di retrovia, linea di partenza (LD), linea avanzata delle forze amiche (FLOT), trasferimento (bascule), turni (bordées), Esplorare (éclairer), Seguire e segnalare (jalonner), Avvicendare (relever), Sostenere, Interdire. Sigles conservés (OPCOM, OPCON, TACOM, TACON, FULLCOM, ADCON, ZOP, ZOR, ZOAR, ZAR, ZIO, ZEO, ZDI, ZDA, ZDAE, ZDO, ZLO, ZRO, LD, LOA, FCL, PL, FSCL, FEBA, FLOT, LRCL, LIA, LC, ENY, FPF, PCMR, PC TAC, MANFUT, MANEC, CMI, CEM, COMBRIG, COLADJ…). Adresse en « tu » (Redigi, Censisci, Descrivi).
+
+| Français | Italien |
+|---|---|
+| Barrer / Boucler / Brécher / Canaliser | Sbarrare (to block) / Cinturare (to cordon off) / Aprire un varco (to break through) / Incanalare |
+| Contourner (to bypass) / Envelopper | Aggirare / Avvolgere |
+| Conserver (to retain) / Tenir (to hold) / S'emparer de / Occuper | Mantenere / Tenere / Impadronirsi di / Occupare |
+| Désorganiser (to disrupt) / Donner un coup d'arrêt | Disarticolare / Dare un colpo d'arresto |
+| Effectuer un raid / raid blindé | Effettuare un'incursione / incursione corazzata |
+| Nettoyer (to clear) / Ratisser (to search) | Ripulire / Rastrellare |
+| Replier (to retire) / Se replier (to withdraw) / Rompre le contact | Ritirare / Ripiegare / Rompere il contatto |
+| Flanc-garder / Suivre en mesure de relever / Poursuivre | Proteggere il fianco / Seguire pronto a subentrare / Inseguire |
+| Défendre ferme / défense d'usure / défense de zone | Difendere ad oltranza / difesa di logoramento / difesa di zona |
+| Attaque en force / en souplesse / par le feu | attacco di forza / per infiltrazione / con il fuoco |
+| Marche à l'ennemi ; sécurisation (de zone) | marcia al nemico ; messa in sicurezza (di zona) |
+| unité relevante / relevée ; relève sur position | unità subentrante / avvicendata ; avvicendamento su posizione |
+| contrôleur opérationnel | titolare del controllo operativo |
+| commandement intégral / opérationnel ; contrôle opérationnel / tactique ; commandement tactique | comando pieno / operativo ; controllo operativo / tattico ; comando tattico |
+| sous OPCON (TACOM, TACON) ; délégation / transfert d'autorité | in OPCON ; delega / trasferimento di autorità |
+| cadre / icône (de plein cadre, de secteur principal) / modificateur / amplificateur | cornice / icona (a cornice piena, di settore principale) / modificatore / amplificatore |
+| losange / quadrilobe ; chevron (déception) | rombo / quadrifoglio ; gallone tratteggiato |
+| groupement de force ; échelon (symbole) | raggruppamento di forze ; scaglione |
+| gabarit d'engagement ; empreinte au sol, traînée | sagoma d'impiego ; impronta sul terreno, scia |
+| ligne de coordination (PL) / de recueil (LRCL) / d'identification et d'accueil (LIA) / des contacts | linea di coordinamento / di raccolta / di identificazione e di accoglienza / di contatto |
+| limite de progression (LOA) ; limite avant de la zone de combat (FEBA) | limite di avanzata ; limite anteriore della zona di combattimento |
+| ZOP / ZOR / ZOAR | zona delle operazioni in profondità / ravvicinate / nelle retrovie (repris d'it.json) |
+| zone d'engagement / zone d'engagement ALAT ; zone d'effort sur objectif (ZEO) | zona d'ingaggio / zona d'impiego ALAT ; zona di sforzo sull'obiettivo |
+| zone lacunaire / dispositif lacunaire | zona lacunosa / dispositivo lacunoso |
+| PC principal / arrière / moyens réservés (PCMR) / miroirs / unique | PC principale / arretrato / a mezzi riservati / speculari / unico |
+| bascule programmée / inopinée | trasferimento programmato / imprevisto |
+| main courante ; synchromatrice ; rythme de bataille | diario di servizio ; matrice di sincronizzazione ; ritmo di battaglia |
+
+### Choix douteux à faire relire
+
+1. **Contourner → « Aggirare »** (NATO bypass) alors que « débordement » est déjà « aggiramento » (glossaire général) : collision ; alternative « Scavalcare » (mais pris par « dépasser ») ou « By-passare ».
+2. **Boucler → « Cinturare »** car « Isolare » est pris par Isoler (to isolate) ; it.json avait « Boucler » → « Isolare » isolé : à harmoniser.
+3. **Brécher → « Aprire un varco »** (cohérent avec « apertura di varchi ») ; « Aprire una breccia » possible.
+4. **Nettoyer → « Ripulire »** / **Ratisser → « Rastrellare »** ; l'italien OTAN emploie aussi « bonificare » pour to clear.
+5. **Replier (to retire) → « Ritirare »**, **Se replier → « Ripiegare »** : distinction artificielle en italien ; à confirmer.
+6. **Conserver (to retain) → « Mantenere »** et **Freiner (to delay) → « Frenare »** (glossaire) alors qu'une clé isolée d'it.json a « Freiner » → « Ritardare ».
+7. **Défendre ferme → « Difendere ad oltranza »** (repris d'it.json) ; « sans esprit de recul » → « senza spirito di ripiegamento ».
+8. **Suivre en mesure de relever → « Seguire pronto a subentrare »** (pivot « en mesure de » = « pronto a »).
+9. **Effectuer un raid → « Effettuare un'incursione »** ; « raid » conservé dans « RAID ART » (sigle).
+10. **contrôleur opérationnel → « titolare del controllo operativo »** (périphrase).
+11. **bascule de PC → « trasferimento »** (lot 5) ; bascule inopinée → « trasferimento imprevisto ».
+12. **quadrilobe (inconnu, APP-6) → « quadrifoglio »**, **chevron de déception → « gallone tratteggiato »** : vérifier la terminologie APP-6 italienne.
+13. **Échelon (amplificateur de taille APP-6) → « scaglione »** (cohérent avec it.json « Scaglione, riga {n} ») ; l'APP-6 italien dit « indicatore di livello ordinativo ».
+14. **zone d'engagement → « zona d'ingaggio »** mais **ZEA → « zona d'impiego ALAT »** (repris d'it.json) ; « gabarit d'engagement » → « sagoma d'impiego ».
+15. **Référentiel (titres de fiches) → « Riferimento »** ; collision possible avec « Repères » (riferimenti) déjà dans it.json.
+16. **mise sur pied de guerre → « approntamento per la guerra »** ; **main courante → « diario di servizio »**.
+17. **CEM conservé** (comme it.json) mais développé « capo di stato maggiore ».
+18. **Section, peloton → « Plotone »** (une seule forme ; le français distingue infanterie / cavalerie).

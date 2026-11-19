@@ -640,3 +640,61 @@ Genre des sigles calqué sur le français (la BSD, el DAS, el GTLOG, el GSIAT, e
 10. **disparos con explosión en el aire / de percusión** (tirs fusants / percutants) et **aspersión** (épandage).
 11. **regimiento** pour « corps de troupe », **suboficial de la unidad** pour « adjudant d'unité », **comisario del agrupamiento** (commissaire) : à confirmer.
 12. Fragments à vérifier à l'écran : 14_001 + 16_016 / 16_017 / 16_026 / 16_023 (« el apoyo logístico es… » + « a cargo de la nación anfitriona »), 06_051 + 16_028 / 16_029 / 16_031, 03_003 et 04_044 (« corresponde al efecto… ») + 16_020-16_027, 16_059 (« {n}, una de ellas línea de heridos »).
+
+
+## Lot 7
+
+Missions tactiques (FR/OTAN), symbologie APP-6 et calques, relations de commandement, géométrie de l'espace de bataille, PC de brigade (1 421 chaînes). Termes déjà fixés repris (efecto decisivo, línea de acción, cometido especificado / implícito, restricción, fila {n}, «Ver:», «Etapa siguiente:», valor por confirmar, empeño, calco, recogida, línea de desembocadura, zona no asignada, segregación, agregación, traslado = bascule, turnos = bordées, BIA acorazada / ligera acorazada / motorizada, MAG au féminin). Terme anglais entre parenthèses conservé.
+
+| Français | Español |
+|---|---|
+| Fixer / Freiner / Barrer / Interdire / Boucler | Fijar / Retardar / Bloquear / Negar / Cercar |
+| Canaliser / Désorganiser / Contourner / Envelopper | Canalizar / Desorganizar / Rebasar / Envolver |
+| Tenir / Conserver / Occuper / S'emparer de / Contrôler | Mantener / Conservar / Ocupar / Apoderarse de / Controlar |
+| Éclairer / Reconnaître / Surveiller / Jalonner / Flanc-garder / Couvrir | Explorar / Reconocer / Vigilar / Jalonar / Flanquear / Cubrir |
+| Recueillir / Relever / Soutenir / Suivre en mesure de relever | Recoger / Relevar / Sostener / Seguir en condiciones de relevar |
+| Nettoyer / Ratisser / Réduire une résistance / Intercepter | Limpiar / Rastrear / Reducir una resistencia / Interceptar |
+| Replier / se replier / Rompre le contact / Poursuivre | Replegar / replegarse / Romper el contacto / Perseguir |
+| Percer / percée ; submersion | Romper / ruptura ; desbordamiento |
+| Donner un coup d'arrêt ; coup d'arrêt | Realizar una detención ; detención (comme es.json) |
+| attaque en force / en souplesse ; attaque par le feu | ataque en fuerza / sobre la marcha (es.json) ; ataque por el fuego |
+| raid ; mener un raid blindé | incursión ; realizar una incursión acorazada |
+| défendre ferme ; défense d'usure ; défense de zone | defender firme ; defensa de desgaste ; defensa de zona |
+| combattre sur les arrières ; manœuvre retardatrice ; manœuvre d'arrêt | combatir en la retaguardia ; maniobra retardadora ; maniobra de detención |
+| mode tactique sécurisation ; sécuriser une zone ; contre-rébellion | seguridad ; asegurar una zona ; contrainsurgencia |
+| commandement intégral / opérationnel / tactique ; contrôle opérationnel / tactique / administratif ; contrôleur opérationnel | mando completo / operativo / táctico ; control operativo / táctico / administrativo ; controlador operativo |
+| sous OPCON (recevoir / placer) | en OPCON (recibir / poner) ; «bajo TACOM» dans l'articulation |
+| groupement de force ; cadre ; icône de plein cadre / de secteur principal | agrupación de fuerzas ; marco ; icono de marco completo / de sector principal |
+| modificateur ; amplificateur ; trait plein / pointillé | modificador ; amplificador ; trazo continuo / línea discontinua |
+| losange ; quadrilobe ; chevron pointillé ; flèche noircie ; double pointe | rombo ; cuadrilóbulo ; chevrón discontinuo ; flecha ennegrecida ; doble punta |
+| suspecté / planifié / envisagé | presunto / planeado / previsto |
+| ZOP / ZOR / ZOAR ; zone arrière | zona de operaciones en profundidad / próximas / de retaguardia ; zona de retaguardia |
+| zone d'engagement ; zone d'engagement de l'ALAT | zona de empeño ; zona de empleo ALAT |
+| gabarit d'engagement ; empreinte au sol ; traînée | dimensiones de empeño ; huella en el terreno ; estela |
+| limite de progression (LOA) ; FEBA ; ligne de recueil ; LIA | límite de avance ; límite anterior de la zona de combate ; línea de recogida ; línea de identificación y acogida |
+| tir d'arrêt ; tir linéaire / ponctuel | fuego de detención ; fuego lineal / puntual |
+| PC miroir ; PC moyens réservés ; bascule inopinée ; stabilité | PC espejo ; PC de medios reservados ; traslado imprevisto ; permanencia |
+| main courante ; synchromatrice | diario de operaciones ; matriz de sincronización |
+
+### Choix à faire relire
+
+1. **Retardar** pour « Freiner (to delay) » (libellé déjà présent dans `es.json`, terme OTAN espagnol) : le français « Fixer interdit tout mouvement ; freiner ralentit » devient « retardar ralentiza » ; « frenar » reste dans les lots précédents (freinage = frenado). À harmoniser.
+2. **Negar** pour « Interdire (to deny) » (OTAN), alors que `es.json` a le libellé court « Interdire => Prohibir » : à harmoniser dans le module des missions.
+3. **Cercar** (Boucler, repris de `es.json`) : l'OTAN espagnol dit « acordonar » (to cordon off) ; « cercar » sert aussi pour « encercler » (s1324-1325).
+4. **Romper** pour « Percer », cohérent avec « percée = ruptura » de `es.json` ; l'OTAN espagnol dit « penetrar ».
+5. **Sostener** (Soutenir, to follow and support) pour le distinguer d'« Apoyar » (appuyer) ; l'OTAN espagnol dit « seguir y apoyar ».
+6. **Desorganizar** (to disrupt) repris de `es.json` ; la doctrine espagnole dit plutôt « desarticular ».
+7. **Rebasar** pour « contourner » (to bypass) et aussi pour « se laisser dépasser » / « objectifs dépassés » : deux notions françaises rendues par le même verbe.
+8. **Defender firme** (défendre ferme) : calque ; « defender a ultranza » serait plus idiomatique.
+9. **Ataque sobre la marcha** (attaque en souplesse, repris de `es.json`) : sens inexact (souplesse = infiltration), à revoir sur tout l'outil.
+10. **Rastrear** (Ratisser, to search) ; **Limpiar** (Nettoyer, to clear).
+11. **Explorar** pour « Éclairer » et aussi pour la définition OTAN « to screen », alors que « Surveiller (to screen) » = « Vigilar » : le français a la même ambiguïté.
+12. **Obtener información** pour « renseigner » dans les définitions de missions (couvrir, flanc-garder, jalonner).
+13. **Pelotón** pour l'échelon « Groupe » et **Sección** pour « Section, peloton » (s1037, s1253) : l'espagnol n'a qu'un mot pour section et peloton.
+14. **chevrón discontinuo** (chevron pointillé), **cuadrilóbulo** (quadrilobe), **flecha ennegrecida** : termes descriptifs, pas de terme APP-6 espagnol vérifié.
+15. **estela** (traînée logistique) et **dimensiones de empeño** (gabarits d'engagement ; « plantilla » reste pour les gabarits de saisie de l'outil).
+16. **mando completo** (FULLCOM) et **controlador operativo** (contrôleur opérationnel) : traductions proposées.
+17. **permanencia** pour « stabilité » d'un PC (déjà retenu au lot 6d-2).
+18. **NBQR** pour NRBC (couleurs du calque, détachement NRBC), comme les lots précédents.
+19. Zones en anglais (Drop zone, Pickup zone…) conservées ; seule la partie française est traduite (« zona de embarque en helicóptero » pour « zone d'enlèvement par hélicoptère »).
+20. Ordres de grandeur, GDH et numéros (QC1968, AA0001) conservés ; ordinaux « 3.ª brigada », « 12.º batallón ».
