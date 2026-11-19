@@ -416,3 +416,109 @@ Sigles conservés tels quels (FSCC, AFA, DSA, ASM, LDT, CAF, OCF, OA, EOC, DLOC,
 10. **Nombres** : décimales « 1,5 » → « 1.5 » (usage anglais, comme `en.json`) ; « 6 000 m », « 3 000 m » et « 30 % » gardés tels quels.
 11. **pilote** (équipe JTAC, 05_003) → « driver » (conducteur du véhicule) ; 05_037 « Le pilote » → « The pilot » (aéronef).
 12. **FSCC N1 / N2 / N3** gardés tels quels (désignation de niveau française) plutôt que « L3 ».
+
+
+## Lot 6c – Génie (emploi et commandement, contre-mobilité, franchissement et bréchage, déploiement d'urgence, déminage, déception, lutte contre les EEI)
+
+### MaisDot – lot génie (franchissement, bréchage, obstacles, lutte contre les EEI) – Glossaire FR → EN
+
+Complète `GLOSSAIRE_en.md` (termes du glossaire principal et des lots 5, 6a, 6b inchangés). Orthographe britannique, « » → “ ”, apostrophe ’.
+Sigles conservés tels quels : RGBIA, RGBGEN, BGEN, CCG, CCL, CA, DRG, DHIG, B3/2D, G-ENG, S3/2D, BOI (développé « operations and training branch »), EFA, PFM F2, SPRAT, SYFRALL, SDPMAC, SDPMAP, MLC, EOD, WIT, C-IED, ZTR, ZAF, ZIA, ZLO, ZRO, HRA, ENI ; noms propres (VIENNE, CHARENTE, CONDAC, VERTEUIL, D740, 33(AZ)BB, 332(AZ)BATCHAR, 233(MI)BM…) inchangés.
+
+## Termes retenus
+
+| Français | Anglais |
+|---|---|
+| génie (arme) ; du génie | the engineers ; engineer (adj.) |
+| franchissement (de coupure) ; coupure (humide / verticale) | gap crossing ; (wet / vertical) gap |
+| franchissement autonome / discontinu / continu | autonomous / discontinuous / continuous crossing |
+| franchissement offensif / rétrograde / défensif | offensive / retrograde / defensive crossing |
+| franchissement sous contrainte / sous menace | crossing under constraint / under threat |
+| franchissement de vive force | forced crossing |
+| bréchage ; conduire un bréchage | breaching ; conduct a breaching operation |
+| brèche (passage) / ouverture de brèche / couloir | breach / lane breaching / lane |
+| zone de bréchage | breaching area |
+| tête de brèche | breach head |
+| zone de débouché | lodgement area |
+| tête de pont | bridgehead |
+| point de passage | crossing point |
+| site de franchissement (factice) | (dummy) crossing site (seul emploi de « site ») |
+| points de passage obligés | choke points |
+| zone / secteur de franchissement ; PC de franchissement | crossing area / sector ; crossing CP |
+| zone d’attente de franchissement (ZAF) | crossing waiting area |
+| zone des itinéraires d’attente (ZIA) | holding routes area |
+| zone de traversée à responsabilité génie (ZTR) | engineer-controlled crossing zone |
+| rocade de contrôle / de traversée / de variantement | control / crossing / diversion lateral route |
+| rive départ | near bank |
+| débit | throughput |
+| délai d’impunité | window of immunity (repris de `en.json`) |
+| variantements, points alternatifs | alternatives, alternative sites |
+| phase d’allégement ; allégement | thinning-out phase ; thinning out |
+| franchissement des gros | crossing of the main body |
+| repli et recueil de la couverture | withdrawal and reception of the covering force |
+| destruction de manœuvre ; ponts d’infrastructure | reserved demolition ; permanent bridges |
+| rideau antichar | anti-tank screen |
+| bac / portière / travure / rotation | ferry / raft / span / round trip |
+| pont flottant motorisé ; ponteur d’assaut ; porteur de travures | motorised floating bridge ; assault bridge-layer ; span carrier |
+| EBG / EFA (engin de franchissement de l’avant) | armoured engineer vehicle / forward crossing vehicle |
+| SPRAT / SYFRALL / SDPMAC / SDPMAP (développés) | rapid span-laying system / heavy-light crossing system / pyrotechnic anti-tank / anti-personnel mine-clearing system |
+| engin de bréchage mécanique de zone minée ; charge de déminage linéaire ; charges allongées | mechanical minefield breaching vehicle ; linear mine-clearing charge ; elongated charges |
+| moyens légers de franchissement ; ponts de charpente | light crossing assets ; timber bridges |
+| obstacle préliminaire / de manœuvre | preliminary / reserved obstacle |
+| autorité qualifiée | qualified authority |
+| système d’obstacles ; complexe d’obstacles | obstacle system ; obstacle complex |
+| système d’arrêt / de cloisonnement-canalisation / de freinage / de harcèlement / de couverture | blocking / compartmentalisation-canalisation / delaying / harassing / covering system |
+| obstacle battu par les feux ; valorisé par des mines ; découvert tardivement ; contournable | covered by fire ; reinforced with mines ; discovered late ; bypassable |
+| obstructions (abattis, éboulis, inondations) ; destructions ; obstacles à base de mines (bouchons, lignes, bandes minées) | obstructions (abatis, rockfalls, flooding) ; demolitions ; mine-based obstacles (blocks, rows, mined strips) |
+| obstacles actifs / passifs ; dents de dragon ; hérissons | active / passive obstacles ; dragon’s teeth ; hedgehogs |
+| pose ; mise à feu | emplacement ; firing |
+| détachement (mobile) de barrage | (mobile) obstacle detachment |
+| détachement héliporté d’intervention du génie (DHIG) | heliborne engineer intervention detachment |
+| détachement de reconnaissance du génie (DRG) | engineer reconnaissance detachment |
+| plongeur de combat du génie | engineer combat diver |
+| cloisonnement / neutralisation / conquête (bréchage) | isolation / neutralisation / seizure |
+| échelon de découverte / d’assaut / 3e échelon d’appui / échelon réservé | reconnaissance echelon / assault element / 3rd (support) echelon / reserve echelon |
+| ligne de débouché | line of departure (repris de `en.json`) |
+| résistances dépassées ; être dépassé | bypassed resistance ; be passed through |
+| chef génie | chief engineer |
+| commandant du génie ; conseiller génie ; officier génie de secteur | engineer commander ; engineer adviser ; sector engineer officer |
+| cellule génie / barrette génie (2D) | engineer cell / engineer (2D) cell |
+| détachement de liaison génie | engineer liaison detachment |
+| chef de corps ; commandant d’unité | commanding officer ; company commander |
+| section (génie) / groupe (de combat) | platoon / section |
+| pion d’emploi | basic employment unit |
+| conservé aux ordres / détaché / en renforcement / adapté / mis pour emploi | retained under command / detached / as reinforcement / attached / placed at the disposal of |
+| emploi / mise en œuvre (centralisée / décentralisée) | employment / execution (centralised / decentralised) |
+| planification centralisée, conduite décentralisée | centralised planning, decentralised execution |
+| unicité du commandement génie | unity of engineer command |
+| appui direct au combat / appui général à la force | direct combat support / general support to the force |
+| appui à la mobilité / à la contre-mobilité / au déploiement d’urgence | mobility / counter-mobility / emergency deployment support |
+| appui aux déplacements / au déploiement / au retrait ; soutien au stationnement | movement / deployment / withdrawal support ; basing support |
+| ouverture / rétablissement d’itinéraire ; contre-minage | route opening / restoration ; countermining |
+| sauvegarde-protection | survivability and protection |
+| renseignement sur le milieu ; de documentation / de situation / de prévision | environment intelligence ; documentary / situational / predictive intelligence |
+| déminage et dépollution ; dépolluer | mine clearance and ordnance clearance ; clear of ordnance |
+| leurrage et déception ; leurres gonflables | decoying and deception ; inflatable decoys |
+| lutte contre les EEI (C-IED) ; système EEI | counter-IED (C-IED) ; IED system |
+| former et entraîner / attaquer le réseau / mettre en échec le dispositif | train and prepare / attack the network / defeat the device |
+| prévenir / empêcher / détecter / traiter / réduire les effets / exploiter | prevent / deny / detect / render safe / mitigate the effects / exploit |
+| fouille opérationnelle complémentaire / spécialisée / élémentaire | intermediate / advanced / basic operational search |
+| équipes cynotechniques ; cynotechnie | dog teams ; military working dogs |
+| attaque en force / en souplesse ; conquête de zone | deliberate attack / hasty attack ; seizure of an area (repris de `en.json`) |
+| fiche « Normes et délais » | “Norms and timings” card (repris de `en.json`) |
+| (valeur à confirmer) / (à valider) | (value to be confirmed) / (to be validated) |
+
+## Choix douteux à faire relire
+
+1. **autorité qualifiée** → « qualified authority » et 2. **point de passage** → « crossing point » : alignés sur `en.json` et le lot 5 (décision du coordinateur) ; « crossing site » réservé à « site de franchissement » ; « points de passage obligés » → « choke points ».
+3. **zone de débouché** → « lodgement area » (option « exit area » écartée) ; **tête de brèche** → « breach head » ; **tête de pont** → « bridgehead ».
+4. **Systèmes d’obstacles** : arrêt → « blocking », freinage → « delaying » (cohérent avec freinage = delay), harcèlement → « harassing », cloisonnement-canalisation → « compartmentalisation-canalisation », couverture → « covering ». Les effets OTAN (block / fix / turn / disrupt) ne recouvrent pas exactement ces catégories françaises : traduction littérale retenue.
+5. **cloisonnement (bréchage)** → « isolation » (isoler la zone de bréchage), alors que **cloisonnement (obstacles)** → « compartmentalisation » : deux sens distincts en français.
+6. **traiter (C-IED)** → « render safe » ; **empêcher** → « deny » ; **fouille complémentaire / spécialisée / élémentaire** → « intermediate / advanced / basic search » (niveaux britanniques de « search », correspondance approximative).
+7. **ZTR / ZAF / ZIA** : « engineer-controlled crossing zone », « crossing waiting area », « holding routes area » ; **rocade de variantement** → « diversion lateral route ». Pas d’équivalent OTAN exact (l’OTAN parle de staging / call-forward / holding areas).
+8. **allégement** → « thinning out » ; **destruction de manœuvre** → « reserved demolition » (terme OTAN) ; **sauvegarde-protection** → « survivability and protection ».
+9. **chef génie** → « chief engineer », distinct de **commandant du génie** → « engineer commander » ; **pion d’emploi** → « basic employment unit ».
+10. **Définitions de sigles** commençant par l’expansion anglaise (s0183 EEI, s0359 MLC, s0536 UXO) : glose française redondante supprimée, comme au lot 6b ; s0186 (EOD) et s0541 (WIT) gardent un complément traduit ; s0198 (G-ENG) « Ground engineer – engineer branch at levels 1 and 2 ».
+11. **EFA** développé « forward crossing vehicle (value to be confirmed) » : développement donné comme incertain par la source.
+12. **groupe (de combat / du génie)** → « section » (usage britannique, section < platoon) ; **section** → « platoon ».
+13. **Nombres** : « 2,5 m/s » → « 2.5 m/s », « 10 % » → « 10% » (usage anglais) ; autres valeurs inchangées.

@@ -380,3 +380,92 @@ Expansions anglaises seules (HIDACZ, ROZ, WFZ, ADC, AOCC, CAOC, JACC) laissées 
 13. **09_038 « Période, ligne {n} » → „Zeitraum, Zeile {n}“** alors que de.json rend « Période » par « Zeitabschnitt ».
 14. **04_047** : la question porte sur la manœuvre continue (réponse attendue « 1 heure » absente des propositions de ce lot) ; traduite fidèlement.
 15. **03_061 « Le G2 seul » → „Allein der G2“**.
+
+
+## Lot 6c – Génie (emploi et commandement, contre-mobilité, franchissement et bréchage, déploiement d'urgence, déminage, déception, lutte contre les EEI)
+
+### Glossaire FR → DE – lot Génie (franchissement, bréchage, obstacles, lutte contre les EEI)
+
+Complète GLOSSAIRE_de.md (« du », „ “, Führer der verbundenen Waffen, Sperrplan, Vorabsperre / Gefechtssperre, befugte Stelle, sperrfreier Raum, Übergangsplan, Übersetzmittel, Übergangsstelle / Übergangsraum / Übergangsabschnitt, Ausgangs- / Zielufer, Verbindungskommando, Pionierberater / Pionierkommandeur, Regimentskommandeur, USBV, Täuschung, Einsatz von Attrappen, Vortäuschung, Konterbatteriefeuer, bodengebundene Luftverteidigung, Staffel, Raum nehmen / Angriff mit Schwerpunkt / Angriff aus der Bewegung, Hemmen, „Zeitspanne ohne Feindeinwirkung“ – tous repris de de.json ou des lots 5, 6a, 6b).
+Sigles conservés : RGBIA, RGBGEN, BGEN, CCG, CCL, CA, DRG, DHIG, SPRAT, EFA, PFM F2, SDPMAC, SDPMAP, SYFRALL, ZTR, ZAF, ZIA, ZLO, ZRO, B3/2D, S3/2D, G-ENG, BOI, CO, EOD, WIT, C-IED, MLC, HRA, SGAM, ENI ; noms propres (VIENNE, CHARENTE, CONDAC, VERTEUIL, D740, 332(AZ)BATCHAR…) inchangés. Expansions anglaises (Counter-IED, Explosive ordnance disposal, Ground engineer, Military load classification, Unexploded ordnance, Weapon intelligence team) laissées en anglais, partie française traduite. « (valeur à confirmer) » → „(Wert zu bestätigen)“ ; « à valider » → „zu validieren“.
+
+## Termes retenus
+
+| Français | Allemand |
+|---|---|
+| génie (arme) / du génie | Pioniere / Pionier- (Pioniereinheit, Pionierregiment, Pionierzug) |
+| chef génie / commandant du génie / conseiller génie | Pionierführer / Pionierkommandeur / Pionierberater |
+| unicité du commandement génie | einheitliche Pionierführung |
+| bureau génie ; barrette génie (2D) ; cellule génie | Pionierabteilung ; Pionierteam (2D) ; Pionierzelle |
+| brigade du génie ; régiment du génie de BIA | Pionierbrigade ; Pionierregiment der Brigade der verbundenen Waffen |
+| compagnie de combat du génie / d'appui / de commandement et de logistique | Pionierkampfkompanie / Unterstützungskompanie / Stabs- und Logistikkompanie |
+| section de combat / d'appui / de commandement ; groupe (de combat) | Kampfzug / Unterstützungszug / Führungszug ; Gruppe |
+| pion d'emploi | Einsatzgröße |
+| conservé / détaché / renforcement / mis pour emploi / adaptation | zurückbehalten / abgestellt / zur Verstärkung zugeführt / zur Verwendung unterstellt / Zuordnung |
+| emploi / mise en œuvre | Einsatz / Durchführung |
+| paragraphe génie / annexe génie | Pionierziffer / Pionieranlage |
+| appui direct (au combat) / appui général (à la force) | unmittelbare Unterstützung (des Gefechts) / allgemeine Unterstützung (der Truppe) |
+| mobilité / contre-mobilité / déploiement d'urgence | Beweglichkeit / Hemmen / dringliche Entfaltung |
+| soutien au stationnement ; appui aux déplacements ; appui au retrait | Unterstützung der Unterbringung ; Unterstützung von Verlegungen ; Unterstützung des Rückzugs |
+| sauvegarde-protection (de la force) | Schutz (der Truppe) |
+| renseignement sur le milieu ; de documentation / situation / prévision | Umfeldaufklärung ; Grundlagen- / Lage- / Vorhersageaufklärung |
+| coupure (humide / verticale) | Gewässerhindernis / vertikales Hindernis |
+| franchissement (opération) | Gewässerübergang / Übergang |
+| franchissement autonome / discontinu / continu | autonomer Übergang / diskontinuierliches Übersetzen / kontinuierlicher Übergang (Brücken) |
+| franchissement offensif / rétrograde ; sous contrainte / sous menace | offensiver / rückwärtiger Übergang ; unter Einschränkungen / unter Bedrohung |
+| site de franchissement ; PC de franchissement | Übersetzstelle ; Übergangsgefechtsstand |
+| zone de débouché ; tête de pont | Austrittsraum ; Brückenkopf |
+| sortie d'eau | Ausstiegsstelle |
+| allégement / franchissement des gros / repli et recueil de la couverture | Entlastung / Übergang der Hauptkräfte / Ausweichen und Aufnahme der Sicherung |
+| rocade de contrôle / de traversée / de variantement | Kontroll- / Übersetz- / Ausweich-Querverbindung |
+| ZAF / ZIA / ZTR | Übergangswarteraum / Raum der Wartestrecken / Übersetzraum in Pionierverantwortung |
+| débit ; rotation (bac) | Durchsatzleistung ; Pendelfahrt |
+| bac / portière ; pont flottant motorisé | Fähre / Brückenfähre ; motorisierte Schwimmbrücke |
+| ponteur d'assaut ; porteur de travures ; travure | Brückenlegepanzer ; Träger für Brückenelemente ; Brückenelement |
+| brèche (dans un obstacle) / brèche (à franchir par un pont) | Gasse / Lücke |
+| bréchage ; ouverture de brèche | Durchbruch durch Sperren ; Schaffen von Gassen |
+| zone de bréchage ; tête de brèche ; moyens / engins de bréchage | Durchbruchsraum ; Durchbruchskopf ; Durchbruchsmittel / -fahrzeuge |
+| cloisonnement / neutralisation / conquête | Abschottung / Niederhalten / Inbesitznahme |
+| échelon de découverte / d'assaut / d'appui / réservé / logistique | Aufklärungsstaffel / Sturmstaffel / Unterstützungsstaffel / zurückgehaltene Staffel / Logistikstaffel |
+| obstacle ; système / complexe d'obstacles ; zone d'obstacles | Sperre ; Sperrsystem / Sperrkomplex ; Sperrraum |
+| système d'arrêt / de freinage / de cloisonnement-canalisation / de harcèlement / de couverture | Aufhaltesystem / Verzögerungssystem / Abschottungs- und Kanalisierungssystem / Störsystem / Deckungssystem |
+| battu par les feux | feuerüberwacht / mit Feuer überwacht |
+| obstacles actifs / passifs ; antichar / antipersonnel | aktive / passive Sperren ; Panzer- / Schützenabwehr- |
+| obstructions / destructions / obstacles à base de mines | Hemmungen / Zerstörungen / minengestützte Sperren |
+| bouchon / ligne / bande / champ de mines | Minensperre / Minenlinie / Minenstreifen / Minenfeld |
+| abattis / éboulis / dents de dragon / hérissons | Baumsperre / Felssturz / Höckerhindernisse / Panzerigel |
+| points de passage obligés | Zwangspassagen |
+| ouvrages d'art ; destruction de manœuvre | Kunstbauten ; Gefechtszerstörung |
+| mise à feu | Auslösung |
+| (détachement mobile de) barrage | (bewegliches) Sperrkommando |
+| DRG / DHIG | Pioniererkundungskommando / luftbewegliches Pioniereinsatzkommando |
+| délai d'impunité ; variantements | Zeitspanne ohne Feindeinwirkung ; Ausweichlösungen |
+| déminage et dépollution | Minenräumung und Kampfmittelbeseitigung |
+| contre-minage | Minenabwehr |
+| plongeur de combat du génie ; équipe cynotechnique | Pioniertaucher ; Diensthundeteam |
+| fouille opérationnelle (spécialisée / élémentaire) | (spezialisierte / einfache) Durchsuchung |
+| lutte contre les EEI ; système EEI | Abwehr von USBV ; USBV-System |
+| prévenir / empêcher / détecter / traiter / réduire les effets / exploiter | vorbeugen / verhindern / detektieren / beseitigen / Wirkungen verringern / auswerten |
+| attaquer le réseau ; mettre en échec le dispositif | das Netzwerk angreifen ; die Vorrichtung unwirksam machen |
+| brouilleur | Störsender |
+| leurres gonflables ; factice | aufblasbare Attrappen ; Schein- |
+| délais (génie) | Zeitansätze |
+| escadron / compagnie mécanisée (détachement de barrage) | Panzer- / Panzergrenadierkompanie |
+| patrouille d'hélicoptères de manœuvre | Rotte Transporthubschrauber |
+
+## Choix douteux à faire relire
+
+1. **bréchage → „Durchbruch durch Sperren“**, **tête de brèche → „Durchbruchskopf“**, **zone de bréchage → „Durchbruchsraum“** : la Bundeswehr emploie aussi « Breaching » ou « Gassen schaffen » ; « Durchbruchskopf » est un calque (pas d'équivalent établi certain).
+2. **Systèmes d'obstacles** (arrêt, freinage, cloisonnement-canalisation, harcèlement, couverture → Aufhalte-, Verzögerungs-, Abschottungs- und Kanalisierungs-, Stör-, Deckungssystem) : traductions descriptives des catégories françaises ; les termes OTAN-DE (block / turn / fix / disrupt) n'ont pas été imposés car la typologie française diffère.
+3. **obstructions → „Hemmungen“** (repris du glossaire lot 5) : peu idiomatique ; alternative « Hindernisse / Verhaue ».
+4. **franchissement discontinu / continu → diskontinuierliches Übersetzen / kontinuierlicher Übergang** : calques ; la Bundeswehr dit plutôt « Fährbetrieb » et « Brückenschlag ».
+5. **déploiement d'urgence → „dringliche Entfaltung“** : pas d'équivalent Bundeswehr certain.
+6. **contre-mobilité → „Hemmen“** (comme de.json) ; « appui à la contre-mobilité » → „Unterstützung des Hemmens“, un peu lourd.
+7. **Rocades de contrôle / traversée / variantement** → „Kontroll- / Übersetz- / Ausweich-Querverbindung“ ; **ZIA → „Raum der Wartestrecken“** : descriptifs.
+8. **section de combat → „Kampfzug“** (et „Pionierkampfzug“) alors que de.json rend « section génie » par „Pionierzug“ : les deux coexistent.
+9. **EFA** : s0182 « Engin de franchissement de l'avant » rendu „Amphibisches Übersetzfahrzeug für die vorderen Kräfte“ (sens à confirmer, comme le source). Genre retenu : die EFA.
+10. **„Klasse 70 / Klasse 100“** (classe MLC) conservé « Klasse » comme le source, MLC ailleurs.
+11. **s0052 « Aucune, il est divisionnaire »** → „Keine, es gehört zur Divisionsebene“ (référent inconnu, neutre supposé).
+12. **s0142 « Découverte »** → „Aufklärung“ (échelon de découverte = Aufklärungsstaffel).
+13. **s0543 « colonel adjoint »** → „stellvertretender Kommandeur im Rang eines Obersts“ (long).
+14. **s0593** fragment repris sur le modèle existant de de.json (« …, verteilt auf die Schritte im Verhältnis zu ihrer Fragenanzahl, in »).

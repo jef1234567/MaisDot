@@ -307,3 +307,99 @@ Complète `docs/traduction/GLOSSAIRE_ar.md` (termes repris à l'identique : ال
 11. **TC1 / TC2, COMANFOR, CEM, AI, G2** (non listés) laissés en latin, comme les autres sigles.
 12. **Entrées purement anglaises** (08_069, 09_000-002, 09_009, 09_015, 09_016) laissées sans traduction arabe, conformément à la règle « expansion anglaise gardée » ; ajouter une glose arabe si l'on préfère.
 13. **Mise en page RTL** : chaînes mêlant sigles latins, gabarits « 4 x 6 كم » et « P{n}، P{n} » à contrôler visuellement.
+
+
+## Lot 6c – Génie (emploi et commandement, contre-mobilité, franchissement et bréchage, déploiement d'urgence, déminage, déception, lutte contre les EEI)
+
+### Glossaire FR → AR – lot génie (franchissement, bréchage, obstacles, lutte contre les EEI)
+
+Complète `docs/traduction/GLOSSAIRE_ar.md` (termes repris à l'identique : الأثر الحاسم، مسار العمل، قائد الأسلحة المشتركة، الخطة المبسطة، أمر العمليات، الآجال، الإطار المكاني-الزماني، باقٍ تحت الإمرة / مفرز / للتعزيز، السلطة المؤهلة، العائق التمهيدي / عائق المناورة، السدود / التدميرات، الطريق العرضي، النسق 1/2، الإعاقة، التوجيه القسري، الإزعاج، الاستقبال، الخداع، الشراك الخداعية، المحاكاة، الرمي المضاد للبطاريات، الإسناد المباشر / العام…). Sigles FR en latin, souvent précédés de « الـ » (RGBIA, RGBGEN, BGEN, CCG, CA, CCL, DRG, DHIG, SPRAT, SDPMAC, SDPMAP, EFA, PFM F2, SYFRALL, ZTR, ZAF, ZIA, ZLO, ZRO, EEI, C-IED, EOD, WIT, MLC, B3/2D, S3/2D, G-ENG, BOI, CO, HRA, SIC, NRBC, ENI). Noms propres et désignations d'unités (VIENNE, CHARENTE, CONDAC, VERTEUIL, D740, 332(AZ)BATCHAR, 234(MI)BC…) inchangés. « (valeur à confirmer) » → « (القيمة بحاجة إلى تأكيد) » ; « à valider » → « بحاجة إلى مصادقة ». « ? » → « ؟ ». Expansions anglaises des sigles conservées, partie française traduite.
+
+## Termes retenus
+
+| Français | Arabe |
+|---|---|
+| génie | الهندسة |
+| chef génie (autorité de coordination) / commandant du génie | رئيس الهندسة / قائد الهندسة |
+| conseiller génie / paragraphe, annexe génie | مستشار الهندسة / فقرة الهندسة، ملحق الهندسة |
+| barrette / cellule génie (2D) ; bureau génie | خلية الهندسة (2D) ; مكتب الهندسة |
+| chef de corps / commandant d'unité | قائد الفوج / قائد السرية |
+| régiment / bataillon / brigade / division / corps d'armée | الفوج / الكتيبة / اللواء / الفرقة / الفيلق |
+| compagnie de combat du génie (CCG) / d'appui (CA) / de commandement et de logistique (CCL) | سرية قتال الهندسة / سرية الإسناد / سرية القيادة واللوجستيك |
+| section de combat / d'appui / de commandement | فصيل القتال / فصيل الإسناد / فصيل القيادة |
+| groupe de combat / groupe du génie | الحضيرة القتالية / حضيرة هندسة |
+| pion d'emploi | وحدة الاستخدام الأساسية |
+| emploi / mise en œuvre | الاستخدام / التنفيذ |
+| détachement (fait de détacher) / adaptation | الإفراز / الإلحاق |
+| unicité du commandement génie | وحدة قيادة الهندسة |
+| appui direct au combat / appui général à la force | الإسناد المباشر للقتال / الإسناد العام للقوة |
+| appui à la mobilité / à la contre-mobilité | إسناد الحركية / الإسناد لمكافحة الحركية |
+| appui au déploiement d'urgence / aux déplacements / au retrait ; soutien au stationnement | الإسناد للانتشار العاجل / للتنقلات / للانسحاب ؛ دعم التمركز |
+| sauvegarde-protection | الوقاية والحماية |
+| renseignement sur le milieu ; de documentation / de situation / de prévision | الاستخبار عن البيئة ؛ التوثيقي / الظرفي / التنبؤي |
+| coupure (humide) / coupure verticale | المانع المائي / المانع العمودي |
+| franchissement (des coupures) | العبور (عبور الموانع المائية) |
+| franchissement autonome / discontinu / continu | العبور الذاتي / المتقطع / المستمر |
+| franchissement offensif / défensif / rétrograde | العبور الهجومي / الدفاعي / التراجعي |
+| sous contrainte / sous menace | تحت القيد / تحت التهديد |
+| point de passage / site / zone / secteur de franchissement | نقطة العبور / موقع العبور / منطقة العبور / قطاع العبور |
+| tête de pont / zone de débouché | رأس الجسر / منطقة الانطلاق |
+| traversée ; ZTR | الاجتياز ؛ منطقة الاجتياز الواقعة تحت مسؤولية الهندسة |
+| rocade de contrôle / de traversée / de variantement | الطريق العرضي للمراقبة / للاجتياز / للتحويل |
+| ZAF / ZIA | منطقة انتظار العبور / منطقة طرق الانتظار |
+| variantement ; point alternatif | التحويل ؛ نقطة بديلة |
+| débit | التدفق |
+| délai d'impunité | مهلة الحصانة |
+| allégement / gros / repli et recueil de la couverture | التخفيف / الجسم الرئيسي / انسحاب قوة التغطية واستقبالها |
+| bac / portière | المعدّية / الطوف |
+| pont flottant motorisé / ponteur d'assaut / travure / porteur de travures | الجسر العائم المزوَّد بمحركات / ناصبة الجسور الهجومية / قطعة جسر / حاملة قطع الجسور |
+| ponts d'infrastructure / ponts de charpente / ponceau | الجسور الثابتة / الجسور الخشبية / جسر صغير |
+| brèche (dans un obstacle) / bréchage / ouverture de brèche / tête de brèche | الثغرة / فتح الثغرات / فتح الثغرة / رأس الثغرة |
+| brèche (longueur franchie par un pont) | الفجوة |
+| couloir (de brèche) | الممر |
+| échelon de découverte / d'assaut / 3e échelon d'appui / réservé / logistique / de commandement | نسق الكشف / نسق الاقتحام / نسق الإسناد الثالث / النسق الاحتياطي / النسق اللوجستي / نسق القيادة |
+| dispositif (ennemi en défensive) | التمركز الدفاعي |
+| réduire les résistances dépassées | تصفية جيوب المقاومة المتجاوَزة |
+| obstacle / système d'obstacles / complexe d'obstacles / plan d'obstacles | العائق / منظومة العوائق / مجمّع العوائق / خطة العوائق |
+| système d'arrêt / de freinage / de cloisonnement-canalisation / de harcèlement / de couverture | منظومة الإيقاف / الإعاقة / التجزئة-التوجيه القسري / الإزعاج / التغطية |
+| obstacle battu par les feux / valorisé par des mines | عائق مغطّى بالنيران / معزَّز بالألغام |
+| obstacles actifs / passifs ; obstacles ponctuels | العوائق الفعّالة / السلبية ؛ العوائق النقطية |
+| points de passage obligés | نقاط المرور الإجبارية |
+| minage / contre-minage / déminage / dépollution | التلغيم / مكافحة الألغام / نزع الألغام / تطهير الذخائر |
+| bouchon / ligne / bande minée / champ de mines | سدّة ألغام / خط ألغام / شريط ملغوم / حقل ألغام |
+| mines antichars / antipersonnel | الألغام المضادة للدبابات / المضادة للأفراد |
+| abattis / éboulis / inondations | حواجز الأشجار المقطوعة / الانهيارات الصخرية / الإغراق |
+| fossés, dents de dragon, talus, pieux, hérissons, barricades, barbelés | خنادق، أسنان التنين، سواتر ترابية، أوتاد، قنافذ، متاريس، أسلاك شائكة |
+| ouvrages d'art | المنشآت الفنية |
+| mise à feu | التفجير |
+| détachement de barrage / mobile de barrage | مفرزة السدّ / مفرزة السدّ المتحركة |
+| DRG / DHIG | مفرزة استطلاع الهندسة / مفرزة تدخل الهندسة المحمولة بالمروحيات |
+| plongeur de combat du génie | غطاس قتال الهندسة |
+| engin explosif improvisé (EEI) ; système EEI | العبوة الناسفة المرتجلة ؛ منظومة الـ EEI |
+| former et entraîner / attaquer le réseau / mettre en échec le dispositif | التكوين والتدريب / مهاجمة الشبكة / إفشال العبوة |
+| prévenir, empêcher, détecter, traiter, réduire les effets, exploiter (C-IED) | الوقاية، المنع، الكشف، المعالجة، الحد من الآثار، الاستغلال |
+| exploitation (phase de franchissement / offensive) | الاستثمار |
+| fouille opérationnelle (spécialisée / élémentaire / complémentaire) | التفتيش العملياتي (المتخصص / الأولي / التكميلي) |
+| équipes cynotechniques / brouilleurs | فرق الكلاب المدرَّبة / أجهزة التشويش |
+| attaque complexe | هجوم مركَّب |
+| leurres gonflables / leurres de circonstance | شراك خداعية قابلة للنفخ / شراك خداعية مرتجلة |
+| dotations / recomplètement | المخصصات / إعادة التزويد |
+| conquête de zone / attaque en force / en souplesse / dans la profondeur / réduction | الاستيلاء على منطقة / الهجوم بالقوة / الهجوم المرن / الهجوم في العمق / التصفية |
+| contraintes de pose normatives / tactiques | قيود الزرع المعيارية / التكتيكية |
+
+## Choix à faire relire
+
+1. **coupure → « المانع المائي »** (consigne : عبور الموانع المائية), mais ar.json emploie déjà « فاصل مائي » (« Bac EFA (coupure de {n} m) »). Quand il ne s'agit pas d'eau (autoroutes, voies ferrées, coupures verticales), « مانع » seul ou « مانع عمودي ».
+2. **brèche : deux traductions**. « الثغرة » pour l'ouverture dans un obstacle (bréchage) ; « الفجوة » pour la longueur franchie par un ponteur (SPRAT : « une brèche de 24 m », s0421, s0468, s0528-s0531). Si l'on veut un seul terme, garder « الثغرة » partout.
+3. **chef génie → « رئيس الهندسة »** contre **commandant du génie → « قائد الهندسة »** : distinction artificielle qui sert seulement à garder l'opposition française (autorité de coordination contre commandant organique).
+4. **délai d'impunité → « مهلة الحصانة »** : traduction descriptive faute d'un terme établi ; « مهلة الأمان » est une autre possibilité.
+5. **traversée (ZTR, rocade de traversée) → « الاجتياز »**, pour la distinguer de **franchissement → « العبور »**. Dans s0579 (définition du bréchage), « franchissement de vive force » est rendu par « اجتياز … بالقوة », parce qu'il s'agit d'un système d'obstacles et non d'une coupure.
+6. **dispositif** : rendu par « التمركز الدفاعي » quand il s'agit de l'ennemi en défensive (bréchage) et par « العبوة » dans le contexte EEI (« mettre en échec le dispositif », s0193, s0205, s0498). À valider.
+7. **exploitation** : « الاستثمار » pour l'exploitation tactique (phase de franchissement), « الاستغلال » pour l'exploitation technique C-IED (équipes WIT), sur le modèle du lot 6a.
+8. **portière → « الطوف »**, **ponteur d'assaut → « ناصبة الجسور الهجومية »**, **travure → « قطعة جسر »**, **pont flottant motorisé → « الجسر العائم المزوَّد بمحركات »** : termes techniques sans norme arabe vérifiée.
+9. **contre-minage → « مكافحة الألغام »** (proche de déminage « نزع الألغام ») ; **dépollution → « تطهير الذخائر »** (pollution pyrotechnique).
+10. **sauvegarde-protection → « الوقاية والحماية »** : pas d'équivalent fixé.
+11. **échelon (dispositif de bréchage) → « النسق »** (aligné sur le lot 5) : « Échelon d'assaut de 1er échelon » devient « نسق الاقتحام في النسق الأول », ce qui est redondant mais fidèle.
+12. **escadron (blindé) → « سرية دبابات »** (glossaire) ; **escadron d'hélicoptères → « سرب مروحيات »**.
+13. **s0593** (fragment « sur génie, réparties… en ») est traduit tel quel en fragment ; l'assemblage est à vérifier à l'affichage.
+14. **Mise en page RTL** : à contrôler visuellement, en particulier les chaînes qui mêlent sigles latins, désignations d'unités (s0008), valeurs MLC (« 70C / 80R ») et dimensions (« 5 م على 100 م »).

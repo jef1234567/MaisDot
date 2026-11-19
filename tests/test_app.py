@@ -812,14 +812,14 @@ def t_fonctions(b, vp):
     """Rubrique « Contributions des fonctions » : hors cycle, examen dédié, encarts dans le cycle, gabarits assemblés."""
     a = App(b, vp).open("fx_dec")
     ids = a.js("M.filter(m=>m.grp==='Contributions des fonctions').map(m=>m.id)")
-    check(ids == ["fx_ecim", "fx_dec", "fx_inf", "fx_psy", "fx_cim", "fx_utmc", "fx_ae", "f3_art", "f3_fscc", "f3_coord", "f3_cas", "f3_dsa", "f3_ci3d"], f"modules : {ids}")
-    check(a.js("M.findIndex(m=>m.id==='ac_co')<M.findIndex(m=>m.id==='fx_ecim')&&M.findIndex(m=>m.id==='f3_ci3d')<M.findIndex(m=>m.grp==='Outils')"), "ordre du menu")
+    check(ids == ["fx_ecim", "fx_dec", "fx_inf", "fx_psy", "fx_cim", "fx_utmc", "fx_ae", "f3_art", "f3_fscc", "f3_coord", "f3_cas", "f3_dsa", "f3_ci3d", "gn_emp", "gn_cmob", "gn_fb", "gn_cied"], f"modules : {ids}")
+    check(a.js("M.findIndex(m=>m.id==='ac_co')<M.findIndex(m=>m.id==='fx_ecim')&&M.findIndex(m=>m.id==='gn_cied')<M.findIndex(m=>m.grp==='Outils')"), "ordre du menu")
     check(not a.js("cycleSvg().includes('fx_')"), "rubrique présente dans le schéma du cycle")
     for sc, want in (("tout", False), ("fx", True)):
         a.js(f"EXS='{sc}'")
         mids = a.js("exPick().map(q=>q.mid)")
-        has = any(m.startswith(("fx_", "f3_")) for m in mids)
-        check(len(mids) == 30 and has == want and (not want or all(m.startswith(("fx_", "f3_")) for m in mids)), f"examen {sc} : {sorted(set(mids))}")
+        has = any(m.startswith(("fx_", "f3_", "gn_")) for m in mids)
+        check(len(mids) == 30 and has == want and (not want or all(m.startswith(("fx_", "f3_", "gn_")) for m in mids)), f"examen {sc} : {sorted(set(mids))}")
     a.js("EXS='f3'")
     mids = a.js("exPick().map(q=>q.mid)")
     check(len(mids) == 30 and all(m.startswith("f3_") for m in mids) and len(set(mids)) == 6, f"examen f3 : {sorted(set(mids))}")
@@ -850,9 +850,26 @@ def t_fonctions(b, vp):
     check(a.js("LEX.some(x=>x[0]==='OPDEC')&&LEX.some(x=>x[0]==='DTMC')"), "sigles de la rubrique")
     check(a.js("M.filter(m=>m.grp==='Contributions des fonctions').reduce((s,m)=>s+m.quiz.length,0)") >= 120, "moins de 120 questions")
     check(a.js("LEX.some(x=>x[0]==='FSCL')&&LEX.some(x=>x[0]==='HIDACZ')"), "sigles feux et 3D")
+    a.js("EXS='gn'")
+    mids = a.js("exPick().map(q=>q.mid)")
+    check(len(mids) == 30 and all(m.startswith("gn_") for m in mids) and len(set(mids)) == 4, f"examen gn : {sorted(set(mids))}")
+    n = a.js("['p1e1','p1e2','p1e3','p1e4','p2e2','p2e3','p2e5'].filter(id=>M.find(m=>m.id===id).sections.some(s=>s.go&&s.go.some(g=>g.startsWith('gn_')))).length")
+    check(n == 7, f"encarts génie : {n}/7")
+    a.js("go('p2e5')")
+    a.page.locator("#main .card.enc button", has_text="Franchissement et bréchage").first.click()
+    check(a.js("cur") == "gn_fb", "lien de l'encart génie")
+    a.js("go('gn_fb','a')")
+    a.page.fill("#f_gnfb_cp", "CHARENTE 20 m")
+    select_cell(a, "gnfb_b", 0, "e", "Assaut 1er échelon")
+    fill_cell(a, "gnfb_b", 0, "u", "332 BATCHAR")
+    bi = a.js("M.find(m=>m.id==='gn_fb').apply.findIndex(b=>b.t==='doc')")
+    h = a.js(f"docHTML('gn_fb',{bi})")
+    check("CHARENTE 20 m" in h and "332 BATCHAR" in h and "Assaut 1er échelon" in h, "plan de bréchage non assemblé")
+    check(a.js("DEMO.tab.gnfb_b.length>=6&&DEMO.v.gnfb.ty.includes('(à valider)')"), "corrigé VIENNE génie")
+    check(a.js("LEX.some(x=>x[0]==='SPRAT')&&LEX.some(x=>x[0]==='ZTR')"), "sigles génie")
     a.no_errors()
     a.close()
-    return "13 modules hors cycle (dont 6 Feux et 3D), examens fx et f3, encarts liés, gabarits assemblés"
+    return "17 modules hors cycle (dont 6 Feux et 3D, 4 Génie), examens fx, f3 et gn, encarts liés, gabarits assemblés"
 
 
 TESTS = [

@@ -581,6 +581,7 @@ const LEX=[["CCIR","Critical commander’s information requirements – besoins 
 /*__messagerie.js__*/
 /*__fonctions.js__*/
 /*__feux.js__*/
+/*__genie.js__*/
 /* Intégration de la phase 2 (src/p2.js) : remplace les modules « à venir » et complète l'exemple VIENNE */
 if(typeof P2!=="undefined"){const i=M.findIndex(m=>m.id==="p2");if(i>=0)M.splice(i,2,...P2);}
 /* Module « Normes et délais » (src/normes.js), placé en tête des outils */
@@ -984,8 +985,9 @@ const EX_PLAN={tout:[[/^(Démarrer|Phase préalable)/,5],[/^Phase 1/,10],[/^Phas
                p3:[[/^Phase 3/,30]],
                ac:[[/^Appropriation/,30]],
                fx:[[/^Contributions/,30]],
-               f3:[[/^f3_/,30,"id"]]};
-const EX_LBL={tout:"tout le parcours",p1:"phase préalable et phase 1",p2:"phase 2 et plan de manœuvre",p3:"phase 3 – rédaction des ordres",ac:"appropriation et conduite",fx:"contributions des fonctions",f3:"feux et 3D"};
+               f3:[[/^f3_/,30,"id"]],
+               gn:[[/^gn_/,30,"id"]]};
+const EX_LBL={tout:"tout le parcours",p1:"phase préalable et phase 1",p2:"phase 2 et plan de manœuvre",p3:"phase 3 – rédaction des ordres",ac:"appropriation et conduite",fx:"contributions des fonctions",f3:"feux et 3D",gn:"génie"};
 let EXS="tout";
 function exBestTxt(){return Object.keys(EX_LBL).filter(k=>EXB[k]).map(k=>`Meilleur résultat : <b>${EXB[k].best} %</b> (${EX_LBL[k]}, ${esc(EXB[k].date)})`).join(" · ");}
 /* Répartition au prorata du nombre de questions de chaque étape du groupe */
@@ -1029,7 +1031,8 @@ function exam(){let h=`<div class="ref">Outils</div><h2>Examen blanc</h2>`;
  <option value="p3" ${EXS==="p3"?"selected":""}>Phase 3 – rédaction des ordres (30)</option>
  <option value="ac" ${EXS==="ac"?"selected":""}>Appropriation et conduite, hors MEDOT (30)</option>
  <option value="fx" ${EXS==="fx"?"selected":""}>Contributions des fonctions, hors MEDOT (30)</option>
- <option value="f3" ${EXS==="f3"?"selected":""}>Feux et 3D (30)</option></select></div>
+ <option value="f3" ${EXS==="f3"?"selected":""}>Feux et 3D (30)</option>
+ <option value="gn" ${EXS==="gn"?"selected":""}>Génie (30)</option></select></div>
  <p><b>${nb} questions</b> sur ${EX_LBL[EXS]||EX_LBL.tout}, réparties entre les étapes au prorata de leur nombre de questions, en <b>${EX_T/60} minutes</b>.</p><ul class="c"><li>Aucune correction pendant l’épreuve : tu peux changer tes réponses jusqu’à la fin.</li><li>À expiration du chronomètre, la copie est corrigée automatiquement.</li><li>Correction finale : score global, résultat par étape et explication de chaque erreur.</li></ul>${exBestTxt()?`<p>${exBestTxt()}.</p>`:""}<div class="rowb"><button class="btn" onclick="exStart()">Commencer l’examen</button></div></div>`;}
  if(EX.res){const R=EX.res,mm=Math.floor(R.dur/60);
   h+=`<div class="score ${R.pct>=PASS*100?"ok":"ko"}" role="status" tabindex="-1">${R.ok} / ${EX.qs.length} – ${R.pct} %${R.expired?" (temps écoulé)":` en ${mm} min`}${R.rec?" – nouveau meilleur résultat":""}</div><p class="ref">Périmètre : ${EX_LBL[EX.sc]||EX_LBL.tout}.</p>`;

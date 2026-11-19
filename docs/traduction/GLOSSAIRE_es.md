@@ -374,3 +374,90 @@ Genre des sigles : ACM, ACO, ATO, ACA, ZEF, ZIO, FSCL, CFL, RFL, NFA, FFA, RFA, 
 15. **«tercera dimensión»** en toutes lettres pour « 3e dimension » (comme dans `es.json`) ; « 3D » et les sigles (I3D, CI3D, CMD3D) sont inchangés.
 16. Définitions entièrement en anglais (08_069, 09_000-09_002, 09_009, 09_015, 09_016) laissées telles quelles ; seule la partie française des définitions mixtes est traduite.
 17. **SHORADEZ / MEZ** : « muy corto alcance » pour « très courte portée » ; « Sol-air très courte portée » (09_006, SATCP) devient « Antiaéreo de muy corto alcance ».
+
+
+## Lot 6c – Génie (emploi et commandement, contre-mobilité, franchissement et bréchage, déploiement d'urgence, déminage, déception, lutte contre les EEI)
+
+### Glossaire FR → ES – lot génie (franchissement, bréchage, obstacles, lutte contre les EEI)
+
+Complète `docs/traduction/GLOSSAIRE_es.md` ; termes déjà retenus repris à l'identique (franqueamiento, recogida, desembocadura, punto de paso, desvío, autoridad cualificada, obstáculo preliminar / reservado, hacer detonar, plan de obtención, papel, apartado, fila {n}, solución, pestaña, sistema de detención = arrêt, hostigamiento, empleo de señuelos, engaño, perturbación, puesto para empleo, agregado, segundo jefe, asesor / jefe de ingenieros). Adresse : « tú ».
+Sigles français conservés : RGBIA, RGBGEN, BGEN, CCG, CCL, CA, DRG, DHIG, SPRAT, EFA, PFM F2, SYFRALL, SDPMAC, SDPMAP, ZTR, ZAF, ZIA, ZLO, ZRO, B3/2D, S3/2D, BOI, G-ENG, HRA, ENI, EEI, C-IED, EOD, WIT, MLC. Noms propres (VIENNE, CHARENTE, CONDAC, VERTEUIL, 332(AZ)BATCHAR…) inchangés.
+
+## Termes retenus
+
+| Français | Español |
+|---|---|
+| génie (arme) ; le génie (sujet) | ingenieros ; los ingenieros (accord au pluriel) |
+| chef génie | responsable de ingenieros |
+| commandant du génie / conseiller génie | jefe de ingenieros / asesor de ingenieros |
+| adjoint génie du général | adjunto de ingenieros del general |
+| cellule génie ; barrette génie (2D) ; bureau génie | célula de ingenieros ; equipo de ingenieros (2D) ; sección de ingenieros |
+| chef de corps du RGBIA | jefe del RGBIA |
+| section / groupe de combat (du génie) | sección / pelotón de combate (de ingenieros) |
+| pion d'emploi | unidad básica de empleo |
+| unicité du commandement | unidad de mando |
+| conservé / détaché / en renforcement / adaptation | conservado a sus órdenes / destacado / en refuerzo / agregación |
+| franchissement autonome / discontinu / continu | franqueamiento autónomo / discontinuo / continuo |
+| franchissement offensif / défensif / rétrograde ; de vive force | franqueamiento ofensivo / defensivo / retrógrado ; por la fuerza |
+| franchissement sous contrainte / sous menace | franqueamiento bajo restricción / bajo amenaza |
+| coupure (humide) ; coupure verticale | curso de agua ; obstáculo vertical (obstáculo quand le sens est générique : autoroutes, fossé ou coupure de moins de 10 m) |
+| bréchage ; ouverture de brèche ; brèche ; tête de brèche ; zone de bréchage | apertura de brechas ; apertura de brecha ; brecha ; cabeza de brecha ; zona de apertura de brechas |
+| tête de pont ; zone de débouché ; ligne de débouché | cabeza de puente ; zona de desembocadura ; línea de desembocadura |
+| allégement ; repli et recueil de la couverture | aligeramiento ; repliegue y recogida de la cobertura |
+| bac / portière / pont flottant motorisé | transbordador / portada / puente flotante motorizado |
+| ponteur d'assaut ; travure ; porteur de travures | lanzapuentes de asalto ; tramo ; portador de tramos |
+| ponceau ; ponts de charpente ; ponts Bailey | pontón ; puentes de armazón ; puentes Bailey |
+| débit (points de passage) ; rotation | caudal ; rotación |
+| sortie d'eau ; berges ; rive de départ | salida del agua ; orillas ; orilla de partida |
+| rocade de contrôle / de traversée / de variantement | rocada de control / de cruce / de desvío |
+| zone d'attente de franchissement (ZAF) / des itinéraires d'attente (ZIA) / de traversée à responsabilité génie (ZTR) | zona de espera de franqueamiento / de itinerarios de espera / de cruce bajo responsabilidad de ingenieros |
+| délai d'impunité | plazo de impunidad |
+| site de franchissement | emplazamiento de franqueamiento |
+| système d'arrêt / de freinage / de cloisonnement-canalisation / de couverture / de harcèlement | sistema de detención / de frenado / de compartimentación-canalización / de cobertura / de hostigamiento |
+| complexe d'obstacles ; obstacles actifs / passifs ; valoriser (un obstacle) ; battre (un obstacle) | complejo de obstáculos ; obstáculos activos / pasivos ; reforzar ; batir |
+| obstructions (abattis, éboulis, inondations) ; destructions d'ouvrages d'art | obstrucciones (abatidas, derrumbes, inundaciones) ; destrucciones de obras de fábrica |
+| bouchons / lignes / bandes minées / champs de mines | tapones / líneas / franjas minadas / campos de minas |
+| fossés, talus, pieux, hérissons, dents de dragon, barbelés | fosos, taludes, estacas, erizos, dientes de dragón, alambradas |
+| destruction de manœuvre | destrucción reservada |
+| mise à feu | detonación (hacer detonar) |
+| détachement (mobile) de barrage | destacamento (móvil) de barrera |
+| points de passage obligés ; couloirs (bréchage) | puntos de paso obligado ; pasillos |
+| appui à la mobilité / contre-mobilité / au déploiement d'urgence | apoyo a la movilidad / a la contramovilidad / al despliegue de urgencia |
+| appui direct au combat / appui général à la force | apoyo directo al combate / apoyo general a la fuerza |
+| soutien au stationnement ; appui au retrait | apoyo al estacionamiento ; apoyo al repliegue |
+| ouverture / rétablissement d'itinéraire ; contre-minage | apertura / restablecimiento de itinerario ; contraminado |
+| déminage et dépollution | desminado y limpieza de municiones |
+| sauvegarde-protection | salvaguardia-protección |
+| renseignement sur le milieu ; de documentation / de situation / de prévision | inteligencia sobre el medio ; documental / de situación / de previsión |
+| fouille opérationnelle (spécialisée / élémentaire / complémentaire) | registro operativo (especializado / elemental / complementario) |
+| équipes cynotechniques ; plongeurs de combat | equipos cinológicos ; buceadores de combate |
+| brouilleurs (C-IED) | inhibidores |
+| leurres gonflables | señuelos hinchables |
+| engin explosif improvisé (EEI) | artefacto explosivo improvisado (sigle EEI conservé) |
+| former et entraîner / attaquer le réseau / mettre en échec le dispositif | formar y adiestrar / atacar la red / hacer fracasar el dispositivo |
+| échelon de découverte / d'assaut / d'appui / réservé | escalón de descubierta / de asalto / de apoyo / reservado |
+| cloisonnement, neutralisation, conquête | compartimentación, neutralización, conquista |
+| engin blindé du génie ; engin de bréchage mécanique de zone minée | vehículo acorazado de ingenieros ; vehículo de apertura mecánica de brechas en zona minada |
+| engin de franchissement de l'avant | vehículo de franqueamiento de vanguardia |
+| charge de déminage linéaire ; charges allongées | carga lineal de desminado ; cargas alargadas |
+| recomplètement ; dotations | reposición ; dotaciones |
+| embossements ; zones de poser | asentamientos para vehículos ; zonas de toma |
+| brigades blindées / légères / aéroportée / aéromobile | brigadas acorazadas / ligeras / aerotransportada / aeromóvil |
+| génie infrastructure / de la sécurité civile | ingenieros de infraestructura / de protección civil |
+| praticabilité | transitabilidad |
+
+## Choix douteux à faire relire
+
+1. **EEI conservé** (sigle français, conformément à la consigne et aux tables de sigles s0183) alors que le lot 6a a retenu « IED » : à harmoniser sur tout l'outil. s0345 garde « (EEI, IED) ».
+2. **NBQR** pour NRBC (s0068 « EOD-NBQR », s0220, s0246, s0298, s0515), comme le lot 5 et `es.json` ; même remarque d'harmonisation que le lot 5.
+3. **coupure** : rendu par « curso de agua » (cas humide, quasi général) et par « obstáculo » quand le sens est générique (autoroutes s0056/s0169, « coupure de moins de 10 m » s0376, « coupure verticale » s0062/s0363). `es.json` emploie ailleurs « corte » (« Transbordador EFA (corte de {n} m) ») : à harmoniser.
+4. **responsable de ingenieros** (chef génie) distinct de **jefe de ingenieros** (commandant du génie, lot 5) parce que les quiz s0048/s0049/s0090 les opposent ; « responsable » est une proposition.
+5. **bajo restricción** (sous contrainte) : suit le glossaire (contrainte = restricción) mais sonne peu naturel ; « sin oposición » ou « con restricciones » serait plus idiomatique.
+6. **El destacamento se concede siempre…** (s0285, s0286, « le détachement ») : ambigu en espagnol (unité détachée / action de détacher), comme en français.
+7. **inhibidores** (brouilleurs, s0068, s0321, s0570) : usage C-IED espagnol ; ailleurs « perturbación » (lot 6a) est gardé pour « brouillage des communications » (s0507).
+8. **unidad básica de empleo** (pion d'emploi), **pelotón** (groupe de combat / groupe du génie), **El conjunto interarmas** (s0348, « L'interarmes ») : à confirmer.
+9. **limpieza de municiones** (dépollution) et **puentes de armazón** (ponts de charpente), **pontón** (ponceau), **asentamientos para vehículos** (embossements) : pas d'équivalent consacré vérifié.
+10. **destrucción reservada** (destruction de manœuvre) : aligné sur « obstáculo reservado » du lot 5.
+11. **zona de cruce bajo responsabilidad de ingenieros** (ZTR) et **rocada de cruce** (rocade de traversée) : traductions littérales.
+12. Points cardinaux de l'exemple (rive EST, par le NORD) traduits en majuscules : « orilla ESTE », « por el NORTE ».
+13. Fragment s0593 (« sobre ingenieros, repartidas entre las etapas… en ») : à vérifier à l'écran.

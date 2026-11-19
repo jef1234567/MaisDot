@@ -348,3 +348,92 @@ Complète GLOSSAIRE_it.md (termes déjà retenus repris : effetto decisivo, coma
 11. **munitions rôdeuses → « munizioni circuitanti »** (« loitering munitions » parfois laissé en anglais).
 12. **Utilisateur Terre → « utilizzatore dell'Esercito »** ; « Terre + Air » → « Esercito + Aeronautica ».
 13. 09_042 : repris sur la traduction existante d'it.json, complétée de « fuochi e 3D » ; point final conservé comme dans la source.
+
+
+## Lot 6c – Génie (emploi et commandement, contre-mobilité, franchissement et bréchage, déploiement d'urgence, déminage, déception, lutte contre les EEI)
+
+### Glossaire FR → IT – lot génie (franchissement, bréchage, obstacles, lutte contre les EEI)
+
+Complète GLOSSAIRE_it.md (repris à l'identique : effetto decisivo, linea d'azione, elaborazione, piano semplificato, ordine di operazione, comandante interarma, livello superiore, scaglione, plotone, squadrone, sforzo, raccolta, sbocco, frenaggio, sganciamento, tempo d'impunità, autorità qualificata, ostacolo preliminare / di manovra, piano degli ostacoli, brillamento, sponda di partenza / di arrivo, rotabili trasversali, varianti, controbatteria, molestia, difesa controaerei, supporto elettronico, inganno, impiego di esche, tappa, scheda, soluzione, riga {n}). Adresse en « tu », apostrophe droite, guillemets «» sans espace. Sigles conservés (RGBIA, RGBGEN, BGEN, CCG, CCL, CA, DRG, DHIG, SPRAT, EFA, PFM F2, SYFRALL, SDPMAC, SDPMAP, ZTR, ZAF, ZIA, ZLO, ZRO, B3/2D, S3/2D, BOI, CO, G-ENG, EEI, C-IED, EOD, WIT, MLC, NRBC, HRA, SIC…), noms propres inchangés (CHARENTE, VIENNE, CONDAC, VERTEUIL, 332(AZ)BATCHAR…).
+
+## Termes retenus
+
+| Français | Italien |
+|---|---|
+| génie ; chef génie ; commandant du génie | genio ; capo genio ; comandante del genio |
+| conseiller génie ; adjoint génie | consigliere genio ; vice per il genio |
+| barrette génie (2D) / cellule génie | cellula genio (2D) |
+| chef de corps (du RGBIA) | comandante di reggimento |
+| commandant d'unité (détaché) | comandante di compagnia / dell'unità genio |
+| section (de combat) du génie ; section d'appui ; section de commandement | plotone (genio) da combattimento ; plotone di supporto ; plotone comando |
+| compagnie de combat du génie ; compagnie d'appui ; CCL | compagnia genio da combattimento ; compagnia di supporto ; compagnia comando e logistica |
+| groupe de combat ; groupe du génie ; chef de groupe | squadra da combattimento ; squadra del genio ; capo squadra |
+| pion d'emploi | pedina d'impiego |
+| sapeurs | genieri |
+| conservé aux ordres / détaché / adapté / en renforcement / mis pour emploi | mantenuto agli ordini / distaccato / assegnato / in rinforzo / messo a disposizione per l'impiego |
+| détachement (le fait de détacher) | distacco |
+| appui direct au combat / appui général à la force | supporto diretto al combattimento / supporto generale alla forza |
+| appui à la mobilité / à la contre-mobilité ; contre-minage | supporto alla mobilità / alla contromobilità ; contromine |
+| appui au déploiement d'urgence ; soutien au stationnement ; appui au retrait | supporto allo schieramento d'urgenza ; sostegno allo stazionamento ; supporto al ritiro |
+| ouverture / rétablissement d'itinéraire ; dégagement d'obstacle | apertura / ripristino d'itinerario ; sgombero di ostacolo |
+| renseignement sur le milieu ; de documentation / situation / prévision | intelligence sull'ambiente ; di documentazione / situazione / previsione |
+| sauvegarde-protection | salvaguardia-protezione |
+| mise en œuvre (par le génie) ; emploi | esecuzione ; impiego |
+| franchissement ; franchir ; franchissement autonome / discontinu / continu | attraversamento ; attraversare ; attraversamento autonomo / discontinuo / continuo |
+| franchissement offensif / rétrograde / défensif ; sous contrainte / sous menace | attraversamento offensivo / retrogrado / difensivo ; sotto vincolo / sotto minaccia |
+| coupure (générique) ; coupure humide ; coupure verticale | interruzione ; corso d'acqua ; interruzione verticale |
+| brèche (longueur franchie par un ponteur) | interruzione (comme it.json « Brèche de moins de {n} m ») |
+| bréchage ; brèche (dans un obstacle) ; tête de brèche ; zone de bréchage | apertura di varchi ; varco ; testa del varco ; zona di apertura dei varchi |
+| point de passage ; site de franchissement ; points de passage obligés | punto di passaggio ; sito di attraversamento ; punti di passaggio obbligati |
+| zone / secteur / PC de franchissement ; plan de franchissement | zona / settore / PC di attraversamento ; piano di attraversamento |
+| rocade de contrôle / de traversée / de variantement | rotabile trasversale di controllo / di attraversamento / di variante |
+| ZAF ; ZIA ; ZTR | zona di attesa per l'attraversamento ; zona degli itinerari di attesa ; zona di attraversamento a responsabilità genio |
+| zone de débouché ; tête de pont ; ligne de débouché | zona di sbocco ; testa di ponte ; linea di partenza |
+| allégement ; franchissement des gros ; repli et recueil de la couverture | alleggerimento ; attraversamento del grosso ; ripiegamento e raccolta della copertura |
+| débit (d'un point de passage) ; rotation | flusso ; rotazione |
+| bac ; portière ; pont flottant motorisé ; ponteur d'assaut ; travure | traghetto ; portiera ; ponte galleggiante motorizzato ; gettaponte d'assalto ; campata |
+| ponts d'infrastructure ; ponts de charpente ; ponceau ; rampe longue | ponti permanenti ; ponti in legname ; ponticello ; rampa lunga |
+| sortie d'eau ; gué ; berges ; écluses | uscita dall'acqua ; guado ; sponde ; chiuse |
+| système d'obstacles : d'arrêt / de freinage / de cloisonnement-canalisation / de couverture / de harcèlement | sistema di ostacoli : d'arresto / di frenaggio / di compartimentazione-incanalamento / di copertura / di molestia |
+| complexe d'obstacles ; obstacles actifs / passifs ; obstacles ponctuels | complesso di ostacoli ; ostacoli attivi / passivi ; ostacoli puntiformi |
+| obstructions (abattis, éboulis, inondations) ; destructions d'ouvrages d'art | ostruzioni (abbattute, frane, allagamenti) ; distruzioni di opere d'arte |
+| bouchons / lignes / bandes minées / champs de mines | tappi / linee / fasce minate / campi minati |
+| mines antichars / antipersonnel ; minage | mine controcarro / antiuomo ; minamento |
+| fossés, talus, pieux, hérissons, dents de dragon, barbelés | fossi, terrapieni, pali, ricci, denti di drago, reticolati |
+| battre (un obstacle par les feux) ; valoriser | battere ; valorizzare |
+| détachement (mobile) de barrage | distaccamento (mobile) di sbarramento |
+| cloisonnement ; neutralisation ; conquête | compartimentazione ; neutralizzazione ; conquista |
+| échelon de découverte / d'assaut / logistique / de commandement / réservé | scaglione di scoperta / d'assalto / logistico / di comando / di riserva |
+| 3e échelon d'appui | 3° scaglione di supporto |
+| résistances dépassées ; être dépassé (brigade) | resistenze scavalcate ; essere scavalcata |
+| déminage ; dépollution ; fouille opérationnelle (élémentaire / spécialisée) | sminamento ; bonifica ; ricerca operativa (elementare / specializzata) |
+| engin explosif improvisé (sigle EEI conservé) ; système EEI | ordigno esplosivo improvvisato (EEI) ; sistema EEI |
+| lutte contre les EEI | contrasto agli EEI |
+| former et entraîner / attaquer le réseau / mettre en échec le dispositif | formare e addestrare / attaccare la rete / neutralizzare il dispositivo |
+| prévenir, empêcher, détecter, traiter, réduire les effets, exploiter | prevenire, impedire, rilevare, trattare, ridurre gli effetti, sfruttare |
+| équipes cynotechniques ; plongeurs de combat ; brouilleurs | squadre cinofile ; sommozzatori da combattimento ; disturbatori |
+| leurres gonflables ; site de franchissement factice | esche gonfiabili ; sito di attraversamento fittizio |
+| délai d'impunité ; variantements | tempo d'impunità ; varianti |
+| recomplètement ; dotations | ripianamento ; dotazioni |
+| unicité du commandement ; planification centralisée, conduite décentralisée | unicità del comando ; pianificazione centralizzata, condotta decentrata |
+| attaque en force / en souplesse / dans la profondeur ; percée ; réduction | attacco di forza / per infiltrazione / in profondità ; sfondamento ; riduzione |
+| corps d'armée ; grande unité ; colonel adjoint | corpo d'armata ; grande unità ; colonnello vicecomandante |
+| (valeur à confirmer) / à valider | (valore da confermare) / da convalidare |
+
+## Choix douteux à faire relire
+
+1. **point de passage → « punto di passaggio »** (comme le lot 5 et it.json), et non « sito di attraversamento » proposé dans la consigne : les deux notions coexistent dans s0532 (« par site de franchissement exploité … entre points de passage »), d'où « sito di attraversamento » réservé à « site de franchissement ».
+2. **bréchage → « apertura di varchi »**, **brèche (dans un obstacle) → « varco »**, **tête de brèche → « testa del varco »** : « varco » sert déjà pour la « trouée » de Vernes dans l'exemple fictif (homonymie sans gêne réelle, contextes distincts). Alternative : « breccia / testa di breccia ».
+3. **brèche franchie par un ponteur (SPRAT, s0421, s0468, s0528–s0531) → « interruzione »**, cohérent avec it.json ; « luce » (portée d'un pont) possible.
+4. **coupure → « interruzione »** en général, mais **« corso d'acqua »** pour la coupure humide (s0169, s0605–s0608), comme dans it.json ; la doctrine italienne dit aussi « ostacolo idrico ».
+5. **attaque en souplesse → « attacco per infiltrazione »** : pas d'équivalent exact ; « attacco in flessibilità » serait un calque.
+6. **adaptée → « assegnata »** (s0131, s0491, s0549), conforme au lot 6b ; la nuance française détachement / adaptation reste fragile.
+7. **mettre en échec le dispositif (pilier C-IED) → « neutralizzare il dispositivo »** (OTAN « defeat the device ») ; « sconfiggere il dispositivo » possible.
+8. **rocade → « rotabile trasversale »** (lot 5) ; « rocade de variantement » → « rotabile trasversale di variante ».
+9. **hérissons → « ricci »** (ricci cechi) ; **abattis → « abbattute »** ; **bouchons de mines → « tappi di mine »** : calques à faire valider par un officier du genio.
+10. **ponts d'infrastructure → « ponti permanenti »** ; **ponts de charpente → « ponti in legname »**.
+11. **unités de mêlée → « unità di manovra »** (s0380) ; **embossements → « postazioni defilate per veicoli »** (s0495).
+12. **déminage / dépollution → « sminamento / bonifica »** ; **contre-minage → « contromine »**.
+13. **chef génie → « capo genio »** distinct de **commandant du génie → « comandante del genio »** ; **chef de la section détachée → « comandante del plotone distaccato »**.
+14. **EEI** conservé en sigle (consigne), mais développé « ordigno esplosivo improvvisato » quand le français développe ; le lot 6a l'avait traduit en clair : harmoniser éventuellement.
+15. **EFA « Engin de franchissement de l'avant » → « Mezzo di attraversamento avanzato »** (calque, la définition est elle-même « à confirmer »).
