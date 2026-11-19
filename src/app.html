@@ -23,6 +23,18 @@ header .prog{margin-left:auto;text-align:right;font-size:.85em;min-width:160px}
 .wrap{display:flex;min-height:calc(100vh - 88px)}
 nav{width:290px;flex-shrink:0;background:var(--blanc);border-right:1px solid var(--argent-c);padding:12px 0;overflow-y:auto}
 nav .grp{font-size:.72em;text-transform:uppercase;letter-spacing:.08em;color:var(--gris);padding:12px 18px 4px;font-weight:600}
+nav details>summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:6px}
+nav details>summary::-webkit-details-marker{display:none}
+nav details>summary::before{content:"▸";font-size:.9em;transition:transform .15s;flex-shrink:0}
+.rtl nav details>summary::before{content:"◂"}
+nav details[open]>summary::before{transform:rotate(90deg)}.rtl nav details[open]>summary::before{transform:rotate(-90deg)}
+nav details.ng>summary.grp{padding:10px 18px 6px;border-top:1px solid var(--argent-c)}nav details.ng:first-child>summary.grp{border-top:none}
+nav details>summary:hover{background:var(--argent-c)}nav details>summary:focus-visible{outline:2px solid var(--rouge);outline-offset:-2px}
+nav .nc{margin-inline-start:auto;font-weight:400;letter-spacing:0;text-transform:none;font-size:.95em}
+nav details.nsg>summary{padding:6px 18px 6px 26px;font-size:.88em;font-weight:600;color:var(--encre)}
+nav details.nsg>summary .nc{font-size:.85em;color:var(--gris)}
+nav a.ind{padding-inline-start:34px}
+@media(pointer:coarse){nav details>summary{min-height:44px}}
 nav a{display:flex;align-items:center;gap:8px;padding:7px 18px;color:var(--encre);text-decoration:none;font-size:.92em;border-left:3px solid transparent}
 nav a:hover{background:var(--argent-c)}
 nav a.on{background:var(--rouge-c);border-left-color:var(--rouge);font-weight:600}
@@ -616,16 +628,30 @@ function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor
 
 /* ============ NAVIGATION ============ */
 let cur="accueil",curTab="c";
-function renderNav(){let h="",g="";
- M.forEach(m=>{if(m.grp!==g){g=m.grp;h+=`<div class="grp">${esc(g)}</div>`;}
-  const lk=!unlocked(m),st=m.quiz?(done(m.id)?'<span class="st ok">✓</span>':(S.quiz[m.id]?'<span class="st en">•</span>':'<span class="st"></span>')):(m.soon?'<span class="st">🔒</span>':'<span class="st">›</span>');
-  h+=`<a href="#${m.id}" ${m.id===cur?'aria-current="page"':""} ${lk?'aria-disabled="true"':""} class="${m.id===cur?"on":""} ${lk?"lock":""} ${m.reu?"reu":""}" data-id="${m.id}">${st}<span>${esc(m.title)}${m.soon?' <span class="tag">à venir</span>':""}</span><span class="sr">${m.quiz&&done(m.id)?" – validée":""}</span></a>`;});
+/* Menu : groupes repliables (un seul déplié par défaut : celui de l'étape en cours), sous-menus pour les contributions des fonctions */
+const NAV_SUB=[[/^fx_/,"Champs immatériels"],[/^f3_/,"Feux et 3D"],[/^gn_/,"Génie"],[/^rn_/,"Renseignement"],[/^al_/,"Aérocombat"],[/^ap_/,"Appui au commandement et aux mouvements"],[/^nr_/,"NRBC"],[/^sl_/,"Soutien"]];
+const NAV_KEY="medot-esorsem-nav-v1";let NAV_LAST=null;
+let NAV_OPEN=(()=>{try{const v=JSON.parse(localStorage.getItem(NAV_KEY));if(Array.isArray(v))return new Set(v);}catch(e){}return new Set(["Démarrer"]);})();
+function navSaveOpen(){try{localStorage.setItem(NAV_KEY,JSON.stringify([...NAV_OPEN]));}catch(e){}}
+function navSub(m){if(m.sub)return m.sub;const x=NAV_SUB.find(r=>r[0].test(m.id));return x?x[1]:null;}
+function navA(m,ind){const lk=!unlocked(m),st=m.quiz?(done(m.id)?'<span class="st ok">✓</span>':(S.quiz[m.id]?'<span class="st en">•</span>':'<span class="st"></span>')):(m.soon?'<span class="st">🔒</span>':'<span class="st">›</span>');
+  return `<a href="#${m.id}" ${m.id===cur?'aria-current="page"':""} ${lk?'aria-disabled="true"':""} class="${m.id===cur?"on":""} ${lk?"lock":""} ${m.reu?"reu":""} ${ind?"ind":""}" data-id="${m.id}">${st}<span>${esc(m.title)}${m.soon?' <span class="tag">à venir</span>':""}</span><span class="sr">${m.quiz&&done(m.id)?" – validée":""}</span></a>`;}
+function navCnt(L){const q=L.filter(m=>m.quiz);return q.length?`<span class="nc">${q.filter(m=>done(m.id)).length}/${q.length}</span>`:"";}
+function renderNav(){let h="";const G=[];
+ M.forEach(m=>{let g=G[G.length-1];if(!g||g.n!==m.grp){g={n:m.grp,L:[]};G.push(g);}g.L.push(m);});
+ const cm=M.find(x=>x.id===cur);
+ if(cm&&cur!==NAV_LAST){NAV_LAST=cur;NAV_OPEN.add(cm.grp);const sb=navSub(cm);if(sb)NAV_OPEN.add(cm.grp+" / "+sb);navSaveOpen();}
+ G.forEach(g=>{let b="",sub=null,SL=[];
+  const flush=()=>{if(!SL.length)return;if(sub===null)b+=SL.map(m=>navA(m)).join("");else{const k=g.n+" / "+sub;b+=`<details class="nsg" data-k="${esc(k)}"${NAV_OPEN.has(k)?" open":""}><summary><span>${esc(sub)}</span>${navCnt(SL)}</summary>${SL.map(m=>navA(m,1)).join("")}</details>`;}SL=[];};
+  g.L.forEach(m=>{const s=navSub(m);if(s!==sub){flush();sub=s;}SL.push(m);});flush();
+  h+=`<details class="ng" data-k="${esc(g.n)}"${NAV_OPEN.has(g.n)?" open":""}><summary class="grp"><span>${esc(g.n)}</span>${navCnt(g.L)}</summary>${b}</details>`;});
  document.getElementById("navList").innerHTML=h;
  const n=steps.filter(s=>done(s.id)).length;
  document.getElementById("progTxt").textContent=`${n} / ${steps.length} étapes validées`;
  document.getElementById("progBar").style.width=(100*n/steps.length)+"%";const pr=document.getElementById("progRole");pr.setAttribute("aria-valuenow",n);pr.setAttribute("aria-valuemax",steps.length);
  if(matchMedia("(min-width:821px)").matches){const nv=document.getElementById("nav"),a=nv.querySelector("#navList a.on");
   if(a&&(a.offsetTop<nv.scrollTop||a.offsetTop+a.offsetHeight>nv.scrollTop+nv.clientHeight))nv.scrollTop=a.offsetTop-nv.clientHeight/3;}}
+document.getElementById("navList").addEventListener("toggle",e=>{const d=e.target;if(!d.dataset||!d.dataset.k)return;if(d.open)NAV_OPEN.add(d.dataset.k);else NAV_OPEN.delete(d.dataset.k);navSaveOpen();},true);
 document.getElementById("nav").addEventListener("click",e=>{const a=e.target.closest("a[data-id]");if(!a)return;e.preventDefault();const m=M.find(x=>x.id===a.dataset.id);if(!unlocked(m)){flash(m);return;}FOCUS_NEXT="#main h2";go(m.id);
  const hl=el=>{if(!el)return;el.classList.add("hl");el.scrollIntoView({block:"center"});setTimeout(()=>el.classList.remove("hl"),2500);};
  if(a.dataset.card!=null){const c=document.querySelectorAll(".fcd")[+a.dataset.card];if(c){c.classList.add("flip");c.setAttribute("aria-expanded","true");hl(c);c.focus();}}

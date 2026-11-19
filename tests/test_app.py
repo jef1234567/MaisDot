@@ -78,6 +78,10 @@ class App:
 
     def nav_click(self, mid):
         self.open_nav()
+        # menu à groupes repliables : déplier (comme un utilisateur) les groupes fermés qui contiennent le lien
+        ks = self.js("id=>{const r=[];let d=document.querySelector(`#navList a[data-id='${id}']`).parentElement.closest('details');while(d){if(!d.open)r.unshift(d.dataset.k);d=d.parentElement.closest('details');}return r}", mid)
+        for k in ks:
+            self.page.locator(f"#navList details[data-k=\"{k}\"] > summary").first.click()
         self.page.click(f"#navList a[data-id='{mid}']")
 
     def stored(self):
