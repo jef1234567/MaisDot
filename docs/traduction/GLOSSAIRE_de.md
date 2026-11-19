@@ -279,3 +279,104 @@ Volumes « 2/10/3//15 » et « {n} » inchangés ; fragments commençant par « 
 11. **SECOPS / « Sécurité des opérations » → Operationssicherheit** ; **temps de compétition → Phase des Wettbewerbs** ; **Contrôle opérationnel → Operational control** (repris de de.json, anglais).
 12. **11_062 « Voir » → « Ansehen »** (contexte inconnu, bouton supposé).
 13. **Pivot « effet » vs « objectif »** : « cible » → Ziel, « objectif » (au sens cible) → Zielobjekt ; « objectif » PSYOPS/OPDEC → Ziel. Risque de collision Ziel/Zielobjekt à vérifier dans les colonnes 10_001 / 11_048.
+
+
+## Lot 6b – Feux et 3D (artillerie, FSCC, coordination des feux, CAS, DSA et LADA, CI3D)
+
+# Glossaire FR → DE – lot 6b (artillerie sol-sol et FSCC, planification des feux, FSCM, CAS, DSA/LADA, CI3D)
+
+Complète GLOSSAIRE_de.md (« du », „ “, Führer der verbundenen Waffen, entscheidende Wirkung, Gegenüberstellung, Targeting, USBV, Zeile {n}, „Die Schaltflächen unten auf der Seite stellen das Dokument zusammen.“). Sigles conservés (liste de la consigne). Genres : das FSCC, der DLOC, der EOC, der CAF/OCF/OA/JTAC/NFO/ALO, die BAS, der GTA/SGTA, der ZEF (comme de.json « im ZEF »), die ACM/FSCM, die ACO/ATO, der ACP, das JACC/ACC/AOCC/CAOC, der NFA/RFA/FFA (Raum), die RFL/CFL/FSCL (Linie), die HIDACZ/ROZ/WFZ, der ACA.
+Expansions anglaises seules (HIDACZ, ROZ, WFZ, ADC, AOCC, CAOC, JACC) laissées en anglais.
+
+## Termes retenus
+
+| Français | Allemand |
+|---|---|
+| artillerie sol-sol / sol-air (repris de de.json) | Boden-Boden-Artillerie / Boden-Luft-Artillerie |
+| défense sol-air (DSA) | bodengebundene Luftverteidigung |
+| lutte anti-drones aériens (LADA) | Abwehr von Luftdrohnen ; titre : Drohnenabwehr |
+| LATTA | Fliegerabwehr aller Truppen |
+| FSCC | Feuerunterstützungskoordinierungszentrum (das FSCC) |
+| appui direct (DS) / action d'ensemble (GS) | direkte Unterstützung / allgemeine Unterstützung |
+| conquête de la supériorité des feux (CSF) | Erringen der Feuerüberlegenheit |
+| contrebatterie | Konterbatteriefeuer |
+| feux interarmées | streitkräftegemeinsame Feuerunterstützung |
+| semonce / harcèlement | Warnschuss / Störfeuer |
+| neutralisation à temps / tactique | zeitlich begrenztes Niederhalten / taktisches Niederhalten |
+| destruction tactique / destruction | taktische Vernichtung / Zerstörung |
+| aveuglement / éclairement | Blenden / Beleuchten |
+| arrêt (tir d'arrêt) / barrage | Sperrfeuer / Abriegelungsfeuer |
+| préparation d'artillerie | Artillerievorbereitung |
+| cloisonner / cloisonnement | abschotten / Abschottung |
+| flèche maximale | Scheitelhöhe |
+| autorisation d'ouverture du feu | Feuerfreigabe |
+| chaîne d'emploi / de mise en œuvre | Einsatzstrang / Durchführungsstrang |
+| conservé aux ordres / détaché / adapté / mis pour emploi | unter eigenem Befehl zurückbehalten / abgestellt / zugeordnet / zur Verwendung unterstellt |
+| attribuée / en renforcement (DSA) | zugewiesen / zur Verstärkung |
+| mode de relation | Unterstellungsverhältnis |
+| renforcement de feux | Feuerverstärkung |
+| batterie de tir / BAS | Feuerbatterie / Aufklärungs- und Überwachungsbatterie |
+| lanceurs | Waffensysteme |
+| pièce | Geschütz (artillerie) / Waffensystem (sol-air) |
+| CAF / OCF / OA / EOC | Feuerunterstützungskoordinator / Feuerkoordinierungsoffizier / vorgeschobener Beobachter / Beobachtungs- und Koordinierungstrupp |
+| conseiller feux ; annexe feux | Feuerberater ; Feueranlage |
+| bureau opérations-instruction | Abteilung Einsatz/Ausbildung |
+| acquisition (d'objectifs) / capteurs | Zielaufklärung, Zielerfassung / Sensoren |
+| intervention-type (IT) | Standardfeuerauftrag |
+| politique de tir | Feuergrundsätze |
+| dotation allouée | zugewiesene Munitionsausstattung |
+| tirs planifiés / d'opportunité | geplante Feuer / Gelegenheitsfeuer |
+| réserve d'intervention générale (de.json) | allgemeine Reserve |
+| bascule d'effort | Schwerpunktverlagerung |
+| zone d'effort des feux (ZEF) | Feuerschwerpunktraum |
+| plan de feux / mission de tir | Feuerplan / Feuerauftrag |
+| zone des opérations rapprochées / dans la profondeur | Raum der Nahoperationen / Raum der Operationen in der Tiefe |
+| armes à tir tendu | Flachfeuerwaffen |
+| mesures palliatives | Ausgleichsmaßnahmen |
+| soutenabilité logistique | logistische Durchhaltefähigkeit |
+| évaluation des dommages | Schadensbewertung |
+| CFL / FSCL / FFA / FLOT | Linie koordinierter Feuer / Feuerunterstützungskoordinierungslinie / Feuerfreiraum / vorderste Linie eigener Truppen |
+| NFA / RFA / RFL | Feuerverbotsraum / Feuerbeschränkungsraum / Feuerbeschränkungslinie |
+| empreinte au sol / emprise / gabarit | Flächenbedarf / Fläche / Raumbedarf |
+| manœuvre continue / discontinue ; stabilité | kontinuierliches / diskontinuierliches Manöver ; Verweildauer |
+| composante terrestre / niveau opératif | Landkomponente / operative Ebene |
+| appui aérien rapproché (CAS) | Luftnahunterstützung ; E-CAS → Notfall-Luftnahunterstützung |
+| interdiction aérienne (AI) ; CCA | Luftabriegelung ; Angriff durch Kampfhubschrauber |
+| types de contrôle ; contrôle aux procédures | Kontrollarten ; prozedurale Kontrolle |
+| tir fratricide | Eigenbeschuss |
+| démonstration de présence / de force | Präsenzdemonstration / Machtdemonstration |
+| ALO / CTA / JTAC | Luftwaffenverbindungsoffizier / taktischer Luftkontrolleur / Fliegerleitoffizier für die Luftnahunterstützung |
+| missions DSA : interdire un espace aérien, défendre un site / une unité, barrer un axe aérien, surveiller | einen Luftraum sperren, ein Objekt / eine Einheit schützen, eine Einflugachse abriegeln, überwachen |
+| « nasse » / « double rideau » | „Reuse“ / „Doppelvorhang“ |
+| couverture réciproque / recouvrement des feux | gegenseitige Deckung / Feuerüberlappung |
+| temps réfléchi / temps réel | Planungszeit / Echtzeit |
+| munitions rôdeuses | Loitering Munition |
+| autorité d'engagement / d'emploi ; déconfliction | Bekämpfungsbefugnis / Einsatzbefugnis ; Entflechtung |
+| défense d'emprise | Liegenschaftsschutz |
+| coordination dans la 3e dimension (CI3D) ; intervenant (I3D) | Koordinierung in der dritten Dimension ; Akteur in der dritten Dimension |
+| ACM / ADM | Luftraumkontrollmittel bzw. Luftraumkoordinierungsmaßnahmen / Luftverteidigungsmaßnahmen |
+| contrôle direct / aux procédures / dynamique aux procédures | direkte / prozedurale / dynamische prozedurale Kontrolle |
+| ACP / ACO / ATO | Luftraumkontrollplan / Luftraumkoordinierungsbefehl (de.json) / Lufteinsatzbefehl |
+| autorité de contrôle de l'espace aérien | Luftraumkontrollbehörde |
+| autorité allocataire / gestionnaire | Bedarfsträger / verwaltende Stelle |
+| couloir / route de transit ; couloir spécial ; route temporaire à risque minimal | Transitkorridor / Transitroute ; Sonderkorridor ; temporäre Route mit minimalem Risiko |
+| volume (plancher, plafond) | Volumen (Untergrenze, Obergrenze) |
+| contrôleurs de sécurité aérienne | Flugsicherungslotsen |
+
+## Choix douteux à faire relire
+
+1. **Appui direct / action d'ensemble → direkte / allgemeine Unterstützung** (consigne). Or de.json emploie déjà « unmittelbare Unterstützung » (appui contact) et « Gesamtwirkung » (action d'ensemble, entrée 52.1) : harmoniser.
+2. **Effets d'artillerie** : « neutralisation » → Niederhalten, « destruction tactique » → taktische Vernichtung, « destruction » → Zerstörung ; « arrêt » → Sperrfeuer et « barrage » → Abriegelungsfeuer (en Bundeswehr « Sperrfeuer » couvre aussi le barrage) ; « semonce » → Warnschuss (repris de de.json).
+3. **intervention-type (IT) → Standardfeuerauftrag** et **politique de tir → Feuergrundsätze** : traductions descriptives sans équivalent Bundeswehr certain.
+4. **adapté → zugeordnet**, **attribuée → zugewiesen**, **détaché → abgestellt** : la nuance française des modes de relation n'a pas d'équivalent exact (OTAN : OPCON/TACON…).
+5. **lanceurs → Waffensysteme** (vise CAESAR, mortiers, LRU) ; « pièces » sol-air → Waffensysteme.
+6. **tranche D** conservé tel quel (catégorie logistique française de munitions).
+7. **autorité allocataire / gestionnaire → Bedarfsträger / verwaltende Stelle** : à valider.
+8. **ACM** : expansion double (« measures / means ») ; dans le texte courant « Luftraumkontrollmittel » (07_032) et « Luftraumkoordinierungsmaßnahmen » (08_065).
+9. **ALO → Luftwaffenverbindungsoffizier** ; **CTA → taktischer Luftkontrolleur** ; **JTAC → Fliegerleitoffizier** : usage Bundeswehr à confirmer (souvent JTAC/ALO laissés en anglais).
+10. **05_003 « pilote »** dans l'équipe JTAC rendu par « Fahrer » (conducteur du véhicule), non par « Pilot ».
+11. **« nasse » → „Reuse“**, **« double rideau » → „Doppelvorhang“** : calques.
+12. **temps réfléchi → Planungszeit** (opposé à Echtzeit) : interprétation.
+13. **09_038 « Période, ligne {n} » → „Zeitraum, Zeile {n}“** alors que de.json rend « Période » par « Zeitabschnitt ».
+14. **04_047** : la question porte sur la manœuvre continue (réponse attendue « 1 heure » absente des propositions de ce lot) ; traduite fidèlement.
+15. **03_061 « Le G2 seul » → „Allein der G2“**.

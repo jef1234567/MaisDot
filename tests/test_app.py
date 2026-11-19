@@ -812,14 +812,25 @@ def t_fonctions(b, vp):
     """Rubrique « Contributions des fonctions » : hors cycle, examen dédié, encarts dans le cycle, gabarits assemblés."""
     a = App(b, vp).open("fx_dec")
     ids = a.js("M.filter(m=>m.grp==='Contributions des fonctions').map(m=>m.id)")
-    check(ids == ["fx_ecim", "fx_dec", "fx_inf", "fx_psy", "fx_cim", "fx_utmc", "fx_ae"], f"modules : {ids}")
-    check(a.js("M.findIndex(m=>m.id==='ac_co')<M.findIndex(m=>m.id==='fx_ecim')&&M.findIndex(m=>m.id==='fx_ae')<M.findIndex(m=>m.grp==='Outils')"), "ordre du menu")
+    check(ids == ["fx_ecim", "fx_dec", "fx_inf", "fx_psy", "fx_cim", "fx_utmc", "fx_ae", "f3_art", "f3_fscc", "f3_coord", "f3_cas", "f3_dsa", "f3_ci3d"], f"modules : {ids}")
+    check(a.js("M.findIndex(m=>m.id==='ac_co')<M.findIndex(m=>m.id==='fx_ecim')&&M.findIndex(m=>m.id==='f3_ci3d')<M.findIndex(m=>m.grp==='Outils')"), "ordre du menu")
     check(not a.js("cycleSvg().includes('fx_')"), "rubrique présente dans le schéma du cycle")
     for sc, want in (("tout", False), ("fx", True)):
         a.js(f"EXS='{sc}'")
         mids = a.js("exPick().map(q=>q.mid)")
-        has = any(m.startswith("fx_") for m in mids)
-        check(len(mids) == 30 and has == want and (not want or all(m.startswith("fx_") for m in mids)), f"examen {sc} : {sorted(set(mids))}")
+        has = any(m.startswith(("fx_", "f3_")) for m in mids)
+        check(len(mids) == 30 and has == want and (not want or all(m.startswith(("fx_", "f3_")) for m in mids)), f"examen {sc} : {sorted(set(mids))}")
+    a.js("EXS='f3'")
+    mids = a.js("exPick().map(q=>q.mid)")
+    check(len(mids) == 30 and all(m.startswith("f3_") for m in mids) and len(set(mids)) == 6, f"examen f3 : {sorted(set(mids))}")
+    n = a.js("['p1e1','p1e2','p1e3','p1e4','p1e5','p2e3','p2e6'].filter(id=>M.find(m=>m.id===id).sections.some(s=>s.go&&s.go.includes('f3_fscc'))).length")
+    check(n == 7, f"encarts FSCC : {n}/7")
+    a.js("go('f3_fscc','a')")
+    fill_cell(a, "f3f_ph", 0, "a", "Cloisonner l'ENI")
+    a.page.fill("#f_f3f_rep", "30 % / 60 % / 10 %")
+    bi = a.js("M.find(m=>m.id==='f3_fscc').apply.findIndex(b=>b.t==='doc')")
+    h = a.js(f"docHTML('f3_fscc',{bi})")
+    check("Cloisonner" in h and "30 % / 60 % / 10 %" in h, "planification des feux non assemblée")
     n = a.js("['prealable','p1e1','p1e2','p1e3','p1e5','p2e2','p2e3','dec'].filter(id=>M.find(m=>m.id===id).sections.some(s=>s.go)).length")
     check(n == 8, f"encarts : {n}/8")
     a.js("go('p1e3')")
@@ -837,10 +848,11 @@ def t_fonctions(b, vp):
     bi = a.js("M.find(m=>m.id==='fx_inf').apply.findIndex(b=>b.t==='doc')")
     check("Maire de Z" in a.js(f"docHTML('fx_inf',{bi})"), "matrice KLE non assemblée")
     check(a.js("LEX.some(x=>x[0]==='OPDEC')&&LEX.some(x=>x[0]==='DTMC')"), "sigles de la rubrique")
-    check(a.js("M.filter(m=>m.grp==='Contributions des fonctions').reduce((s,m)=>s+m.quiz.length,0)") >= 60, "moins de 60 questions")
+    check(a.js("M.filter(m=>m.grp==='Contributions des fonctions').reduce((s,m)=>s+m.quiz.length,0)") >= 120, "moins de 120 questions")
+    check(a.js("LEX.some(x=>x[0]==='FSCL')&&LEX.some(x=>x[0]==='HIDACZ')"), "sigles feux et 3D")
     a.no_errors()
     a.close()
-    return "7 modules hors cycle, examen dédié, 8 encarts liés, OPDEC et matrice KLE assemblées"
+    return "13 modules hors cycle (dont 6 Feux et 3D), examens fx et f3, encarts liés, gabarits assemblés"
 
 
 TESTS = [

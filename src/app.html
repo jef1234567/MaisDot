@@ -580,6 +580,7 @@ const LEX=[["CCIR","Critical commander’s information requirements – besoins 
 /*__ordres.js__*/
 /*__messagerie.js__*/
 /*__fonctions.js__*/
+/*__feux.js__*/
 /* Intégration de la phase 2 (src/p2.js) : remplace les modules « à venir » et complète l'exemple VIENNE */
 if(typeof P2!=="undefined"){const i=M.findIndex(m=>m.id==="p2");if(i>=0)M.splice(i,2,...P2);}
 /* Module « Normes et délais » (src/normes.js), placé en tête des outils */
@@ -655,7 +656,7 @@ function home(){const box=(t,items)=>`<div class="ph"><h4>${t}</h4>${items.map((
  <p><b>Outils</b> : un examen blanc (30 questions en 30 minutes, sur tout le parcours ou sur une phase), une recherche dans les sigles et les définitions, et la vue consolidée des TCIDR et de la frise. Tes saisies restent dans ce navigateur : <b>sauvegarde-les</b> (bas de page) avant de changer de poste.</p>
  <p><b>Phase 3</b> : la rédaction des ordres (plan simplifié et calque, WINGO, OPO, FRAGO, OVO, plans d’obstacles et de franchissement), avec des gabarits que tu peux copier ou exporter.</p>
  <p><b>Après la MEDOT</b> : la rubrique « Appropriation et conduite » traite à part les réunions qui suivent la décision (mission brief, back brief, rehearsal), celles de la conduite (point de situation, APPSIT), la messagerie opérationnelle et les rôles au sein du CO de GTIA.</p>
- <p><b>Contributions des fonctions</b> : ce que chaque fonction apporte à la manœuvre de la BIA (champs immatériels, déception, influence, PSYOPS, CIMIC, appui électronique…), hors cycle, avec son propre examen ; des encarts dans les étapes du cycle y renvoient. Le groupe Outils propose aussi les normes et délais (fiche et calculateur).</p>
+ <p><b>Contributions des fonctions</b> : ce que chaque fonction apporte à la manœuvre de la BIA (champs immatériels, déception, influence, PSYOPS, CIMIC, appui électronique, feux et 3D…), hors cycle, avec son propre examen ; des encarts dans les étapes du cycle y renvoient. Le groupe Outils propose aussi les normes et délais (fiche et calculateur).</p>
  <p class="ref">Outil pédagogique : il ne remplace pas la PFT 5.1. « La méthode ordonne la réflexion mais ne la bride pas. »</p></div>${vids("accueil")}
  <h3>Le cycle MEDOT (niveaux 3 et 4)</h3>
  <div class="cycle-svg">${cycleSvg()}</div>
@@ -982,8 +983,9 @@ const EX_PLAN={tout:[[/^(Démarrer|Phase préalable)/,5],[/^Phase 1/,10],[/^Phas
                p2:[[/^Phase 2/,30]],
                p3:[[/^Phase 3/,30]],
                ac:[[/^Appropriation/,30]],
-               fx:[[/^Contributions/,30]]};
-const EX_LBL={tout:"tout le parcours",p1:"phase préalable et phase 1",p2:"phase 2 et plan de manœuvre",p3:"phase 3 – rédaction des ordres",ac:"appropriation et conduite",fx:"contributions des fonctions"};
+               fx:[[/^Contributions/,30]],
+               f3:[[/^f3_/,30,"id"]]};
+const EX_LBL={tout:"tout le parcours",p1:"phase préalable et phase 1",p2:"phase 2 et plan de manœuvre",p3:"phase 3 – rédaction des ordres",ac:"appropriation et conduite",fx:"contributions des fonctions",f3:"feux et 3D"};
 let EXS="tout";
 function exBestTxt(){return Object.keys(EX_LBL).filter(k=>EXB[k]).map(k=>`Meilleur résultat : <b>${EXB[k].best} %</b> (${EX_LBL[k]}, ${esc(EXB[k].date)})`).join(" · ");}
 /* Répartition au prorata du nombre de questions de chaque étape du groupe */
@@ -995,7 +997,7 @@ function exAlloc(pool,n){const tot=pool.reduce((s,m)=>s+m.quiz.length,0);n=Math.
 function exPick(){const seen=new Set(),used=new Set(),qs=[];
  const take=(mid,qi)=>{const k=mid+":"+qi,q=M.find(m=>m.id===mid).quiz[qi];if(used.has(k)||(q.g&&seen.has(q.g)))return false;
   used.add(k);if(q.g)seen.add(q.g);qs.push({mid,qi,opt:shuffle(q.o.map((_,i)=>i))});return true;};
- (EX_PLAN[EXS]||EX_PLAN.tout).forEach(([re,n])=>{const pool=M.filter(m=>m.quiz&&m.quiz.length&&re.test(m.grp));let k=0;
+ (EX_PLAN[EXS]||EX_PLAN.tout).forEach(([re,n,f])=>{const pool=M.filter(m=>m.quiz&&m.quiz.length&&re.test(f==="id"?m.id:m.grp));let k=0;
   exAlloc(pool,n).forEach(([mid,qi])=>{if(take(mid,qi))k++;});
   if(k<n)shuffle(pool.flatMap(m=>m.quiz.map((_,qi)=>[m.id,qi]))).forEach(([mid,qi])=>{if(k<n&&take(mid,qi))k++;});});
  return shuffle(qs);}
@@ -1026,7 +1028,8 @@ function exam(){let h=`<div class="ref">Outils</div><h2>Examen blanc</h2>`;
  <option value="p2" ${EXS==="p2"?"selected":""}>Phase 2 et plan de manœuvre (30)</option>
  <option value="p3" ${EXS==="p3"?"selected":""}>Phase 3 – rédaction des ordres (30)</option>
  <option value="ac" ${EXS==="ac"?"selected":""}>Appropriation et conduite, hors MEDOT (30)</option>
- <option value="fx" ${EXS==="fx"?"selected":""}>Contributions des fonctions, hors MEDOT (30)</option></select></div>
+ <option value="fx" ${EXS==="fx"?"selected":""}>Contributions des fonctions, hors MEDOT (30)</option>
+ <option value="f3" ${EXS==="f3"?"selected":""}>Feux et 3D (30)</option></select></div>
  <p><b>${nb} questions</b> sur ${EX_LBL[EXS]||EX_LBL.tout}, réparties entre les étapes au prorata de leur nombre de questions, en <b>${EX_T/60} minutes</b>.</p><ul class="c"><li>Aucune correction pendant l’épreuve : tu peux changer tes réponses jusqu’à la fin.</li><li>À expiration du chronomètre, la copie est corrigée automatiquement.</li><li>Correction finale : score global, résultat par étape et explication de chaque erreur.</li></ul>${exBestTxt()?`<p>${exBestTxt()}.</p>`:""}<div class="rowb"><button class="btn" onclick="exStart()">Commencer l’examen</button></div></div>`;}
  if(EX.res){const R=EX.res,mm=Math.floor(R.dur/60);
   h+=`<div class="score ${R.pct>=PASS*100?"ok":"ko"}" role="status" tabindex="-1">${R.ok} / ${EX.qs.length} – ${R.pct} %${R.expired?" (temps écoulé)":` en ${mm} min`}${R.rec?" – nouveau meilleur résultat":""}</div><p class="ref">Périmètre : ${EX_LBL[EX.sc]||EX_LBL.tout}.</p>`;

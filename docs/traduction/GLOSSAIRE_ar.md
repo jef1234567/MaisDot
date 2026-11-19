@@ -227,3 +227,83 @@ Complète `docs/traduction/GLOSSAIRE_ar.md` (termes déjà retenus repris à l'i
 11. **Mentions en anglais conservées** : « battle rhythm » (glosé « إيقاع المعركة »), « Quick impact project. » (08_023, laissé tel quel car c'est le développement du sigle QIP), « Info Ops ». Les définitions anglaises du tableau de sigles (C4ISTAR, KLE, TAA, CIMIC, QIP, MoP/MoE, C4I) ont été traduites en arabe.
 12. **11_025 « Consultation, command, control, communication and intelligence »** (définition donnée pour C4I) : traduite littéralement ; la définition elle-même semble erronée côté source (C4I = command, control, communications, computers and intelligence) — à signaler au relecteur du français.
 13. **Mise en page RTL** : chaînes mêlant sigles latins et volumes « 0/2/1//3 » à contrôler visuellement à l'affichage droite-à-gauche.
+
+
+## Lot 6b – Feux et 3D (artillerie, FSCC, coordination des feux, CAS, DSA et LADA, CI3D)
+
+# Glossaire FR → AR – lot 6b (feux sol-sol et FSCC, planification des feux, FSCM, CAS, DSA/LADA, CI3D)
+
+Complète `docs/traduction/GLOSSAIRE_ar.md` (termes repris à l'identique : الأثر الحاسم، العمل الحاسم، مسار العمل، قائد الأسلحة المشتركة، التشكيل (modelage)، النسق 1/2، التوجيه القسري، رتل القتال، الشريحة D، وحدة النيران…). Sigles en caractères latins (souvent précédés de « الـ ») ; `{n}`, nombres, unités, pourcentages inchangés ; « ligne {n} » → « السطر {n} » ; « h » → « س » ; « ? » → « ؟ ». Définitions de sigles : expansion anglaise conservée, partie française traduite ; entrées purement anglaises (JACC, HIDACZ, ROZ, WFZ, ADC, AOCC, CAOC) laissées telles quelles.
+
+## Termes retenus
+
+| Français | Arabe |
+|---|---|
+| artillerie sol-sol / sol-air | مدفعية أرض-أرض / مدفعية أرض-جو |
+| défense sol-air / surface-air | الدفاع أرض-جو / الدفاع سطح-جو |
+| feux / tir / tirs | النيران / الرمي / الرمايات |
+| appui direct (DS) / action d'ensemble (GS) | الإسناد المباشر / العمل الشامل (repris de ar.json) |
+| conquête de la supériorité des feux (CSF) | كسب التفوق الناري |
+| contrebatterie | الرمي المضاد للبطاريات (repris de ar.json) |
+| acquisition / ciblage | الاستحصال / الاستهداف (repris de ar.json) |
+| semonce / harcèlement | رمي الإنذار / الإزعاج |
+| neutralisation à temps / tactique | التحييد المؤقت / التحييد التكتيكي |
+| destruction tactique / destruction | التدمير التكتيكي / التدمير |
+| aveuglement / éclairement | التعمية / الإنارة |
+| arrêt / barrage / préparation d'artillerie | رمي الإيقاف / رمي الحاجز / التمهيد المدفعي |
+| cloisonnement / cloisonner | التجزئة |
+| intervention-type (IT) / politique de tir | التدخل النموذجي / سياسة الرمي |
+| plan de feux / annexe feux | خطة النيران / ملحق النيران |
+| tirs planifiés / d'opportunité | الرمايات المخطط لها / رمايات الفرص |
+| réserve d'intervention générale | احتياط التدخل العام |
+| zone d'effort des feux (ZEF) / créneau | منطقة جهد النيران / الفترة الزمنية |
+| lanceurs | القواذف |
+| facteur limitant / mesures palliatives | العامل المُقيِّد / الإجراءات البديلة |
+| bascule d'effort | نقل الجهد |
+| renforcement de feux / de moyens | تعزيز النيران / تعزيز الوسائل |
+| conservé aux ordres / détaché / adapté / attribué / en renforcement | باقٍ تحت الإمرة / مفرز / ملحق / مُسند / للتعزيز |
+| modes de relation | أنماط الارتباط |
+| chaîne d'emploi / de mise en œuvre | سلسلة الاستخدام / سلسلة التنفيذ |
+| identification positive (PID) | التعرّف الإيجابي |
+| zone des opérations rapprochées / dans la profondeur | منطقة العمليات القريبة / منطقة العمليات العميقة (repris) |
+| CFL / FSCL / FFA / FLOT / NFA / RFA / RFL | خط النيران المنسقة / خط تنسيق الإسناد الناري / منطقة الرمي الحر / الخط الأمامي للقوات الصديقة / منطقة حظر الرمي / منطقة الرمي المقيد / خط الرمي المقيد |
+| empreinte au sol / emprise / gabarit | البصمة على الأرض / المساحة (المخصصة) / الأبعاد النموذجية |
+| manœuvre continue / discontinue | المناورة المستمرة / المتقطعة |
+| appui aérien rapproché (CAS) / interdiction aérienne | الإسناد الجوي القريب / الحظر الجوي |
+| contrôle de type 1/2/3 | السيطرة من النوع 1/2/3 |
+| contrôle direct / aux procédures / dynamique aux procédures | السيطرة المباشرة / السيطرة الإجرائية / السيطرة الإجرائية الديناميكية |
+| commandant soutenu / unité appuyée | القائد المُسانَد / الوحدة المُسانَدة |
+| tir fratricide | الرمي على القوات الصديقة / إصابة القوات الصديقة |
+| démonstration de présence / de force | إظهار الحضور / استعراض القوة |
+| contrôleur tactique air (CTA) / officier de liaison air | المراقب الجوي التكتيكي / ضابط الاتصال الجوي |
+| aéronef | الطائرة |
+| drone / munition rôdeuse | الطائرة المسيّرة / الذخيرة الجوّالة |
+| lutte anti-drones aériens (LADA) | مكافحة الطائرات المسيّرة الجوية |
+| interdire un espace aérien / défendre un site, une unité / barrer un axe aérien | حظر مجال جوي / الدفاع عن موقع، عن وحدة / سدّ محور جوي |
+| « nasse » / « double rideau » | «الشَّرَك» / «الستار المزدوج» |
+| couverture réciproque / recouvrement des feux | التغطية المتبادلة / تداخل النيران |
+| temps réel / temps réfléchi | الزمن الحقيقي / الزمن المتأنّي |
+| omnidirectionnel / directionnel / défense d'itinéraire | متعدد الاتجاهات / اتجاهي / الدفاع عن طريق |
+| déconfliction | فض التعارض |
+| intervenant dans la 3e dimension (I3D) | المتدخل في البعد الثالث |
+| coordination dans la 3e dimension (CI3D) | التنسيق في البعد الثالث |
+| autorité allocataire / gestionnaire | السلطة المخصِّصة / السلطة المديرة |
+| volume (limites, plancher, plafond) | الحجم (الحدود، الأرضية، السقف) |
+| couloir de transit / spécial ; route temporaire à risque minimal | ممر العبور / الممر الخاص ؛ الطريق المؤقت ذو الخطر الأدنى |
+| génération de force | توليد القوة |
+
+## Choix douteux à faire relire
+
+1. **acquisition → « الاستحصال »** (aligné sur ar.json) ; l'usage arabe courant pour *target acquisition* est « اكتساب الأهداف ».
+2. **lanceurs → « القواذف »** : terme générique couvrant canons, mortiers et LRU ; « منظومات الرمي » serait plus explicite.
+3. **neutralisation à temps → « التحييد المؤقت »** : rend l'idée de durée limitée (~15 min) mais perd la notion d'horaire.
+4. **semonce → « رمي الإنذار »** (ar.json emploie « طلقة إنذار ») ; **harcèlement → « الإزعاج »** (aligné ar.json), « المضايقة » possible.
+5. **barrage → « رمي الحاجز »** et **arrêt → « رمي الإيقاف »** : calques ; « نيران الستارة » est aussi employé pour *barrage fire*.
+6. **adapté → « ملحق »**, **attribué → « مُسند »**, **en renforcement → « للتعزيز »** : correspondances avec les relations OTAN (OPCON/TACON, attached…) non exactes ; à valider.
+7. **« nasse » → « الشَّرَك »**, **« double rideau » → « الستار المزدوج »** : traductions littérales de procédés français.
+8. **temps réfléchi → « الزمن المتأنّي »** : sans équivalent fixé.
+9. **autorité allocataire / gestionnaire → « المخصِّصة / المديرة »** : descriptif.
+10. **CEM de la brigade (02_012)** rendu « رئيس أركان اللواء (CEM) » avec le sigle conservé entre parenthèses.
+11. **TC1 / TC2, COMANFOR, CEM, AI, G2** (non listés) laissés en latin, comme les autres sigles.
+12. **Entrées purement anglaises** (08_069, 09_000-002, 09_009, 09_015, 09_016) laissées sans traduction arabe, conformément à la règle « expansion anglaise gardée » ; ajouter une glose arabe si l'on préfère.
+13. **Mise en page RTL** : chaînes mêlant sigles latins, gabarits « 4 x 6 كم » et « P{n}، P{n} » à contrôler visuellement.

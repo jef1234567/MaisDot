@@ -266,3 +266,85 @@ Complète GLOSSAIRE_it.md (repris à l'identique : effetto decisivo, linea d'azi
 15. **groupes d'engagement influence → « gruppi d'impiego influenza »** ; **ETIM « équipe tactique d'influence militaire »** : genre féminin retenu (« le ETIM », « una ETIM »), ETEC aussi ; UTMC féminin, DTMC masculin.
 16. **Effet majeur élargi → « effetto decisivo esteso »** ; « allargato » possible.
 17. **Zone d'engagement ALAT → « Zona d'impiego ALAT »** (repris de it.json) ; **Unité de feu → « Unità di fuoco »**.
+
+
+## Lot 6b – Feux et 3D (artillerie, FSCC, coordination des feux, CAS, DSA et LADA, CI3D)
+
+# Glossaire FR → IT – lot 6b (feux, CAS, sol-air, LADA, 3D)
+
+Complète GLOSSAIRE_it.md (termes déjà retenus repris : effetto decisivo, comandante interarma, supporto di fuoco, superficie-superficie, controaerei, scaglione, plotone, tappa, resoconto…). Adresse en « tu », apostrophe droite, guillemets «» sans espace. Sigles conservés.
+
+## Termes retenus
+
+| Français | Italien |
+|---|---|
+| artillerie sol-sol / sol-air | artiglieria superficie-superficie / controaerei |
+| défense sol-air (DSA) / défense surface-air | difesa controaerei / difesa superficie-aria |
+| feux interarmées / interarmes | fuochi interforze / interarma |
+| appui direct (DS) / action d'ensemble (GS) | supporto diretto / azione d'insieme |
+| conquête de la supériorité des feux (CSF) | conquista della superiorità di fuoco |
+| contrebatterie | controbatteria |
+| semonce / harcèlement | avvertimento / molestia |
+| neutralisation à temps / tactique | neutralizzazione temporanea / tattica |
+| destruction tactique / destruction | distruzione tattica / distruzione |
+| aveuglement / éclairement | accecamento / illuminazione |
+| arrêt (tir d'~) / barrage / cloisonnement | arresto (tiro d'~) / sbarramento / compartimentazione |
+| préparation d'artillerie | preparazione d'artiglieria |
+| chaîne d'emploi / de mise en œuvre | catena d'impiego / catena di esecuzione |
+| conservé aux ordres / détaché / adapté / attribué / en renforcement / mis pour emploi | mantenuto agli ordini / distaccato / assegnato / attribuito / in rinforzo / messo a disposizione per l'impiego |
+| modes de relation | modalità di dipendenza |
+| observateur avancé | osservatore avanzato |
+| coordonnateur des appuis feux / officier coordination des feux | coordinatore dei supporti di fuoco / ufficiale di coordinamento dei fuochi |
+| ciblage | targeting |
+| lanceurs / pièces | lanciatori / pezzi |
+| flèche maximale | freccia massima |
+| politique de tir / intervention-type (IT) | politica di tiro / intervento tipo |
+| unité de feu (UF) | unità di fuoco |
+| tirs planifiés / d'opportunité | tiri pianificati / d'opportunità |
+| réserve d'intervention générale | riserva d'intervento generale |
+| zone d'effort des feux (ZEF) | zona di sforzo dei fuochi |
+| créneau | finestra temporale |
+| bascule d'effort | spostamento dello sforzo |
+| mesures palliatives | misure correttive |
+| zone des opérations rapprochées / dans la profondeur / arrière | area delle operazioni ravvicinate / in profondità / di retrovia |
+| empreinte au sol / emprise / gabarit | impronta sul terreno / area / sagoma |
+| manœuvre continue / discontinue, bond | manovra continua / discontinua, sbalzo |
+| CFL / FSCL / FFA / FLOT / NFA / RFA / RFL | linea dei fuochi coordinati / linea di coordinamento del supporto di fuoco / zona di fuoco libero / linea avanzata delle forze amiche / zona di divieto di fuoco / zona di fuoco limitato / linea di fuoco limitato |
+| QG (qui l'a établie) | comando |
+| appui aérien rapproché (CAS) / interdiction aérienne | supporto aereo ravvicinato / interdizione aerea |
+| CCA | attacco con elicotteri da combattimento |
+| contrôleur tactique air / officier de liaison air | controllore tattico aereo / ufficiale di collegamento aereo |
+| type de contrôle (type 1/2/3), type par défaut | tipo di controllo, tipo predefinito |
+| commandant soutenu / unité appuyée | comandante supportato / unità supportata |
+| tir fratricide | fuoco fratricida |
+| démonstration de présence / de force | dimostrazione di presenza / di forza |
+| lutte anti-drones aériens (LADA) | lotta anti-droni aerei |
+| munitions rôdeuses | munizioni circuitanti |
+| engin explosif improvisé | ordigno esplosivo improvvisato |
+| déconfliction | deconflittualizzazione |
+| temps réfléchi / temps réel | tempo differito / tempo reale |
+| nasse / double rideau | «nassa» / «doppia cortina» |
+| couverture réciproque / recouvrement des feux | copertura reciproca / sovrapposizione dei fuochi |
+| portée / plafond (Mistral) | portata / tangenza |
+| intervenant dans la 3e dimension (I3D) | attore nella 3a dimensione |
+| contrôle direct / aux procédures / dynamique aux procédures | controllo diretto / procedurale / procedurale dinamico |
+| autorité allocataire / gestionnaire | autorità assegnataria / autorità di gestione (assegnatario / gestore) |
+| couloir / route de transit, couloir spécial, route temporaire à risque minimal | corridoio / rotta di transito, corridoio speciale, rotta temporanea a rischio minimo |
+| plancher / plafond (volume) | quota minima / quota massima |
+| ligne {n} (tableaux) | riga {n} (comme it.json) |
+
+## Choix douteux à faire relire
+
+1. **adapté → « assegnato »** et **attribué → « attribuito »** : distinction française sans équivalent italien établi ; « mis pour emploi » → « messo a disposizione per l'impiego » (proche de l'OPCON).
+2. **semonce → « avvertimento »**, **harcèlement → « molestia »** (it.json n'avait que « azione di disturbo » dans une phrase) ; la doctrine italienne parle aussi de « tiro di interdizione ».
+3. **neutralisation à temps → « neutralizzazione temporanea »** (calque de « timed neutralization » possible).
+4. **tranche D** laissée telle quelle (désignation logistique française des munitions) ; à remplacer éventuellement par « classe V » OTAN.
+5. **mesures palliatives → « misure correttive »** (ou « palliative »).
+6. **défense sol-air → « difesa controaerei »** (cohérent avec it.json) ; « défense surface-air » distinguée en « difesa superficie-aria ».
+7. **CFL / RFA / RFL** : traductions littérales des expansions ; termes OTAN italiens officiels à vérifier.
+8. **contrôle aux procédures → « controllo procedurale »** ; « contrôle direct » rendu littéralement (l'OTAN dit « positive control » → « controllo positivo »).
+9. **allocataire / gestionnaire → « assegnatario / gestore »**.
+10. **Mistral « plafond » → « tangenza »**, mais « plafond » d'un volume ACM → « quota massima ».
+11. **munitions rôdeuses → « munizioni circuitanti »** (« loitering munitions » parfois laissé en anglais).
+12. **Utilisateur Terre → « utilizzatore dell'Esercito »** ; « Terre + Air » → « Esercito + Aeronautica ».
+13. 09_042 : repris sur la traduction existante d'it.json, complétée de « fuochi e 3D » ; point final conservé comme dans la source.

@@ -315,3 +315,104 @@ PSYOPS, L2I, LIO, TAA, CIMIC, QIP, MoP/MoE, UTMC, DTMC, X10/G10/J10, AE, ROEM, 3
 11. **Appropriation et conduite** (id 11_052) → « Ownership and execution » : `en.json` contient aussi « Ownership and conduct » et « GTIA operations centre » pour une variante de cette chaîne ; harmoniser (ici « GTIA CO »).
 12. **temps de compétition** → « competition period » ; « compétition, contestation, affrontement » → « competition, contestation, confrontation » (« confrontation » est aussi le nom d’une étape MEDOT).
 13. **chaîne communication** → « communication chain » (l’équivalent OTAN serait plutôt « public affairs »).
+
+
+## Lot 6b – Feux et 3D (artillerie, FSCC, coordination des feux, CAS, DSA et LADA, CI3D)
+
+# MaisDot – lot 6b (Feux et 3D) – Glossaire FR → EN
+
+Complète `GLOSSAIRE_en.md` (termes du glossaire principal inchangés). Orthographe britannique, « » → “ ”, apostrophe ’.
+Sigles conservés tels quels (FSCC, AFA, DSA, ASM, LDT, CAF, OCF, OA, EOC, DLOC, JTAC, NFO, BAS, GTA, SGTA, CSF, IT, UF, CFL, FSCL, FFA, FLOT, NFA, RFA, RFL, FSCM, ACM, ADM, ACO, ATO, ACP, JACC, HIDACZ, ROZ, ACA, WFZ, WEZ, MEZ, SHORADEZ, I3D, CI3D, GTASA, SGTASA, SATCP, LADA, LATTA, CMD3D, ADC, ALO, CTA, CAS, CCA, E-CAS, AOCC, CAOC, ACC, ZEF, ZIO, COMANFOR…). « FSCC N1 / N2 / N3 » conservé (niveau).
+
+## Termes retenus
+
+| Français | Anglais |
+|---|---|
+| artillerie sol-sol / sol-air | surface-to-surface artillery / ground-based air defence artillery |
+| arme intégrale, intégrée, intégratrice | complete, integrated and integrating arm |
+| chef interarmes | combined-arms commander |
+| feux interarmées | joint fires |
+| appui direct (DS) / action d’ensemble (GS) | direct support (DS) / general support (GS) |
+| conquête de la supériorité des feux (CSF) | gaining fire superiority (CSF) |
+| contrebatterie | counter-battery fire |
+| fonction « feu » adverse ; bases de feux | enemy “fire” function ; fire bases |
+| semonce / harcèlement | warning shot / harassment (cohérent avec `en.json`) |
+| neutralisation à temps / tactique ; destruction tactique | timed neutralisation / tactical neutralisation ; tactical destruction |
+| aveuglement / éclairement | blinding / illumination (cohérent avec `en.json`) |
+| arrêt, tir d’arrêt / barrage / préparation d’artillerie | stopping fire / barrage / artillery preparation |
+| cloisonnement, cloisonner | compartmentalisation, compartmentalise |
+| tir près des amis ; flèche maximale | danger-close fire ; maximum ordinate |
+| autorisation d’ouverture du feu | clearance to open fire / clearance to fire |
+| chaîne d’emploi / chaîne de mise en œuvre ; mettre en œuvre | employment chain / execution chain ; execute |
+| conservés aux ordres / détachés / adaptés ; mis pour emploi | retained under command / detached / attached ; placed at the disposal of |
+| modes de relation (DSA) : conservée aux ordres, attribuée, en renforcement, adaptée | command relationships: retained under command, assigned, in reinforcement, attached |
+| renforcement de feux / de moyens | reinforcement of fires / of assets |
+| lanceurs ; pièces | launchers ; pieces (artillery), firing posts (Mistral / SATCP) |
+| batterie de tir ; batterie d’acquisition et de surveillance | firing battery ; acquisition and surveillance battery |
+| coordonnateur des appuis feux (CAF) / officier coordination des feux (OCF) / observateur avancé (OA) | fire support coordinator / fire coordination officer / forward observer |
+| élément d’observation et de coordination (EOC) | observation and coordination element |
+| chef de corps ; bureau opérations-instruction ; CEM | commanding officer ; operations and training branch ; chief of staff |
+| annexe feux ; plan de feux ; mission de tir | fires annex ; fire plan ; fire mission |
+| politique de tir ; intervention-type (IT) ; unité de feu (UF) | firing policy ; standard engagement (IT) ; fire unit (UF) |
+| tirs planifiés / d’opportunité ; réserve d’intervention générale | planned fires / fires on targets of opportunity ; general reserve (cohérent avec `en.json`) |
+| à l’horaire / à la demande | on schedule / on call |
+| bascule d’effort | shift of main effort |
+| zone d’effort des feux (ZEF) | fire effort area |
+| zone des opérations rapprochées / dans la profondeur ; zone arrière | close operations area / deep operations area ; rear area |
+| armes à tir tendu | direct-fire weapons |
+| mesures palliatives | mitigating measures |
+| reconnaissance offensive ; manœuvre retardatrice | reconnaissance in force ; delaying action |
+| évaluation des dommages ; identification positive | damage assessment ; positive identification |
+| empreinte au sol ; emprise | ground footprint ; ground area |
+| mouvements de sauvegarde ; stabilité (sur zone) ; gabarit | survivability moves ; time in position ; footprint |
+| manœuvre continue (bond de section) / discontinue (bond de batterie) | continuous (platoon bounds) / discontinuous (battery bounds) manoeuvre |
+| élongation | reach |
+| composante terrestre ; niveau opératif | land component ; operational level |
+| autorité qui l’établit | establishing authority |
+| vecteurs aériens ; interdiction aérienne | air assets ; air interdiction |
+| commandant soutenu ; tir fratricide | supported commander ; fratricide |
+| CAS planifié / à la demande | planned / on-call CAS |
+| types de contrôle 1, 2, 3 ; contrôle aux procédures | types of control 1, 2, 3 ; procedural control |
+| démonstration de présence / de force | show of presence / show of force |
+| renseignement au plus loin | long-range intelligence |
+| contrôleur tactique air (CTA) | tactical air controller |
+| pilote (équipe JTAC) | driver |
+| défense sol-air (DSA) ; lutte anti-drones aériens (LADA) | ground-based air defence ; counter-UAS |
+| lutte antiaérienne toutes armes (LATTA) | all-arms air defence |
+| temps réfléchi / temps réel | deliberate time / real time |
+| chaîne interarmées d’engagement des feux | joint fire engagement chain |
+| permanence des feux | continuity of fire |
+| couverture réciproque / recouvrement des feux ; domaine de tir | mutual support / overlapping fires ; engagement envelope |
+| interdire un espace aérien / défendre un site / défendre une unité / barrer un axe aérien / surveiller | deny an airspace / defend a site / defend a unit / block an air avenue of approach / surveillance |
+| « nasse » / « double rideau » | “trap” / “double curtain” |
+| déploiement omnidirectionnel / directionnel ; défense d’itinéraire | all-round / directional deployment ; route defence |
+| défense d’accompagnement | escort air defence |
+| régiment sol-air endivisionné | divisional ground-based air defence regiment |
+| munitions rôdeuses ; très basse couche | loitering munitions ; very low altitude layer |
+| défense d’emprise ; autoprotection | facility defence ; self-protection |
+| autorité d’engagement / d’emploi | engagement authority / employment authority |
+| centre de management de la défense dans la 3e dimension (CMD3D) | third-dimension defence management centre |
+| coordination dans la 3e dimension (CI3D) ; intervenant dans la 3e dimension (I3D) | coordination in the third dimension ; third-dimension user |
+| moyens de contrôle de l’espace aérien (ACM) ; mesures de défense aérienne (ADM) | airspace control means ; air defence measures |
+| contrôle direct / aux procédures / dynamique aux procédures | positive control / procedural control / dynamic procedural control |
+| contrôleurs de sécurité aérienne de l’ALAT | ALAT air traffic controllers |
+| autorité de contrôle de l’espace aérien | airspace control authority |
+| autorité allocataire / gestionnaire | owning authority / managing authority |
+| couloir / route de transit ; couloir spécial ; route temporaire à risque minimal | transit corridor / route ; special corridor ; temporary minimum-risk route |
+| route des aéronefs de l’armée de Terre sous le niveau de coordination | army aircraft flight route below the coordinating altitude |
+| ligne {n} (tableaux) | row {n} |
+
+## Choix douteux à faire relire
+
+1. **arrêt / tir d’arrêt** → « stopping fire » : l’OTAN emploie « final protective fire » pour le tir d’arrêt au plus près des positions amies, mais l’effet CAS (« toujours urgent, sur un objectif en mouvement ») s’y prête mal ; terme unique gardé pour les deux. **barrage** gardé « barrage ».
+2. **neutralisation à temps** → « timed neutralisation » (pas d’équivalent OTAN établi ; option : « temporary neutralisation »).
+3. **semonce** → « warning shot » et **aveuglement** → « blinding », pour rester cohérent avec `en.json` ; « warning fire » / « screening (smoke) » seraient plus idiomatiques.
+4. **adapté(e)** → « attached » (artillerie et DSA) ; **attribuée** → « assigned » ; **mis pour emploi** → « placed at the disposal of ». Ne correspondent pas exactement aux relations OTAN (OPCON / TACON / ATTACHED).
+5. **contrôle direct** → « positive control » (terme OTAN de l’ACP) plutôt que la traduction littérale « direct control ».
+6. **autorité allocataire / gestionnaire** → « owning authority / managing authority » : l’allocataire est le bénéficiaire de l’ACM ; pas de terme OTAN exact.
+7. **intervention-type (IT)** → « standard engagement » ; **politique de tir** → « firing policy » ; **tranche D** laissé tel quel (« artillery ammunition (tranche D) »).
+8. **CI3D** → « coordination in the third dimension » ; `en.json` emploie aussi « 3D coordination / CI3D ».
+9. **Définitions de sigles** commençant par l’expansion anglaise (08_045, 08_048, 08_054, 08_055, 08_059 à 08_068, 09_010, 09_012, 09_014, 09_017) : expansion anglaise gardée, glose française redondante supprimée ; complément conservé quand il apporte une information (08_045 « 3D support cell at levels 1 to 3 », 08_054 « close air support controller », 08_055 « types A, B, C », 09_013). 08_067 garde « air task order » tel qu’écrit dans la source (OTAN : « air tasking order »).
+10. **Nombres** : décimales « 1,5 » → « 1.5 » (usage anglais, comme `en.json`) ; « 6 000 m », « 3 000 m » et « 30 % » gardés tels quels.
+11. **pilote** (équipe JTAC, 05_003) → « driver » (conducteur du véhicule) ; 05_037 « Le pilote » → « The pilot » (aéronef).
+12. **FSCC N1 / N2 / N3** gardés tels quels (désignation de niveau française) plutôt que « L3 ».

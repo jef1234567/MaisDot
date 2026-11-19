@@ -270,3 +270,107 @@ Genre des sigles : OPDEC, OPORD, MA, ME, MAG, UTMC, L2I, CIMIC, COMOPS au fémin
 11. Les définitions en anglais (11_000, 11_008, 11_025) et les parties en anglais des définitions mixtes (11_004, 11_016-11_019) sont conservées telles quelles ; seule la partie française est traduite.
 12. **Ejército de Tierra francés** (08_034) : « français » a été ajouté pour lever l'ambiguïté auprès d'un lecteur espagnol ; à retirer si l'on veut un respect strict de la règle « n'ajoute rien ».
 13. **apartado 1.D** (07_067, « paragraphe ») et **sección** pour « bureau » (BILI, X9, PSYOPS) : cohérent avec « sección de inteligencia » du glossaire.
+
+
+## Lot 6b – Feux et 3D (artillerie, FSCC, coordination des feux, CAS, DSA et LADA, CI3D)
+
+# Glossaire FR → ES – lot 6b (artillerie sol-sol et FSCC, planification des feux, FSCM, CAS, DSA/LADA, coordination 3D)
+
+Complète `docs/traduction/GLOSSAIRE_es.md` ; termes déjà retenus repris à l'identique (artillería de campaña / antiaérea, efecto decisivo, cometido especificado, restricción, empeño, fila {n}, «Los botones del pie de página ensamblan el documento»). Adresse : « tú ».
+Genre des sigles : ACM, ACO, ATO, ACA, ZEF, ZIO, FSCL, CFL, RFL, NFA, FFA, RFA, BAS, DSA, LADA, CSF, IT, UF, CI3D au féminin ; FSCC, DLOC, EOC, GTA, SGTA, GTASA, SGTASA, ACP, JACC, CMD3D, ALO, JTAC, NFO, OA, CAF, OCF, CAS, CCA, LCC au masculin.
+
+## Termes retenus
+
+| Français | Español |
+|---|---|
+| appui direct (DS) / action d'ensemble (GS) | apoyo directo / acción de conjunto (déjà dans es.json ; terme de la doctrine espagnole d'artillerie) |
+| conquête de la supériorité des feux (CSF) | conquista de la superioridad de fuegos |
+| contrebatterie | contrabatería |
+| chef interarmes ; feux interarmées | jefe interarmas ; fuegos conjuntos |
+| chaîne d'emploi / de mise en œuvre ; mettre en œuvre | cadena de empleo / de ejecución ; ejecutar |
+| conseiller feux ; chef de corps | asesor de fuegos ; jefe del regimiento |
+| bureau opérations-instruction | sección de operaciones e instrucción |
+| appui feux artillerie / défense sol-air / gestion de l'espace aérien / liaison de données tactique | apoyo de fuegos de artillería / defensa antiaérea / gestión del espacio aéreo / enlace de datos táctico |
+| défense surface-air | defensa superficie-aire |
+| coordonnateur des appuis feux (CAF) / officier coordination des feux (OCF) | coordinador de apoyos de fuego / oficial de coordinación de fuegos |
+| observateur avancé ; élément d'observation et de coordination | observador avanzado ; elemento de observación y coordinación |
+| batterie d'acquisition et de surveillance | batería de adquisición y vigilancia |
+| groupement / sous-groupement tactique d'artillerie (sol-air) | agrupamiento / subagrupamiento táctico de artillería (antiaérea) |
+| lanceurs ; pièces ; batterie de tir | lanzadores ; piezas ; batería de tiro |
+| conservé aux ordres / détaché / adapté / attribué / en renforcement | conservado a sus órdenes / destacado / agregado / asignado / en refuerzo |
+| mis pour emploi | puesto para empleo |
+| renforcement de feux / de moyens | refuerzo de fuegos / de medios |
+| autorisation d'ouverture du feu ; règles d'engagement | autorización de apertura de fuego ; reglas de enfrentamiento |
+| manœuvre des trajectoires / des moyens ; flèche maximale | maniobra de las trayectorias / de los medios ; flecha máxima |
+| semonce / harcèlement / neutralisation à temps / neutralisation tactique / destruction tactique / destruction | advertencia / hostigamiento / neutralización temporal / neutralización táctica / destrucción táctica / destrucción |
+| aveuglement / éclairement | cegamiento / iluminación |
+| arrêt (tir d'arrêt) / barrage / préparation d'artillerie ; cloisonnement | detención (fuego de detención) / barrera / preparación artillera ; compartimentación |
+| cible / objectif | blanco / objetivo |
+| politique de tir ; intervention-type (IT) | política de tiro ; intervención tipo |
+| tirs planifiés / d'opportunité ; réserve d'intervention générale | tiros planeados / de oportunidad ; reserva de intervención general |
+| zone d'effort des feux (ZEF) ; créneau | zona de esfuerzo de los fuegos ; franja horaria |
+| bascule d'effort | cambio de esfuerzo |
+| zone des opérations rapprochées / dans la profondeur / arrière | zona de operaciones próximas / en profundidad / de retaguardia |
+| armes à tir tendu | armas de tiro tenso |
+| facteur limitant ; tranche D | factor limitativo ; tramo D |
+| soutenabilité ; mesures palliatives | sostenibilidad ; medidas paliativas |
+| ciblage | targeting (comme lot 6a) |
+| empreinte au sol ; emprise | huella en el terreno ; emplazamiento |
+| manœuvre continue / discontinue ; bond ; gabarit ; stabilité | maniobra continua / discontinua ; salto ; gálibo ; permanencia |
+| coups (consommation) | disparos |
+| CFL / FSCL / FFA / FLOT / NFA / RFA / RFL | línea de fuegos coordinados / línea de coordinación de apoyos de fuego / zona de fuego libre / línea avanzada de las fuerzas propias / zona de fuego prohibido / zona de fuego restringido / línea de fuego restringido |
+| en deçà / au-delà (d'une ligne) | a este lado / más allá |
+| niveau / état-major opératif ; composante terrestre / air | nivel / estado mayor operacional ; componente terrestre / aéreo |
+| appui aérien rapproché ; interdiction aérienne | apoyo aéreo cercano ; interdicción aérea |
+| attaque par hélicoptères de combat (CCA) | ataque con helicópteros de combate |
+| contrôleur tactique air ; officier de liaison air | controlador táctico aéreo ; oficial de enlace aéreo |
+| CAS planifié / à la demande | CAS planeado / a petición |
+| types de contrôle 1, 2, 3 ; commandant soutenu ; tir fratricide | tipos de control 1, 2, 3 ; jefe apoyado ; fuego fratricida |
+| démonstration de présence / de force | demostración de presencia / de fuerza |
+| équipage ; guidage ; visuel | tripulación ; guiado ; contacto visual |
+| défense sol-air (DSA) ; artillerie sol-air | defensa antiaérea ; artillería antiaérea |
+| lutte anti-drones aériens (LADA) | lucha antidrones aéreos |
+| lutte antiaérienne toutes armes (LATTA) | lucha antiaérea de todas las armas |
+| modes de relation | modos de relación |
+| génération de force | generación de fuerzas |
+| couverture réciproque ; recouvrement des feux ; domaine de tir | cobertura recíproca ; solapamiento de los fuegos ; sector de tiro |
+| interdire un espace aérien / défendre un site, une unité / barrer un axe aérien / surveiller | negar un espacio aéreo / defender un emplazamiento, una unidad / cerrar un eje aéreo / vigilar |
+| nasse / double rideau ; omnidirectionnel / directionnel | nasa / doble cortina ; omnidireccional / direccional |
+| défense d'itinéraire / d'accompagnement / d'emprise | defensa de itinerario / de acompañamiento / de emplazamientos |
+| tirer en roulant | tirar en marcha |
+| plafond / plancher | techo / suelo |
+| munitions rôdeuses ; très basse couche ; signature | municiones merodeadoras ; capa muy baja ; firma |
+| engin explosif improvisé | artefacto explosivo improvisado |
+| brouillage, piratage (dans « perturbation (…) ») ; énergie dirigée | interferencia, pirateo ; energía dirigida |
+| autorité d'engagement / d'emploi ; chaîne interarmées d'engagement des feux | autoridad de empeño / de empleo ; cadena conjunta de empeño de los fuegos |
+| déconfliction | desconflicción |
+| temps réfléchi / temps réel | tiempo diferido / tiempo real |
+| centre de management de la défense dans la 3e dimension | centro de gestión de la defensa en la tercera dimensión |
+| intervenant dans la 3e dimension (I3D) | interviniente en la tercera dimensión |
+| contrôle direct / aux procédures / dynamique aux procédures | control positivo / por procedimientos / dinámico por procedimientos |
+| autorité allocataire / gestionnaire | autoridad asignataria / gestora |
+| couloir de transit / route de transit / couloir spécial / route temporaire à risque minimal | corredor de tránsito / ruta de tránsito / corredor especial / ruta temporal de riesgo mínimo |
+| zone d'engagement des armes (WEZ) | zona de empeño de las armas |
+| plan / ordre de contrôle de l'espace aérien ; ordre de missions aériennes | plan / orden de control del espacio aéreo ; orden de misiones aéreas |
+| découpage / redécoupage (de l'espace) | división / nueva división |
+| armée de Terre (utilisateur Terre) | Ejército de Tierra |
+
+## Choix douteux à faire relire
+
+1. **acción de conjunto** (action d'ensemble, GS) : repris de `es.json` et conforme à la doctrine espagnole d'artillerie ; l'équivalent OTAN littéral serait « apoyo general ».
+2. **agregado** (adapté) vs **asignado** (attribué) : distinction française sans équivalent espagnol exact ; « agregado » rend la subordination temporaire pour une phase. « conservado a sus órdenes » est un calque.
+3. **advertencia** (semonce), **neutralización temporal** (neutralisation à temps), **detención** (arrêt) et **barrera** (barrage) : en espagnol, « fuego de barrera » désigne souvent un tir d'arrêt rapproché, alors qu'ici le barrage est dans la profondeur ; à valider.
+4. **tramo D** (tranche D) : catégorie logistique française, traduite littéralement.
+5. **empeño** pour « engagement » des feux sol-air (autorité d'engagement LADA, WEZ, zone d'engagement Mistral, chaîne interarmées d'engagement des feux) : cohérent avec le glossaire ; la terminologie OTAN espagnole emploie aussi « enfrentamiento » (zona de enfrentamiento de armas).
+6. **reglas de enfrentamiento** pour « règles d'engagement » (ROE) : usage OTAN espagnol, donc un autre mot que « empeño ».
+7. **control positivo** pour « contrôle direct » (terme OTAN positive control) ; un relecteur peut préférer le littéral « control directo ».
+8. **tiempo diferido** (temps réfléchi) : pas d'équivalent consacré.
+9. **conductor** pour « pilote » dans l'équipe JTAC (05_003), interprété comme le conducteur du véhicule ; « El piloto » (05_037) désigne bien le pilote de l'aéronef.
+10. **apoyo de inteligencia** pour « appui RENS » (06_005, 06_018) : abréviation française développée.
+11. **interferencia** pour « brouillage » en 06_028 (la phrase contient déjà « perturbación ») ; ailleurs « perturbar » (07_019) suit le glossaire du lot 6a.
+12. **El CEM de la brigada** (02_012) : sigle français conservé, sans développement.
+13. **huella en el terreno** (empreinte au sol) et **emplazamiento** (emprise, site) : « emplazamiento » sert aussi pour « site » (défendre un site), donc deux termes français ont une seule traduction.
+14. **suelo / techo** (plancher / plafond) d'un volume : « límite inferior / superior » serait plus aéronautique.
+15. **«tercera dimensión»** en toutes lettres pour « 3e dimension » (comme dans `es.json`) ; « 3D » et les sigles (I3D, CI3D, CMD3D) sont inchangés.
+16. Définitions entièrement en anglais (08_069, 09_000-09_002, 09_009, 09_015, 09_016) laissées telles quelles ; seule la partie française des définitions mixtes est traduite.
+17. **SHORADEZ / MEZ** : « muy corto alcance » pour « très courte portée » ; « Sol-air très courte portée » (09_006, SATCP) devient « Antiaéreo de muy corto alcance ».
