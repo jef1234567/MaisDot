@@ -600,3 +600,92 @@ Sigles conservés tels quels (définition seule traduite) : B2, B3, B4, B6, G6, 
 7. **défense ferme → « static defence »** (repris de en.json) ; **cellule conduite → « current operations cell »** (repris).
 8. **IMEX (« Immediate extraction – … »)** et **MANPADS / FARP** : glose française remplacée par l’expansion anglaise seule (comme aux lots précédents), IMEX garde un complément traduit.
 9. **PC** rendu « CP » dans les colonnes et consignes, « command post » dans les phrases explicatives.
+
+
+## Lot 6d-2 (défense NRBC, soutien)
+
+### MaisDot – lot 6d-2 (défense NRBC et soutien) – Glossaire FR → EN
+
+Complète `GLOSSAIRE_en.md` (termes du glossaire principal et des lots 5, 6a, 6b, 6c, 6d-1 inchangés). Orthographe britannique, « » → “ ”, apostrophe ’.
+Sigles conservés tels quels (BSD, DAS, GTLOG, GSIAT, JLSG, TC{n}, R{n}F / R{n}B / R{n}E, SMR, ELI, PRMAR, ERE, SIDEC, DL, ASIA, CPS, RISLP, RD, RT, MCO-T, G{n}, B{n}, S{n}, TACON, TACOM, OPCON, OPCOM, WARNO, FRAGO, OPO, BIA, GTIA, SGTIA, VAB RECO NRBC…). NRBC rendu « CBRN » dans le texte courant (usage de en.json), conservé dans les noms de matériels (VAB RECO NRBC).
+
+## Termes retenus
+
+| Français | Anglais |
+|---|---|
+| défense NRBC (interarmes) | (combined-arms) CBRN defence |
+| niveaux générique / intermédiaire / spécialisé | generic / intermediate / specialised levels |
+| appui NRBC spécialisé | specialised CBRN support |
+| décontamination immédiate / opérationnelle / approfondie / certifiée | immediate / operational / thorough / clearance decontamination |
+| site de décontamination (élargi, SIDEC) | (extended) decontamination site |
+| chantier (personnel / véhicules / blessés) | (personnel / vehicle / casualty) line |
+| zone d’accueil et d’attente ; zone de regroupement et de remise en condition | reception and waiting area ; regrouping and recovery area |
+| zone sale / propre ; point initial ; point de dislocation | dirty / clean area ; initial point ; dispersal point |
+| centre de reconditionnement du personnel | personnel decontamination and recovery centre |
+| unité / GTIA pilote | lead unit / lead GTIA |
+| agent persistant / non persistant ; tirs percutants / fusants ; épandage | persistent / non-persistent agent ; impact-fused / airburst fire ; spraying |
+| danger gaz | vapour hazard |
+| vecteur (NRBC) | delivery means |
+| point zéro ; effet mécanique | ground zero ; blast effect |
+| arme par destination | improvised weapon (weapon by use) |
+| effets recherchés : détruire, neutraliser, interdire, freiner, harceler, leurrer | destroy, neutralise, deny, delay, harass, deceive |
+| invariants tactiques | tactical constants |
+| parade envisagée ; indices | planned countermeasure ; indicators |
+| prélèvements à valeur de preuve | evidential sampling |
+| veille biologique / sanitaire ; vigilance | biological / health surveillance ; vigilance |
+| temps utile | useful time |
+| lutte contre la prolifération / contre-prolifération | non-proliferation / counter-proliferation |
+| fonction soutien ; sous-fonctions | support function ; sub-functions |
+| soutien de l’homme / du combattant | personnel support / soldier support |
+| soutien pétrolier / munitions / acheminement / stationnement | petroleum / ammunition support / transportation / basing |
+| brigade de soutien divisionnaire (BSD) ; BSD avancée | divisional support brigade ; forward BSD |
+| bascule (de la BSD) | displacement (of the BSD) |
+| détachement avancé de soutien (DAS) ; plot logistique | forward support detachment ; logistic point |
+| structure logistique temporaire ; zone fonctionnelle | temporary logistic structure ; functional area |
+| zone ravitaillement-transport / maintenance / santé / soutien du combattant / commandement | supply and transport / maintenance / medical / soldier support / command area |
+| GSIAT | theatre joint support group (JLSG) |
+| groupement tactique logistique (GTLOG) ; sous-groupement logistique | logistic battlegroup ; logistic sub-group |
+| contributeur principal au soutien (CPS) ; adjoint soutien interarmées (ASIA) | lead service for support ; joint deputy for support |
+| flux poussés / tirés ; livraison / distribution | push / pull flows ; delivery (to units) / supply point distribution |
+| stricte suffisance ; recomplètement | strict sufficiency ; replenishment |
+| jour de combat ; autonomie | combat day ; autonomy |
+| train de combat (TC{n}) | combat train |
+| élongation | line-of-communication distance |
+| stabilité (d’une structure) | time in position |
+| unicité de la manœuvre ; volet logistique ; effort logistique | unity of the manoeuvre ; logistic component ; logistic main effort |
+| unité élémentaire ; commandant d’unité | sub-unit ; company commander |
+| corps de troupe ; adjudant d’unité | regiment ; company sergeant major |
+| unité de commandement et de logistique | command and logistics company |
+| commissaire du groupement | battlegroup commissary officer |
+| rôle 1…4 ; R{n}F / R{n}B / R{n}E | Role 1…4 ; forward / basic / enhanced |
+| poste médical (mobile) ; équipe paramédicale mobile | (mobile) medical post ; mobile paramedical team |
+| hôpital médico-chirurgical | medical-surgical hospital |
+| médicalisation / chirurgicalisation à l’avant | forward medical care / forward surgical capability |
+| catégorisation ALPHA / BRAVO / CHARLIE | ALPHA / BRAVO / CHARLIE categorisation |
+| cellule de régulation des blessés | casualty regulation cell |
+| maintenance de contact / de proximité / de théâtre | forward / close / theatre maintenance |
+| maintien en condition opérationnelle (MCO-T) | through-life support (of land equipment) |
+| équipe légère d’intervention (ELI) ; section de maintenance régimentaire (SMR) | light repair team ; regimental maintenance platoon |
+| point de regroupement des matériels à réparer (PRMAR) | equipment collection point for repair |
+| niveau technique d’intervention ; régime de travail (R{n}) | technical intervention level ; work regime |
+| déborder (maintenance) | pass on (to the next level) |
+| équipements d’environnement | mission equipment |
+| affaires mortuaires ; unité d’appartenance | mortuary affairs ; parent unit |
+| personne capturée ; prisonnier de guerre ; rétention / détention | captured person ; prisoner of war ; retention / detention |
+| gendarmerie prévôtale | provost gendarmerie (military police) |
+| eau destinée à la consommation humaine / eau technique | drinking water / technical water |
+| ligne avant des forces amies ; ligne des contacts | forward line of own troops ; line of contact |
+| zone arrière ; sûreté éloignée / rapprochée / immédiate | rear area ; distant / close / immediate security |
+| GTIA à dominante mêlée | manoeuvre-heavy GTIA |
+| groupe (de combat) / section / peloton / escadron | section / platoon / platoon / squadron |
+| valeur à confirmer | value to be confirmed |
+
+## Choix douteux à faire relire
+
+1. **certifiée** (décontamination) → « clearance » (pivot imposé) ; **chantier** → « line » (« decontamination line ») plutôt que « station » ou « lane ».
+2. **élongation** → « line-of-communication distance » (pivot du lot) alors que le lot 6b emploie « reach » pour l’artillerie : deux sens distincts, à harmoniser si besoin.
+3. **stabilité** (BSD, compagnie de maintenance) → « time in position », repris du lot 6b ; **déborder** (maintenance) → « pass on ».
+4. **contributeur principal au soutien** → « lead service for support » (« lead nation » réservé au multinational) ; **commissaire du groupement** → « battlegroup commissary officer » ; **adjudant d’unité** → « company sergeant major ».
+5. **Ordinaux avec {n}** : « {n}e régiment de dragons » → « {n}nd » (2e RD), « {n}e RT / RISLP » → « {n}th », « {n}er » → « {n}st » : corrects pour les valeurs actuelles uniquement.
+6. **Gloses françaises supprimées** dans les définitions de sigles commençant par l’expansion anglaise (06_014 JLSG, 13_059 SIBCRA), comme aux lots précédents : le tiret « – » disparaît.
+7. **Matériel** (régiments du) → « Materiel Corps regiments » ; **Train** gardé « Train » (cf. lot 6d-1) ; **groupe de combat** → « section » et **section** → « platoon » (usage britannique), d’où « section de décontamination médicale » → « medical decontamination platoon ».

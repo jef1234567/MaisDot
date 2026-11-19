@@ -812,14 +812,14 @@ def t_fonctions(b, vp):
     """Rubrique « Contributions des fonctions » : hors cycle, examen dédié, encarts dans le cycle, gabarits assemblés."""
     a = App(b, vp).open("fx_dec")
     ids = a.js("M.filter(m=>m.grp==='Contributions des fonctions').map(m=>m.id)")
-    check(ids == ["fx_ecim", "fx_dec", "fx_inf", "fx_psy", "fx_cim", "fx_utmc", "fx_ae", "f3_art", "f3_fscc", "f3_coord", "f3_cas", "f3_dsa", "f3_ci3d", "gn_emp", "gn_cmob", "gn_fb", "gn_cied", "rn_b2", "rn_cap", "al_emp", "al_man", "ap_ac4d", "ap_mvt"], f"modules : {ids}")
+    check(ids == ["fx_ecim", "fx_dec", "fx_inf", "fx_psy", "fx_cim", "fx_utmc", "fx_ae", "f3_art", "f3_fscc", "f3_coord", "f3_cas", "f3_dsa", "f3_ci3d", "gn_emp", "gn_cmob", "gn_fb", "gn_cied", "rn_b2", "rn_cap", "al_emp", "al_man", "ap_ac4d", "ap_mvt", "nr_men", "nr_def", "nr_dct", "sl_gen", "sl_div", "sl_bsd", "sl_mco", "sl_san", "sl_sdc"], f"modules : {ids}")
     check(a.js("M.findIndex(m=>m.id==='ac_co')<M.findIndex(m=>m.id==='fx_ecim')&&M.findIndex(m=>m.id==='ap_mvt')<M.findIndex(m=>m.grp==='Outils')"), "ordre du menu")
     check(not a.js("cycleSvg().includes('fx_')"), "rubrique présente dans le schéma du cycle")
     for sc, want in (("tout", False), ("fx", True)):
         a.js(f"EXS='{sc}'")
         mids = a.js("exPick().map(q=>q.mid)")
-        has = any(m.startswith(("fx_", "f3_", "gn_", "rn_", "al_", "ap_")) for m in mids)
-        check(len(mids) == 30 and has == want and (not want or all(m.startswith(("fx_", "f3_", "gn_", "rn_", "al_", "ap_")) for m in mids)), f"examen {sc} : {sorted(set(mids))}")
+        has = any(m.startswith(("fx_", "f3_", "gn_", "rn_", "al_", "ap_", "nr_", "sl_")) for m in mids)
+        check(len(mids) == 30 and has == want and (not want or all(m.startswith(("fx_", "f3_", "gn_", "rn_", "al_", "ap_", "nr_", "sl_")) for m in mids)), f"examen {sc} : {sorted(set(mids))}")
     a.js("EXS='f3'")
     mids = a.js("exPick().map(q=>q.mid)")
     check(len(mids) == 30 and all(m.startswith("f3_") for m in mids) and len(set(mids)) == 6, f"examen f3 : {sorted(set(mids))}")
@@ -890,9 +890,33 @@ def t_fonctions(b, vp):
     check("ZRR de la brigade" in h and "Attitude du 233 BM" in h, "besoins en renseignement non assemblés")
     check(a.js("DEMO.tab.alman.length>=2&&DEMO.tab.rncap.every(r=>r.r.includes('(à valider)'))"), "corrigé VIENNE aérocombat / capteurs")
     check(a.js("LEX.some(x=>x[0]==='SGRM')&&LEX.some(x=>x[0]==='ETB')&&LEX.some(x=>x[0]==='EEI')"), "sigles 6d-1")
+    for sc, n_mod in (("nr", 3), ("sl", 6)):
+        a.js(f"EXS='{sc}'")
+        mids = a.js("exPick().map(q=>q.mid)")
+        check(len(mids) == 30 and all(m.startswith(sc + "_") for m in mids) and len(set(mids)) == n_mod, f"examen {sc} : {sorted(set(mids))}")
+    n = a.js("['p1e2','p1e3','p1e4','p2e2','p2e3','p2e5','or_opo'].filter(id=>M.find(m=>m.id===id).sections.some(s=>s.go&&s.go.some(g=>/^(nr|sl)_/.test(g)))).length")
+    check(n == 7, f"encarts NRBC / soutien : {n}/7")
+    a.js("go('p2e5')")
+    a.page.locator("#main .card.enc button", has_text="La brigade de soutien divisionnaire").first.click()
+    check(a.js("cur") == "sl_bsd", "lien de l'encart soutien")
+    a.js("go('nr_dct','a')")
+    a.page.fill("#f_nrdp_pil", "GTIA 2 pilote, région de Z")
+    select_cell(a, "nrsite", 0, "e", "Point initial")
+    fill_cell(a, "nrsite", 0, "l", "Carrefour C12")
+    bi = a.js("M.find(m=>m.id==='nr_dct').apply.findIndex(b=>b.t==='doc')")
+    h = a.js(f"docHTML('nr_dct',{bi})")
+    check("GTIA 2 pilote" in h and "Carrefour C12" in h and "Point initial" in h, "plan de décontamination non assemblé")
+    a.js("go('sl_div','a')")
+    fill_cell(a, "slcs", 0, "ph", "Phase 1")
+    select_cell(a, "slcs", 0, "f", "Flux tirés")
+    bi = a.js("M.find(m=>m.id==='sl_div').apply.findIndex(b=>b.t==='doc')")
+    h = a.js(f"docHTML('sl_div',{bi})")
+    check("Phase 1" in h and "Flux tirés" in h, "concept de soutien non assemblé")
+    check(a.js("LEX.some(x=>x[0]==='SIDEC')&&LEX.some(x=>x[0]==='PRMAR')&&LEX.some(x=>x[0]==='DAS')"), "sigles 6d-2")
+    check(a.js("new Set(LEX.map(x=>x[0])).size===LEX.length"), "sigles en double")
     a.no_errors()
     a.close()
-    return "23 modules hors cycle (dont 6 Feux et 3D, 4 Génie, 2 Renseignement, 2 Aérocombat, 2 Appuis), examens fx, f3, gn, rn et al, encarts liés, gabarits assemblés"
+    return "32 modules hors cycle (dont 6 Feux et 3D, 4 Génie, 2 Renseignement, 2 Aérocombat, 2 Appuis, 3 NRBC, 6 Soutien), examens fx, f3, gn, rn, al, nr et sl, encarts liés, gabarits assemblés"
 
 
 TESTS = [

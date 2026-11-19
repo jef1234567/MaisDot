@@ -469,3 +469,93 @@ Conventions reprises de GLOSSAIRE_ar.md et de ar.json : sigles en caractères la
 6. **escadron (cavalerie, Train) → « سرية »** comme compagnie (convention existante) : perte de la distinction escadron/compagnie (ex. « compagnie, escadron » dans 02_041 → « سرية، سرية خيالة »).
 7. **Fragments horaires** (05_104 à 05_108, 05_152 à 05_158) : « h » → « س », « min » → « د », « à » → « إلى » ; l’ordre RTL de la concaténation avec les nombres est à vérifier visuellement.
 8. **« nasses antichars » → « الأشراك المضادة للدبابات »** (« nasse » = « الشَّرَك » dans ar.json, contexte sol-air).
+
+
+## Lot 6d-2 (défense NRBC, soutien)
+
+### Glossaire FR → AR – Lot 6d-2 (défense NRBC et soutien)
+
+Complète `docs/traduction/GLOSSAIRE_ar.md`. Termes repris à l'identique : الأثر الحاسم، مسار العمل (MA)، الوظيفة العملياتية، حرية العمل، نسبة القوى، الإسناد / الدعم، التموين، الدعم الطبي، الإخلاء، رتل القتال، الامتداد، الإطار المكاني-الزماني، النسق، الإزعاج، الإعاقة، التحييد، الإيهام، الحظر، الاحتياج الدقيق، المرونة التركيبية، موقع إزالة التلوث / إزالة التلوث المعمّقة، الوحدة الرائدة، سلاح النقل (Train)، السرية / الفصيل / الدورية / الحضيرة، مركز القيادة، الإشارة، قابلية الحركة، التعزيزات والاقتطاعات.
+
+Conventions : sigles en latin, souvent précédés de « الـ » (BSD, TC{n}, DAS, ERE, GSIAT, JLSG, GTLOG, PRMAR, SMR, ELI, MCO-T, R{n}F/R{n}B/R{n}E, ASIA, CPS, RISLP, RD, RT, SIDEC, B{n}, G{n}, S{n}, DL, OPCON, TACON, TACOM…) ; `{n}` conservé à sa place, y compris dans les sigles et les nombres scindés (« {n} {n} ») ; « h » → « س », « min » → « د », « L » → « ل », « km » → « كم », « m³ » → « م³ », « ha » → « هكتار » ; « ligne {n} » → « السطر {n} » ; « Voir : » → « انظر: » ; « Étape suivante : … → » → « الخطوة التالية: … → » ; « valeur à confirmer » → « القيمة بحاجة إلى تأكيد » ; « ? » → « ؟ ». Adresse directe : impératif masculin singulier (« حلّل »، « خطّط »، « أحصِ »).
+
+## Termes retenus
+
+| Français | Arabe |
+|---|---|
+| défense NRBC (interarmes) | الدفاع NRBC (للأسلحة المشتركة) |
+| niveaux générique / intermédiaire / spécialisé | المستوى العام / المتوسط / المتخصص |
+| appui NRBC spécialisé | الإسناد NRBC المتخصص |
+| décontamination immédiate / opérationnelle / approfondie / certifiée | إزالة التلوث الفورية / العملياتية / المعمّقة / المصادَق عليها |
+| site de décontamination (élargi) | موقع إزالة التلوث (الموسَّع) |
+| chantier (personnel, véhicules, blessés) | ورشة (الأفراد، المركبات، الجرحى) |
+| zone propre / zone sale | المنطقة النظيفة / المنطقة الملوثة |
+| zone d'accueil et d'attente / de regroupement et de remise en condition | منطقة الاستقبال والانتظار / منطقة التجمع وإعادة التأهيل |
+| point initial / point de dislocation | النقطة الأولية / نقطة التفكك |
+| centre de reconditionnement du personnel | مركز إعادة تأهيل الأفراد |
+| agent persistant / non persistant | العامل الثابت / غير الثابت |
+| tirs percutants / fusants ; épandage | الرمي الارتطامي / الرمي المتفجر في الجو ؛ الرشّ |
+| arme par destination | سلاح بالاستعمال (سلاح مرتجل) |
+| point zéro / point d'impact | نقطة الصفر / نقطة الارتطام |
+| impulsion électromagnétique | النبضة الكهرومغناطيسية |
+| bombe sale ; toxiques industriels chimiques | القنبلة القذرة ؛ المواد الكيميائية الصناعية السامة |
+| prélever / prélèvement à valeur de preuve | أخذ العينات / أخذ العينات ذات القيمة الإثباتية |
+| veille sanitaire / biologique ; vigilance | الرصد الصحي / البيولوجي ؛ اليقظة |
+| lutte contre la prolifération / contre-prolifération | مكافحة الانتشار / التصدي للانتشار |
+| fonction soutien ; sous-fonction | وظيفة الدعم ؛ الوظيفة الفرعية |
+| soutien administratif militaire / soutien logistique | الدعم الإداري العسكري / الدعم اللوجستي |
+| soutien de l'homme / pétrolier / munitions / acheminement | دعم الفرد / الدعم النفطي / الدعم بالذخائر / الإيصال |
+| soutien du combattant | دعم المقاتل |
+| affaires mortuaires ; dépouille ; inhumation d'urgence | الشؤون الجنائزية ؛ الجثمان ؛ الدفن العاجل |
+| brigade de soutien divisionnaire (BSD) / BSD avancée | لواء الدعم الفرقي / الـ BSD المتقدمة |
+| bascule (de la BSD) | نقل (الـ BSD) |
+| zone fonctionnelle : ravitaillement-transport / maintenance / santé / soutien du combattant / commandement | المنطقة الوظيفية: التموين-النقل / الصيانة / الصحة / دعم المقاتل / القيادة |
+| structure logistique temporaire ; plot logistique ; DAS | الهيكل اللوجستي المؤقت ؛ النقطة اللوجستية ؛ مفرزة الدعم المتقدمة |
+| groupement tactique (logistique) ; sous-groupement | التجمع التكتيكي (اللوجستي) ؛ التجمع الفرعي |
+| GSIAT / JLSG | تجمع الدعم المشترك بين الجيوش في المسرح |
+| adjoint soutien interarmées (ASIA) ; contributeur principal au soutien (CPS) | معاون الدعم المشترك بين الجيوش ؛ المساهم الرئيسي في الدعم |
+| train de combat (TC{n}) | رتل القتال |
+| jour de combat | يوم القتال |
+| flux poussés / tirés | التدفقات المدفوعة / المسحوبة |
+| livraison / distribution | التسليم / التوزيع |
+| fournisseur / bénéficiaire | المورِّد / المستفيد |
+| stricte suffisance ; recomplètement | الكفاية الصارمة ؛ إعادة التزويد |
+| unicité de la manœuvre ; volet logistique ; effort logistique | وحدة المناورة ؛ الشق اللوجستي ؛ الجهد اللوجستي |
+| élongation | الامتداد |
+| zone arrière ; ligne avant des forces amies ; ligne des contacts | المنطقة الخلفية ؛ الخط الأمامي للقوات الصديقة ؛ خط التماس |
+| sûreté éloignée / rapprochée / immédiate | السلامة البعيدة / القريبة / المباشرة |
+| soutien médical ; rôle {n} (avancé / de base / renforcé) | الدعم الطبي ؛ الدور {n} (المتقدم / الأساسي / المعزَّز) |
+| poste médical (mobile) ; équipe paramédicale mobile | المركز الطبي (المتنقل) ؛ الفريق شبه الطبي المتنقل |
+| hôpital médico-chirurgical | المستشفى الطبي-الجراحي |
+| médicalisation / chirurgicalisation à l'avant | التطبيب في الأمام / الجراحة في الأمام |
+| chirurgie de sauvetage ; réanimation | جراحة الإنقاذ ؛ الإنعاش |
+| catégorisation, triage ; cellule de régulation des blessés | التصنيف، الفرز ؛ خلية تنظيم الجرحى |
+| évacuation sanitaire / stratégique ; vecteur d'évacuation | الإخلاء الطبي / الاستراتيجي ؛ وسيلة الإخلاء |
+| maintenance de contact / de proximité / de théâtre | صيانة التماس / الصيانة القريبة / صيانة المسرح |
+| MCO-T | الإبقاء على الجاهزية العملياتية للمعدات البرية |
+| niveau technique d'intervention ; régime de travail R{n} | المستوى الفني للتدخل ; نظام العمل R{n} |
+| SMR / ELI / PRMAR | فصيل الصيانة الفوجي / فريق التدخل الخفيف / نقطة تجميع المعدات الواجب إصلاحها |
+| déborder (vers l'échelon supérieur) | الإحالة إلى المستوى الأعلى |
+| rechanges ; matériels complets ; équipements d'environnement | قطع الغيار ؛ المعدات الكاملة ؛ تجهيزات البيئة |
+| personne capturée / prisonnier de guerre | الشخص المأسور / أسير الحرب |
+| capture / rétention / détention ; interrogation initiale | الأسر / الاحتجاز المؤقت / الاعتقال ؛ الاستجواب الأولي |
+| gendarmerie prévôtale | الدرك العسكري (الشرطة العسكرية) |
+| commissaire (du groupement) | مفوض التجمع (commissaire) |
+| unité élémentaire ; corps de troupe | الوحدة الأولية ؛ الفوج |
+| régiment de dragons / du Train / médical / d'infanterie et de soutien logistique parachutiste | فوج الفرسان (dragons) / فوج سلاح النقل (Train) / الفوج الطبي / فوج المشاة والدعم اللوجستي المظلي |
+| eau destinée à la consommation humaine / eau technique | مياه الاستهلاك البشري / المياه الفنية |
+
+## Choix à faire relire
+
+1. **rôle {n} (chaîne médicale) → « الدور {n} »** : calque de *Role 1…4* OTAN ; même mot que « rôle » du plan simplifié. Alternative : « مستوى الرعاية {n} ».
+2. **agent persistant / non persistant → « الثابت / غير الثابت »** ; « المستديم / غير المستديم » est aussi en usage. **tirs fusants / percutants → « الرمي المتفجر في الجو / الرمي الارتطامي »** : descriptif.
+3. **bascule de la BSD → « نقل الـ BSD »** (*displacement*) : aligné sur « bascule d'effort → نقل الجهد » ; perd l'idée de bascule par échelons. Alternative : « إعادة تموضع ».
+4. **flux poussés / tirés → « المدفوعة / المسحوبة »** (calque *push / pull*) et **livraison / distribution → « التسليم / التوزيع »** : à valider par un logisticien arabophone.
+5. **décontamination certifiée → « المصادَق عليها »** (*clearance*) ; « إزالة التلوث النهائية » serait plus idiomatique.
+6. **chantier (de décontamination) → « ورشة »** (*decontamination line*) ; « خط إزالة التلوث » possible.
+7. **sûreté → « السلامة » (éloignée, rapprochée, immédiate) mais « الأمن » pour la sûreté du soutien et le critère de structure** : double rendu, à harmoniser si besoin.
+8. **régiment de dragons → « فوج الفرسان (dragons) »**, **commissaire → « مفوض (commissaire) »**, **adjudant d'unité** : français conservé entre parenthèses, faute d'équivalent fonctionnel.
+9. **escadron (NRBC) → « سرية »** (convention existante) ; perte de la distinction escadron / compagnie.
+10. **déborder / débordement (maintenance) → « الإحالة إلى المستوى الأعلى »** : traduction du sens (transfert au niveau supérieur), pas du mot.
+11. **{n}D (impression 3D, cellule {n}D)** : « D » conservé tel quel ; pour l'impression, glose « الطباعة ثلاثية الأبعاد ({n}D) ».
+12. **Mise en page RTL** : chaînes mêlant sigles latins, nombres scindés (« {n} {n} ل ») et « TC{n} – BSD » à contrôler visuellement.

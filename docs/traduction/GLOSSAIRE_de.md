@@ -557,3 +557,101 @@ Genres : der SGRM / SGRC / GRM / GAM / GAMB / GCE / GTRS / GTIA-A (Verband), die
 13. **Amorces de QCM** : 04_130 réagencé („Die begünstigte Einheit der verbundenen Waffen einer SGAM unter OPCON…“ + réponses verbe en tête « legt … fest », « führt sie organisch », « unterstützt sie nur ») ; 02_090 / 05_018 suivis de réponses à l'accusatif (« den rückwärtigen Raum… », « einen DRG ») ; 01_055 / 05_150 « gehört zum Auftrag… » + infinitif en minuscule.
 14. **Fragments horaires** (05_104-108, 05_152-158) : « à » → „bis“, « de jour / de nuit » → „bei Tag / bei Nacht“ ; 03_154 « PAss » conservé (sens inconnu).
 15. **MANPADS / FARP / IMEX** : expansion anglaise conservée, glose française traduite.
+
+
+## Lot 6d-2 (défense NRBC, soutien)
+
+### Glossaire FR → DE – lot 6d-2 (défense NRBC et soutien)
+
+Complète /home/claude/maisdot/docs/traduction/GLOSSAIRE_de.md (« du », „ “, „Siehe:“, „Nächster Schritt: … →“, „Zeile {n}“, „Wert zu bestätigen“, Gefechtstross, Kampftag, Rettungsstation, Role {n} / Vorgeschobene Role / Basis-Role, vollständige Dekontamination, Dekontaminationsplatz, ABC-DL, ABC-Schwadron, ABC-Aufklärungstrupp, Gefechtsberührungslinie, rückwärtiger Raum, kampftruppenstarker GTIA, Verwundetenabtransport, Instandsetzung / Versorgung / sanitätsdienstliche Unterstützung – tous repris de de.json ou des lots précédents).
+Sigles conservés (BSD, DAS, GTLOG, TC{n}, R{n}F/R{n}B/R{n}E, PRMAR, SMR, ELI, ERE, SIDEC, GSIAT, JLSG, ASIA, CPS, MCO-T, RISLP, RD, RT, B{n}, G{n}, S{n}, DL, OPCOM/OPCON/TACOM/TACON, WARNO, FRAGO, OPO, BIA, GTIA, SGTIA, VAB RECO NRBC, SERVAL, GRIFFON, SCORPION). « NRBC » rendu par **ABC** dans le texte courant, comme dans de.json (ABC-Abwehr, ABC-Zelle, ABC-DL), mais conservé dans le nom d'engin « VAB RECO NRBC ».
+Genres : die BSD, das DAS, die GTLOG, der TC, die R{n}F/R{n}B/R{n}E (Role), der PRMAR, die SMR, das ELI, das ERE, der SIDEC, der GSIAT, der ASIA, das RD/RT/RISLP.
+
+## Termes retenus
+
+| Français | Allemand |
+|---|---|
+| défense NRBC (interarmes) | ABC-Abwehr (aller Truppen) |
+| niveaux générique / intermédiaire / spécialisé | allgemeine / mittlere / spezialisierte Ebene |
+| appui NRBC spécialisé | spezialisierte ABC-Unterstützung |
+| escadron d'appui NRBC ; peloton mixte d'appui direct | ABC-Unterstützungsschwadron ; gemischter Zug in unmittelbarer Unterstützung |
+| décontamination immédiate / opérationnelle / approfondie / certifiée | Sofort- / Einsatz- / vollständige / Freigabedekontamination |
+| site de décontamination (élargi) | (erweiterter) Dekontaminationsplatz |
+| chantier (de décontamination) ; chantier blessés | Dekontaminationsstraße ; Straße Verwundete |
+| zone d'accueil et d'attente / de regroupement et de remise en condition | Aufnahme- und Warteraum / Sammel- und Wiederherstellungsraum |
+| zone sale / zone propre | kontaminierte Zone / saubere Zone |
+| point initial / point de dislocation | Ausgangspunkt / Auflösungspunkt |
+| centre de reconditionnement du personnel | Zentrum zur Wiederausstattung des Personals |
+| rééquipement | Neuausstattung |
+| GTIA / unité pilote | federführender GTIA / federführende Einheit |
+| agent persistant / non persistant | sesshafter / flüchtiger Kampfstoff |
+| agent (biologique) ; vecteur | Erreger ; Träger |
+| tirs percutants / fusants ; épandage | Beschuss mit Aufschlagzünder / mit Luftsprengpunkt ; Versprühen |
+| transfert de contamination | Kontaminationsverschleppung |
+| effets : détruire, neutraliser, interdire, freiner, harceler, leurrer | vernichten, neutralisieren, sperren, verzögern, stören, täuschen |
+| invariants tactiques | taktische Konstanten |
+| arme par destination | improvisierte Waffe |
+| point zéro | Nullpunkt |
+| « temps utile » | „rechtzeitige“ Detektion |
+| veille biologique / sanitaire ; vigilance | biologische Überwachung / Gesundheitsüberwachung ; Wachsamkeit |
+| fonction soutien ; soutien logistique / administratif militaire | Funktion Logistische Unterstützung ; logistische / militärische administrative Unterstützung |
+| sous-fonctions : médical, homme, maintenance, pétrolier, acheminement, munitions | Sanitätsdienst, Personal(versorgung), Instandsetzung, Betriebsstoffe, Transport, Munition |
+| unicité de la manœuvre ; volet logistique ; effort logistique | Einheitlichkeit des Manövers ; logistischer Teil ; logistischer Schwerpunkt |
+| brigade de soutien divisionnaire (BSD) ; BSD avancée | Divisionsunterstützungsbrigade ; vorgeschobene BSD |
+| détachement avancé de soutien (DAS) ; plot logistique | vorgeschobenes Unterstützungskommando ; Logistikpunkt (Versorgungs-, Instandsetzungs-, Sanitätspunkt, Punkt Soldatenversorgung) |
+| structure logistique temporaire | temporäre logistische Einrichtung |
+| zone fonctionnelle : ravitaillement-transport / maintenance / santé / soutien du combattant / commandement | Funktionsraum : Versorgungs- und Transportraum / Instandsetzungsraum / Sanitätsraum / Raum Soldatenversorgung / Führungsraum |
+| groupement tactique (logistique) ; sous-groupement logistique | (logistische) Kampfgruppe ; logistischer Teilverband |
+| GSIAT ; ASIA ; CPS | streitkräftegemeinsamer Unterstützungsverband im Einsatzgebiet ; Stellvertreter für streitkräftegemeinsame Unterstützung ; Hauptbeitragender zur Unterstützung |
+| train de combat (TC1/2/3) | Gefechtstross |
+| jour de combat | Kampftag |
+| flux poussés / tirés | Push-Ströme / Pull-Ströme |
+| livraison / distribution | Zuführung / Ausgabe |
+| fournisseur / bénéficiaire ; stricte suffisance | Lieferant / Bedarfsträger ; strikte Bedarfsdeckung |
+| recomplètement (exceptionnel) ; sur/sous-consommation | (außerplanmäßige) Auffüllung ; Mehr-/Minderverbrauch |
+| élongation | Versorgungsentfernung |
+| bascule (de la BSD) | Verlegung |
+| stabilité | Verweildauer |
+| sûreté éloignée / rapprochée / immédiate | weiträumige / Nah- / unmittelbare Sicherung |
+| maintenance de contact / de proximité / de théâtre | vorgeschobene / truppennahe Instandsetzung / Instandsetzung im Einsatzgebiet |
+| MCO (des matériels terrestres) | Erhaltung der Einsatzbereitschaft des (Land)materials |
+| niveau technique d'intervention ; régime (de travail) | technische Instandsetzungsstufe ; Arbeitsregime |
+| ELI ; SMR ; PRMAR | leichtes Instandsetzungsteam ; Instandsetzungszug des Regiments ; Sammelpunkt für instand zu setzendes Material |
+| dépannage / évacuation (matériel) ; déborder | Bergung / Abschub ; abgeben |
+| équipements d'environnement | Zusatzausstattung |
+| rechanges ; matériels complets | Ersatzteile ; Komplettgeräte |
+| soutien médical ; service de santé | sanitätsdienstliche Unterstützung ; Sanitätsdienst |
+| rôle 1…4 ; R2F / R2B / R2E | Role 1…4 ; vorgeschobene / Basis- / verstärkte Role |
+| poste médical (mobile) ; équipe paramédicale / médicale mobile | (mobile) Rettungsstation ; mobiles Sanitätsteam / mobiles Ärzteteam |
+| hôpital médico-chirurgical | medizinisch-chirurgisches Lazarett |
+| médicalisation / chirurgicalisation à l'avant | ärztliche / chirurgische Versorgung weit vorn |
+| chirurgie de sauvetage ; catégories ALPHA/BRAVO/CHARLIE | lebensrettende Chirurgie ; Kategorien unverändert |
+| cellule de régulation des blessés ; chaîne d'évacuation ; vecteur d'évacuation | Zelle Verwundetensteuerung ; Abtransportkette ; Abtransportmittel |
+| évacuation sanitaire / stratégique | Verwundetenabtransport / strategischer Verwundetenabtransport |
+| régiment médical ; section de décontamination médicale | Sanitätsregiment ; medizinischer Dekontaminationszug |
+| soutien du combattant ; soutien de l'homme | Soldatenversorgung ; Personalversorgung |
+| affaires mortuaires ; dépouille ; inhumation d'urgence | Bestattungswesen ; sterbliche Überreste ; Notbestattung |
+| personne capturée ; prisonnier de guerre | gefangen genommene Person ; Kriegsgefangener |
+| capture / rétention / libération ou transfert ; interrogation initiale | Gefangennahme / Gewahrsam / Freilassung oder Überstellung ; Erstbefragung |
+| centre de transit ; centre de rétention | Durchgangszentrum ; Gewahrsamszentrum |
+| gendarmerie prévôtale ; appui prévôtal | Feldjäger der Gendarmerie ; feldjägerdienstliche Unterstützung |
+| commissaire du groupement | Verwaltungsoffizier des Verbands |
+| unité élémentaire ; commandant d'unité ; adjudant d'unité ; corps de troupe | Teileinheit ; Kompaniechef ; Kompaniefeldwebel ; Truppenteil |
+| unité de commandement et de logistique | Führungs- und Logistikeinheit |
+| eau destinée à la consommation humaine / eau technique | Trinkwasser / Brauchwasser |
+| régiment du Train (parachutiste) ; régiment de dragons | (Fallschirm-)Trainregiment ; Dragonerregiment |
+| groupement d'appui à la mobilité des blindés | Verband zur Unterstützung der Beweglichkeit gepanzerter Kräfte |
+| équivalent 20 pieds | {n}-Fuß-Äquivalent |
+
+## Choix douteux à faire relire
+
+1. **NRBC → ABC** dans tout le texte (cohérent avec de.json), alors que la consigne liste « NRBC » parmi les sigles à ne pas traduire ; « VAB RECO NRBC » (nom d'engin) laissé tel quel.
+2. **décontamination approfondie → „vollständige Dekontamination“** (repris de de.json) au lieu de « gründliche » (thorough) ; **certifiée → „Freigabedekontamination“** et **opérationnelle → „Einsatzdekontamination“** : à valider face à la terminologie ABC-Abwehr de la Bundeswehr.
+3. **flux poussés / tirés → „Push-Ströme / Pull-Ströme“** (anglicismes) ; alternative Bundeswehr « Bringe- / Holprinzip ». **livraison / distribution → „Zuführung / Ausgabe“**.
+4. **bascule de la BSD → „Verlegung“** et **élongation → „Versorgungsentfernung“** : la nuance « bascule » (déplacement par échelons avec structure miroir) est perdue.
+5. **chantier (de décontamination) → „Dekontaminationsstraße“** ; « Chantier blessés » → „Straße Verwundete“ ; **centre de reconditionnement du personnel → „Zentrum zur Wiederausstattung des Personals“** (descriptif).
+6. **Maintenance de contact / de proximité / de théâtre → „vorgeschobene / truppennahe Instandsetzung / Instandsetzung im Einsatzgebiet“** ; **PRMAR → „Sammelpunkt für instand zu setzendes Material“** ; **niveau technique d'intervention → „technische Instandsetzungsstufe“** : équivalents Bundeswehr non certains.
+7. **personne capturée → „gefangen genommene Person“** (lourd ; alternative « festgehaltene Person ») ; **commissaire du groupement → „Verwaltungsoffizier des Verbands“** ; **gendarmerie prévôtale → „Feldjäger der Gendarmerie“**.
+8. **Plots logistiques → „Punkt“** (Logistikpunkt, Versorgungspunkt…) ; **DAS → „vorgeschobenes Unterstützungskommando“** (das DAS).
+9. Fragments : 16_016-031 (réponses de QCM en minuscules, verbes à l'infinitif « vernichten, verzögern… ») ; 16_054 « {n} seul, polyvalent » → „Nur {n}, vielseitig verwendbar“ (référent inconnu) ; 13_034 « Route » → „Straße“ (mode de transport, avec « Fer » → „Schiene“, « Air » → „Luft“).
+10. 13_053 « hôpitaux des armées » → „Militärkrankenhäuser“ (France) ; 17_033 « la France n'hospitalise pas longtemps » → „behandelt Verwundete nicht lange stationär“.

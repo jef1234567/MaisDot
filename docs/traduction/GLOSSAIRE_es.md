@@ -542,3 +542,101 @@ Sigles conservés ; genre des sigles calqué sur le français (el B2, el SGRM, e
 8. **point de poser** → « punto de toma » (cohérent avec « zonas de toma » existant).
 9. **EEI** : définition gardant les deux sens (« Escuadrón de exploración e investigación; también: artefacto explosivo improvisado (IED) ») ; « éclairage » = « exploración », repris de es.json.
 10. Fragments assemblés à l'affichage (« h », « h 30 de noche. », « a 12 (3 a 4 patrullas) », « a 900 km² para un GAM. ») : à vérifier à l'écran.
+
+
+## Lot 6d-2 (défense NRBC, soutien)
+
+### Glossaire FR → ES – lot 6d-2 (défense NRBC et soutien)
+
+Complète `docs/traduction/GLOSSAIRE_es.md` ; termes déjà retenus repris à l'identique (efecto decisivo, línea de acción, restricción,
+empeño, fila {n}, «Ver:», «Etapa siguiente:», valor por confirmar, puesto de descontaminación, descontaminación completa, zona de
+acogida y de espera, zona de reagrupamiento, punto de disolución, GTIA piloto, sección / escuadrón, pelotón = groupe, apartado,
+segregaciones, engañar con señuelos, hostigar, negar, elongación, traslado = bascule, transitabilidad, del Train, tren de combate).
+Adresse : « tú ». Guillemets « » sans espaces intérieurs. Ordinaux : « {n}.º regimiento », « {n}.er escalón ».
+Genre des sigles calqué sur le français (la BSD, el DAS, el GTLOG, el GSIAT, el PRMAR, la SMR, el ELI, una ERE, el DL, el R{n}F).
+
+## Termes retenus
+
+| Français | Español |
+|---|---|
+| NRBC (dans le texte) ; défense NRBC | NBQR ; defensa NBQR (comme `es.json`) — DNRBC et les autres sigles inchangés |
+| appui NRBC spécialisé ; défense NRBC interarmes | apoyo NBQR especializado ; defensa NBQR interarmas |
+| niveau générique / intermédiaire / spécialisé | nivel genérico / intermedio / especializado |
+| décontamination immédiate / opérationnelle / approfondie / certifiée | descontaminación inmediata / operativa / completa / certificada |
+| site de décontamination (élargi) | puesto de descontaminación (ampliado) |
+| chantier (de décontamination) ; chantier blessés | línea (de descontaminación) ; línea de heridos |
+| armer (un chantier, une zone, une cellule) | servir |
+| zone sale / propre ; zone de regroupement et de remise en condition | zona sucia / limpia ; zona de reagrupamiento y de recuperación |
+| centre de reconditionnement du personnel | centro de reacondicionamiento del personal |
+| agent persistant / non persistant ; persistance ; toxicité | agente persistente / no persistente ; persistencia ; toxicidad |
+| épandage ; tirs fusants / percutants | aspersión ; disparos con explosión en el aire / de percusión |
+| arme par destination | arma improvisada |
+| effets : détruire, neutraliser, interdire, freiner, harceler, leurrer | destruir, neutralizar, negar, frenar, hostigar, engañar con señuelos |
+| invariants tactiques | constantes tácticas |
+| point zéro ; retombées ; impulsion électromagnétique | punto cero ; precipitación ; impulso electromagnético |
+| prélèvement (NRBC) ; prélèvement à valeur de preuve | toma de muestras ; toma de muestras con valor probatorio |
+| prélever (des moyens) ; moyens prélevés | detraer ; medios detraídos |
+| veille biologique / sanitaire ; vigilance (unités non spécialisées) | vigilancia biológica / sanitaria ; alerta |
+| soutien (fonction) ; fonction soutien | sostenimiento ; función de sostenimiento |
+| soutien logistique / administratif militaire / médical / de l'homme | apoyo logístico / administrativo militar / sanitario / al personal |
+| soutien du combattant ; zone / plot soutien du combattant | apoyo al combatiente ; zona / punto de apoyo al combatiente |
+| soutien pétrolier ; acheminement ; soutien munitions | apoyo de combustibles ; transporte ; apoyo de municiones |
+| brigade de soutien divisionnaire (BSD) ; BSD avancée | brigada de sostenimiento divisionaria ; BSD avanzada |
+| bascule (de la BSD) ; basculer | traslado ; trasladar |
+| détachement avancé de soutien (DAS) | destacamento avanzado de sostenimiento |
+| plot logistique (ravitaillement, maintenance, santé) | punto logístico (de abastecimiento, de mantenimiento, sanitario) |
+| structure logistique temporaire | estructura logística temporal |
+| zone fonctionnelle ; zone ravitaillement-transport / maintenance / santé / commandement | zona funcional ; zona de abastecimiento-transporte / de mantenimiento / sanitaria / de mando |
+| groupement (tactique) ; sous-groupement ; GTLOG | agrupamiento (táctico) ; subagrupamiento ; agrupamiento táctico logístico |
+| groupement de soutien interarmées de théâtre (GSIAT) | agrupación de sostenimiento conjunto de teatro |
+| contributeur principal au soutien (CPS) ; adjoint soutien interarmées (ASIA) | contribuyente principal al sostenimiento ; adjunto de sostenimiento conjunto |
+| train de combat (TC{n}) ; dans le sillage de | tren de combate ; siguiendo a |
+| unité de commandement et de logistique ; commissaire du groupement | unidad de mando y logística ; comisario del agrupamiento |
+| corps de troupe ; unité élémentaire ; adjudant d'unité | regimiento ; unidad elemental ; suboficial de la unidad |
+| flux poussés / tirés | flujos de empuje / de arrastre |
+| livraison / distribution | entrega / distribución |
+| jour de combat ; stocks ; recomplètement | día de combate ; existencias ; reposición |
+| stricte suffisance ; sur roues | estricta suficiencia ; sobre ruedas |
+| élongation ; stabilité (d'une structure) | elongación ; permanencia |
+| sûreté éloignée / rapprochée / immédiate | seguridad lejana / próxima / inmediata |
+| unicité de la manœuvre ; volet logistique | unidad de la maniobra ; vertiente logística |
+| rôle {n} (soins) ; rôles de soins | Role {n} ; Role de asistencia sanitaria |
+| R{n}F (avancé) / R{n}B (de base) / R{n}E (renforcé) | sigles conservés ; avanzado / básico / reforzado |
+| catégorisation ; triage ; blessés ALPHA / BRAVO / CHARLIE | categorización ; triaje ; heridos ALPHA / BRAVO / CHARLIE |
+| médicalisation / chirurgicalisation à l'avant | medicalización / cirugía en vanguardia |
+| chirurgie / réanimation de sauvetage ; sauvetage au combat | cirugía / reanimación de salvamento ; salvamento en combate |
+| cellule de régulation des blessés | célula de regulación de heridos |
+| débordement ; déborder (vers) | desbordamiento ; desbordar (hacia) |
+| poste médical (mobile) ; équipe paramédicale mobile | puesto médico (móvil) ; equipo paramédico móvil |
+| hôpital médico-chirurgical ; régiment médical ; service de santé | hospital médico-quirúrgico ; regimiento médico ; servicio de sanidad |
+| maintenance de contact / de proximité / de théâtre | mantenimiento de contacto / de proximidad / de teatro |
+| MCO / maintien en condition opérationnelle | mantenimiento de la capacidad operativa |
+| équipe légère d'intervention ; section de maintenance régimentaire | equipo ligero de intervención ; sección de mantenimiento regimental |
+| niveau technique d'intervention ; régime de travail / d'emploi | nivel técnico de intervención ; régimen de trabajo / de empleo |
+| point de regroupement des matériels à réparer | punto de reagrupamiento de los materiales que reparar |
+| rechanges ; volant de rechanges ; équipements d'environnement | repuestos ; volante de repuestos ; equipos de entorno |
+| affaires mortuaires ; dépouille ; scellés | asuntos mortuorios ; restos mortales ; precintos |
+| gendarmerie prévôtale ; appui prévôtal | gendarmería prebostal ; apoyo prebostal |
+| personne capturée ; prisonnier de guerre ; capture / rétention / détention | persona capturada ; prisionero de guerra ; captura / retención / detención |
+| interrogation (initiale) ; centre d'interrogation | interrogatorio (inicial) ; centro de interrogatorio |
+| zone arrière ; ligne avant des forces amies ; ligne des contacts | zona de retaguardia ; línea avanzada de las fuerzas propias ; línea de contacto |
+| GTIA à dominante mêlée | GTIA de predominio de combate |
+| eau destinée à la consommation humaine / eau technique | agua destinada al consumo humano / agua técnica |
+| mise à terre par voie aérienne ; point de débarquement aérien | lanzamiento por vía aérea ; punto de desembarque aéreo |
+| Air / Fer / Route (modes) | Aire / Ferrocarril / Carretera |
+| nation hôte | nación anfitriona |
+
+## Choix douteux à faire relire
+
+1. **NBQR** pour NRBC dans tout le lot (y compris « defensa NBQR », « VAB RECO NBQR »), pour rester cohérent avec `es.json` et les lots 5 et 6c ; la règle « sigles non traduits » demanderait NRBC : à harmoniser sur tout l'outil. Les agents « R, B ou C » sont devenus « R, B o Q ».
+2. **Role {n}** (rôle de soins) : terme OTAN conservé en anglais, usuel dans les armées espagnoles, mais invariable au pluriel (« los Role {n} ») ; alternative « escalón sanitario ».
+3. **sostenimiento** (soutien, fonction et BSD) vs **apoyo** (sous-fonctions : apoyo logístico, sanitario, al combatiente) : la doctrine espagnole emploie aussi « apoyo logístico » pour toute la fonction.
+4. **flujos de empuje / de arrastre** (flux poussés / tirés) et **entrega / distribución** (livraison / distribution) : terminologie logistique espagnole (sistema push/pull), à valider.
+5. **línea (de descontaminación)** pour « chantier » et **servir** pour « armer » (un chantier, une zone, une cellule) : pas d'équivalent consacré ; « tren de descontaminación » est aussi en usage.
+6. **descontaminación certificada** (pivot clearance decontamination) et **arma improvisada** (arme par destination) : traductions proposées.
+7. **alerta** pour « vigilance » des unités non spécialisées, pour la distinguer de « vigilancia sanitaria / biológica » (veille).
+8. **gendarmería prebostal** / **apoyo prebostal** : calque ; l'équivalent fonctionnel espagnol serait « policía militar ».
+9. **cirugía en vanguardia** (chirurgicalisation à l'avant) et **medicalización en vanguardia** : sans équivalent consacré.
+10. **disparos con explosión en el aire / de percusión** (tirs fusants / percutants) et **aspersión** (épandage).
+11. **regimiento** pour « corps de troupe », **suboficial de la unidad** pour « adjudant d'unité », **comisario del agrupamiento** (commissaire) : à confirmer.
+12. Fragments à vérifier à l'écran : 14_001 + 16_016 / 16_017 / 16_026 / 16_023 (« el apoyo logístico es… » + « a cargo de la nación anfitriona »), 06_051 + 16_028 / 16_029 / 16_031, 03_003 et 04_044 (« corresponde al efecto… ») + 16_020-16_027, 16_059 (« {n}, una de ellas línea de heridos »).

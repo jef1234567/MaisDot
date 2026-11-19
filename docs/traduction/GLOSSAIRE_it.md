@@ -520,3 +520,88 @@ Complète GLOSSAIRE_it.md (repris à l'identique : effetto decisivo, linea d'azi
 9. **raccordement du bas par le haut → « raccordo del basso da parte dell'alto »** : calque ; sens = l'échelon supérieur connecte ses subordonnés.
 10. **porte-engins → « porta-carri »** et **jalonnement routier → « picchettamento »** : choix pratiques, à vérifier avec un spécialiste trasporti.
 11. **CRT → « centro di intelligence dell'Esercito »** (« Terre » non conservé).
+
+
+## Lot 6d-2 (défense NRBC, soutien)
+
+### Glossaire FR → IT – lot 6d-2 (défense NRBC et soutien)
+
+Complète /home/claude/maisdot/docs/traduction/GLOSSAIRE_it.md. Termes déjà retenus repris à l'identique : linea d'azione, elaborazione, componente (volet), sforzo / fase di sforzo, supporto (appui) / sostegno (soutien), supporto diretto / generale, unità supportata, plotone, squadrone, squadra da combattimento, scaglione, livello, zona di retrovia, linea avanzata delle forze amiche, linea di contatto, a dominante di manovra (mêlée), giorno di combattimento, treno di combattimento, ruolo {n}, Ruolo {n} avanzato / di base / rinforzato, sgombero, sicurezza (sûreté), dipendenza (subordination), interdire / molestare / ingannare / neutralizzare / distruggere / frenare, fuori combattimento, intelligence, esigenza informativa, Train (conservé), tappa (« Tappa successiva: »), « Vedi: », riga {n}, valore da confermare.
+Adresse en « tu » (Analizza, Prepara, Redigi, Censisci, Prevedi, Colloca). Apostrophe droite, guillemets «» sans espace. Sigles conservés (NRBC, BSD, DAS, GSIAT, JLSG, GTLOG, TC{n}, R{n}F/R{n}B/R{n}E, ELI, SMR, PRMAR, ERE, SIDEC, ASIA, CPS, RISLP, RD, RT, MCO-T, DL, B{n}, G{n}, S{n}, TACON, TACOM, OPCON, OPCOM, WARNO, FRAGO, OPO, VAB RECO NRBC, COMDIV…).
+
+## Termes retenus
+
+| Français | Italien |
+|---|---|
+| défense NRBC (générique / intermédiaire / spécialisée ; interarmes) | difesa NRBC (generica / intermedia / specializzata ; interarma) |
+| appui NRBC spécialisé | supporto NRBC specializzato |
+| décontamination immédiate / opérationnelle / approfondie / certifiée | decontaminazione immediata / operativa / approfondita / certificata |
+| site de décontamination (élargi) ; chantier | sito di decontaminazione (esteso) ; cantiere |
+| zone d'accueil et d'attente ; zone de regroupement et de remise en condition | zona di accoglienza e di attesa ; zona di raggruppamento e di ricondizionamento |
+| point initial / point de dislocation | punto iniziale / punto di scioglimento |
+| zone sale / propre | zona sporca / pulita |
+| centre de reconditionnement du personnel | centro di ricondizionamento del personale |
+| agent persistant / non persistant | agente persistente / non persistente |
+| arme par destination | arma impropria |
+| épandage ; tirs fusants / percutants | spargimento ; tiri a scoppio in aria / a percussione |
+| retombées ; point zéro | ricaduta ; punto zero |
+| veille biologique / sanitaire | sorveglianza biologica / sanitaria |
+| leurrer (effet NRBC) | ingannare |
+| soutien (fonction) ; sous-fonction | sostegno ; sottofunzione |
+| soutien du combattant / de l'homme | sostegno del combattente / dell'uomo |
+| affaires mortuaires ; dépouille ; inhumation d'urgence | affari mortuari ; salma ; inumazione d'urgenza |
+| personne capturée ; prisonnier de guerre ; interrogation initiale | persona catturata ; prigioniero di guerra ; interrogatorio iniziale |
+| rétention / détention | ritenzione / detenzione |
+| gendarmerie prévôtale ; appui prévôtal | polizia militare (gendarmeria prevostale) ; supporto di polizia militare |
+| brigade de soutien divisionnaire (BSD) ; BSD avancée | brigata di sostegno divisionale ; BSD avanzata |
+| bascule (de la BSD) | trasferimento (della BSD) |
+| élongation | allungamento |
+| structure logistique temporaire ; plot logistique ; détachement avancé de soutien | struttura logistica temporanea ; punto logistico ; distaccamento avanzato di sostegno |
+| zone fonctionnelle ; zone ravitaillement-transport / maintenance / santé / soutien du combattant / commandement | zona funzionale ; zona rifornimento-trasporto / manutenzione / sanità / sostegno del combattente / comando |
+| flux poussés / tirés | flussi spinti / tirati |
+| livraison / distribution | consegna / distribuzione |
+| recomplètement ; sous- / surconsommation | ripianamento ; sottoconsumo / sovraconsumo |
+| stricte suffisance ; juste besoin | stretta sufficienza ; stretto necessario |
+| unicité de la manœuvre ; volet logistique | unicità della manovra ; componente logistica |
+| contributeur principal au soutien ; adjoint soutien interarmées | contributore principale al sostegno ; vice per il sostegno interforze |
+| groupement de soutien interarmées de théâtre | raggruppamento di sostegno interforze di teatro |
+| groupement tactique logistique ; sous-groupement logistique | raggruppamento tattico logistico ; sottoraggruppamento logistico |
+| commissaire du groupement | commissario del raggruppamento |
+| maintenance de contact / de proximité / de théâtre | manutenzione avanzata / di prossimità / di teatro |
+| MCO (maintien en condition opérationnelle) | mantenimento in condizione operativa |
+| équipe légère d'intervention ; section de maintenance régimentaire | squadra leggera d'intervento ; plotone di manutenzione reggimentale |
+| niveau technique d'intervention ; régime de travail | livello tecnico d'intervento ; regime di lavoro |
+| déborder (vers l'échelon supérieur) | passare al livello superiore / saturazione (« Débordement ») |
+| équipements d'environnement | equipaggiamenti di dotazione |
+| rechanges ; volant de rechanges | ricambi ; volano di ricambi |
+| soutien médical ; rôle de soins | sostegno sanitario ; ruolo sanitario |
+| chaîne d'évacuation ; évacuation sanitaire / stratégique | catena di sgombero ; sgombero sanitario / strategico |
+| médicalisation / chirurgicalisation à l'avant | medicalizzazione avanzata / chirurgia avanzata |
+| chirurgie de sauvetage | chirurgia salvavita |
+| cellule de régulation des blessés | cellula di regolazione dei feriti |
+| poste médical (mobile) ; équipe paramédicale mobile | posto medico (mobile) ; squadra paramedica mobile |
+| hôpital médico-chirurgical | ospedale medico-chirurgico |
+| régiment médical ; service de santé | reggimento medico ; servizio sanitario |
+| régiment de dragons ; régiment du Train | reggimento dragoni ; reggimento del Train |
+| peloton mixte d'appui direct ; équipe de reconnaissance et d'évaluation | plotone misto di supporto diretto ; squadra di ricognizione e di valutazione |
+| sûreté éloignée / rapprochée / immédiate | sicurezza lontana / ravvicinata / immediata |
+| traficabilité ; terrassement | percorribilità ; movimento terra |
+| emprise (logistique) | installazione (logistica) |
+| eau destinée à la consommation humaine / eau technique | acqua destinata al consumo umano / acqua tecnica |
+| volume normé | volume standard |
+| Air / Fer / Route (modes) | Aereo / Ferrovia / Strada |
+
+## Choix douteux à faire relire
+
+1. **bascule de la BSD → « trasferimento »** (pivot « displacement ») ; cohérent avec « trasferimento di PC » (lot 5), mais it.json emploie aussi « spostamento » (bascule d'effort) et « ribaltamento » (rapport de force).
+2. **élongation → « allungamento »** (repris d'it.json, contexte logistique) ; pivot « line-of-communication distance » ; « distanza logistica » serait plus clair pour un Italien. En liaisons (lot 6d-1), « distanza / collegamento a grande distanza ».
+3. **flux poussés / tirés → « flussi spinti / tirati »** ; l'usage italien logistique dit aussi « push / pull » non traduit.
+4. **maintenance de contact → « manutenzione avanzata »** (pivot « forward ») et non « di contatto » ; « Débordement » (titre de colonne, chaîne d'évacuation) rendu « Saturazione » et « déborder vers… » rendu « passare al livello superiore » : sens à confirmer.
+5. **arme par destination → « arma impropria »** (terme juridique italien proche) ; pivot « improvised weapon ».
+6. **NRBC conservé** alors qu'it.json emploie parfois « NBCR » (sigle italien) : à harmoniser sur l'ensemble de l'outil.
+7. **gendarmerie prévôtale → « polizia militare (gendarmeria prevostale) »** puis « polizia militare » ; **commissaire du groupement → « commissario »** (calque de la fonction administrative française).
+8. **plot logistique → « punto logistico »** (repris d'it.json) ; plots spécialisés « punto logistico manutenzione / rifornimento / sanità / sostegno del combattente ».
+9. **chirurgicalisation / médicalisation à l'avant → « chirurgia avanzata / medicalizzazione avanzata »** ; « portata in avanti » plus explicite.
+10. **section (génie, maintenance, décontamination médicale, défense rapprochée) → « plotone »** comme dans le glossaire général ; collision avec « peloton » (plotone) dans 15_012 (« un plotone NRBC decontamina {n} plotone »).
+11. **équipements d'environnement → « equipaggiamenti di dotazione »** (armement, optique, transmissions montés sur le matériel) : sens à confirmer.
+12. **tirs fusants / percutants → « tiri a scoppio in aria / a percussione »** ; **retombées → « ricaduta »**.
