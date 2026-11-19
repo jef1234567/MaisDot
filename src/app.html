@@ -23,6 +23,7 @@ header .prog{margin-left:auto;text-align:right;font-size:.85em;min-width:160px}
 .wrap{display:flex;min-height:calc(100vh - 88px)}
 nav{width:290px;flex-shrink:0;background:var(--blanc);border-right:1px solid var(--argent-c);padding:12px 0;overflow-y:auto}
 nav .grp{font-size:.72em;text-transform:uppercase;letter-spacing:.08em;color:var(--gris);padding:12px 18px 4px;font-weight:600}
+.gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;margin:8px 0}.gal figure{margin:0;border:1px solid var(--argent-c);border-radius:6px;padding:6px;text-align:center;background:#fff}.gal img{max-width:100%;max-height:120px;object-fit:contain}.gal figcaption{font-size:.85em;margin-top:4px;color:#222}.qimg{display:block;max-width:260px;max-height:160px;margin:6px 0 8px;background:#fff;border:1px solid var(--argent-c);border-radius:6px;padding:6px}
 nav details>summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:6px}
 nav details>summary::-webkit-details-marker{display:none}
 nav details>summary::before{content:"▸";font-size:.9em;transition:transform .15s;flex-shrink:0}
@@ -596,6 +597,8 @@ const LEX=[["CCIR","Critical commander’s information requirements – besoins 
 /*__genie.js__*/
 /*__rens.js__*/
 /*__soutien.js__*/
+/*__symboles.js__*/
+/*__referentiels.js__*/
 /* Intégration de la phase 2 (src/p2.js) : remplace les modules « à venir » et complète l'exemple VIENNE */
 if(typeof P2!=="undefined"){const i=M.findIndex(m=>m.id==="p2");if(i>=0)M.splice(i,2,...P2);}
 /* Module « Normes et délais » (src/normes.js), placé en tête des outils */
@@ -629,7 +632,7 @@ function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor
 /* ============ NAVIGATION ============ */
 let cur="accueil",curTab="c";
 /* Menu : groupes repliables (un seul déplié par défaut : celui de l'étape en cours), sous-menus pour les contributions des fonctions */
-const NAV_SUB=[[/^fx_/,"Champs immatériels"],[/^f3_/,"Feux et 3D"],[/^gn_/,"Génie"],[/^rn_/,"Renseignement"],[/^al_/,"Aérocombat"],[/^ap_/,"Appui au commandement et aux mouvements"],[/^nr_/,"NRBC"],[/^sl_/,"Soutien"]];
+const NAV_SUB=[[/^fx_/,"Champs immatériels"],[/^f3_/,"Feux et 3D"],[/^gn_/,"Génie"],[/^rn_/,"Renseignement"],[/^al_/,"Aérocombat"],[/^ap_/,"Appui au commandement et aux mouvements"],[/^nr_/,"NRBC"],[/^sl_/,"Soutien"],[/^ms_/,"Missions"],[/^sy_/,"Symbologie et calques"],[/^cd_/,"Commandement et géométrie"]];
 const NAV_KEY="medot-esorsem-nav-v1";let NAV_LAST=null;
 let NAV_OPEN=(()=>{try{const v=JSON.parse(localStorage.getItem(NAV_KEY));if(Array.isArray(v))return new Set(v);}catch(e){}return new Set(["Démarrer"]);})();
 function navSaveOpen(){try{localStorage.setItem(NAV_KEY,JSON.stringify([...NAV_OPEN]));}catch(e){}}
@@ -637,6 +640,7 @@ function navSub(m){if(m.sub)return m.sub;const x=NAV_SUB.find(r=>r[0].test(m.id)
 function navA(m,ind){const lk=!unlocked(m),st=m.quiz?(done(m.id)?'<span class="st ok">✓</span>':(S.quiz[m.id]?'<span class="st en">•</span>':'<span class="st"></span>')):(m.soon?'<span class="st">🔒</span>':'<span class="st">›</span>');
   return `<a href="#${m.id}" ${m.id===cur?'aria-current="page"':""} ${lk?'aria-disabled="true"':""} class="${m.id===cur?"on":""} ${lk?"lock":""} ${m.reu?"reu":""} ${ind?"ind":""}" data-id="${m.id}">${st}<span>${esc(m.title)}${m.soon?' <span class="tag">à venir</span>':""}</span><span class="sr">${m.quiz&&done(m.id)?" – validée":""}</span></a>`;}
 function navCnt(L){const q=L.filter(m=>m.quiz);return q.length?`<span class="nc">${q.filter(m=>done(m.id)).length}/${q.length}</span>`:"";}
+function qImg(q){return q&&q.img&&typeof SY_IMG!=="undefined"&&SY_IMG[q.img]?`<img class="qimg" src="${SY_IMG[q.img]}" alt="Symbole à identifier">`:"";}
 function renderNav(){let h="";const G=[];
  M.forEach(m=>{let g=G[G.length-1];if(!g||g.n!==m.grp){g={n:m.grp,L:[]};G.push(g);}g.L.push(m);});
  const cm=M.find(x=>x.id===cur);
@@ -724,7 +728,7 @@ function comprendre(m){let h=vids(m.id);
  if(m.intro)h+=`<p>${esc(m.intro)}</p>`;
  if(m.but)h+=`<div class="but"><b>But :</b> ${esc(m.but)}</div>`;
  if(m.cards)h+=`<div class="fc">${m.cards.map(c=>`<button type="button" class="fcd" aria-expanded="false" onclick="this.classList.toggle('flip');this.setAttribute('aria-expanded',this.classList.contains('flip'))"><span class="tt">${esc(c[0])}</span><span class="df">${esc(c[1])}</span><span class="hint">Toucher pour la définition</span></button>`).join("")}</div>`;
- (m.sections||[]).forEach(s=>{h+=`<div class="card${s.go?" enc":""}"><h3>${esc(s.h)}</h3>${s.p?`<p>${esc(s.p)}</p>`:""}${s.l?`<ul class="c">${s.l.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:""}${s.go?`<div class="rowb">${[].concat(s.go).map(g=>{const t=M.find(x=>x.id===g);return t?`<button class="btn s" onclick="go('${g}')">Voir : ${esc(t.title)}</button>`:"";}).join("")}</div>`:""}</div>`;});
+ (m.sections||[]).forEach(s=>{h+=`<div class="card${s.go?" enc":""}"><h3>${esc(s.h)}</h3>${s.p?`<p>${esc(s.p)}</p>`:""}${s.gal?`<div class="gal">${s.gal.map(([k,t])=>`<figure><img src="${typeof SY_IMG!=="undefined"&&SY_IMG[k]||""}" alt="${esc(t)}" loading="lazy"><figcaption>${esc(t)}</figcaption></figure>`).join("")}</div>`:""}${s.tb?`<div class="tw"><table><thead><tr>${s.tb.cols.map(c=>`<th>${esc(c)}</th>`).join("")}</tr></thead><tbody>${s.tb.rows.map(r=>`<tr>${r.map(c=>`<td>${esc(c)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`:""}${s.l?`<ul class="c">${s.l.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:""}${s.go?`<div class="rowb">${[].concat(s.go).map(g=>{const t=M.find(x=>x.id===g);return t?`<button class="btn s" onclick="go('${g}')">Voir : ${esc(t.title)}</button>`:"";}).join("")}</div>`:""}</div>`;});
  if(m.canevas)h+=`<div class="card"><h3>Canevas de la réunion</h3><ol>${m.canevas.map(x=>`<li>${esc(x)}</li>`).join("")}</ol></div>`;
  if(m.normes)h+=normesFiche();
  if(typeof NORM_LINKS!=="undefined"&&NORM_LINKS.includes(m.id))h+=`<div class="rowb"><button class="btn s" onclick="go('normes')">Voir les normes et délais</button><button class="btn s" onclick="go('normes','a')">Calculateur de délais</button></div>`;
@@ -739,7 +743,7 @@ let QZ={};
 function quiz(m){if(!QZ[m.id])QZ[m.id]={order:shuffle(m.quiz.map((_,i)=>i)),opt:{},ans:{}};const z=QZ[m.id];
  let h=`<p>Réponds à chaque question : la correction s’affiche aussitôt.${S.quiz[m.id]?` Meilleur score : <b>${Math.round(S.quiz[m.id].best*100)} %</b>.`:""}</p>`;
  z.order.forEach((qi,n)=>{const q=m.quiz[qi];if(!z.opt[qi])z.opt[qi]=shuffle(q.o.map((_,i)=>i));const a=z.ans[qi];
-  h+=`<div class="qz card"><div class="qq">${n+1}. ${esc(q.q)}</div>${z.opt[qi].map(oi=>{let c="";if(a!=null){if(oi===q.a)c="good";else if(oi===a)c="bad";}return `<button class="o ${c}" ${a!=null?"disabled":""} onclick="answer('${m.id}',${qi},${oi})">${esc(q.o[oi])}</button>`;}).join("")}${a!=null?`<div class="ex" id="qex_${qi}" role="status"><b>${a===q.a?"✔ Exact.":"✘ Inexact."}</b> ${esc(q.e)}</div>`:""}</div>`;});
+  h+=`<div class="qz card"><div class="qq">${n+1}. ${esc(q.q)}</div>${qImg(q)}${z.opt[qi].map(oi=>{let c="";if(a!=null){if(oi===q.a)c="good";else if(oi===a)c="bad";}return `<button class="o ${c}" ${a!=null?"disabled":""} onclick="answer('${m.id}',${qi},${oi})">${esc(q.o[oi])}</button>`;}).join("")}${a!=null?`<div class="ex" id="qex_${qi}" role="status"><b>${a===q.a?"✔ Exact.":"✘ Inexact."}</b> ${esc(q.e)}</div>`:""}</div>`;});
  const nb=Object.keys(z.ans).length;
  if(nb===m.quiz.length){const ok=m.quiz.filter((q,i)=>z.ans[i]===q.a).length,r=ok/m.quiz.length;
   h+=`<div class="score ${r>=PASS?"ok":"ko"}" role="status">${ok} / ${m.quiz.length} – ${r>=PASS?"Étape validée ✓":"Relis la synthèse et recommence"}</div><div class="rowb"><button class="btn s" onclick="QZ['${m.id}']=null;render()">Recommencer</button></div>`;}
@@ -1018,8 +1022,9 @@ const EX_PLAN={tout:[[/^(Démarrer|Phase préalable)/,5],[/^Phase 1/,10],[/^Phas
                rn:[[/^rn_/,30,"id"]],
                al:[[/^al_/,30,"id"]],
                nr:[[/^nr_/,30,"id"]],
+               rf:[[/^Référentiels/,30]],
                sl:[[/^sl_/,30,"id"]]};
-const EX_LBL={tout:"tout le parcours",p1:"phase préalable et phase 1",p2:"phase 2 et plan de manœuvre",p3:"phase 3 – rédaction des ordres",ac:"appropriation et conduite",fx:"contributions des fonctions",f3:"feux et 3D",gn:"génie",rn:"renseignement",al:"aérocombat",nr:"défense NRBC",sl:"soutien"};
+const EX_LBL={tout:"tout le parcours",p1:"phase préalable et phase 1",p2:"phase 2 et plan de manœuvre",p3:"phase 3 – rédaction des ordres",ac:"appropriation et conduite",fx:"contributions des fonctions",f3:"feux et 3D",gn:"génie",rn:"renseignement",al:"aérocombat",nr:"défense NRBC",rf:"référentiels",sl:"soutien"};
 let EXS="tout";
 function exBestTxt(){return Object.keys(EX_LBL).filter(k=>EXB[k]).map(k=>`Meilleur résultat : <b>${EXB[k].best} %</b> (${EX_LBL[k]}, ${esc(EXB[k].date)})`).join(" · ");}
 /* Répartition au prorata du nombre de questions de chaque étape du groupe */
@@ -1068,24 +1073,25 @@ function exam(){let h=`<div class="ref">Outils</div><h2>Examen blanc</h2>`;
  <option value="rn" ${EXS==="rn"?"selected":""}>Renseignement (30)</option>
  <option value="al" ${EXS==="al"?"selected":""}>Aérocombat (30)</option>
  <option value="nr" ${EXS==="nr"?"selected":""}>Défense NRBC (30)</option>
- <option value="sl" ${EXS==="sl"?"selected":""}>Soutien (30)</option></select></div>
+ <option value="sl" ${EXS==="sl"?"selected":""}>Soutien (30)</option>
+ <option value="rf" ${EXS==="rf"?"selected":""}>Référentiels, hors MEDOT (30)</option></select></div>
  <p><b>${nb} questions</b> sur ${EX_LBL[EXS]||EX_LBL.tout}, réparties entre les étapes au prorata de leur nombre de questions, en <b>${EX_T/60} minutes</b>.</p><ul class="c"><li>Aucune correction pendant l’épreuve : tu peux changer tes réponses jusqu’à la fin.</li><li>À expiration du chronomètre, la copie est corrigée automatiquement.</li><li>Correction finale : score global, résultat par étape et explication de chaque erreur.</li></ul>${exBestTxt()?`<p>${exBestTxt()}.</p>`:""}<div class="rowb"><button class="btn" onclick="exStart()">Commencer l’examen</button></div></div>`;}
  if(EX.res){const R=EX.res,mm=Math.floor(R.dur/60);
   h+=`<div class="score ${R.pct>=PASS*100?"ok":"ko"}" role="status" tabindex="-1">${R.ok} / ${EX.qs.length} – ${R.pct} %${R.expired?" (temps écoulé)":` en ${mm} min`}${R.rec?" – nouveau meilleur résultat":""}</div><p class="ref">Périmètre : ${EX_LBL[EX.sc]||EX_LBL.tout}.</p>`;
   h+=`<div class="card"><h3>Résultat par étape</h3><div class="scores" role="list">${M.filter(z=>R.per[z.id]).map(z=>z.id).map(id=>{const p=R.per[id],v=Math.round(100*p.ok/p.n),m=M.find(z=>z.id===id);return `<div class="sc" role="listitem"><a href="#${id}" onclick="event.preventDefault();go('${id}','c')">${esc(progT(m))}</a><div class="sb" role="img" aria-label="${p.ok} sur ${p.n}"><i style="width:${v}%" class="${v>=PASS*100?"ok":""}"></i><span class="th" style="left:${PASS*100}%"></span></div><b>${p.ok}/${p.n}</b></div>`;}).join("")}</div><p class="ref">Clique sur une étape pour relire sa synthèse.</p></div>`;
   const E=EX.qs.map((x,i)=>[x,i]).filter(([x,i])=>EX.ans[i]!==M.find(z=>z.id===x.mid).quiz[x.qi].a);
-  h+=`<div class="card"><h3>${E.length?`Erreurs à revoir (${E.length})`:"Aucune erreur"}</h3>${E.map(([x,i])=>{const m=M.find(z=>z.id===x.mid),q=m.quiz[x.qi],a=EX.ans[i];return `<div class="err"><div class="ref">${esc(m.title)}</div><b>${esc(q.q)}</b><div class="ko">✘ Ta réponse : ${a==null?"<i>sans réponse</i>":esc(q.o[a])}</div><div class="okr">✔ Bonne réponse : ${esc(q.o[q.a])}</div><div class="ex">${esc(q.e)}</div></div>`;}).join("")}</div>`;
+  h+=`<div class="card"><h3>${E.length?`Erreurs à revoir (${E.length})`:"Aucune erreur"}</h3>${E.map(([x,i])=>{const m=M.find(z=>z.id===x.mid),q=m.quiz[x.qi],a=EX.ans[i];return `<div class="err"><div class="ref">${esc(m.title)}</div><b>${esc(q.q)}</b>${qImg(q)}<div class="ko">✘ Ta réponse : ${a==null?"<i>sans réponse</i>":esc(q.o[a])}</div><div class="okr">✔ Bonne réponse : ${esc(q.o[q.a])}</div><div class="ex">${esc(q.e)}</div></div>`;}).join("")}</div>`;
   return h+`<div class="rowb"><button class="btn" onclick="exStart()">Nouvel examen</button><button class="btn s" onclick="EX=null;keep()">Fermer</button></div>`;}
  const l=exLeft();
  h+=`<div class="extop${l<=300?" low":""}"><span>Temps restant <b id="exT" role="timer" aria-label="Temps restant">${exFmt(l)}</b></span><span><span id="exC">${Object.keys(EX.ans).length}</span> / ${EX.qs.length} répondues</span></div><div id="exA" class="sr" aria-live="assertive"></div>`;
- h+=EX.qs.map((x,i)=>{const q=M.find(z=>z.id===x.mid).quiz[x.qi],a=EX.ans[i];return `<div class="qz card" id="exq_${i}" role="group" aria-labelledby="exl_${i}"><div class="qq" id="exl_${i}">${i+1}. ${esc(q.q)}</div>${x.opt.map(oi=>`<button class="o ${a===oi?"sel":""}" data-o="${oi}" aria-pressed="${a===oi}" onclick="exAns(${i},${oi})">${esc(q.o[oi])}</button>`).join("")}</div>`;}).join("");
+ h+=EX.qs.map((x,i)=>{const q=M.find(z=>z.id===x.mid).quiz[x.qi],a=EX.ans[i];return `<div class="qz card" id="exq_${i}" role="group" aria-labelledby="exl_${i}"><div class="qq" id="exl_${i}">${i+1}. ${esc(q.q)}</div>${qImg(q)}${x.opt.map(oi=>`<button class="o ${a===oi?"sel":""}" data-o="${oi}" aria-pressed="${a===oi}" onclick="exAns(${i},${oi})">${esc(q.o[oi])}</button>`).join("")}</div>`;}).join("");
  return h+`<div class="rowb"><button class="btn" onclick="exEnd()">Terminer et corriger</button><button class="btn s" onclick="EX=null;clearInterval(EXtimer);keep()">Abandonner</button></div>`;}
 
 /* ============ FICHE RÉFLEXE ============ */
 function fiche(id){const m=M.find(x=>x.id===id);if(!m)return;
  let h=`<div class="fiche"><div class="ref">${esc(m.grp)}${m.ref?" · "+esc(m.ref):""}</div><h2>${esc(m.title)}${m.qtag?` <span class="tag">${esc(m.qtag)}</span>`:""}</h2>`;
  if(m.but)h+=`<h3>But</h3><p>${esc(m.but)}</p>`;
- (m.sections||[]).forEach(s=>{h+=`<h3>${esc(s.h)}</h3>${s.p?`<p>${esc(s.p)}</p>`:""}${s.l?`<ul>${s.l.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:""}`;});
+ (m.sections||[]).forEach(s=>{h+=`<h3>${esc(s.h)}</h3>${s.p?`<p>${esc(s.p)}</p>`:""}${s.gal?`<div class="gal">${s.gal.map(([k,t])=>`<figure><img src="${typeof SY_IMG!=="undefined"&&SY_IMG[k]||""}" alt="${esc(t)}" loading="lazy"><figcaption>${esc(t)}</figcaption></figure>`).join("")}</div>`:""}${s.tb?`<table border="1" cellpadding="4" style="border-collapse:collapse"><thead><tr>${s.tb.cols.map(c=>`<th>${esc(c)}</th>`).join("")}</tr></thead><tbody>${s.tb.rows.map(r=>`<tr>${r.map(c=>`<td>${esc(c)}</td>`).join("")}</tr>`).join("")}</tbody></table>`:""}${s.l?`<ul>${s.l.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:""}`;});
  if(m.vig)h+=`<h3>Points de vigilance</h3><ul>${m.vig.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`;
  if(m.canevas)h+=`<h3>Canevas de la réunion</h3><ol>${m.canevas.map(x=>`<li>${esc(x)}</li>`).join("")}</ol>`;
  h+=`<p class="ref">MEDOT – fiche réflexe</p></div>`;

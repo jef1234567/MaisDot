@@ -923,6 +923,42 @@ def t_fonctions(b, vp):
     return "32 modules hors cycle (dont 6 Feux et 3D, 4 Génie, 2 Renseignement, 2 Aérocombat, 2 Appuis, 3 NRBC, 6 Soutien), examens fx, f3, gn, rn, al, nr et sl, encarts liés, gabarits assemblés"
 
 
+def t_referentiels(b, vp):
+    """Rubrique « Référentiels » : missions, symbologie (images), commandement ; hors cycle, examen dédié, encarts."""
+    a = App(b, vp).open("ms_cadre")
+    ids = a.js("M.filter(m=>m.grp==='Référentiels').map(m=>m.id)")
+    check(ids == ["ms_cadre", "ms_divbia", "ms_gt1", "ms_gt2", "ms_aut", "sy_unit", "sy_mcc", "sy_mis", "cd_c2", "cd_geo", "cd_pc"], f"modules : {ids}")
+    check(a.js("M.findIndex(m=>m.id==='sl_sdc')<M.findIndex(m=>m.id==='ms_cadre')&&M.findIndex(m=>m.id==='cd_pc')<M.findIndex(m=>m.grp==='Outils')"), "ordre du menu")
+    check(not a.js("cycleSvg().includes('ms_')||cycleSvg().includes('sy_')"), "rubrique dans le schéma du cycle")
+    for sc, want in (("tout", False), ("fx", False), ("rf", True)):
+        a.js(f"EXS='{sc}'")
+        mids = a.js("exPick().map(q=>q.mid)")
+        rf = [m for m in mids if m.startswith(("ms_", "sy_", "cd_"))]
+        check(len(mids) == 30 and (len(rf) == 30 if want else not rf), f"examen {sc} : {sorted(set(mids))}")
+    check(a.page.locator("#main table").count() >= 3, "tableaux de concordance absents")
+    a.js("go('sy_mis')")
+    a.page.wait_for_timeout(300)
+    n = a.js("[...document.querySelectorAll('#main .gal img')].filter(i=>i.src.startsWith('data:image')).length")
+    check(n >= 70, f"symboles de mission affichés : {n}")
+    a.js("go('sy_unit','e')")
+    a.page.wait_for_timeout(200)
+    check(a.js("document.querySelectorAll('#main .qimg').length") >= 1, "image de question absente")
+    check(a.js("M.filter(m=>m.grp==='Référentiels').reduce((s,m)=>s+m.quiz.length,0)") >= 150, "moins de 150 questions")
+    a.js("go('p1e1')")
+    a.page.locator("#main .card.enc button", has_text="Modes tactiques, MAG et missions").first.click()
+    check(a.js("cur") == "ms_cadre", "lien de l'encart")
+    a.js("go('ms_gt1','a')")
+    select_cell(a, "msgt", 0, "m", "Freiner")
+    fill_cell(a, "msgt", 0, "u", "1 GTIA")
+    bi = a.js("M.find(m=>m.id==='ms_gt1').apply.findIndex(b=>b.t==='doc')")
+    h = a.js(f"docHTML('ms_gt1',{bi})")
+    check("Freiner" in h and "1 GTIA" in h, "missions des subordonnés non assemblées")
+    check(a.js("LEX.some(x=>x[0]==='FCL')&&LEX.some(x=>x[0]==='TACON')&&LEX.some(x=>x[0]==='BIA-S')"), "sigles de la rubrique")
+    a.no_errors()
+    a.close()
+    return "11 modules, examen rf, images, encarts, sigles"
+
+
 TESTS = [
     ("Chargement sans erreur console", t_chargement),
     ("Navigation modules × 3 onglets", t_navigation),
@@ -946,6 +982,7 @@ TESTS = [
     ("Rubrique Appropriation et conduite", t_conduite),
     ("Phase 3 – Rédaction des ordres et messagerie", t_ordres),
     ("Rubrique Contributions des fonctions", t_fonctions),
+    ("Rubrique Référentiels", t_referentiels),
     ("Langues (Paramètres, RTL, saisies conservées)", t_langues),
 ]
 

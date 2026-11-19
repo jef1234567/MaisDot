@@ -9,7 +9,7 @@ for jf in sorted((root/"src/i18n").glob("*.json")):
     I[jf.stem] = json.loads(jf.read_text(encoding="utf-8"))
 i18n = (root/"src/i18n.js").read_text(encoding="utf-8").replace("/*__I18N__*/{}", json.dumps(I, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/"))
 html = html.replace("/*__i18n.js__*/", i18n)
-for f in ["demo.js", "p2.js", "normes.js", "conduite.js", "ordres.js", "messagerie.js", "fonctions.js", "feux.js", "genie.js", "rens.js", "soutien.js"]:
+for f in ["demo.js", "p2.js", "normes.js", "conduite.js", "ordres.js", "messagerie.js", "fonctions.js", "feux.js", "genie.js", "rens.js", "soutien.js", "symboles.js", "referentiels.js"]:
     p = root/"src"/f
     if p.exists():
         html = html.replace(f"/*__{f}__*/", p.read_text(encoding="utf-8"))
