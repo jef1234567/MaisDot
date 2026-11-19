@@ -207,3 +207,111 @@ Complète `/home/claude/maisdot/docs/traduction/GLOSSAIRE_en.md` (termes inchang
 9. **Ex.** → « E.g. » ; **H/2 possibilités** → « capabilities ».
 10. **SECRET EXERCICE** (s0287) laissé en français : c'est la mention fautive citée en exemple.
 11. Le dictionnaire existant emploie « roles table » ; ce lot utilise « table of roles » (pivot imposé) : harmoniser l'ensemble de l'outil.
+
+
+## Lot 6a – Contributions des fonctions (champs immatériels, déception, influence, PSYOPS, CIMIC, UTMC/DTMC, appui électronique)
+
+# MaisDot – lot 6a (Contributions des fonctions) – Glossaire FR → EN
+
+Complète `GLOSSAIRE_en.md` (termes du glossaire principal inchangés). Orthographe britannique, « » → “ ”, apostrophe ’.
+Sigles conservés tels quels (ECIm, OPDEC, D2IS, M2MC, SECOPS, ILI, PPP, KLE/LLE, ETIM, ETEC, BILI, S3-IO, EIHO, ASEI, COMOPS,
+PSYOPS, L2I, LIO, TAA, CIMIC, QIP, MoP/MoE, UTMC, DTMC, X10/G10/J10, AE, ROEM, 3I, C4I, C4ISTAR, OODA, GE, COMCYBER…).
+
+## Termes retenus
+
+| Français | Anglais |
+|---|---|
+| Contributions des fonctions (rubrique) | Function contributions |
+| manœuvre par les effets / approche par les effets | effects-based manoeuvre / effects-based approach |
+| effets dans les champs immatériels (ECIm) | effects in the non-physical fields (ECIm) |
+| effet majeur élargi | extended decisive effect |
+| MA enrichis | enriched MAs |
+| strate physique / virtuelle / cognitive | physical / virtual / cognitive layer |
+| multimilieux multichamps (M2MC) | multi-domain, multi-field (M2MC) |
+| milieux et champs | domains and fields |
+| effecteur (spécialisé / non spécialisé) | (specialised / non-specialised) effector |
+| délais (cadre espace-temps) | timings (space-time frame) |
+| mesure de l’effet / mesure d’évaluation | measure of the effect / assessment measure |
+| déception ; opération de déception (OPDEC) | deception ; deception operation (OPDEC) |
+| tromperie / tromper | deceit / deceive |
+| effets de déception : confusion, dispersion, indécision, focalisation, accoutumance, conviction, réactance, dévoilement | confusion, dispersion, indecision, focusing, habituation, conviction, reactance, disclosure |
+| D2IS : dissimulation, intoxication, simulation | dissimulation, disinformation, simulation |
+| leurrage / démonstration / diversion | decoying / demonstration / diversion |
+| plausibilité ; mise en scène ; narratif | plausibility ; staging ; narrative |
+| schéma / narratif / concept d’OPDEC | OPDEC scheme / narrative / concept |
+| annexe « Déception » | “Deception” annex |
+| sécurité des opérations (SECOPS) | operations security (SECOPS) |
+| référentiel cognitif ; porosité des auditoires ; permissivité | cognitive frame of reference ; porosity of audiences ; permissiveness |
+| plus-value tactique | tactical added value |
+| cycle « préparation – observation – exploitation » | “preparation – observation – exploitation” cycle |
+| cellule conduite (chef de la ~) | (head of the) current operations cell |
+| chef interarmes | combined-arms commander |
+| temps de compétition ; compétition, contestation, affrontement | competition period ; competition, contestation, confrontation |
+| haute intensité | high-intensity warfare |
+| tir sur objectifs vides ; semonce ; harcèlement | fire on empty targets ; warning shot ; harassment |
+| influence et lutte informationnelle (ILI) | influence and information warfare (ILI) |
+| lutte informationnelle | information warfare |
+| lutte informatique (défensive, d’influence, offensive) | cyber warfare (defensive, influence, offensive) |
+| lutte informatique d’influence (L2I) | cyber influence warfare (L2I) |
+| lutte informatique offensive (LIO) | offensive cyber warfare (LIO) |
+| SSI | INFOSEC |
+| communication opérationnelle (COMOPS) | operational communication (COMOPS) |
+| opérations psychologiques (PSYOPS) | psychological operations (PSYOPS) |
+| actions spéciales d’environnement et d’influence (ASEI) | special environment and influence actions (ASEI) |
+| profil, posture, présence (PPP) | profile, posture, presence (PPP) |
+| engagement des relais d’influence (KLE / LLE) ; relais d’influence | key leader engagement (KLE / LLE) ; key leader(s) |
+| matrice d’engagement des relais d’influence | key leader engagement matrix |
+| entretien d’opportunité | opportunity meeting |
+| synchromatrice des effets | effects synchronisation matrix |
+| bureau influence (BILI) / officier influence | (military) influence branch (BILI) / influence officer |
+| équipe tactique d’influence militaire (ETIM) | military influence tactical team (ETIM) |
+| équipe tactique d’engagement cyber (ETEC) | cyber engagement tactical team (ETEC) |
+| environnement informationnel et humain des opérations (EIHO) | information and human environment of operations (EIHO) |
+| chaîne X10 ; chaîne communication | X10 chain ; communication chain |
+| cycle du ciblage ; ciblage large spectre | targeting cycle ; full-spectrum targeting |
+| finalités : contraindre l’adversaire, contrôler le milieu, influencer les perceptions | aims: constrain the adversary, control the environment, influence perceptions |
+| auditoire (cible) ; analyse des auditoires cibles (TAA) | (target) audience ; target audience analysis (TAA) |
+| critères : accessibilité, réceptivité, efficacité, vulnérabilité | accessibility, receptivity, effectiveness, vulnerability |
+| objectifs PSYOPS : dissuader, rassembler, rassurer, prévenir, provoquer, tromper, séduire, contrer, affaiblir | deter, rally, reassure, warn, provoke, deceive, attract, counter, weaken |
+| vecteur ; visuel / audio / audiovisuel / face à face | vector ; visual / audio / audiovisual / face to face |
+| contre-propagande / contre-influence ; veille | counter-propaganda / counter-influence ; monitoring |
+| paliers de coopération : coordination, complémentarité, combinaison | tiers of cooperation: coordination, complementarity, combination |
+| équipe image | imagery team |
+| règle de vérité ; véracité | truth rule ; truthfulness |
+| mesures de performance / d’efficacité (MoP / MoE) | measures of performance / of effectiveness (MoP / MoE) |
+| coopération civilo-militaire (CIMIC) | civil-military cooperation (CIMIC) |
+| facteurs civils ayant des implications militaires | civil factors with military implications |
+| projet à impact rapide (QIP) | quick impact project (QIP) |
+| approche globale ; sortie de crise ; prise de relais | comprehensive approach ; crisis exit ; handover |
+| OI, OG, ONG | IOs, GOs, NGOs |
+| unité / détachement tactique multichamps (UTMC / DTMC) | multi-field tactical unit / detachment (UTMC / DTMC) |
+| unité d’emploi / unité d’appartenance | employing unit / parent unit |
+| commandement-plan ; officiers / sous-officiers / militaires du rang | command-plans ; officers / NCOs / other ranks |
+| compagnie de commandement et de transmissions ; 712e compagnie de transmissions | command and signals company ; 712th Signal Company |
+| cycle de production des effets : capter, analyser, planifier et concevoir, produire, diffuser, évaluer et archiver | capture, analyse, plan and design, produce, disseminate, assess and archive |
+| appui électronique (AE) | electronic support (AE) |
+| surveillance / défense / attaque électronique | electronic surveillance / electronic protection / electronic attack |
+| guerre électronique (GE) ; contremesures électroniques | electronic warfare (GE) ; electronic countermeasures |
+| renseignement d’origine électromagnétique (ROEM) | signals intelligence (ROEM) |
+| informations d’intérêt immédiat (3I) | information of immediate interest (3I) |
+| représentation opérationnelle partagée | common operational picture |
+| moyens rayonnants ; discipline des émissions | emitters ; emission discipline |
+| engins explosifs (improvisés) radiocommandés ; EEI | radio-controlled (improvised) explosive devices ; IED |
+| défense sol-air | ground-based air defence |
+| ligne {n} (tableaux) | row {n} |
+
+## Choix douteux à faire relire
+
+1. **appui électronique (AE)** → « electronic support » (déjà employé dans `en.json`) ; ses trois modes sont rendus **electronic surveillance / electronic protection / electronic attack**. En OTAN, « electronic support (ES) » désigne précisément la *surveillance* électronique : un lecteur OTAN pourrait confondre. Option : AE → « EW support » et surveillance électronique → « electronic support ». Décision à prendre pour tout l’outil.
+2. **intoxication** → « disinformation » (D2IS conservé, mais les initiales anglaises ne correspondent plus au sigle) ; **dissimulation** gardé tel quel plutôt que « concealment » pour rester proche du sigle.
+3. **relais d’influence** → « key leader(s) » (cohérent avec KLE) ; « influencers » écarté (connotation réseaux sociaux).
+4. **lutte informationnelle** → « information warfare » ; **L2I** → « cyber influence warfare », **LIO** → « offensive cyber warfare » ; l’OTAN parlerait plutôt de « information activities » / « cyberspace operations ».
+5. **finalités** (contraindre / contrôler / influencer) → « aims », pour ne pas employer « purpose » réservé à « but à atteindre ».
+6. **mode d’action** hors sens MEDOT (modes de l’AE, « MA PSYOPS / MA CIMIC », mode d’action des unités interarmes, KLE « mode d’action planifié », id 01_037) → « mode of action » ; « course of action » reste réservé aux MA/ME de la MEDOT.
+7. **effet majeur élargi** → « extended decisive effect » ; **MA enrichis** → « enriched MAs ».
+8. **Réactance**, **accoutumance** (« habituation »), **dévoilement** (« disclosure »), **focalisation** (« focusing ») : termes psychologiques, pas d’équivalent doctrinal OTAN établi.
+9. **séduire** → « attract » ; **rassembler** → « rally » (objectifs PSYOPS).
+10. **SSI** → « INFOSEC » ; **EEI** (engin explosif improvisé, id 06_003 et 06_059) → « IED ».
+11. **Appropriation et conduite** (id 11_052) → « Ownership and execution » : `en.json` contient aussi « Ownership and conduct » et « GTIA operations centre » pour une variante de cette chaîne ; harmoniser (ici « GTIA CO »).
+12. **temps de compétition** → « competition period » ; « compétition, contestation, affrontement » → « competition, contestation, confrontation » (« confrontation » est aussi le nom d’une étape MEDOT).
+13. **chaîne communication** → « communication chain » (l’équivalent OTAN serait plutôt « public affairs »).

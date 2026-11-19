@@ -174,3 +174,99 @@ Genre des sigles : WINGO, OPO, FRAGO, OVO, OPORD, ME, MA, OR, DI au féminin («
 9. **apartado** (rubrique de message) : la terminologie OTAN espagnole parle aussi de « línea » ou de « conjunto ».
 10. **descontaminación completa** (décontamination approfondie), **puesto** (site) : pris dans `es.json`.
 11. Fragments à vérifier à l'écran : s0112, s0113, s0114, s1232 (« sobre fase 3 – redacción de las órdenes, … en »), s0780 (« Plan de »).
+
+
+## Lot 6a – Contributions des fonctions (champs immatériels, déception, influence, PSYOPS, CIMIC, UTMC/DTMC, appui électronique)
+
+# Glossaire FR → ES – lot 6a (contributions des fonctions : champs immatériels, déception, influence, PSYOPS, L2I, CIMIC, UTMC/DTMC, appui électronique)
+
+Complète `docs/traduction/GLOSSAIRE_es.md` ; les termes déjà retenus sont repris à l'identique (efecto decisivo, línea de acción, campos inmateriales, reunión de decisión, fila {n}, Apropiación y conducción…). Adresse : « tú ». Guillemets « » conservés (usage RAE).
+Genre des sigles : OPDEC, OPORD, MA, ME, MAG, UTMC, L2I, CIMIC, COMOPS au féminin ; PSYOPS au féminin pluriel (« las PSYOPS ») ; DTMC, ETIM, ETEC, BILI, KLE, EIHO, AE, ROEM au masculin (ETIM/ETEC = « equipo »).
+
+## Termes retenus
+
+| Français | Español |
+|---|---|
+| effet dans les champs immatériels (ECIm) | efecto en los campos inmateriales (ECIm) |
+| approche par les effets | enfoque basado en efectos |
+| effet à obtenir / à réaliser | efecto que obtener / que lograr |
+| effet majeur élargi | efecto decisivo ampliado |
+| délais (cadre espace-temps) | plazos (marco espacio-temporal) |
+| strate physique / virtuelle / cognitive | estrato físico / virtual / cognitivo |
+| multimilieux multichamps (M2MC) | multimedio y multicampo (M2MC) |
+| environnement informationnel / électromagnétique | entorno informativo / electromagnético |
+| couche informationnelle du cyberespace | capa informativa del ciberespacio |
+| effecteur (non) spécialisé | efector (no) especializado |
+| cible | blanco (objectif = objetivo) |
+| auditoire / auditoire cible | audiencia / audiencia objetivo |
+| analyse des auditoires cibles (TAA) | análisis de audiencias objetivo |
+| narratif | narrativa |
+| déception ; opération de déception (OPDEC) | engaño ; operación de engaño (OPDEC) |
+| tromper / tromperie | engañar / artimaña |
+| dissimulation / simulation / intoxication (D2IS) | ocultación / simulación / intoxicación |
+| plausibilité | verosimilitud |
+| leurrage / leurrer | empleo de señuelos / engañar con señuelos |
+| démonstration / diversion / harcèlement | demostración / diversión / hostigamiento |
+| effets de déception : confusion, dispersion, indécision, focalisation, accoutumance, conviction, réactance, dévoilement | confusión, dispersión, indecisión, focalización, habituación, convicción, reactancia, revelación |
+| préconceptions ; référentiel cognitif | ideas preconcebidas ; marco de referencia cognitivo |
+| schéma / narratif / concept d'OPDEC | esquema / narrativa / concepto de OPDEC |
+| annexe « Déception » | anexo «Engaño» |
+| cellule conduite (chef de la) | célula de conducción (jefe de la) |
+| battle rhythm | battle rhythm (conservé) |
+| signatures | firmas |
+| influence et lutte informationnelle (ILI) | influencia y lucha informativa (ILI) |
+| lutte informatique d'influence / offensive (L2I / LIO) | lucha informática de influencia / ofensiva |
+| relais d'influence | intermediario de influencia |
+| engagement des relais d'influence (KLE/LLE) ; matrice d'engagement | compromiso con los intermediarios de influencia ; matriz de compromiso |
+| entretien d'opportunité | entrevista de oportunidad |
+| bureau influence (BILI) / officier influence | sección de influencia / oficial de influencia |
+| profil, posture, présence (PPP) | perfil, postura, presencia |
+| synchromatrice des effets | matriz de sincronización de efectos |
+| cycle du ciblage ; ciblage large spectre | ciclo de targeting ; targeting de amplio espectro |
+| contraindre l'adversaire / contrôler le milieu / influencer les perceptions | constreñir al adversario / controlar el medio / influir en las percepciones |
+| opérations psychologiques | operaciones psicológicas |
+| critères : accessibilité, réceptivité, efficacité, vulnérabilité | accesibilidad, receptividad, eficacia, vulnerabilidad |
+| objectifs PSYOPS : dissuader, rassembler, rassurer, prévenir, provoquer, tromper, séduire, contrer, affaiblir | disuadir, reunir, tranquilizar, prevenir, provocar, engañar, seducir, contrarrestar, debilitar |
+| contre-propagande / contre-influence | contrapropaganda / contrainfluencia |
+| veille (informationnelle) | vigilancia (informativa) |
+| tracts | octavillas |
+| coordination / complémentarité / combinaison (paliers) | coordinación / complementariedad / combinación (niveles) |
+| coopération civilo-militaire | cooperación cívico-militar |
+| approche globale | enfoque integral |
+| sortie de crise | salida de la crisis |
+| projet à impact rapide (QIP) | proyecto de impacto rápido |
+| mesures / indicateurs de performance et d'efficacité (MoP, MoE) | medidas / indicadores de rendimiento y de eficacia |
+| état final recherché (EFR) | estado final deseado |
+| bailleurs | donantes |
+| unité / détachement tactique multichamps | unidad / destacamento táctico multicampo |
+| équipe tactique d'influence militaire / d'engagement cyber | equipo táctico de influencia militar / de empeño ciber |
+| officiers / sous-officiers / militaires du rang | oficiales / suboficiales / tropa |
+| BIA blindée / amphibie / légère | BIA acorazada / anfibia / ligera |
+| temps de compétition ; compétition, contestation, affrontement | periodo de competición ; competición, disputa, enfrentamiento |
+| appui électronique (AE) | apoyo electrónico |
+| surveillance / défense / attaque électronique | vigilancia / protección / ataque electrónico(a) |
+| renseignement d'origine électromagnétique (ROEM) | inteligencia de señales |
+| informations d'intérêt immédiat (3I) | informaciones de interés inmediato |
+| représentation opérationnelle partagée | imagen operativa común |
+| brouillage | perturbación |
+| engins explosifs improvisés radiocommandés | artefactos explosivos improvisados radiocontrolados |
+| moyens rayonnants ; discipline des émissions | medios radiantes ; disciplina de emisiones |
+| doctrine interarmées | doctrina conjunta |
+| niveau / échelon opératif | nivel / escalón operacional |
+| contrôle opérationnel / unité de feu / zone d'engagement ALAT | control operativo / unidad de fuego / zona de empleo ALAT |
+
+## Choix douteux à faire relire
+
+1. **intermediario de influencia** (relais d'influence) et **compromiso** (engagement, au sens KLE) : pas d'équivalent espagnol consacré ; l'OTAN espagnol emploie aussi « líderes clave » / « encuentro con líderes clave ». « Empeño » est gardé pour l'engagement tactique (empeño cinético, grupos de empeño de influencia, equipo táctico de empeño ciber), ce qui crée deux traductions pour « engagement ».
+2. **lucha informativa** (lutte informationnelle) : la doctrine espagnole parle plutôt d'« operaciones de información » ou d'« ámbito cognitivo » ; à valider.
+3. **multimedio y multicampo** (M2MC) : « milieu » rendu par « medio » ; « multidominio » serait plus courant en espagnol, mais il effacerait la distinction milieux / champs.
+4. **protección electrónica** pour « défense électronique » (terme OTAN EP), à la place du calque « defensa electrónica ».
+5. **línea de acción** gardé pour « mode d'action » même pour les trois modes d'action de l'appui électronique (vigilancia, protección, ataque) : cohérent avec le glossaire, mais un relecteur peut préférer « modalidad ».
+6. **IED** pour « EEI » (06_003, 06_059) : sigle OTAN anglais, usuel en Espagne (aussi « AEI »).
+7. **D2IS** (03_041) : la définition traduite (Ocultación, intoxicación, simulación) ne reprend plus l'initiale D ; aucun mot n'a été ajouté.
+8. **habituación** (accoutumance), **reactancia** (réactance), **revelación** (dévoilement) : terminologie de psychologie, sans équivalent doctrinal établi.
+9. **ETIM / ETEC** au masculin (« equipo ») alors que le français dit « une ETIM » ; « un especialista PSYOPS » (08_051) traduit « un PSYOPS ».
+10. **targeting** (ciblage) conservé en anglais, usuel dans les EM espagnols ; alternative « selección de objetivos ».
+11. Les définitions en anglais (11_000, 11_008, 11_025) et les parties en anglais des définitions mixtes (11_004, 11_016-11_019) sont conservées telles quelles ; seule la partie française est traduite.
+12. **Ejército de Tierra francés** (08_034) : « français » a été ajouté pour lever l'ambiguïté auprès d'un lecteur espagnol ; à retirer si l'on veut un respect strict de la règle « n'ajoute rien ».
+13. **apartado 1.D** (07_067, « paragraphe ») et **sección** pour « bureau » (BILI, X9, PSYOPS) : cohérent avec « sección de inteligencia » du glossaire.

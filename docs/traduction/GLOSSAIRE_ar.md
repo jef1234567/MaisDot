@@ -142,3 +142,88 @@ Complète `docs/traduction/GLOSSAIRE_ar.md` (termes déjà retenus repris à l'i
 8. **« Majuscules d'imprimerie » → « حروف طباعية كبيرة »** : sans objet en écriture arabe ; ne concerne que les éléments latins du message.
 9. **aérocombat → « القتال الجوي »** : pourrait être confondu avec le combat aérien ; alternative « القتال الجوي-البري ».
 10. **« videos » (s1271)** conservé tel quel (identifiant technique probable).
+
+
+## Lot 6a – Contributions des fonctions (champs immatériels, déception, influence, PSYOPS, CIMIC, UTMC/DTMC, appui électronique)
+
+# Glossaire FR → AR – lot 6a (Contributions des fonctions : ECIm, déception, influence, PSYOPS/L2I, CIMIC, UTMC/DTMC, appui électronique)
+
+Complète `docs/traduction/GLOSSAIRE_ar.md` (termes déjà retenus repris à l'identique : الأثر الحاسم، العمل الحاسم، مسار العمل، اللحظة المفتاحية، إيجاز القرار، قائد الأسلحة المشتركة، خلية إدارة العمليات، الحقول غير المادية، البيئة البشرية للعمليات…). Conventions inchangées : sigles en caractères latins (ECIm, OPDEC, D2IS, M2MC, SECOPS, ILI, Info Ops, PPP, KLE/LLE, ETIM, ETEC, BILI, S3-IO, EIHO, ASEI, COMOPS, PSYOPS, L2I, LIO, TAA, CIMIC, QIP, MoP/MoE, UTMC, DTMC, X10, G10, J10, AE, ROEM, 3I, C4I, C4ISTAR, OODA, COMCYBER, OPCON, TACOM, TACON…), souvent précédés de « الـ » ; volumes « 2/10/3//15 », `{n}`, fragments « : … » et « … » conservés ; « ligne {n} » → « السطر {n} » ; « ? » → « ؟ ».
+
+## Termes doctrinaux retenus
+
+| Français | Arabe |
+|---|---|
+| effet (approche par les effets) | التأثير (المقاربة بالتأثيرات) — distinct de « الأثر الحاسم » (effet majeur) |
+| effet majeur élargi | الأثر الحاسم الموسَّع |
+| effets dans les champs immatériels (ECIm) | التأثيرات في الحقول غير المادية (repris de ar.json) |
+| effecteur (spécialisé / non spécialisé) | المؤثِّر (المتخصص / غير المتخصص) |
+| strate physique / virtuelle / cognitive | الطبقة المادية / الافتراضية / الإدراكية |
+| multimilieux multichamps (M2MC) | متعدد الأوساط متعدد الحقول |
+| délais (cadre espace-temps) | الآجال (الإطار المكاني-الزماني) |
+| auditoire (cible) / analyse des auditoires cibles (TAA) | الجمهور (المستهدف) / تحليل الجماهير المستهدفة |
+| perceptions / attitudes / comportements | التصوّرات / المواقف / السلوكيات |
+| narratif | السردية |
+| déception / opération de déception (OPDEC) | الخداع / عملية الخداع |
+| tromper / tromperie ; objectif PSYOPS « Tromper » | الإيهام |
+| dissimulation / simulation / intoxication (D2IS) | الإخفاء / المحاكاة / التضليل |
+| plausibilité | المعقولية |
+| leurrage / démonstration / diversion | الشراك الخداعية / الاستعراض / الإلهاء |
+| effets de déception : confusion, dispersion, indécision, focalisation, accoutumance, conviction, réactance, dévoilement | الارتباك، التشتّت، التردّد، التركيز، الاعتياد، الاقتناع، الممانعة، الانكشاف |
+| schéma / narratif / concept d'OPDEC ; mise en scène | مخطط / سردية / مفهوم الـ OPDEC ؛ الإخراج |
+| sécurité des opérations (SECOPS) | أمن العمليات |
+| préconceptions / référentiel cognitif / porosité des auditoires | التصوّرات المسبقة / المرجعية الإدراكية / قابلية الجماهير للاختراق |
+| battle rhythm | إيقاع المعركة (battle rhythm) |
+| temps de compétition / contestation / affrontement | زمن التنافس / التنازع / المواجهة |
+| influence et lutte informationnelle (ILI) | التأثير والصراع المعلوماتي |
+| lutte informationnelle | الصراع المعلوماتي |
+| lutte informatique d'influence (L2I) / offensive (LIO) | الصراع السيبراني للتأثير / الصراع السيبراني الهجومي |
+| contre-influence / contre-propagande | مكافحة التأثير / مكافحة الدعاية |
+| veille (informationnelle) | الرصد (المعلوماتي) |
+| communication opérationnelle (COMOPS) | الاتصال العملياتي |
+| communication institutionnelle | الاتصال المؤسسي |
+| opérations psychologiques (PSYOPS) | العمليات النفسية |
+| objectifs PSYOPS : dissuader, rassembler, rassurer, prévenir, provoquer, tromper, séduire, contrer, affaiblir | الردع، الحشد، الطمأنة، التحذير، الاستفزاز، الإيهام، الاستمالة، التصدي، الإضعاف |
+| critères : accessibilité, réceptivité, efficacité, vulnérabilité | إمكانية الوصول، القابلية للتلقي، الفعالية، قابلية التأثر |
+| vecteur (de diffusion) | الناقل (ناقل النشر) |
+| profil, posture, présence (PPP) | الهيئة، الوضعية، الحضور |
+| relais d'influence / engagement des relais (KLE/LLE) | وسطاء التأثير / إشراك وسطاء التأثير ؛ key leader engagement = إشراك القادة الرئيسيين |
+| entretien d'opportunité | لقاء الفرصة |
+| matrice d'engagement | مصفوفة الإشراك |
+| synchromatrice des effets | مصفوفة تزامن التأثيرات |
+| bureau influence militaire (BILI) / officier influence | مكتب التأثير العسكري / ضابط التأثير |
+| ETIM / ETEC | فريق التأثير العسكري التكتيكي / فريق الاشتباك السيبراني التكتيكي |
+| EIHO | البيئة المعلوماتية والبشرية للعمليات |
+| ASEI | الأعمال الخاصة للبيئة والتأثير |
+| UTMC / DTMC | الوحدة التكتيكية متعددة الحقول / المفرزة التكتيكية متعددة الحقول |
+| coopération civilo-militaire (CIMIC) | التعاون المدني-العسكري |
+| projet à impact rapide (QIP) | مشروع سريع الأثر |
+| mesures / indicateurs de performance et d'efficacité (MoP/MoE) | مقاييس الأداء / مقاييس الفعالية ; indicateurs = مؤشرات الأداء والفعالية |
+| facteurs civils ayant des implications militaires | العوامل المدنية ذات الانعكاسات العسكرية |
+| prise de relais par les autorités civiles | تسلّم السلطات المدنية المهام |
+| paliers de coopération : coordination, complémentarité, combinaison | التنسيق، التكامل، الدمج |
+| finalités : contraindre l'adversaire, contrôler le milieu, influencer les perceptions | إكراه الخصم، السيطرة على الوسط، التأثير في التصوّرات |
+| guerre électronique (GE) | الحرب الإلكترونية |
+| appui électronique (AE) | الإسناد الإلكتروني |
+| surveillance / défense / attaque électronique | المراقبة الإلكترونية / الدفاع الإلكتروني / الهجوم الإلكتروني |
+| ROEM | الاستخبار ذو المنشأ الكهرومغناطيسي |
+| informations d'intérêt immédiat (3I) | معلومات ذات أهمية فورية |
+| moyens rayonnants / discipline des émissions | الوسائل المشِعّة / انضباط البث |
+| engins explosifs improvisés radiocommandés | العبوات الناسفة المرتجلة المُفجَّرة لاسلكيًا |
+| ENGAGER / EXPLOITER / RENSEIGNER / DÉFENDRE | الاشتباك / الاستغلال / الاستخبار / الدفاع |
+
+## Choix douteux à faire relire
+
+1. **effet → « التأثير » / influence → « التأثير »** : collision lexicale réelle en arabe (« تأثيرات التأثير » pour « effets d'influence », s9_029, s11_002). Alternative pour influence : « النفوذ » (connoté politique) ou « التأثير المعنوي ». Le dictionnaire ar.json emploie déjà « التأثيرات » (effets) et « التأثير العسكري » (influence militaire), d'où le choix.
+2. **tromper → « الإيهام » / intoxication → « التضليل » / déception → « الخداع »** : trois termes distincts pour éviter les confusions (D2IS, objectif PSYOPS « Tromper »). En usage courant, « التضليل » est aussi employé pour *deception* ; à valider.
+3. **strate cognitive → « الإدراكية »** et perception → « التصوّر » : « المعرفية » serait aussi possible pour *cognitive*.
+4. **lutte informatique → « الصراع السيبراني »** (L2I, LIO) vs **lutte informationnelle → « الصراع المعلوماتي »** : distinction choisie pour lever l'ambiguïté informatique / informationnel ; « الحرب المعلوماتية » est fréquent dans la littérature arabe pour les deux.
+5. **relais d'influence → « وسطاء التأثير »** : choix descriptif ; « قادة الرأي » est une alternative idiomatique mais plus étroite.
+6. **PPP → « الهيئة، الوضعية، الحضور »** (profil / posture / présence) : pas d'équivalent normalisé.
+7. **effets de déception « réactance » → « الممانعة »**, **« accoutumance » → « الاعتياد »** : termes de psychologie, à valider.
+8. **ROEM → « الاستخبار ذو المنشأ الكهرومغناطيسي »** (calque) ; l'équivalent usuel de SIGINT est « استخبارات الإشارة ».
+9. **défense électronique → « الدفاع الإلكتروني »** (et non « الحماية الإلكترونية » pour *electronic protection*) : choix calqué sur le français pour garder le parallèle surveillance / défense / attaque.
+10. **« Objectifs ou cibles » (10_001, 11_048) → « المرامي أو الأهداف »** : l'arabe n'a qu'un mot courant (« هدف ») pour objectif et cible.
+11. **Mentions en anglais conservées** : « battle rhythm » (glosé « إيقاع المعركة »), « Quick impact project. » (08_023, laissé tel quel car c'est le développement du sigle QIP), « Info Ops ». Les définitions anglaises du tableau de sigles (C4ISTAR, KLE, TAA, CIMIC, QIP, MoP/MoE, C4I) ont été traduites en arabe.
+12. **11_025 « Consultation, command, control, communication and intelligence »** (définition donnée pour C4I) : traduite littéralement ; la définition elle-même semble erronée côté source (C4I = command, control, communications, computers and intelligence) — à signaler au relecteur du français.
+13. **Mise en page RTL** : chaînes mêlant sigles latins et volumes « 0/2/1//3 » à contrôler visuellement à l'affichage droite-à-gauche.

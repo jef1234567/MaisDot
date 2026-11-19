@@ -170,3 +170,99 @@ Complète /home/claude/maisdot/docs/traduction/GLOSSAIRE_it.md (termes déjà re
 12. **« Les ordres à / les ordres de » la fonction** → « gli ordini alla / della » funzione ; la nuance française reste un peu artificielle en italien.
 13. Numéraux ordinaux : « 11e BRIGINF » et « 0614h30Z AOU 12 » laissés tels quels (exemples de format français) ; « 11e brigade » dans une question → « 11a brigata ».
 14. s1082/s1083 « en faisant face à l'amont / l'aval » → « guardando verso monte / valle ».
+
+
+## Lot 6a – Contributions des fonctions (champs immatériels, déception, influence, PSYOPS, CIMIC, UTMC/DTMC, appui électronique)
+
+# Glossaire FR → IT – lot 6a (Contributions des fonctions : ECIm, déception, influence, PSYOPS, L2I, CIMIC, UTMC/DTMC, appui électronique)
+
+Complète GLOSSAIRE_it.md (repris à l'identique : effetto decisivo, linea d'azione, elaborazione, briefing decisionale, comandante interarma, livello superiore, lucido di manovra, tappa, schema, sicurezza, fuoco, intelligence, supporto elettronico, matrice di sincronizzazione, tempo di competizione…). Adresse en « tu », apostrophe droite, guillemets «» sans espace. Sigles conservés (ECIm, OPDEC, D2IS, M2MC, SECOPS, ILI, Info Ops, PPP, KLE/LLE, ETIM, ETEC, BILI, S3-IO, EIHO, ASEI, COMOPS, PSYOPS, L2I, LIO, TAA, CIMIC, QIP, MoP/MoE, UTMC, DTMC, X10, G10, J10, AE, ROEM, 3I, C4I, C4ISTAR, OODA, GE, COMCYBER, MA, ME, MAG…) ; seules les définitions sont traduites.
+
+## Termes retenus
+
+| Français | Italien |
+|---|---|
+| champs immatériels / matériels | campi immateriali / materiali |
+| strate (physique, virtuelle, cognitive) | strato (fisico, virtuale, cognitivo) |
+| couche informationnelle (du cyberespace) | livello informativo (dello spazio cibernetico) |
+| multimilieux multichamps (M2MC) | multidominio multicampo |
+| environnement informationnel / électromagnétique ; cyberespace | ambiente informativo / elettromagnetico ; spazio cibernetico |
+| approche par les effets ; effecteur (spécialisé / non spécialisé) | approccio per effetti ; effettore (specializzato / non specializzato) |
+| effet majeur élargi | effetto decisivo esteso |
+| cible / objectif | bersaglio / obiettivo |
+| délais (d'un effet) ; cadre espace-temps | tempi ; quadro spazio-temporale |
+| mesure de l'effet ; mesure d'évaluation | misura dell'effetto ; misura di valutazione |
+| MoP / MoE (indicateurs de performance / d'efficacité) | indicatori (misure) di performance / di efficacia |
+| déception ; opération de déception (OPDEC) | inganno ; operazione di inganno |
+| tromper / tromperie | ingannare / raggiro |
+| effets de déception : confusion, dispersion, indécision, focalisation, accoutumance, conviction, réactance, dévoilement | confusione, dispersione, indecisione, focalizzazione, assuefazione, convinzione, reattanza, rivelazione |
+| D2IS : dissimulation, intoxication, simulation | dissimulazione, intossicazione, simulazione |
+| leurrage / leurrer | impiego di esche / ingannare con esche |
+| démonstration / diversion | dimostrazione / diversione |
+| camouflage ; contre-renseignement | mascheramento ; controintelligence |
+| narratif ; concept ; schéma (d'OPDEC) ; mise en scène | narrativa ; concetto ; schema ; messa in scena |
+| plausibilité ; référentiel cognitif ; préconceptions | plausibilità ; quadro di riferimento cognitivo ; preconcetti |
+| auditoire (target audience) | pubblico (pl. pubblici) |
+| analyse des auditoires cibles (TAA) | analisi del pubblico di riferimento |
+| influence ; lutte informationnelle ; ILI | influenza ; lotta informativa ; influenza e lotta informativa |
+| lutte informatique d'influence (L2I) / offensive (LIO) | lotta informatica d'influenza / offensiva |
+| contre-influence ; contre-propagande | contro-influenza ; contropropaganda |
+| veille (informationnelle) | monitoraggio (informativo) |
+| relais d'influence ; engagement des relais (KLE/LLE) | referente d'influenza ; ingaggio dei referenti d'influenza |
+| entretien d'opportunité | colloquio d'opportunità |
+| matrice d'engagement | matrice d'ingaggio |
+| synchromatrice des effets | matrice di sincronizzazione degli effetti |
+| PPP : profil, posture, présence | profilo, postura, presenza |
+| bureau / officier influence (BILI) | ufficio / ufficiale influenza |
+| communication opérationnelle (COMOPS) ; communication institutionnelle | comunicazione operativa ; comunicazione istituzionale |
+| opérations psychologiques (PSYOPS) | operazioni psicologiche |
+| objectifs PSYOPS : dissuader, rassembler, rassurer, prévenir, provoquer, tromper, séduire, contrer, affaiblir | dissuadere, radunare, rassicurare, avvertire, provocare, ingannare, sedurre, contrastare, indebolire |
+| critères : accessibilité, réceptivité, efficacité, vulnérabilité | accessibilità, ricettività, efficacia, vulnerabilità |
+| vecteur ; visuel / audio / audiovisuel / face à face | vettore ; visivo / audio / audiovisivo / faccia a faccia |
+| tract ; cinéma de campagne ; point média | volantino ; cinema da campo ; punto stampa |
+| paliers de coopération : coordination, complémentarité, combinaison | livelli : coordinamento, complementarità, combinazione |
+| coopération civilo-militaire (CIMIC) | cooperazione civile-militare |
+| prise de relais (par les autorités civiles) | passaggio di consegne |
+| approche globale ; sortie de crise | approccio globale ; uscita dalla crisi |
+| projet à impact rapide (QIP) ; bailleurs | progetto a impatto rapido ; finanziatori |
+| détachement CIMIC ; annexe W / appendice CIMIC à l'annexe O | distaccamento CIMIC ; allegato W / appendice CIMIC all'allegato O |
+| unité / détachement tactique multichamps | unità / distaccamento tattico multicampo |
+| équipe tactique d'influence militaire / d'engagement cyber | squadra tattica d'influenza militare / d'ingaggio cyber |
+| groupes d'engagement influence | gruppi d'impiego influenza |
+| chaîne X10 ; cellule analyse / production ; équipe image | catena X10 ; cellula analisi / produzione ; squadra immagine |
+| cycle de production : capter, analyser, planifier et concevoir, produire, diffuser, évaluer et archiver | captare, analizzare, pianificare ed elaborare, produrre, diffondere, valutare e archiviare |
+| officiers / sous-officiers / militaires du rang | ufficiali / sottufficiali / militari di truppa |
+| cellule conduite ; battle rhythm | cellula condotta ; battle rhythm (inchangé) |
+| ciblage | targeting |
+| guerre électronique ; brouillage ; contremesures électroniques | guerra elettronica ; disturbo (jamming) ; contromisure elettroniche |
+| appui électronique (AE) | supporto elettronico |
+| modes d'action de l'AE : surveillance / défense / attaque électroniques | modalità d'azione : sorveglianza / protezione / attacco elettronici |
+| ROEM | intelligence di origine elettromagnetica |
+| informations d'intérêt immédiat (3I) | informazioni d'interesse immediato |
+| représentation opérationnelle partagée | quadro operativo condiviso |
+| moyens rayonnants ; émetteurs ; discipline des émissions | mezzi emittenti ; emettitori ; disciplina delle emissioni |
+| engins explosifs improvisés (radiocommandés) | ordigni esplosivi improvvisati (radiocomandati) |
+| aides radioélectriques à la navigation ; armes à énergie dirigée | radioassistenze alla navigazione ; armi a energia diretta |
+| contraindre l'adversaire, contrôler le milieu, influencer les perceptions | costringere l'avversario, controllare l'ambiente, influenzare le percezioni |
+| sécurité des opérations (SECOPS) ; diffusion restreinte | sicurezza delle operazioni ; diramazione ristretta |
+| ligne {n} (tableaux) | riga {n} (comme it.json) |
+
+## Choix douteux à faire relire
+
+1. **déception → « inganno »** (et OPDEC = « operazione di inganno ») ; « tromperie » rendu « raggiro » pour éviter la répétition. La doctrine italienne emploie aussi « deception » non traduit.
+2. **auditoire → « pubblico »** (pl. « pubblici ») ; alternative « uditorio » (calque) ou « target audience » (usage courant du 28° rgt « Pavia »). TAA → « analisi del pubblico di riferimento ».
+3. **relais d'influence → « referente d'influenza »** ; « intermediario » ou « moltiplicatore d'influenza » possibles. KLE/LLE gardés et glosés « ingaggio dei referenti d'influenza ».
+4. **appui électronique → « supporto elettronico »** (imposé par le glossaire général) : FAUX AMI OTAN, car « supporto elettronico » (ES) désigne en OTAN la seule surveillance électronique. J'ai donc gardé « sorveglianza elettronica » littéral pour la surveillance et rendu **défense électronique → « protezione elettronica »** (EP OTAN), plutôt que « difesa elettronica ». À trancher par un relecteur italien.
+5. **modes d'action de l'AE, et « mode d'action » au sens générique (KLE, unités interarmes, 04_028, 05_022, 05_041) → « modalità d'azione »** ; « linea d'azione » réservée aux MA de la MEDOT (08_050, 08_060, 09_015). 11_047 (colonne du tableau AE) → « Modalità d'azione ».
+6. **intoxication → « intossicazione »** (garde le I de D2IS) ; l'italien dit plutôt « disinformazione ». Dissimulation → « dissimulazione » (et non « occultamento ») pour la même raison.
+7. **dévoilement → « rivelazione »** ; **réactance → « reattanza »** (terme de psychologie, existe en italien).
+8. **lutte informationnelle → « lotta informativa »** ; alternatives « contrasto informativo », « guerra dell'informazione ». **couche informationnelle → « livello informativo »**, distinct de « strato » (strate).
+9. **contrôler le milieu → « controllare l'ambiente »** : collision possible avec « environnement » (ambiente) ; « controllare il terreno / l'area » envisageable.
+10. **prévenir (objectif PSYOPS) → « avvertire »** ; **rassembler → « radunare »** ; **séduire → « sedurre »** (calques, sens « promouvoir, attirer »).
+11. **EEI** (engin explosif improvisé) traduit en clair « ordigni esplosivi improvvisati » (06_003, 06_059) au lieu de garder le sigle français.
+12. **10_022 et 10_045** : amorces de QCM reformulées pour que les réponses partagées, sans article, s'accordent (« è una forma di… », « è un effetto di… » ; 10_046 « COMOPS » sans article).
+13. **armée de Terre → « Esercito francese »** (08_034) ; **712e compagnie de transmissions → « 712ª compagnia trasmissioni »**.
+14. **« même assumée » (L2I active) → « anche rivendicata »** (08_043) ; sens « attribuée ouvertement » à confirmer.
+15. **groupes d'engagement influence → « gruppi d'impiego influenza »** ; **ETIM « équipe tactique d'influence militaire »** : genre féminin retenu (« le ETIM », « una ETIM »), ETEC aussi ; UTMC féminin, DTMC masculin.
+16. **Effet majeur élargi → « effetto decisivo esteso »** ; « allargato » possible.
+17. **Zone d'engagement ALAT → « Zona d'impiego ALAT »** (repris de it.json) ; **Unité de feu → « Unità di fuoco »**.

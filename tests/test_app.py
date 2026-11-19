@@ -808,6 +808,41 @@ def t_ordres(b, vp):
     return "8 modules dans le cycle et l'examen, PS et SITREP assemblés"
 
 
+def t_fonctions(b, vp):
+    """Rubrique « Contributions des fonctions » : hors cycle, examen dédié, encarts dans le cycle, gabarits assemblés."""
+    a = App(b, vp).open("fx_dec")
+    ids = a.js("M.filter(m=>m.grp==='Contributions des fonctions').map(m=>m.id)")
+    check(ids == ["fx_ecim", "fx_dec", "fx_inf", "fx_psy", "fx_cim", "fx_utmc", "fx_ae"], f"modules : {ids}")
+    check(a.js("M.findIndex(m=>m.id==='ac_co')<M.findIndex(m=>m.id==='fx_ecim')&&M.findIndex(m=>m.id==='fx_ae')<M.findIndex(m=>m.grp==='Outils')"), "ordre du menu")
+    check(not a.js("cycleSvg().includes('fx_')"), "rubrique présente dans le schéma du cycle")
+    for sc, want in (("tout", False), ("fx", True)):
+        a.js(f"EXS='{sc}'")
+        mids = a.js("exPick().map(q=>q.mid)")
+        has = any(m.startswith("fx_") for m in mids)
+        check(len(mids) == 30 and has == want and (not want or all(m.startswith("fx_") for m in mids)), f"examen {sc} : {sorted(set(mids))}")
+    n = a.js("['prealable','p1e1','p1e2','p1e3','p1e5','p2e2','p2e3','dec'].filter(id=>M.find(m=>m.id===id).sections.some(s=>s.go)).length")
+    check(n == 8, f"encarts : {n}/8")
+    a.js("go('p1e3')")
+    a.page.locator("#main .card.enc button", has_text="Déception").first.click()
+    check(a.js("cur") == "fx_dec", "lien de l'encart")
+    a.js("go('fx_dec','a')")
+    a.page.fill("#f_fxd_obj", "Fixer la 232 BM face à l'EST")
+    select_cell(a, "fxd_d2is", 0, "c", "Simulation")
+    fill_cell(a, "fxd_d2is", 0, "a", "Site de franchissement factice")
+    bi = a.js("M.find(m=>m.id==='fx_dec').apply.findIndex(b=>b.t==='doc')")
+    h = a.js(f"docHTML('fx_dec',{bi})")
+    check("Fixer la 232 BM" in h and "Site de franchissement factice" in h and "Simulation" in h, "OPDEC non assemblée")
+    a.js("go('fx_inf','a')")
+    fill_cell(a, "fxi_kle", 0, "c", "Maire de Z")
+    bi = a.js("M.find(m=>m.id==='fx_inf').apply.findIndex(b=>b.t==='doc')")
+    check("Maire de Z" in a.js(f"docHTML('fx_inf',{bi})"), "matrice KLE non assemblée")
+    check(a.js("LEX.some(x=>x[0]==='OPDEC')&&LEX.some(x=>x[0]==='DTMC')"), "sigles de la rubrique")
+    check(a.js("M.filter(m=>m.grp==='Contributions des fonctions').reduce((s,m)=>s+m.quiz.length,0)") >= 60, "moins de 60 questions")
+    a.no_errors()
+    a.close()
+    return "7 modules hors cycle, examen dédié, 8 encarts liés, OPDEC et matrice KLE assemblées"
+
+
 TESTS = [
     ("Chargement sans erreur console", t_chargement),
     ("Navigation modules × 3 onglets", t_navigation),
@@ -830,6 +865,7 @@ TESTS = [
     ("window.claude.use('downloads') → save()", t_downloads),
     ("Rubrique Appropriation et conduite", t_conduite),
     ("Phase 3 – Rédaction des ordres et messagerie", t_ordres),
+    ("Rubrique Contributions des fonctions", t_fonctions),
     ("Langues (Paramètres, RTL, saisies conservées)", t_langues),
 ]
 

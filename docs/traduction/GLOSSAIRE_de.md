@@ -183,3 +183,99 @@ Sigles français (OPO, PS, PNVA, ZLO, ZRO, EMD, TACOM, TACON, B2, B4, S4, COMBRI
 8. **Fragments / amorces de QCM** : les amorces (« Ziff. 2 Auftrag in einem FRAGO… », « In einem ZLO… », « Der ASSESSREP dient dazu, … », « Ein Plan unterscheidet sich von einem Befehl dadurch, dass er… », « Nach dem Durchzug des Großverbands: Die … Mittel… ») ont été tournées pour que les réponses (verbe conjugué en tête « verbietet die Führung… », « sind Sperren… », infinitifs en « zu ») s'enchaînent ; à vérifier à l'affichage. Fragments isolés : s0300 « De manœuvre » → « Kampf- », s0780 « Plan de » → « Plan für », s1077 « d'engagement » → « des Einsatzes », s1167 « manœuvre » → « Manöver », s1222 « simplifié » → « vereinfachter » (contexte inconnu).
 9. **Codes en français dans les messages** (ARRÊTÉ, EN MVT VERS, NÉANT, O IMMÉDIAT, DIFFUSION RESTREINTE, ENI/AMI, sigles d'unités BATMECA…) conservés comme éléments de format/exemples ; « 11e BRIGINF », « …e brigade » laissés en français.
 10. **GE** (guerre électronique) conservé comme sigle dans s1064 ; ailleurs « elektronischer Kampf ».
+
+
+## Lot 6a – Contributions des fonctions (champs immatériels, déception, influence, PSYOPS, CIMIC, UTMC/DTMC, appui électronique)
+
+# Glossaire FR → DE – lot 6a (Contributions des fonctions : ECIm, déception, influence, PSYOPS, L2I, CIMIC, UTMC/DTMC, appui électronique)
+
+Complète GLOSSAIRE_de.md (« du », „ “, Führer der verbundenen Waffen, erweiterte entscheidende Wirkung, Entscheidungsbesprechung, Operationsdeckblatt, Rollentabelle, Spionageabwehr, Schlüsselzeitpunkt…).
+Sigles conservés : ECIm, OPDEC, D2IS, M2MC, SECOPS, ILI, Info Ops, PPP, KLE/LLE, ETIM, ETEC, BILI, S3-IO, EIHO, ASEI, COMOPS, PSYOPS, L2I, LIO, TAA, CIMIC, QIP, MoP/MoE, UTMC, DTMC, X10/G10/J10, AE, ROEM, 3I, C4I, C4ISTAR, OODA, GE, COMCYBER, IOWG/IOCB, OPORD, ROE, EFR, PREO, OPCON/TACOM/TACON, COMBRIG, CEM, ALAT, MINOS, VIENNE. Genres : der BILI, die UTMC, das DTMC, das ETIM / ETEC, die OPDEC, die L2I, die CIMIC, die AE, die ROEM.
+Volumes « 2/10/3//15 » et « {n} » inchangés ; fragments commençant par « : » conservés. Expansions anglaises (C4ISTAR, C4I, IOWG/IOCB) laissées en anglais ; « Contrôle opérationnel » → « Operational control » comme dans de.json.
+
+## Termes retenus
+
+| Français | Allemand |
+|---|---|
+| contributions des fonctions | Beiträge der Einsatzfunktionen |
+| effets dans les champs immatériels (ECIm) | Wirkungen in den nicht-physischen Feldern |
+| manœuvre par les effets / approche par les effets | wirkungsorientierte Operationsführung / wirkungsorientierter Ansatz |
+| effet (à obtenir / recherché) | Wirkung (zu erzielende / angestrebte) |
+| effet majeur élargi | erweiterte entscheidende Wirkung |
+| MA enrichi | erweiterte MA |
+| strate physique / virtuelle / cognitive | physische / virtuelle / kognitive Schicht |
+| multimilieux multichamps (M2MC) | über alle Dimensionen und Felder |
+| environnement informationnel / électromagnétique ; cyberespace | Informationsumfeld / elektromagnetisches Umfeld ; Cyberraum |
+| environnement opérationnel | Einsatzumfeld |
+| EIHO | informationelles und menschliches Einsatzumfeld |
+| effecteur (spécialisé / non spécialisé) | Effektor (spezialisiert / nicht spezialisiert) |
+| délais (cadre espace-temps) | Fristen (Raum-Zeit-Rahmen) |
+| auditoire (cible) | Zielgruppe |
+| relais d'influence ; engagement des relais d'influence | Multiplikator ; Einbindung von Multiplikatoren (KLE/LLE) |
+| entretien d'opportunité | Gelegenheitsgespräch |
+| déception ; opération de déception (OPDEC) | Täuschung ; Täuschungsoperation |
+| dissimulation / simulation / intoxication (D2IS) | Verschleierung / Vortäuschung / Desinformation |
+| leurrage / démonstration / diversion | Einsatz von Attrappen / Demonstration / Ablenkung |
+| effets de déception : confusion, dispersion, indécision, focalisation, accoutumance, conviction, réactance, dévoilement | Verwirrung, Zersplitterung, Unentschlossenheit, Fokussierung, Gewöhnung, Überzeugung, Reaktanz, Preisgabe |
+| narratif / concept / schéma d'OPDEC ; mise en scène | Narrativ / OPDEC-Konzept / OPDEC-Schema ; Inszenierung |
+| sécurité des opérations (SECOPS) | Operationssicherheit |
+| annexe « Déception » ; diffusion restreinte | Anlage „Täuschung“ ; eingeschränkter Verteiler |
+| préconceptions ; référentiel cognitif | vorgefasste Meinungen ; kognitiver Bezugsrahmen |
+| temps de compétition ; compétition / contestation / affrontement | Phase des Wettbewerbs ; Wettbewerb / Anfechtung / Konfrontation |
+| chef de la cellule conduite | Leiter der Zelle Operationsführung |
+| influence ; lutte informationnelle ; ILI | Einflussnahme ; Informationskampf ; Einflussnahme und Informationskampf |
+| contre-influence / contre-propagande | Gegeneinflussnahme / Gegenpropaganda |
+| bureau influence (BILI) / officier influence | Abteilung (militärische) Einflussnahme / Offizier für Einflussnahme |
+| synchromatrice des effets | Wirkungssynchronisationsmatrix |
+| matrice d'engagement (KLE) | (KLE-)Engagement-Matrix / Matrix zur Einbindung der Multiplikatoren |
+| profil, posture, présence (PPP) | Profil, Haltung, Präsenz |
+| COMOPS | Operative Kommunikation |
+| PSYOPS | psychologische Operationen |
+| L2I (lutte informatique d'influence) | Cyber-Einflussnahme |
+| LIO / lutte informatique | offensive Cyberoperationen / Cyberoperationen |
+| ASEI | Spezialoperationen im Umfeld und zur Einflussnahme |
+| ETIM / ETEC | Taktisches Team für militärische Einflussnahme / Taktisches Cyber-Einsatzteam |
+| UTMC / DTMC | Feldübergreifende taktische Einheit (Division) / feldübergreifendes taktisches Kommando (Brigade) |
+| chaîne X10 / chaîne communication | X10-Strang / Kommunikationsstrang |
+| vecteur | Träger |
+| objectifs PSYOPS : dissuader, rassembler, rassurer, prévenir, provoquer, tromper, séduire, contrer, affaiblir | Abschrecken, Sammeln, Beruhigen, Vorwarnen, Provozieren, Täuschen, Gewinnen, Entgegenwirken, Schwächen |
+| critères : accessibilité, réceptivité, efficacité, vulnérabilité | Erreichbarkeit, Empfänglichkeit, Wirksamkeit, Verwundbarkeit |
+| mesure d'évaluation ; indicateurs de performance / d'efficacité (MoP/MoE) | Bewertungsindikator ; Leistungs- / Wirksamkeitsindikatoren |
+| coordination / complémentarité / combinaison (paliers) | Koordinierung / Komplementarität / Kombination (Stufen) |
+| coopération civilo-militaire (CIMIC) | zivil-militärische Zusammenarbeit |
+| détachement CIMIC | CIMIC-Kommando |
+| projet à impact rapide (QIP) | Projekt mit schneller Wirkung |
+| approche globale | vernetzter Ansatz |
+| facteurs civils ayant des implications militaires | zivile Faktoren mit militärischen Auswirkungen |
+| annexe W / appendice CIMIC à l'annexe O | Anlage W / CIMIC-Anhang zur Anlage O |
+| OI, OG, ONG | IO, Regierungsorganisationen, NRO |
+| état final recherché | angestrebter Endzustand |
+| EEI (engin explosif improvisé) | USBV |
+| appui électronique (AE) | elektronische Unterstützung |
+| surveillance / défense / attaque électronique | elektronische Aufklärung und Überwachung / elektronische Schutzmaßnahmen / elektronischer Angriff |
+| contremesures électroniques | elektronische Gegenmaßnahmen |
+| guerre électronique (GE) | elektronischer Kampf (comme de.json) |
+| ROEM | Fernmelde- und elektronische Aufklärung |
+| informations d'intérêt immédiat (3I) | Informationen von unmittelbarem Interesse |
+| représentation opérationnelle partagée | gemeinsames operatives Lagebild |
+| moyens rayonnants / discipline des émissions | Abstrahlquellen / Emissionsdisziplin |
+| cycle du ciblage / ciblage | Targeting-Zyklus / Targeting |
+| tir sur objectif vide : semonce, harcèlement | Warnschuss, Störfeuer |
+| compagnie de commandement et de transmissions | Stabs- und Fernmeldekompanie |
+| Normes et délais ; Outils | Normen und Zeiten ; Werkzeuge (repris de de.json) |
+
+## Choix douteux à faire relire
+
+1. **ENGAGER / EXPLOITER / RENSEIGNER / DÉFENDRE** (01_022-024, fonctions en capitales) → BEKÄMPFEN / AUSNUTZEN / AUFKLÄREN / VERTEIDIGEN ; « BEKÄMPFEN » pour ENGAGER est une interprétation (alternative : EINSETZEN / WIRKEN).
+2. **D2IS** : Verschleierung / Vortäuschung / Desinformation ; en 03_041 et 10_067 les termes français sont ajoutés entre parenthèses pour expliquer le sigle. « intoxication » → « Desinformation » (Bundeswehr) ; « leurrage » → « Einsatz von Attrappen ».
+3. **L2I → Cyber-Einflussnahme** et **lutte informationnelle → Informationskampf** : pas d'équivalent Bundeswehr exact (on y parle plutôt de « Wirkung im Informationsumfeld », « Informationsoperationen »).
+4. **influence → Einflussnahme**, **BILI → Abteilung Einflussnahme** (der BILI) : le pronom « il » des fiches BILI rendu par « Er » (le BILI/l'officier).
+5. **relais d'influence → Multiplikator** : terme usuel allemand, mais perd la nuance « relais ».
+6. **UTMC / DTMC** : « feldübergreifende taktische Einheit / feldübergreifendes taktisches Kommando » descriptifs ; détachement → « Kommando » (alternative : « Trupp » / « Detachement »).
+7. **ETIM / ETEC** : genre neutre (das Team) retenu.
+8. **appui électronique** : la consigne citait « elektronische Unterstützung » pour l'AE ; mais les trois modes d'action rendus par la terminologie OTAN-DE (Elektronische Aufklärung und Überwachung / Schutzmaßnahmen / Angriff). « Surveillance électronique » → « elektronische Aufklärung und Überwachung » (long ; alternative ESM « elektronische Unterstützungsmaßnahmen », écartée pour éviter la confusion avec AE).
+9. **guerre électronique → elektronischer Kampf** (cohérence avec de.json) et non « elektronische Kampfführung » cité dans la consigne.
+10. **ROEM → Fernmelde- und elektronische Aufklärung** (SIGINT) ; **cellule conduite → Zelle Operationsführung** (pas d'entrée existante).
+11. **SECOPS / « Sécurité des opérations » → Operationssicherheit** ; **temps de compétition → Phase des Wettbewerbs** ; **Contrôle opérationnel → Operational control** (repris de de.json, anglais).
+12. **11_062 « Voir » → « Ansehen »** (contexte inconnu, bouton supposé).
+13. **Pivot « effet » vs « objectif »** : « cible » → Ziel, « objectif » (au sens cible) → Zielobjekt ; « objectif » PSYOPS/OPDEC → Ziel. Risque de collision Ziel/Zielobjekt à vérifier dans les colonnes 10_001 / 11_048.
