@@ -41,5 +41,5 @@ Audit fait sur l’outil entier : 82 modules et 948 questions, dans les 6 langue
 ## Points laissés à JF
 
 - **Relecture des distracteurs réécrits.** Les agents de relecture ont signalé 9 questions où le distracteur réécrit peut prêter à discussion : f3_ci3d n° 3, ac_ir n° 3, or_opo n° 6 et n° 10, p1e1 n° 10, f3_art n° 7, gn_cied n° 9, ms_gt1 n° 9, gn_fb n° 9. Pour gn_fb n° 9, le distracteur « colonel adjoint » est un piège volontaire : c’est la zone de franchissement, et non le secteur, qui est à ses ordres. Les distracteurs des modules de méthode (vocab, phases 1 et 2) n’ont pas d’équivalent mot pour mot dans la base doctrinale. Ils ont été contrôlés par rapport aux explications de l’outil.
-- **Terminologie des traductions.** C’est la même liste qu’avant, dans la section « Lot … » des glossaires. Il s’y ajoute les choix signalés pour cet audit (section « Audit global »).
+- **Terminologie des traductions.** C’est la même liste qu’avant, dans la section « Lot … » des glossaires. Il s’y ajoute les choix signalés pour cet audit (section « Audit global »). Ces points ont été tranchés le 20/11 : voir la section « Décisions du 20/11 » de chaque glossaire (34 harmonisations de termes, soit 244 chaînes modifiées dans les 5 dictionnaires).
 - **Contradictions internes à la BIA à soumettre à l’EEM.** La liste n’a pas changé (document de passation).

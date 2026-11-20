@@ -611,3 +611,27 @@ Conventions inchangées (sigles en latin, souvent précédés de « الـ » ; 
 ## Audit global (20/11/2026)
 
 Nouveaux distracteurs de 198 questions, 45 sigles, exemple VIENNE (situation et cellules affichées). Choix à relire : « (à valider) » → « (للمصادقة) » ; Rupture / Rompre → الكسر ; Rabattement / Rabattre → الانعطاف ; rive arrivée → ضفة الوصول ; C.ARR et EFFORT gardés en latin ; Débordement et Contourner tous deux الالتفاف (repris du dictionnaire) ; points cardinaux traduits.
+
+## Décisions du 20/11
+
+Arbitrage de tous les points « à relire », « à valider », « à confirmer » ou « à trancher » des sections précédentes. Règle suivie : terminologie OTAN de référence quand elle a un équivalent arabe établi ; sinon, usage majoritaire de `ar.json`. « Conservé » signifie que le choix du traducteur est validé. Les remplacements faits dans `src/i18n/ar.json` sont indiqués avec leur nombre de chaînes.
+
+### Changements appliqués à ar.json
+
+| Terme FR | Avant | Décision | Chaînes |
+|---|---|---|---|
+| aérocombat | القتال الجوي (rubrique 3.E de l’ordre) | **القتال الجوي البري** : forme majoritaire (45 occurrences), évite la confusion avec le combat aérien | 2 |
+| coupure | فاصل مائي | **مانع مائي**, forme majoritaire (25 occurrences) | 3 |
+| appui au commandement | الإسناد للقيادة (S6) | **إسناد القيادة**, forme majoritaire | 1 |
+
+### Points conservés ou hors terminologie
+
+- **Lots 1 à 4.** 1 « المفتاحية » conservé : distinct de « الحاسم » (décisif), cohérent pour zone, point et moment clés. 2 « الشرط الحتمي » conservé. 3 articulation et modelage : « التشكيل » conservé pour l’articulation (forme établie dans ar.json) ; le modelage est rendu par d’autres tournures dans les textes, pas de remplacement mécanique possible sans relecture phrase à phrase. 4 « استقبال القوات المنسحبة » conservé. 5 « إيجاز », « الافتراض / الفرضية » conservés. 6 locale : sans effet, le code appelle la locale française en dur. 7 et 8 fragments, RTL : hors terminologie (contrôle d’affichage). 9 conservé.
+- **Lot 5.** 1 « الأمر البياني » conservé. 2 « الأمر الجزئي » conservé. 3 « المنطقة المنظَّمة العوائق » conservé. 4 « صيغة الاحتمال / صيغة الإخبار » conservés. 5 « الزمن » conservé. 6 fragments : hors terminologie. 7 mentions françaises conservées (formats). 8 conservé. 9 aérocombat harmonisé (voir tableau). 10 conservé (identifiant technique).
+- **Lot 6a.** 1 « التأثير » pour effet et influence conservé : ar.json emploie déjà « التأثيرات » (effets) et « التأثير العسكري » ; « النفوذ » est trop politique. 2 « الإيهام / التضليل / الخداع » conservés (trois notions distinctes). 3 « الإدراكية » conservé. 4 « الصراع السيبراني » / « الصراع المعلوماتي » conservés. 5 « وسطاء التأثير » conservé. 6 PPP conservé. 7 « الممانعة », « الاعتياد » conservés. 8 ROEM conservé (calque du sigle français). 9 « الدفاع الإلكتروني » conservé (parallèle des trois modes). 10 « المرامي أو الأهداف » conservé. 11 mentions anglaises conservées. 12 définition de C4I : signalée, le lexique français la donne désormais correctement (communications, computers and intelligence). 13 RTL : hors terminologie.
+- **Lot 6b.** 1 « الاستحصال » conservé (aligné ar.json). 2 « القواذف » conservé. 3 « التحييد المؤقت » conservé. 4 « رمي الإنذار », « الإزعاج » conservés. 5 « رمي الحاجز », « رمي الإيقاف » conservés. 6 « ملحق / مُسند / للتعزيز » conservés. 7 et 8 conservés. 9 conservé. 10 et 11 conservés. 12 entrées anglaises conservées. 13 RTL : hors terminologie.
+- **Lot 6c.** 1 tranché : « مانع مائي » (voir tableau). 2 « الثغرة » / « الفجوة » conservés (deux sens distincts : ouverture dans un obstacle, longueur franchie par un ponteur). 3 « رئيس الهندسة / قائد الهندسة » conservés. 4 « مهلة الحصانة » conservé. 5 « الاجتياز » / « العبور » conservés. 6 « التمركز الدفاعي » / « العبوة » conservés (deux sens). 7 « الاستثمار » / « الاستغلال » conservés. 8 à 12 conservés. 13 et 14 fragments, RTL : hors terminologie.
+- **Lot 6d-1.** 1 « الاستطلاع » pour recherche conservé (aligné sur « ordre de recherche → أمر الاستطلاع ») ; le contexte distingue la reconnaissance. 2 « الاستخبار » / « الاستخبارات » conservés : même notion, forme collective pour les organismes. 3 tranché (voir tableau) ; « مفرزة مقاتلين جويين مدمجة » conservé. 4 tranché : « إسناد القيادة » (voir tableau). 5 conservé. 6 « سرية » pour escadron conservé (convention). 7 fragments : hors terminologie. 8 conservé.
+- **Lot 6d-2.** 1 « الدور {n} » conservé (calque OTAN *Role*). 2 conservé. 3 « نقل الـ BSD » conservé. 4 « المدفوعة / المسحوبة », « التسليم / التوزيع » conservés. 5 « المصادَق عليها » conservé. 6 « ورشة » conservé. 7 « السلامة » / « الأمن » conservés (sûreté tactique / sécurité du soutien). 8 et 9 conservés. 10 conservé. 11 conservé. 12 RTL : hors terminologie.
+- **Lot 7.** 1 « التعويق » (mission) et « الإعاقة » (dans les textes) conservés : même racine, même sens, aucune collision. 2 « التراجع » / « الانسحاب » conservés. 3 « السدّ » conservé. 4 « الإحاطة » / « الالتفاف » conservés. 5 et 6 conservés. 7 « النقل » pour bascule de PC et transfert d’autorité conservé : le contexte (PC, autorité) lève l’ambiguïté. 8 à 10 conservés. 11 fragments : hors terminologie. 12 conservé.
+- **Audit global.** « (للمصادقة) », « الكسر », « الانعطاف », « ضفة الوصول », C.ARR et EFFORT en latin, points cardinaux traduits conservés ; Débordement et Contourner tous deux « الالتفاف » : conservé, la distinction est portée par les définitions.
