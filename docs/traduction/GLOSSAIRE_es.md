@@ -703,3 +703,31 @@ Missions tactiques (FR/OTAN), symbologie APP-6 et calques, relations de commande
 ## Audit global (20/11/2026)
 
 Nouveaux distracteurs de 198 questions, 45 sigles, exemple VIENNE (situation et cellules affichées). Choix à relire : « (à valider) » → « (por validar) » ; Rabattement / Rabattre → Envolvimiento / Envolver ; « à/c » → « a partir del » ; rive arrivée → orilla de llegada ; franchissement → paso ; freinage → frenado (le titre a « Retardo ») ; prévôté → policía militar ; ZOULOU → ZULÚ.
+
+## Décisions du 20/11
+
+Arbitrage de tous les points « à relire », « à valider », « à confirmer » ou « à trancher » des sections précédentes. Règle suivie : terminologie OTAN espagnole de référence quand elle existe et qu’elle ne trahit pas le sens français ; sinon, usage majoritaire de `es.json`. « Conservé » signifie que le choix du traducteur est validé. Les remplacements faits dans `src/i18n/es.json` sont indiqués avec leur nombre de chaînes.
+
+### Changements appliqués à es.json
+
+| Terme FR | Avant | Décision | Chaînes |
+|---|---|---|---|
+| NRBC | NRBC (2 restes) | **NBQR**, sigle de la doctrine espagnole et forme majoritaire (138 occurrences) | 2 |
+| Boucler | Cercar | **Acordonar** (OTAN *to cordon off*) : *cercar* sert aussi pour encercler | 13 |
+| Interdire (clé isolée) | Prohibir | **Negar** (OTAN *to deny*), comme les 37 autres occurrences | 1 |
+| Freiner, freinage | Retardar, Retardo | **Frenar, Frenado** : forme majoritaire (35 occurrences) ; garde la distinction française entre freiner et retarder (*Retarder* reste *Retardar*) | 13 |
+| attaque en souplesse | Ataque sobre la marcha, ataque flexible | **Ataque por infiltración** : *sobre la marcha* désigne l’attaque sans préparation (faux ami) ; la définition française donne la prédominance à l’infiltration | 8 |
+| coupure | corte | **curso de agua**, comme dans le reste de l’outil | 3 |
+| appui électronique (AE) | apoyo electrónico | **apoyo de guerra electrónica** : en OTAN, *apoyo electrónico* (ES) ne désigne que la surveillance électronique, alors que l’AE couvre surveillance, protection et attaque | 34 |
+
+### Points conservés ou hors terminologie
+
+- **Lots 1 à 4.** 1 *efecto decisivo* conservé (pivot). 2 *cometido* conservé. 3 *restricción* conservé (constraint OTAN). 4 *Apoyo al empeño* conservé. 5 *recogida*, *desembocadura* conservés (termes tactiques espagnols ; *paso de líneas* figure dans les définitions). 6 *rapidez fulminante* conservé. 7 *zonas no asignadas* conservé. 8 *segregaciones* conservé. 9 fragments : hors terminologie (contrôle d’affichage). 10 locale : sans effet, le code appelle la locale française en dur ; nom de fichier et clés JSON conservés. 11 sigles français conservés.
+- **Lot 5.** 1 *orden en calco* conservé. 2 *obstáculo reservado* conservé (OTAN). 3 codes et mentions françaises des messages conservés (valeurs de format). 4 tranché : NBQR (voir tableau). 5 *unidades de combate* conservé. 6 *unidad piloto* conservé. 7 accords *ejecutivo / ejecutiva* : hors terminologie. 8 *Difundir inteligencia*, *Informar* conservés. 9 *apartado* conservé. 10 *descontaminación completa*, *puesto* conservés. 11 fragments : hors terminologie.
+- **Lot 6a.** 1 *intermediario de influencia*, *compromiso* (KLE), *empeño* (engagement tactique) conservés. 2 *lucha informativa* conservé. 3 *multimedio y multicampo* conservé. 4 *protección electrónica* conservé (OTAN EP). 5 *línea de acción* conservé ; les modes de l’AE gardent ce terme. 6 IED conservé. 7 D2IS conservé. 8 termes de psychologie conservés. 9 genre d’ETIM / ETEC conservé. 10 *targeting* conservé. 11 définitions anglaises conservées. 12 « francés » conservé (lève une ambiguïté réelle). 13 *apartado*, *sección* conservés.
+- **Lot 6b.** 1 *acción de conjunto* conservé (doctrine espagnole d’artillerie). 2 *agregado / asignado* conservés. 3 *advertencia*, *neutralización temporal*, *detención*, *barrera* conservés. 4 *tramo D* conservé. 5 *empeño* conservé. 6 *reglas de enfrentamiento* conservé (OTAN). 7 *control positivo* conservé (OTAN). 8 *tiempo diferido* conservé. 9 *conductor* / *piloto* conservés. 10 à 17 conservés.
+- **Lot 6c.** 1 EEI : sigle français conservé dans les tables de sigles, IED dans les textes déjà traduits ; pas de remplacement mécanique, car EEI désigne aussi l’escadron d’éclairage et d’investigation. 2 tranché : NBQR. 3 tranché : *curso de agua* (voir tableau) ; *obstáculo* pour les coupures sèches conservé. 4 *responsable / jefe de ingenieros* conservés. 5 *bajo restricción* conservé. 6 conservé. 7 *inhibidores* conservé. 8 *unidad básica de empleo*, *pelotón*, *El conjunto interarmas* conservés. 9 termes techniques conservés. 10 *destrucción reservada* conservé (OTAN). 11 ZTR, *rocada de cruce* conservés. 12 points cardinaux conservés. 13 fragment : hors terminologie.
+- **Lot 6d-1.** 1 *Train* conservé. 2 *principal / reserva* conservés. 3 *obtención*, *orientación* conservés. 4 conservé. 5 *paso a través de un dispositivo* conservé : la notion française est plus large que le *paso de escalón* OTAN. 6 *de manera degradable* conservé. 7 *máscaras del terreno* conservé. 8 *punto de toma* conservé. 9 définition double d’EEI conservée. 10 fragments : hors terminologie.
+- **Lot 6d-2.** 1 NBQR conservé. 2 *Role {n}* conservé (OTAN). 3 *sostenimiento* / *apoyo* conservés. 4 *flujos de empuje / de arrastre*, *entrega / distribución* conservés. 5 *línea*, *servir* conservés. 6 *descontaminación certificada*, *arma improvisada* conservés. 7 *alerta* conservé. 8 *gendarmería prebostal* conservé (*policía militar* dans l’exemple VIENNE, admis). 9 et 10 conservés. 11 *regimiento*, *suboficial de la unidad*, *comisario del agrupamiento* conservés. 12 fragments : hors terminologie.
+- **Lot 7.** 1 tranché : *Frenar* (voir tableau). 2 tranché : *Negar* (voir tableau). 3 tranché : *Acordonar* (voir tableau). 4 *Romper* conservé (cohérent avec *ruptura*). 5 *Sostener* conservé. 6 *Desorganizar* conservé. 7 *Rebasar* conservé. 8 *Defender firme* conservé. 9 tranché : *Ataque por infiltración* (voir tableau). 10 à 20 conservés (11 : ambiguïté *Explorar* identique au français).
+- **Audit global.** *(por validar)*, *Envolvimiento / Envolver*, *a partir del*, *orilla de llegada*, *paso*, *frenado*, *policía militar*, *ZULÚ* conservés.
