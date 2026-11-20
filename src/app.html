@@ -1172,8 +1172,14 @@ const toTop=document.getElementById("toTop");addEventListener("scroll",()=>{toTo
 /* ============ INIT ============ */
 document.addEventListener("click",e=>{if(document.body.classList.contains("navopen")&&!document.getElementById("nav").contains(e.target)&&e.target.id!=="menuBtn")toggleNav(false);});
 USER=S;const dsw=document.getElementById("demoSw");dsw.onchange=()=>setDemo(dsw.checked);
+/* Exemple VIENNE dans une autre langue : valeurs préremplies traduites (copie non enregistrée) ; les valeurs de listes déroulantes restent en français (l'option affichée est traduite) */
+let DEMO_OPTS=null;
+function demoTr(o){if(LANG==="fr")return o;
+ if(!DEMO_OPTS){DEMO_OPTS=new Set(FO.concat(TCIDR_TYPES));const w=x=>{if(Array.isArray(x))x.forEach(w);else if(x&&typeof x==="object"&&!("q" in x))for(const[k,v]of Object.entries(x)){if(k==="o"&&Array.isArray(v))v.forEach(s=>typeof s==="string"&&DEMO_OPTS.add(s));else w(v);}};w(M);}
+ const t=v=>typeof v==="string"?(DEMO_OPTS.has(v)?v:tr(v)):Array.isArray(v)?v.map(t):v&&typeof v==="object"?Object.fromEntries(Object.entries(v).map(([k,x])=>[k,t(x)])):v;
+ return t(o);}
 function setDemo(on){DEMO_ON=on;dsw.checked=on;const b=document.getElementById("demoBanner");
- if(on){USER=S;S=JSON.parse(JSON.stringify(DEMO));S.quiz=USER.quiz;b.hidden=false;b.innerHTML=`<details><summary><b>Exemple VIENNE – ${esc(DEMO_SITU.titre)}</b> (lire la situation)</summary>${esc(DEMO_SITU.situation||DEMO_SITU.resume).split(/\n\s*\n/).map(p=>`<p>${p.replace(/\n/g,"<br>")}</p>`).join("")}</details><i>Modifications non enregistrées.</i> <button class="btn s" onclick="setDemo(false)">Revenir à mes travaux</button>`;}
+ if(on){USER=S;S=demoTr(JSON.parse(JSON.stringify(DEMO)));S.quiz=USER.quiz;b.hidden=false;b.innerHTML=`<details><summary><b>Exemple VIENNE – ${esc(DEMO_SITU.titre)}</b> (lire la situation)</summary>${esc(DEMO_SITU.situation||DEMO_SITU.resume).split(/\n\s*\n/).map(p=>`<p>${p.replace(/\n/g,"<br>")}</p>`).join("")}</details><i>Modifications non enregistrées.</i> <button class="btn s" onclick="setDemo(false)">Revenir à mes travaux</button>`;}
  else{S=USER;b.hidden=true;}
  QZ={};render();}
 function toggleNav(f){const n=document.getElementById("nav"),o=f===undefined?!n.classList.contains("open"):f;n.classList.toggle("open",o);document.body.classList.toggle("navopen",o);document.getElementById("menuBtn").setAttribute("aria-expanded",o);if(o)setTimeout(()=>document.getElementById("navX").focus(),60);}
