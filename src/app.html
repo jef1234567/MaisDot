@@ -5,8 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>MEDOT – Parcours d’apprentissage ESORSEM</title>
 <meta name="theme-color" content="#1E2227">
-<script>/* Installation (PWA) : seulement en ligne, pas en file:// (Intradef) */
-if(/^https?:$/.test(location.protocol)){document.write('<link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="icons/apple-touch-icon.png">');
+<script>/*__CLS_MODE__*/
+/* Installation (PWA) : seulement en ligne, pas en file:// (Intradef) ; pas pour MaisDot Classroom */
+if(/^https?:$/.test(location.protocol)&&typeof CLS_MODE==="undefined"){document.write('<link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="icons/apple-touch-icon.png">');
 if("serviceWorker" in navigator)addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{}));}</script>
 <style>
 :root{--rouge:#B3121F;--rouge-f:#7E0C16;--rouge-c:#F7E4E5;--argent:#8B9199;--argent-c:#E6E8EB;--encre:#1E2227;--gris:#5A6068;--papier:#FAFAF8;--blanc:#fff;--vert:#2E7D4F;--vert-c:#E3F2E8;--ambre:#A86B00;--ambre-c:#FFF4DC}
@@ -620,7 +621,7 @@ if(typeof FX_MODS!=="undefined"){const i=M.findIndex(m=>m.grp==="Outils");M.spli
 /* Consigne en tête de l'onglet Appliquer de la réunion de décision (si p2.js n'en fournit pas) */
 (()=>{const m=M.find(x=>x.id==="dec");if(m&&m.apply&&!m.apply.some(b=>b.t==="note")){const i=m.apply.findIndex(b=>b.t==="canevas");m.apply.splice(i+1,0,{t:"note",x:"Coche le canevas, puis note le MA définitif choisi par le chef, les conclusions et amendements retenus, et ses orientations pour les rédactions : ce sont les données d’entrée du plan de manœuvre."});}})();
 if(typeof DEMO_P2!=="undefined"){Object.assign(DEMO.v,DEMO_P2.v||{});Object.assign(DEMO.tab,DEMO_P2.tab||{});DEMO.tcidr.push(...(DEMO_P2.tcidr||[]));DEMO.frise.push(...(DEMO_P2.frise||[]));}
-const KEY="medot-esorsem-v1";
+const KEY=typeof CLS_MODE!=="undefined"?"maisdot-classroom-"+CLS_MODE+"-v1":"medot-esorsem-v1";
 let S={quiz:{},v:{},tab:{},tcidr:[],frise:[],unlock:false};
 try{const r=localStorage.getItem(KEY);if(r)S=Object.assign(S,JSON.parse(r));}catch(e){}
 let DEMO_ON=false,USER=null;
@@ -669,6 +670,8 @@ function go(id,tab){toggleNav(false);cur=id;curTab=tab||"c";try{history.replaceS
 
 /* ============ RENDU ============ */
 function render(){renderNav();const m=M.find(x=>x.id===cur)||M[0];const el=document.getElementById("main");
+ if(typeof CLS_GATE==="function"){const g=CLS_GATE(m);if(g!=null)return el.innerHTML=g;}
+ if(m.kind&&typeof KINDS!=="undefined"&&KINDS[m.kind])return el.innerHTML=KINDS[m.kind](m);
  if(m.kind==="home")return el.innerHTML=home();
  if(m.kind==="recap")return el.innerHTML=recap();
  if(m.kind==="exam")return el.innerHTML=exam();
@@ -974,7 +977,7 @@ document.getElementById("modal").addEventListener("keydown",e=>{if(e.key!=="Tab"
  else if(!e.shiftKey&&c===z){e.preventDefault();a.focus();}});
 
 /* ============ CAS CONCRET (instructeur) ============ */
-const CAS_KEY="medot-esorsem-cas-v1";let CAS=null,SHOWCOR={};
+const CAS_KEY=typeof CLS_MODE!=="undefined"?"maisdot-classroom-"+CLS_MODE+"-cas-v1":"medot-esorsem-cas-v1";let CAS=null,SHOWCOR={};
 try{const r=localStorage.getItem(CAS_KEY);if(r){const o=JSON.parse(r);if(o&&o.titre&&o.corrige)CAS=o;}}catch(e){}
 function importCas(inp){const f=inp.files[0];if(!f)return;const r=new FileReader();
  r.onload=()=>{let o;try{o=JSON.parse(r.result);}catch(e){o=null;}
@@ -1009,7 +1012,7 @@ function corrige(m){if(!CAS)return "";
  return h+`<section class="cor" id="cor_${m.id}" aria-label="Corrigé"><h3>Corrigé – ${esc(CAS.titre)}</h3><p class="ref">Lecture seule : compare avec tes saisies ci-dessus. Un corrigé est une solution possible, pas la seule.</p>${b||"<p>Corrigé vide.</p>"}</section>`;}
 
 /* ============ EXAMEN BLANC ============ */
-const EX_KEY="medot-esorsem-exam-v1",EX_N=30,EX_T=30*60;let EX=null,EXB=null,EXtimer=null;
+const EX_KEY=typeof CLS_MODE!=="undefined"?"maisdot-classroom-"+CLS_MODE+"-exam-v1":"medot-esorsem-exam-v1",EX_N=30,EX_T=30*60;let EX=null,EXB=null,EXtimer=null;
 try{EXB=JSON.parse(localStorage.getItem(EX_KEY)||"null");}catch(e){EXB=null;}
 if(EXB&&typeof EXB.best==="number")EXB={tout:EXB};/* ancien format : un seul meilleur résultat */
 if(!EXB||typeof EXB!=="object")EXB={};
@@ -1172,6 +1175,7 @@ document.addEventListener("toggle",e=>{if(e.target.open)autoH(e.target.querySele
 let rsz;addEventListener("resize",()=>{clearTimeout(rsz);rsz=setTimeout(()=>{refreshCharts();autoH(document.querySelectorAll("#main textarea"));},200);});
 const toTop=document.getElementById("toTop");addEventListener("scroll",()=>{toTop.hidden=scrollY<1200;},{passive:true});
 
+/*__classroom.js__*/
 /* ============ INIT ============ */
 document.addEventListener("click",e=>{if(document.body.classList.contains("navopen")&&!document.getElementById("nav").contains(e.target)&&e.target.id!=="menuBtn")toggleNav(false);});
 USER=S;const dsw=document.getElementById("demoSw");dsw.onchange=()=>setDemo(dsw.checked);
@@ -1187,7 +1191,7 @@ function setDemo(on){DEMO_ON=on;dsw.checked=on;const b=document.getElementById("
  QZ={};render();}
 function toggleNav(f){const n=document.getElementById("nav"),o=f===undefined?!n.classList.contains("open"):f;n.classList.toggle("open",o);document.body.classList.toggle("navopen",o);document.getElementById("menuBtn").setAttribute("aria-expanded",o);if(o)setTimeout(()=>document.getElementById("navX").focus(),60);}
 function fromHash(){const h=(location.hash||"").slice(1);const m=M.find(x=>x.id===h);if(m&&unlocked(m)){cur=h;curTab="c";}render();}
-window.addEventListener("hashchange",fromHash);renderCas();fromHash();
+window.addEventListener("hashchange",fromHash);renderCas();if(typeof clsInit==="function")clsInit();fromHash();
 </script>
 </body>
 </html>

@@ -22,6 +22,10 @@ Le bouton **« Exemple VIENNE »** affiche le thème d’exercice VIENNE (versio
 
 Les saisies sont enregistrées dans le navigateur (localStorage). Trois exports sont proposés : Word, copie dans le presse-papiers et sauvegarde .json (qu’on peut ensuite reprendre).
 
+## MaisDot Classroom
+
+Déclinaison pour un groupe (30 élèves au plus, un professeur) : `classroom-eleve.html` (fichier personnel, sans le corrigé VIENNE) et `classroom-professeur.html` (réception, contrôle et correction acquis / non acquis des envois .json, retour signé à l’élève, synthèse du groupe). Mode d’emploi : `docs/CLASSROOM.md`.
+
 ## Structure
 
 ```
@@ -38,7 +42,8 @@ tests/          tests automatisés (Playwright)
 src/logo.webp   insigne ESORSEM
 videos/         14 vidéos de cours (MP4 H.264 720p), associées aux étapes par la table VID de src/app.html
 manifest.webmanifest, sw.js, icons/   installation de l’appli (PWA)
-build.py        assemble index.html (insère le logo en base64 et demo.js)
+src/classroom.js MaisDot Classroom (versions élève et professeur)
+build.py        assemble index.html, classroom-eleve.html (corrigé VIENNE retiré) et classroom-professeur.html
 ```
 
 Pour reconstruire : `python3 build.py`
